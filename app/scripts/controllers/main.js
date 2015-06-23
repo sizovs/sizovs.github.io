@@ -29,7 +29,7 @@ angular.module('craftsmansApp').controller('MainCtrl', function ($scope) {
 		{
 			text: "Eduards is easily one of the smartest IT persons I know. He has deep understanding of software development and architecture, how well crafted software should be written and delivered in 21st century.",
 			who: {
-				img: "images/rolme.png",
+				img: "../images/rolme.png",
 				name: "Rolands Mekss",
 				title: "System Engineers Manager @ 4finance",
 				linkedin: "https://www.linkedin.com/profile/view?id=71926089"
@@ -38,7 +38,7 @@ angular.module('craftsmansApp').controller('MainCtrl', function ($scope) {
 		{
 			text: "Eduards is one of the most productive programmers I have worked with. Call Eduards if your project is in trouble or you want to develop your software really-really fast.",
 			who: {
-				img: "images/buzdin.png",
+				img: "../images/buzdin.png", 
 				name: "Dmitry Buzdin",
 				title: "Software Architect @ Neueda",
 				linkedin: "https://www.linkedin.com/profile/view?id=8716140"
@@ -47,7 +47,7 @@ angular.module('craftsmansApp').controller('MainCtrl', function ($scope) {
 		{
 			text: "Eduards is excellent at what he does, never goes for \"good enough\", gets better all the time and makes those around him better too.  He is a true leader and role model.",
 			who: {
-				img: "images/alla.png",
+				img: "../images/alla.png",
 				name: "Alla Babkina",
 				title: "Development Lead @ Bondcube Limited",
 				linkedin: "https://www.linkedin.com/profile/view?id=18217917"
@@ -56,7 +56,7 @@ angular.module('craftsmansApp').controller('MainCtrl', function ($scope) {
 		{
 			text: "I had a pleasure working with probably the most energetic and technology-aware person during my entire 15+ years career.",
 			who: {
-				img: "images/dainius.png",
+				img: "../images/dainius.png",
 				name: "Dainius Vaznys",
 				title: "Software Architect @ 4finance",
 				linkedin: "https://www.linkedin.com/profile/view?id=9262838"
