@@ -1,0 +1,39 @@
+body, h1, h2, h3, h4, h5, p, a, li, span{
+  font-family: 'Nunito', sans-serif;
+}
+
+
+p {
+  color: #5a5a5a;	
+  font-weight: normal;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #b5bdc1;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #f6cc68;
+}
+
+p:not(.subheading) {
+	font-size: 16px;
+}
+
+.container {
+  position: relative;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+

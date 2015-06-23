@@ -1,0 +1,9 @@
+.rainbow-border {
+  display: block;
+  width: 100%;
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-image: url('../images/rainbow-border.png');
+  background-size: 100% 8px;
+  padding-top: 8px;
+}

@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <title>Craftsman's Passion</title>
+    </head>
+    <body>
+        <div class="ad">
+            <div class="container">
+                <p>
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Join one of the <a target="_blank" href="http://www.latcraft.lv">Latvian Software Craftsmanship Community</a> meetups to stay in sync with IT world!
+                </p>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns">
+                        <span class="navbar-toggle icon icon-hamburger-white" data-toggle="collapse" data-target="#collapse"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="four columns">
+                    </div>
+                    <div class="eight columns toggle-jump main-nav collapse navbar-collapse collapse" id="collapse">
+                        <ul class="nav right">
+                            <li><a ng-click="scroll(0)" class="gray">Home</a></li>
+                            <li><a ng-click="scroll('.services')">Services</a></li>
+                            <li><a ng-click="scroll('.get-in-touch')">Contacts</a></li>
+                            <li><a href="https://medium.com/@eduardsi/" target="_blank"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+ Blogging</a></li>
+                            <li><a href="http://lanyrd.com/profile/eduardsi/" target="_blank"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Speaking</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="six columns end">
+                        <div class="header-content">
+                            <h1 class="hello">
+                                Hello.
+                            </h1>
+                            <p class="subheading">
+                                I am <strong>Eduards Sizovs</strong>. I help software developers, managers and teams grow fast and move fast. Continuously.
+                            </p>
+                        </div><a class="btn btn-lg btn-success marketing" ng-click="scroll('.services')" role="button">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rainbow-border">
+        <div class="container services">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h1 class="featurette-heading">
+                        In particular, I can help you
+                    </h1>
+                </div>
+            </div>
+                <div class="row featurette service">
+                    <div class="col-md-2">
+                        <img src="images/skills.png" width="128px">
+                    </div>
+                    <div class="col-md-10">
+                        <h2 class="featurette-heading">
+                            Develop high-performance teams
+                        </h2>
+                                <h4>- Master engineering practices for speed and quality</h4>
+                                <h4>- Grasp how to architect software for 21st century</h4>
+                                <h4>- Build and lead cross-functional teams</h4>
+                    </div>
+                </div>
+                <div class="row featurette service">
+                    <div class="col-md-2">
+                        <img src="images/delivery.png" width="128px">
+                    </div>
+                    <div class="col-md-10">
+                        <h2 class="featurette-heading">
+                            Deliver software faster, cheaper and more reliably
+                        </h2>
+                        <!-- Remember good times when you could just get things done quickly? Let's recapture those days. -->
+                        <p>
+                            <h4>- Achieve more by working smarter, not harder</h4>
+                            <h4>- Free up your people's hands by automating mundane</h4>
+                            <h4>- Deploy new features daily. Waiting for weeks is for dinosaurs.</h4>
+                        </p>
+                    </div>
+                </div>        
+                <div class="row featurette service">
+                    <div class="col-md-2">
+                        <img src="images/sun.png" width="128px">
+                    </div>
+                    <div class="col-md-10">
+                        <h2 class="featurette-heading">
+                            Create great climate for IT people and fellows
+                        </h2>
+                          <h4>- Accelerate and improve hiring</h4>
+                          <h4>- Increase people happiness, engagement and motivation</h4>
+                          <h4>- Innovate like never before</h4>
+                    </div>
+
+                </div>                                        
+        </div>
+    </div>
+<!--         <div class="darken">
+            <div class="services container">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h1 class="featurette-heading">
+                        Hear from me
+                    </h1>
+                </div>
+            </div>                
+                <div class="row featurette">
+                    <div class="col-md-6">
+                        <h3 class="featurette-heading">
+                        Latest Writings
+                        </h3>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="featurette-heading">
+                        Speaking Appearances
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+      </div>
+    </div>
+        <div class="peoplesay">
+        <div class="container">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h1 class="featurette-heading">
+                        What people say
+
+                    </h1>             
+                </div>
+            </div>
+
+            <div class="row featurette no-margin">
+                <div class="col-md-12">
+                    <ul rn-carousel rn-carousel-pause-on-hover rn-carousel-auto-slide="8" rn-carousel-index="carouselIndex">
+                        <li ng-repeat="rec in recommendations">
+                            <blockquote class="blockquote-reverse">
+                                <p>{{rec.text}}</p>
+                                <footer>
+                                    <img ng-src="{{rec.who.img}}" alt="{{rec.who.name}}" class="feedback img-circle"/> <a  target="_blank"  href="{{rec.who.linkedin}}">{{rec.who.name}}</a>, <cite title="Source Title">{{rec.who.title}}</cite>
+                                </footer>
+                            </blockquote>                            
+                        </li>
+                    </ul>   
+                    <div class="recommendation-carousel-indicator" ng-if="recommendations.length > 1" rn-carousel-indicators slides="recommendations" rn-carousel-index="carouselIndex"></div> 
+                </div>                    
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="darken">
+            <div class="container get-in-touch">
+                <div class="row featurette">
+                    <div class="col-md-12">
+                        <h1 class="featurette-heading">
+                            Receive free consulting
+                        </h1>
+                        <p>
+                            <a href="mailto:hello@eduardsi.net" target="_blank"><img class="icon" src="images/email-bw.png"></a> <a href="mailto:hello@eduardsi.net">hello@eduardsi.net</a>
+                        </p>
+                        <p>
+                            <img class="icon" src="images/phone-bw.png"> +371 288 14 170
+                        </p>
+                        <p>
+                            <a href="https://www.linkedin.com/in/eduardsi" target="_blank"><img class="icon" src="images/linkedin-bw.png"></a>
+                        </p>
+                        <p>
+                            <a href="https://twitter.com/eduardsi" class="twitter-follow-button" data-show-count="false">Follow @eduardsi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                        </p>                        
+                    </div>
+                </div>
+            </div>
+
+            </div>    
+    </body>
+</html>
