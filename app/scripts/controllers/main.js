@@ -20,7 +20,7 @@ angular.module('craftsmansApp').controller('MainCtrl', function ($scope) {
 		{
 			text: "Eduard is an exceptional combination of pragmatism, innovation, vision and inspiration. Having Eduard in a team/company is a great success by default.",
 			who: {
-				img: "images/vishnya.png",
+				img: "../images/vishnya.png",
 				name: "Valery Vishnyakov",
 				title: "CTO of Ask.fm",
 				linkedin: "https://www.linkedin.com/profile/view?id=17362383"
