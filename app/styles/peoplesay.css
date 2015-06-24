@@ -1,6 +1,14 @@
 .peoplesay blockquote p {
-	font-size: 32px;
+	font-size: 30px;
 }
+
+@media (max-width: 767px) {
+
+	.peoplesay blockquote p {
+		font-size: 18px;
+	}
+}
+
 
 .peoplesay blockquote cite {
 	color: #b5bdc1;
