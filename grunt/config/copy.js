@@ -8,7 +8,7 @@ module.exports = {
       src: [
         '*.{ico,png,txt}',
         '.htaccess',
-        'cd/**/*',
+        'slides/**/*',
         'CNAME',
         '*.html',
         'views/{,*/}*.html',
