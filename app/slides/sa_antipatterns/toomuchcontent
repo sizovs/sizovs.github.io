@@ -1,0 +1,70 @@
+<!---
+---
+class: center, middle, antipattern, giphy, boundless, transparency
+background-image: url('boundaries.gif')
+# Boundless Architecture
+
+---
+class: inverse
+# .danger[(!)] Don't try this at home
+
+---
+class: inverse
+# .danger[(!)] Don't try this at home
+### - Services know too much about each other
+
+---
+class: inverse
+# .danger[(!)] Don't try this at home
+### - .fade[Services know too much about each other]
+### - Domain entities automatically map to RESTful Representations
+
+???
+Public APIs, like diamonds, are forever. Once  you expose something it's quite hard to rollback.
+
+---
+class: inverse
+# .danger[(!)] Don't try this at home
+### - .fade[Services know too much about each other]
+### - .fade[Domain entities automatically map to RESTful Representations]
+### - Persistent entities go outside of TX boundaries
+???
+Otherwise you'll have to FEAR lazy loading if you have one.
+
+---
+class: inverse
+# .danger[(!)] Don't try this at home
+### - .fade[Services know too much about each other]
+### - .fade[Domain entities automatically map to RESTful Representations]
+### - .fade[Persistent entities go outside of TX boundaries]
+### - UI is formed directly from transactional domain model
+???
+Which make model UI-pleasing. CQRS!!!??
+
+---
+class: middle, center, inverse
+# Some parts of your system must never .danger[uncontrollably escape] to territories that are .danger[difficult to control].
+???
+Treat boundaries as danger zone. don’t send your code for use there.
+
+
+---
+class: middle, center, inverse
+# .important[Be conservative] in what you expose. .important[Take control] over what you expose.
+
+???
+What happens when there are no boundaries? (example of domain model escaping)
+- Uncertainty
+- Fear (touch and break client apps)
+- Lost time (I have to go to apps and find usages of all domain methods...)
+- Security risks
+- Lack of comfort that impacts COMPREHENSIVENESS
+
+---
+class: middle, center, inverse
+# Properly managed service boundaries make .important[integration testing unnecessary] (almost).
+
+### (because integration tests are scam -> .nolink[http://goo.gl/OiCmSH])
+???
+You can use test doubles and contract testing.
+-->
