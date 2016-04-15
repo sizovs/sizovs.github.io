@@ -16,8 +16,8 @@
       .almostblack { background-color: #091513 }
       .invert { color: white; }
       .strike { text-decoration: line-through;}
-      .switcher { color: #d3d3d3 }
-      .switcher strong { color: black }
+      .switcher h3 { color: #d3d3d3 }
+      .switcher h3 strong { color: black }
       .bad { background-color: #AA1914; color: white;}
       .oki { background-color: #3D9972; color: white;}
 
@@ -26,17 +26,20 @@
       canvas.bottom { position:absolute; bottom: 0px }
 
       .larger code { font-size: 30px }
+      .medium code { font-size: 25px }
 
       .l20 { width: 20%; float: left }
       .l30 { width: 30%; float: left }
       .l40 { width: 40%; float: left }
       .l50 { width: 50%; float: left }
+      .l60 { width: 60%; float: left }
+      .r40 { float: right; width: 40%; }
       .r50 { float: right; width: 50%; }
       .r70 { float: right; width: 70%; }
       .r60 { float: right; width: 60%; }
       .r80 { float: right; width: 80%; }
 
-
+      .testcontainers { background-color: #0e1f26}
       .growbot { background-color: #6A4CA6}
 
       .splash {
@@ -339,6 +342,9 @@ if (ff4j.check("new-feature")) {
 ```
 
 ---
+background-image:url(launchdarkly.png)
+
+---
 class: bad, invert, center, middle
 # Anti-pattern: Feature Toggles introduce additional failure mode
 
@@ -455,6 +461,8 @@ background-image:url(jenkins_pipeline.png)
 ---
 background-image:url(jenkins_pipeline.png)
 <canvas width="380" height="400" class="red" />
+???
+We have to run unit tests twice - before pushing the code, and then on CI.
 
 ---
 class: center, middle
@@ -464,12 +472,96 @@ Setting common ground: A unit tests is a test that exercises class. So unit is a
 
 ---
 # Unstable
-### OS-specifics -> abstraction
-### Wildcard dependency versions -> fixed versions
-### Asynchrony -> test doubles, `Awaitility`
-### Shared state in tests -> must fix
-### System Time -> Java's `Clock`, Guava's `Ticker`, Joda's `DateTimeProvider`
-### Concurrency - `Thread-weaver` by Google
+### OS-specifics
+### Wildcard dependency versions
+### Shared state in tests
+### System Time
+### Asynchrony
+### Concurrency
+???
+Refactor shared state - test scoping, passing parameters via methods, constructor...
+
+---
+background-image:url(awaitility.png)
+
+---
+class: middle, larger
+```java
+public class FlawedList<T> extends ArrayList<T> {
+  public boolean putIfAbsent(T object) {
+    boolean absent = !super.contains(object);
+    if (absent) {
+      super.add(object);
+    }
+    return absent;
+  }
+}
+```
+
+---
+class: middle, larger
+```java
+@Test
+public void testPutIfAbsent() {
+  FlawedList<String> list = new FlawedList<String>();
+  list.putIfAbsent("foo");
+  list.putIfAbsent("foo");
+  assertThat(list.size(), is(1));
+}
+```
+
+---
+class: middle, larger
+```java
+FlawedList<String> list = new FlawedList<String>();
+
+@Test(threadPoolSize = 5, invocationCount = 20)
+public void testList() {
+  list.putIfAbsent("foo");
+  assertThat(list.size(), is(1));
+}
+```
+
+---
+background-image:url(thread_weaver.png)
+
+---
+class: middle, larger
+```java
+public class WeavedFlawedListTest {
+  private FlawedList<String> list;
+
+  @ThreadedBefore public void before() {
+    list = new FlawedList<String>();
+  }
+
+  @ThreadedMain public void mainThread() {
+    list.putIfAbsent("foo");
+  }
+
+  @ThreadedSecondary public void secondThread() {
+    list.putIfAbsent("foo");
+  }
+
+  @ThreadedAfter public void after() {
+    assertEquals(1, list.size());
+  }
+}
+```
+
+---
+class: middle, larger
+```java
+public class FlawedList<T> extends ArrayList<T> {
+  public boolean putIfAbsent(T object) {
+    boolean absent = !super.contains(object);
+    if (absent) {
+      super.add(object);
+    }
+    return absent;
+  }
+}
+```
 
 ---
 .l50[
@@ -481,38 +573,174 @@ Setting common ground: A unit tests is a test that exercises class. So unit is a
 ![](goos.jpg)
 ]
 ???
+passing tests usually do not indicate readiness to deploy. But failing tests do not indicate non-readiness :-)))
 100% coverage doesn't mean anything
 
 ---
 background-image:url(pitest.png)
 
 ---
-# Slow (waiting, computation-intensive)
+.l50[
+# Slow
+### Implicit waiting
+### Computation-intensive
+# Stupid
+### Code coverage boosters
+### Fuzzing
+]
+.r50[
+# Sequential
+### &nbsp;
+### &nbsp;
+# Sociable
+]
+???
+CI - external module
+Sociable - relying on collaborators which can break the test. We write the tests assuming everything other than that unit is working correctly.
 
 ---
-# Stupid (code coverage boosters, fuzzing)
+class: switcher
+# Sociable, because of:
+### Dependency on non-trivial execution context (e.g. Spring)
+### File system
+### SMTP client
+### SQL repository
+### Redis repository
 
 ---
-# Sequential (shared state)
+class: switcher
+# Sociable, because of:
+### **Dependency on non-trivial execution context (e.g. Spring)**
+### File system
+### SMTP client
+### SQL repository
+### Redis repository
+???
+- E.g. custom BeanPostProcessor - small, custom context. Extract to library.
 
-# Sociable (relying on collaborators which can break the test. We write the tests assuming everything other than that unit is working correctly.)
+---
+class: switcher
+.l60[
+# Sociable, because of:
+### Dependency on non-trivial execution context (e.g. Spring)
+### **File system**
+### SMTP client
+### SQL repository
+### Redis repository
+]
+.r40[
+![](jimfs.png)
+]
+
+---
+class: switcher
+# Sociable, because of:
+### Dependency on non-trivial execution context (e.g. Spring)
+### File system
+### **SMTP client**
+### SQL repository
+### Redis repository
+
+---
+class: switcher
+.l60[
+# Sociable, because of:
+### Dependency on non-trivial execution context (e.g. Spring)
+### File system
+### SMTP client
+### **SQL repository**
+### Redis repository
+]
+.r40[
+![](h2.png)
+]
+
+---
+class: switcher
+.l60[
+# Sociable, because of:
+### Dependency on non-trivial execution context (e.g. Spring)
+### File system
+### SMTP client
+### SQL repository
+### **Redis repository**
+]
+.r40[
+![](holyshit.png)
+]
 ???
 
+---
+background-image:url(docker.png)
 
 ---
-Few exceptions:
-- you have created custom BeanPostProcessor in Spring. Sometimes isolated unit tests is not enough. Prepare a small, specific ApplicationContext for that.
-- file system stuff (unique temp folder please)
-- smtp client (embedded smtp server)
-- repository (embedded database)
-- redis client (embedded redis). Ouch! Redis installation required!!! PLEASE SHIP A SEPARATE TEST VERSION OF DOCKER.
----
+background-image:url(docker-redis.png)
+???
+Problem: version missing!
 
 ---
-Fail build if a test takes longer than.
+class: testcontainers
+background-image:url(testcontainers.png)
+
+
+---
+class: medium, middle
+```java
+class RedisBackedCacheTest {
+
+    @Rule
+    public GenericContainer redis = new GenericContainer("redis:3.0.6")
+                                            .withExposedPorts(6379);
+    private Cache cache;
+
+    @Before
+    public void setUp() {
+        Jedis jedis = new Jedis(redis.getIpAddress(), redis.getMappedPort(6379));
+        cache = new RedisBackedCache(jedis, "test");
+    }
+
+    @Test
+    public void findsAnInsertedValueInCache() {
+        String key = "foo";
+        cache.put(key, "FOO");
+        Optional<String> cacheHit = cache.get(key, String.class);
+        assertThat(cacheHit, isPresent());
+    }
+```
+
+---
+class: medium, middle
+```java
+class RedisBackedCacheTest {
+
+    @ClassRule
+    public static GenericContainer redis = new GenericContainer("redis:3.0.6")
+                                            .withExposedPorts(6379);
+    private Cache cache;
+
+    @Before
+    public void setUp() {
+        Jedis jedis = new Jedis(redis.getIpAddress(), redis.getMappedPort(6379));
+        cache = new RedisBackedCache(jedis, "test");
+    }
+
+    @Test
+    public void findsAnInsertedValueInCache() {
+        String key = UUID.randomUUID().toString()
+        cache.put(key, "FOO");
+        Optional<String> cacheHit = cache.get(key, String.class);
+        assertThat(cacheHit, isPresent());
+    }
+```
+???
+- Specific containers available
+- Can wrap your Mongo or Cassandra
+
 
 ---
 Preflights - BRANCHES AGAIN! :))) Virtualization - locally or wherever.
+
+
 
 ---
 background-image:url(jenkins_pipeline.png)
@@ -649,10 +877,6 @@ Backward compatibility
 
 ---
 Typiacal issue: pressing the button at 00:00 :-)
-
----
-Our code coverage is high 90%! A-ha, now run mutations....
-Common: passing tests usually do not indicate readiness to deploy. But failing tests do not indicate non-readiness :-)))
 
 ---
 ```
@@ -827,14 +1051,6 @@ background-image:url(docker_compose_up_redis.png)
 ---
 background-image:url(docker_compose_scale.png)
 
----
-background-image:url(idea.jpg)
-class: center, middle, invert, back-h1
-# Cannot develop 100% on VM
-???
-
----
-Decoupling deployments from release - de-facto.
 
 ---
 BFF - Backend For Frontend.
@@ -894,12 +1110,6 @@ http://blog.nikosbaxevanis.com/2014/04/22/mountebank-mocks-with-fsharp/
 # http://wiremock.org/simulating-faults.html
 
 ---
-CI is slow. - BUY POWERFUL JENKINS MACHINES.
-
----
-# https://launchdarkly.com
-
----
 background-image:url(githubdown2012.png)
 
 ---
@@ -919,6 +1129,7 @@ background-image:url(githubdown.png)
 
 ---
 # Configuration management
+no internal @Profiles. No env-soecific ifs
 
 ---
 
@@ -1084,6 +1295,9 @@ Use 2-Factor authentication for accessing something important. Using service tha
 ---
 https://keybase.io/
 Very popular in OSS world and requires invitation. I have 8 invites, let me know if you need one.
+
+---
+background-image:url(verified.png)
 
 ---
 Gitrob as part of pipeline
@@ -1297,11 +1511,6 @@ From Circle CI documentation:
 background-image:url(containers.png)
 ## Containers
 
-
-
----
-# Why we didn't use Docker while installing JDK?
-
 ---
 # [An empirical study of flaky tests](http://mir.cs.illinois.edu/~qluo2/fse14LuoHEM.pdf)
 
@@ -1350,12 +1559,6 @@ background-image:url(simian_army.png)
 class: center, middle, bad
 # I will stop caring about portability (locale, encoding, filesystem, scripts) and program to specific OS, because my app runs in Docker
 
-
----
-# Example:
-### Java 8 web app, Redis, Gradle
-### -
-### - Use environment managers (`jenv`, `rvm`) and other utilities (`gradlew`, `sdkman`)
 
 ---
 
