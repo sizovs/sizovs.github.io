@@ -24,6 +24,7 @@
       canvas.red { border: 3px solid red }
       canvas.whitebg {background-color: white}
       canvas.bottom { position:absolute; bottom: 0px }
+      canvas.absolute { position:absolute; }
 
       .larger code { font-size: 30px }
       .medium code { font-size: 25px }
@@ -33,6 +34,8 @@
       .l40 { width: 40%; float: left }
       .l50 { width: 50%; float: left }
       .l60 { width: 60%; float: left }
+      .l70 { width: 70%; float: left }
+      .r30 { float: right; width: 30%; }
       .r40 { float: right; width: 40%; }
       .r50 { float: right; width: 50%; }
       .r70 { float: right; width: 70%; }
@@ -190,11 +193,6 @@ class:center, middle
 > ## .switcher[This book integrates into a compelling narrative the best current thinking about how to create great software-intensive products and services. The approach in this book is both challenging and disciplined, and **some organizations will be unable to imagine following this path. But those who make the journey will find it impossible to imagine ever going back—and if they happen to be a competitor, they are well positioned to steal both your market and your people**. Ignore this book at your own risk.]
 ### **(c) Mary Poppendieck**
 
-<!-- ---
-class: bottom, right
-background-image: url(bybook.png)
-### [Research](https://saucelabs.com/resources/white-papers/dzone-continuous-deliver-guide.pdf) by DZone, 2015 -->
-
 ---
 class: center, middle, splash
 # Anatomy of Deployment Pipeline
@@ -209,6 +207,7 @@ background-image: url(pipeline_classic.png)
 ## All changes to production go through deployment pipeline
 ???
 Easy to ensure - you just restrict deployment from local machines.
+### Every change triggers the feedback process
 
 ---
 background-image: url(pipeline_classic.png)
@@ -221,6 +220,8 @@ background-image: url(pipeline_classic.png)
 ---
 background-image: url(pipeline_classic.png)
 ## Build only once
+???
+Every build is potential release (vs. SNAPSHOT, BETA etc.)
 
 ---
 background-image: url(pipeline_classic.png)
@@ -479,6 +480,7 @@ Setting common ground: A unit tests is a test that exercises class. So unit is a
 ### Asynchrony
 ### Concurrency
 ???
+Wildcards - build becomes a lottery
 Refactor shared state - test scoping, passing parameters via methods, constructor...
 
 ---
@@ -590,26 +592,29 @@ background-image:url(pitest.png)
 ]
 .r50[
 # Sequential
-### &nbsp;
+### Shared state
 ### &nbsp;
 # Sociable
+### Relying on concrete classes
 ]
 ???
 CI - external module
-Sociable - relying on collaborators which can break the test. We write the tests assuming everything other than that unit is working correctly.
+Sociable - we write the tests assuming everything other than that unit is working correctly.
 
 ---
 class: switcher
-# Sociable, because of:
+# Being sociable is OK, if:
 ### Dependency on non-trivial execution context (e.g. Spring)
 ### File system
 ### SMTP client
 ### SQL repository
 ### Redis repository
+???
+If your class talks to file system and you have never saw it writing a file - can you trust your tests?
 
 ---
 class: switcher
-# Sociable, because of:
+# Being sociable is OK, if:
 ### **Dependency on non-trivial execution context (e.g. Spring)**
 ### File system
 ### SMTP client
@@ -621,7 +626,7 @@ class: switcher
 ---
 class: switcher
 .l60[
-# Sociable, because of:
+# Being sociable is OK, if:
 ### Dependency on non-trivial execution context (e.g. Spring)
 ### **File system**
 ### SMTP client
@@ -634,7 +639,7 @@ class: switcher
 
 ---
 class: switcher
-# Sociable, because of:
+# Being sociable is OK, if:
 ### Dependency on non-trivial execution context (e.g. Spring)
 ### File system
 ### **SMTP client**
@@ -644,7 +649,7 @@ class: switcher
 ---
 class: switcher
 .l60[
-# Sociable, because of:
+# Being sociable is OK, if:
 ### Dependency on non-trivial execution context (e.g. Spring)
 ### File system
 ### SMTP client
@@ -658,7 +663,7 @@ class: switcher
 ---
 class: switcher
 .l60[
-# Sociable, because of:
+# Being sociable is OK, if:
 ### Dependency on non-trivial execution context (e.g. Spring)
 ### File system
 ### SMTP client
@@ -706,6 +711,8 @@ class RedisBackedCacheTest {
         Optional<String> cacheHit = cache.get(key, String.class);
         assertThat(cacheHit, isPresent());
     }
+
+}
 ```
 
 ---
@@ -731,14 +738,401 @@ class RedisBackedCacheTest {
         Optional<String> cacheHit = cache.get(key, String.class);
         assertThat(cacheHit, isPresent());
     }
+
+}
 ```
 ???
 - Specific containers available
 - Can wrap your Mongo or Cassandra
 
+---
+background-image:url(sysdig.png)
 
 ---
-Preflights - BRANCHES AGAIN! :))) Virtualization - locally or wherever.
+background-image:url(wiremock.png)
+
+
+---
+class: medium, middle
+```java
+class UberSmartHttpClientTest {
+
+  @Rule
+  public WireMockRule wireMockRule = new WireMockRule(8089);
+
+  @Test
+  public void exampleTest() {
+      stubFor(get(urlEqualTo("/my/resource"))
+              .withHeader("Accept", equalTo("text/xml"))
+              .willReturn(aResponse()
+                  .withStatus(200)
+                  .withHeader("Content-Type", "text/xml")
+                  .withBody("<response>Some content</response>")));
+
+      Result result = uberSmartHttpClient.doSomeHttpRequest();
+
+      assertTrue(result.wasSuccessful());
+  }
+
+}
+```
+
+---
+class: medium, middle
+```java
+stubFor(get(urlEqualTo("/delayed")).willReturn(
+        aResponse()
+                .withStatus(200)
+                .withFixedDelay(2000)));
+```
+???
+- simulating faults - very hard to achieve when you do integration testing
+- actually, we never do IT. For every service provider we create a test double.
+
+---
+background-image:url(mountebank.png)
+
+---
+background-image:url(jenkins_pipeline.png)
+
+---
+background-image:url(jenkins_pipeline.png)
+<canvas width="650" height="200" class="red absolute" style="left: 450px; bottom: 150px" />
+???
+- Why RPM - uberjars are usually enough, but once you have to distribute more files with JAR (e.g. init scripts)- you need an archive.
+- Ansible loves YUM!
+- Btw, in case of RPM, you don't have to build JAR inside. Package compiled classes.
+
+---
+.l50[
+# YUM repository
+### - Nexus
+### - Artifactory
+### - [yum-s3-plugin](https://github.com/jbraeuer/yum-s3-plugin)
+### - [yum-s3-iam](https://github.com/seporaitis/yum-s3-iam)
+]
+.r50[
+# RPM packager
+### - [fpm](https://github.com/jordansissel/fpm)
+### - [gradle-ospackage-plugin](https://github.com/nebula-plugins/gradle-ospackage-plugin)
+]
+
+
+---
+class: black
+background-image:url(tree.png)
+
+---
+class: medium
+### supervisor.conf
+```supervisord
+[program:app]
+command=java -port=3000 -logdir=/var/log/app/ -jar /opt/app/current/app.jar
+user=deployer
+autostart=true
+autorestart=true
+startsecs=10
+startretries=3
+stdout_logfile=/var/log/app/stdout.log
+stderr_logfile=/var/log/app/stderr.log
+```
+???
+Autorestart!!! Win time before admin on duty can help!!!
+
+---
+### deploy-playbook.yml
+```ansible
+- hosts: all
+  serial: 1
+  tasks:
+   - name: install the app
+     yum: name=app-{{version}} state=present
+     notify:
+      - restart supervisord
+  handlers:
+    - name: restart supervisord
+      service: name=supervisord state=restarted
+
+    - name: start the app
+      supervisorctl: name=app state=started
+
+    - name: health check
+      health_check:
+          url: "{{inventory_hostname}}/health"
+          delay_between_tries: 5
+          max_retries: 20
+          expected_regexp: "alive"
+  pre_tasks:
+    - name: disable nagios alerts for this host webserver service
+      nagios: action=disable_alerts host={{ inventory_hostname }} services=webserver
+
+    - name: disable the server in haproxy
+      haproxy: state=disabled host={{ inventory_hostname }}
+
+    - name: stop the app
+      supervisorctl: name=app state=stopped
+```
+???
+-- graceful shutdown!!! http request must be completed (Jetty, StatisticsHandler polling)
+-- then we add node to HAPROXY and re-enable monitorning.
+
+---
+class: larger, middle
+`$ ansible-playbook deploy-playbook.yml -i /hosts/acceptance --extra-vars "version=1.1.2"`
+
+`$ ansible-playbook deploy-playbook.yml -i /hosts/exploratory --extra-vars "version=1.1.2"`
+
+`$ ansible-playbook deploy-playbook.yml -i /hosts/production --extra-vars "version=1.1.2"`
+???
+- You can run another playbook that installs necessary stuff on the box.
+- Ask.fm style deployment: pipeline step - deploy single node, deploy 50%, deploy the rest.
+
+---
+.l70[
+### - bot: building **1.1.2** from commit [[add healtchecks](https://github.com/eduardsi/cucumber-3g/commit/fb60f27628b3eddbc81f94faf3a56ffa77692868)] by @eduardsi
+### - bot: **1.2.2** passed [commit stage]()
+### - bot: **1.2.2** passed [acceptance tests]()
+### - bot: **1.1.2** ready to be promoted to [exploratory testing]()
+### - $ promote 1.1.2
+### - bot: **1.1.2** is available at http://exploratory.app.io/1.1.2
+### - $ promote 1.1.2 --single 50% 100%
+]
+.r30[
+  ![](hubot.jpg)
+]
+
+---
+.l70[
+### - $ features list
+### - bot: /facebook-registration (disabled)
+###&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/twitter-registration (enabled, 100%)
+### - $ features enable facebook-registration 10%
+### - $ features list
+### - bot: /facebook-registration (enabled 10%)
+###&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/twitter-registration (enabled, 100%)
+]
+.r30[
+  ![](hubot.jpg)
+]
+
+---
+class: medium
+<canvas width="1000" height="20" class="red absolute" style="top: 170px" />
+### supervisor.conf
+```supervisord
+[program:app]
+command=java -port=3000 -log.dir=/var/log/app/ -jar /opt/app/current/app.jar
+user=deployer
+autostart=true
+autorestart=true
+startsecs=10
+startretries=3
+stdout_logfile=/var/log/app/stdout.log
+stderr_logfile=/var/log/app/stderr.log
+```
+???
+- PLEASE! Application must start with a reasonable defaults. Defaults must be printed out upon start into the log file!
+- Parameters that must be provided are well-documented. Not in documenent, but in code!
+- Otherwise you start app, it crashes with NPEs, you pass param, wrong format etc.
+
+---
+class: medium
+# Arg4j
+```java
+  @Option(name="-port", usage="HTTP port the application will run on")
+  public Integer port;
+  ...
+  @Option(name="-log.dir", usage="A directory where logs will be written to")
+  public File logDir;
+  ...
+```
+```
+$ java -jar app.jar -wrong
+```
+
+```
+"-wrong" is not a valid option
+Application [options]
+ -port   VAL  : HTTP port the application will run on
+ -logDir FILE : A directory where logs will be written to
+```
+
+---
+### deploy-playbook.yml
+```ansible
+- hosts: all
+  serial: 1
+  tasks:
+   - name: install the app
+     yum: name=app-{{version}} state=present
+     notify:
+      - restart supervisord
+  handlers:
+    - name: restart supervisord
+      service: name=supervisord state=restarted
+
+    - name: start the app
+      supervisorctl: name=app state=started
+
+    - name: health check
+      health_check:
+          url: "{{inventory_hostname}}/health"
+          delay_between_tries: 5
+          max_retries: 20
+          expected_regexp: "alive"
+  pre_tasks:
+    - name: disable nagios alerts for this host webserver service
+      nagios: action=disable_alerts host={{ inventory_hostname }} services=webserver
+
+    - name: disable the server in haproxy
+      haproxy: state=disabled host={{ inventory_hostname }}
+
+    - name: stop the app
+      supervisorctl: name=app state=stopped
+```
+<canvas width="600" height="90" class="red bottom" style="bottom: 177px" />
+
+---
+class: larger
+.l30[
+```
+/health
+
+/version
+
+/info
+
+/metrics
+
+/env
+
+/configprops
+
+/trace
+
+/mappings
+
+/logfile
+
+/dump
+
+/shutdown
+```
+]
+.r70[
+```json
+{
+    "counter.status.200.root": 20,
+    "counter.status.200.metrics": 3,
+    "counter.status.200.star-star": 5,
+    "counter.status.401.root": 4,
+    "gauge.response.star-star": 6,
+    "gauge.response.root": 2,
+    "gauge.response.metrics": 3,
+    "classes": 5808,
+    "classes.loaded": 5808,
+    "classes.unloaded": 0,
+    "heap": 3728384,
+    "heap.committed": 986624,
+    "heap.init": 262144,
+    "heap.used": 52765,
+    "mem": 986624,
+    "mem.free": 933858,
+    "processors": 8,
+    "threads": 15,
+    "threads.daemon": 11,
+    "threads.peak": 15,
+    "threads.totalStarted": 42,
+    "uptime": 494836,
+    "instance.uptime": 489782,
+    "datasource.primary.active": 5,
+    "datasource.primary.usage": 0.25
+}
+```
+]
+???
+/info - arbitrary info (like git commit version)
+
+
+---
+background-image:url(actuator.png)
+
+---
+background-image:url(metrics.png)
+
+---
+<canvas width="600" height="80" class="red bottom" style="bottom: 80px" />
+.l70[
+### - bot: building **1.1.2** from commit [[add healtchecks](https://github.com/eduardsi/cucumber-3g/commit/fb60f27628b3eddbc81f94faf3a56ffa77692868)] by @eduardsi
+### - bot: **1.2.2** passed [commit stage]()
+### - bot: **1.2.2** passed [acceptance tests]()
+### - bot: **1.1.2** ready to be promoted to [exploratory testing]()
+### - $ promote 1.1.2
+### - bot: **1.1.2** is available at http://exploratory.app.io/1.1.2
+### - $ promote 1.1.2 --single 50% 100%
+]
+.r30[
+  ![](hubot.jpg)
+]
+
+---
+background-image:url(query-log-json.png)
+???
+Too much data, can miss something, doesn't work :(
+
+---
+background-image:url(graylog.png)
+???
+People have Graylog and sit with open windows all day :-) Or watch logs after production deployment :-)
+
+
+---
+background-image:url(graylog_alert.png)
+???
+- Streams and Alerts - e.g. one cash miss doesn't mean anything. 20% cache miss - ouch!
+
+---
+background-image:url(jenkins_graylog_golive.png)
+
+---
+background-image:url(fluentd_before.png)
+???
+- Maxmind GeoIP databases
+- Sensu - OSS, plugins for java heap, slow queries. Provisionable, Used by Tesla!
+- Dashing - PROACTIVE vs. REACTIVE. You monitor trends (like CPU utilization, disk space, queue size). If CEO calls you - too late :-)
+- S3 - How slow is is PayPal's API? How slow was PayPal's API yesterday?
+
+
+---
+background-image:url(fluentd_logo.png)
+???
+Fluentd has four key features that makes it suitable to build clean, reliable logging pipelines:
+- fluentd structures everything as json
+- pluggable architecture, hunders of plugins
+- very lightweight, writtein C
+- relible forwarding, supports failover, setup for HA
+- reactive alerts
+
+---
+background-image:url(fluentd.png)
+
+---
+class: invert, right
+background-image:url(fluentd_example.png)
+### curl -X POST -H "Content-Type: application/json" -d '{"event":"data"}' \
+### localhost:9880/app.request
+???
+file must be kept in version contorl together with infrastructure
+
+---
+- Preflights - BRANCHES AGAIN! :))) Virtualization - locally or wherever.
+- acceptance testing, exploratory on real data
+- Duplicate traffic to test node (new node)?
+- Deadling with data
+- Dynamism
+- Configuration management
+- Organizational patterns / batching / bringing CD to the company
+- Continuous Security
 
 
 
@@ -798,6 +1192,27 @@ class: center, middle
 - Are you 100% your "recovery plan" works?
 - Do you have disaster recovery plan for the Jenkins, as for apps?
 - Do you monitor Jenkins, as your apps? Disk space trends etc.
+- DockerHub? Local artifact repository?
+- GitHub fails every year.
+
+---
+background-image:url(githubdown2012.png)
+
+---
+background-image:url(githubdown2012_2.png)
+???
+more than 5 hours of downtime. Your 5H of missed SLA :-)
+
+---
+background-image:url(githubdown2016.png)
+???
+2 hours
+
+---
+background-image:url(githubdown.png)
+???
+1.2 hours.
+
 
 ---
 class: center, middle
@@ -811,6 +1226,11 @@ class: center, middle
 ---
 class: center, middle
 # All changes to Jenkins are pre-flight tested
+
+---
+background-image:url(massala.png)
+???
+Completely erased all your servers and all your backups in a single strike
 
 ---
 class: center, middle
@@ -841,23 +1261,10 @@ blue-green
 Rollbacks?
 
 ---
-“Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius — and a lot of courage to move in the opposite direction.” — Fritz Schumacher
-
----
 Git Sparse Chechouts! 1.7.0+
 
 ---
 Images make your builds slow, but rollbacks fast!
-
----
-background-image:url(revenant.jpg)
-class: invert
-# Flaky Build Top 3
-## 3. Environment differences
-## 2. Dependencies
-## 1. Tests
-???
-- OS, package management, JDK etc.
 
 ---
 background-image:url(identical_environments.png)
@@ -870,10 +1277,6 @@ TDD for Ansible :-)
 http://serverspec.org/
 https://github.com/aelsabbahy/goss
 KitchenCI
-
----
-No big bangs.
-Backward compatibility
 
 ---
 Typiacal issue: pressing the button at 00:00 :-)
@@ -955,10 +1358,6 @@ Auto-scaling on AWS!
 Locked Phoenix - a phoenix server that cannot be logged into, therefore cannot be compromised and hacked.
 
 ---
-# Dealing with interruption
---- Data migrations!
-
----
 ALTER TABLE
 ???
 Read-locks the table (with few exceptions, Online DDL from MySQL 5.6)
@@ -970,8 +1369,6 @@ Double-space please
 BE CAREFUL! A LOT OF CONFIGURATION and testing, especially in demanding environments.
 
 ---
-Cultural stuff - grow DevOps Experts.
-
 ## Pain:
 ### - Virtualbox is slow
 ### - 2+ Virtualbox = Kernel panic
@@ -1018,11 +1415,6 @@ RUN sed -i '/^;pm\.status_path/s/^;//' /etc/php5/fpm/pool.d/www.conf
 background-image:url(packer_docker_builder.png)
 
 ---
-background-image:url(imagelayers.png)
-???
-W/O Dockerfiles we lose layers! :-) Who understands layers?
-
----
 background-image:url(docker_compose.png)
 ## Container per Service
 
@@ -1051,49 +1443,11 @@ background-image:url(docker_compose_up_redis.png)
 ---
 background-image:url(docker_compose_scale.png)
 
+---
+# Exploratory testing
 
 ---
-BFF - Backend For Frontend.
-
----
-«Я написал говнокод, который запускается только на моём макбуке. Что мне делать?»
-
-— СУЙ В ДОКЕРА ЕГО, СЫН МОЙ, КОНТЕЙНЕР ВСЁ СТЕРПИТ!
-
----
-Idemponence.
-???
-For example, shutdown spring app is idemponent.
-
----
-QA is prouction.
-
----
-Embedded stuff for rapid dev cycles.
-
----
-if(JavaVersion.current() != JavaVersion.VERSION_1_8){
-    throw new GradleException("This build must be run with java 8")
-}
-
----
-gradlew. + uberjar (e.g. Java EE world still dependencies!)
-
----
-jenv.
-
----
-Embedded development. Applications servers are dead.
-
----
-```
-dependencies {
-    compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.7.Final'
-    testCompile group: 'junit', name: 'junit', version: '4.+'
-}
-```
-???
-Build becomes a lottery
+QA in production.
 
 ---
 PhantomJS running with http://testcontainers.viewdocs.io/testcontainers-java/
@@ -1101,31 +1455,6 @@ Trying embedded things, but sometimes we need Redis.
 ???
 Mac OSX users should be aware that PhantomJS doesn't load the FontAwesome glyths used in the test suite, I don't understand why. I fixed this locally by downloading FontAwesome and double clicking on the .otf file to install the font.
 
-
----
-Test doubles: Mountebank for SMTP, TCP, SOAP. For HTTP - WireMock
-http://blog.nikosbaxevanis.com/2014/04/22/mountebank-mocks-with-fsharp/
-
----
-# http://wiremock.org/simulating-faults.html
-
----
-background-image:url(githubdown2012.png)
-
----
-background-image:url(githubdown2012_2.png)
-???
-more than 5 hours of downtime. Your 5H of missed SLA :-)
-
----
-background-image:url(githubdown2016.png)
-???
-2 hours
-
----
-background-image:url(githubdown.png)
-???
-1.2 hours.
 
 ---
 # Configuration management
@@ -1151,10 +1480,6 @@ https://spring.io/blog/2015/01/13/configuring-it-all-out-or-12-factor-app-style-
 - Local development configuration in local .yaml file
 - Transforms runtime parameters -Dkey=value and environment variables () into configuration
 - Other configuration on GitHub. /refresh endpoint with @RefreshScope beans
-
----
-/configprops
-/env
 
 ---
 Dealing with Dynamic infrastructure (e.g. auto-scaling). Consul to the rescue! What about less dynamic configuration?
@@ -1190,9 +1515,6 @@ Configuration dependency inversion.
 - Phoenix server - the same.
 - Data and configuration has different change cadence than the app.
 
-
----
-Property files in a separate repo together with Ansible.
 
 ---
 12-factor app
@@ -1271,15 +1593,6 @@ low-hanging fruits :-) usually, there are many!
 # Implementing your own (Guava's RateLimiter)
 # The only way to protect from DDoS - make it financially unviable.
 # CloudFlare
-
----
-background-image:url(kong.png)
-???
-API gateway or wrapper for your API that adds: authencation for different consumers, ip blacklisting, caching, traffic control, analytics etc.
-???
-- Data transformation
-- Rule processing
-
 ---
 What happens if AWS is under DDoS and auto-scaling goes crazy? Same as CloudFlare, for all-layer attacks.
 
@@ -1311,15 +1624,6 @@ background-image:url(gauntlt.png)
 ???
 open port scanner, xss, sql injection, session id length and crypto-function, secure cookies,
 SecDevOps
-
----
-Jenkins as a deployment pipeline is awkward! ChatLine. Rollbacks are the same
-
----
-eve deploy 23.1423.55
-eve deploy 22.1411.51 = rollback
-
----
 
 ---
 
@@ -1394,8 +1698,6 @@ Then when applications request access to those secrets, Vault does not give out 
 ---
 background-image:url(gauntit_code.png)
 
----
-background-image:url(snappass.png)
 
 ---
 Bug Bounties!
@@ -1528,80 +1830,11 @@ expect_email_to_be_sent
 [Continuous Deployment at IMVU: Doing the impossible fifty times a day.](http://timothyfitz.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/)
 
 ---
-Graceful shutdowns :-)
-???
-- Spring Boot + Embedded Jetty. StatisticsHandler must be configured (that collects request statistics, poll it, )
-- Cut traffic
-- Application must be stateless.
-
----
-background-image:url(babushka.png)
-.l30[
-### - Java v8u45
-### - Gradle v2.12
-### - Redis v2.8
-### - MySQL v5.7.11
-### - Nginx v1.9.13
-### - Sonar v4.5.6
-]
-.r70[
-## 1. Manual setup and synchronisation
-## 2. Creating image with Packer + Ansible + Vagrant
-## 3. Containerisation with Docker + Docker Compose
-## 4. Hybrid approach
-]
-
----
 background-image:url(simian_army.png)
 # https://github.com/Netflix/SimianArmy
 
 ---
-class: center, middle, bad
-# I will stop caring about portability (locale, encoding, filesystem, scripts) and program to specific OS, because my app runs in Docker
-
-
----
-
----
-Network and machine agnostic deployments is utopia. (Kubernetes &amp; co)
-
----
-background-image:url(nomad.png)
-
----
-class: center, middle
-# Redis
-## (404 not found)
-
-
-
----
-How to keep redis in sync?
-
----
 Consul
-
----
-Dependencies
-JDK
-JVM
-Gradle
-MySQL
-LDAP
-Fixed libraries
-
----
-# Tests
-### Time
-### Cache
-### Concurrency
-### Data
-
----
-Integration testing is SCAM.
-
----
-background-image:url(pit.png)
 
 ---
 UI: PhantomJs!
@@ -1619,194 +1852,15 @@ https://www.browsersync.io/
 - all browser auto-update on change
 
 ---
-# Visual Regression Testing
-.l50[
-# Why?
-### - Pixel-perfect testing (cross-browser widgets)
-### - Testing graphics (SVG, HTML5 Canvas, Charts)
-### - Re-factoring legacy apps
-### - May require manual intervention in case of diffs
-]
-.r50[
-# How?
-### - [Pdiff](http://pdiff.sourceforge.net), see [Continuous Delivery at Google](https://air.mozilla.org/continuous-delivery-at-google/)
-### - ImageMagick ([im4java](http://im4java.sourceforge.net/))
-### - [PhantomCSS](https://github.com/Huddle/PhantomCSS), [grunt-photobox](https://github.com/stefanjudis/grunt-photobox), [Gemini](https://github.com/gemini-testing/gemini) by Yandex
-### - Applitools Eyes
-]
-???
-- fonts, layout, rendering issues.
-- LatCraft: compare generated infographics for social networks
-
----
-False positives vs false negatives
-
----
-Chaos Monkey People: every week, one randomly-selected person must take the whole week off
-???
-
----
-background-image:url(email_placeholders.png)
-
----
 Gatling
 ???
 Cloud - Load Impact
 
 ---
-Client-side error reporting.
-
----
-# Slow builds
-
----
-Integrasting Testing = Evil.
-
----
 http://martinfowler.com/articles/microservice-testing/#testing-end-to-end-diagram
-
----
-- Preflight Quality Control (warnings!)
-
----
-- No junk in trunk (preflight quality control)
-
----
-# I fucked up Git so bad it turned into Guitar Hero (c)
-![](guitarhero.png)
-
----
-background-image:url(cigame.png)
-
----
-Monitoring + Logging + Metrics.
-
----
-How slow is is PayPal's API?
-
----
-How slow was PayPal's API yesterday?
-
----
-Fault tolerance
-https://www.pingdom.com/livemap/
-
-
-
-
----
-Logging
-???
-SSH, GREP :-)
-
----
-background-image:url(graylog.png)
-
----
-People have Graylog and sit with open windows all day :-) Or watch logs after production deployment :-)
-
----
-background-image:url(graylog_alert.png)
-???
-Streams and Alerts - e.g. one cash miss doesn't mean anything. 20% cache miss - ouch!
-
-
----
-background-image:url(graylog_slack.png)
-
----
-Sampling! Do not send everything!
-
----
-http://www.fluentd.org/architecture
-???
-- buffering! :-)
-- sampling
-- asynchrony
-- multiple inputs
-- multiple outputs
-- reactive alerts
-
----
-background-image:url(elk.png)
-???
-Elastic - storage
-Logstash - data ingestion
-Kibana - log search, interactive data analysis, and dashboards
-
----
-background-image:url(kibana.png)
-???
-
-
----
-Monitoring
-
----
-Slow Feedback. What could be more sluggish than someone noticing a bug, contacting the COO and then COO calling a developer?
-Developers need to have as much visibility as possible into production services. If something is wrong, they should find out about it immediately.
-
----
-Monitoring trends. You know when your resources approach limit on time to be PROACTIVE.
-???
-if you will fail, your customers and stakeholders will lost trust in you. They loose money.
-Examples: thread pools, http connections, median response time, number of DB connections, average MYSQL query time, slowest query time.
-memory growth
-
----
-/version
-/health
-/env
-/metrics
-/dump
-/trace
-/mappings
-/logfile
-/shutdown
-???
-spring-boot-actuator
-
----
-background-image:url(sysdig.png)
-
----
-Nagios
-
----
-Zabbix?
-
----
-background-image:url(zabbix.png)
-
----
-# Sensu
-### Open Source
-### Plugins - brings everything into a single dashboard (MongoDB oplog, health checks, queues, java heap etc.)
-### Checks - JSON. Can be added vie ansible.
-### Used by Telsa!
-
----
-# Application Performance Management
-OSS!
-
----
-Autorestart!!! Win time before someone join in. Autoscale to win time.
 
 ???
 - auto-scaling can be predictive (http://techblog.netflix.com/2013/11/scryer-netflixs-predictive-auto-scaling.html). Otherwise it may be too late. You can do the same with Jenkins btw.
-
----
-background-image:url(pipo_servermap.png)
-
----
-background-image:url(pipo_stack.png)
-???
-Analyze every Tx.
-
----
-background-image:url(pipo_inspect.png)
-???
-especially if you are in Java world
 
 ---
 # PINGDOM
@@ -1815,60 +1869,25 @@ Why do you need Pingdom? Because your Zabbix is UNDER firewall :-)
 Pingdom measures response time from different locations.
 
 ---
-E.g. when metric is more than 5% - RESTART THE SERVICE (call endpoint)
-
----
-Risk storming in teams!
-
----
-### You always deploy from the mainline! Incompleted Work! CHALLENGE! FEATURE TOGGLES, Branch by Abstraction.
-
-
----
-class: middle, center
-<blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">When I stop paying attention to how config management is running on my servers <a target="_blank" href="https://t.co/mULUakdQIz">pic.twitter.com/mULUakdQIz</a></p>&mdash; Lindsay Holmwood (@auxesis) <a href="https://twitter.com/auxesis/status/662230288441847809">November 5, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
----
-# Deployment Pipeline
-### Every change triggers the feedback process
-### Every change is potential release (vs. SNAPSHOT, BETA etc.)
-### Feedback must be received ASAP
----
-# Ops-Friendly Services
-
----
-# Mobile
-- https://facebook.github.io/react-native/
-
----
 Graceful Degradation
 - Twitter example - served AD precision depends on server utilisation.
--
-
----
-CPU Utilisation.
-
----
-- start retries
-- restarts on crash
-- ok, fatal state - so what?
 
 ---
 # Implementing Continuous Delivery
 ### - Find a bottleneck, set a goal
 ### - Find the .strike[best] simplest possible solution and get sh%t done
 ### - Repeat.
-
----
-Risk-storming.
-
----
+# Recursive 80/20.
+# Grow DevOps Experts.
+# Redefine DONE
+# Planning and Retrospectives
+# Commitment language
+# Build quality in.
+???
 Re-define DONE. People still have "siloed", non-cross-functional thinking.
 
 ---
-Build quality in.
+Risk-storming.
 
 ---
 class: center, middle
