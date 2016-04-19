@@ -44,6 +44,17 @@
 
       .testcontainers { background-color: #0e1f26}
       .growbot { background-color: #6A4CA6}
+      .fullscreen {
+        padding: 0 !important;
+      }
+
+      .manybulls h2 {
+        margin: 25px 0;
+      }
+
+      .manybulls h3 {
+        margin: 15px 0;
+      }
 
       .splash {
         color: white;
@@ -221,7 +232,8 @@ background-image: url(pipeline_classic.png)
 background-image: url(pipeline_classic.png)
 ## Build only once
 ???
-Every build is potential release (vs. SNAPSHOT, BETA etc.)
+- Every build is potential release (vs. SNAPSHOT, BETA etc.)
+- means that your application is environment agnostic. No switches, Profiles etc.
 
 ---
 background-image: url(pipeline_classic.png)
@@ -596,6 +608,7 @@ background-image:url(pitest.png)
 ### &nbsp;
 # Sociable
 ### Relying on concrete classes
+### Relying on external systems
 ]
 ???
 CI - external module
@@ -746,9 +759,6 @@ class RedisBackedCacheTest {
 - Can wrap your Mongo or Cassandra
 
 ---
-background-image:url(sysdig.png)
-
----
 background-image:url(wiremock.png)
 
 
@@ -794,6 +804,93 @@ background-image:url(mountebank.png)
 
 ---
 background-image:url(jenkins_pipeline.png)
+
+---
+background-image:url(jenkins_pipeline.png)
+<canvas width="300" height="200" class="red absolute" style="left: 620px; top: 120px" />
+???
+- start/stop dependencies with tests w/o polluting the VM
+- run it as many times as I need, mb on different machines
+- run the same on dev machine
+
+---
+background-image:url(at_dependencies.png)
+
+---
+class: larger
+.l50[
+```
+# docker-compose.yml
+version: '2'
+services:
+  app:
+    build: .
+    ports:
+     - "5000:5000"
+    volumes:
+     - .:/code
+    depends_on:
+     - redis
+     - mysql
+  redis:
+    image: redis:2.8
+  mysql:
+    image: mysql:5.6
+  ...
+```
+]
+.r50[
+![](docker_compose.png)
+]
+???
+Good thing, since Docker can live on production.
+
+---
+background-image:url(docker_compose_up_redis.png)
+
+---
+class: black
+background-image:url(docker_compose_scale.png)
+???
+- now, I don't have to push code to run acceptance tests!
+
+---
+class: bad
+# Dockerfiles
+```
+FROM nginx
+RUN rm -f /etc/nginx/conf.d/*
+
+RUN apt-get update && apt-get install -my \
+  supervisor \
+  curl \
+  wget \
+  php5-curl \
+  php5-fpm \
+  php5-gd \
+  php5-memcached \
+  php5-mysql \
+  php5-mcrypt \
+  php5-sqlite \
+  php5-xdebug \
+  php-apc
+
+RUN sed -i "s/user = www-data/user = root/" /etc/php5/fpm/pool.d/www.conf
+RUN sed -i "s/group = www-data/group = root/" /etc/php5/fpm/pool.d/www.conf
+RUN sed -i '/^;clear_env = no/s/^;//' /etc/php5/fpm/pool.d/www.conf
+RUN sed -i '/^;ping\.path/s/^;//' /etc/php5/fpm/pool.d/www.conf
+RUN sed -i '/^;pm\.status_path/s/^;//' /etc/php5/fpm/pool.d/www.conf
+```
+
+---
+background-image:url(packer_docker_builder.png)
+
+---
+background-image:url(sysdig.png)
+
+---
+background-image:url(jenkins_pipeline.png)
+
 
 ---
 background-image:url(jenkins_pipeline.png)
@@ -1101,6 +1198,7 @@ background-image:url(fluentd_before.png)
 - Sensu - OSS, plugins for java heap, slow queries. Provisionable, Used by Tesla!
 - Dashing - PROACTIVE vs. REACTIVE. You monitor trends (like CPU utilization, disk space, queue size). If CEO calls you - too late :-)
 - S3 - How slow is is PayPal's API? How slow was PayPal's API yesterday?
+- Pingdom - your internal stuff is under firewall :-) Performance degradation from diff locations.
 
 
 ---
@@ -1130,10 +1228,123 @@ file must be kept in version contorl together with infrastructure
 - Duplicate traffic to test node (new node)?
 - Deadling with data
 - Dynamism
+- Terraform
 - Configuration management
 - Organizational patterns / batching / bringing CD to the company
 - Continuous Security
 
+---
+background-image:url(jenkins_pipeline.png)
+
+---
+class: right
+background-image:url(jenkins_pipeline.png)
+<canvas width="220" height="180" class="red absolute" style="left: 110px; top: 100px" />
+# Sensitive data?
+
+---
+background-image:url(transcrypt.png)
+
+---
+class: larger
+```
+The current repository was configured using transcrypt version 0.9.6
+and has the following configuration:
+
+  CIPHER:   aes-256-cbc
+  PASSWORD: MEu5xyQ&G@/}:D\___1231aala4
+
+Copy and paste the following command to initialize a cloned repository:
+
+  transcrypt -c aes-256-cbc -p 'MEu5xyQ&G@/}:D\___1231aala4'
+```
+???
+Jenkins should know the password. Stored securely under limited-access user. Actually, can be prompted during every Jenkins machine build.
+
+---
+background-image:url(gitcrypt.png)
+
+---
+class: center, middle
+# What do you do when a developer leaves the team or the repository is compromised?
+???
+You change password on every production systems. Dependent systems start to fail. Takes times!
+
+---
+background-image:url(vault.png)
+???
+Tool for managing secrets.
+
+---
+background-image:url(vault_before.png)
+
+---
+background-image:url(vault_before_hacked.png)
+
+---
+background-image:url(vault_after.png)
+
+---
+background-image:url(vault_after_hacked.png)
+
+---
+background-image:url(vault_after_revoked.png)
+
+---
+background-image:url(vault_dbmigrate.png)
+
+---
+background-image:url(vault_dbmigrate_token.png)
+???
+- All secrets are dynamically generated and leased
+- All operations are logged
+- Fine-grained control which access tokens can access which secrets
+
+---
+class: center, middle
+## Our recommended approach to use Vault with any configuration manage tool is to move the secret retrieval and renewal into a runtime process instead of a build time process.
+###- [excerpt](https://www.hashicorp.com/blog/using-hashicorp-vault-with-chef.html) from Vault documentation
+???
+Cannot be stolen, as they do not exist before they are read! Every client has different keys - wohoo.
+- Unable to handle lease revocation events
+- Unable to handle secret updates
+- Can easily become stale
+- Cannot use secrets that require lease renewal (read on)
+
+---
+class: invert, black, center, middle
+# Dynamic infrastructure
+
+---
+background-image:url(nginx_1.png)
+
+---
+background-image:url(consul.png)
+
+---
+background-image:url(nginx_2.png)
+???
+if you devine healthchecks, consul will not return dead instances!
+
+---
+background-image:url(nginx_3.png)
+
+---
+background-image:url(nginx_4.png)
+
+---
+background-image:url(nginx_5.png)
+
+---
+background-image:url(nginx_6.png)
+???
+- Application is 100% configuration agnostic. All configuration is passed as environment variables.
+- Consul DNS! 0 TTL by default :-) Nice! Prevents routing to unhealty nodes. Random robin from healty notes.
+
+---
+background-image:url(12factor_env.png)
+???
+The environment is right there. Use it.
 
 
 ---
@@ -1246,6 +1457,8 @@ class: center, middle
 ---
 class: center, middle
 # Jenkins is either auto-scalable or easy to scale
+???
+Jenkins EC2 plugin - runs new slaves automatically on EC2 and kills them when not needed.
 
 ---
 class: center, middle
@@ -1262,9 +1475,6 @@ Rollbacks?
 
 ---
 Git Sparse Chechouts! 1.7.0+
-
----
-Images make your builds slow, but rollbacks fast!
 
 ---
 background-image:url(identical_environments.png)
@@ -1344,20 +1554,6 @@ background-image:url(vagrant.png)
 ## `vagrant up`
 
 ---
-## Gains:
-### - Environments are identical and always in sync (no [Snowflake Server](http://martinfowler.com/bliki/SnowflakeServer.html))
-### - All the same cookbooks on the same OS
-### - Hackable (not your granny's Wiki setup instructions)
-### - Uber-fast onboarding
-???
-Auto-scaling on AWS!
-
----
-# Phoenix? EC2 Instances may be uber-short living (Ephemeral). Monitoring system must adapt!
-???
-Locked Phoenix - a phoenix server that cannot be logged into, therefore cannot be compromised and hacked.
-
----
 ALTER TABLE
 ???
 Read-locks the table (with few exceptions, Online DDL from MySQL 5.6)
@@ -1378,205 +1574,15 @@ Environment can be on Virtualbox, AMI, **Docker**... (container including all de
 ---
 background-image:url(vagrant_vmware.png)
 
----
-background-image:url(docker.png)
-### - All-in-one Container
-### - Container per Service
-
----
-class: bad
-# Dockerfiles
-```
-FROM nginx
-RUN rm -f /etc/nginx/conf.d/*
-
-RUN apt-get update && apt-get install -my \
-  supervisor \
-  curl \
-  wget \
-  php5-curl \
-  php5-fpm \
-  php5-gd \
-  php5-memcached \
-  php5-mysql \
-  php5-mcrypt \
-  php5-sqlite \
-  php5-xdebug \
-  php-apc
-
-RUN sed -i "s/user = www-data/user = root/" /etc/php5/fpm/pool.d/www.conf
-RUN sed -i "s/group = www-data/group = root/" /etc/php5/fpm/pool.d/www.conf
-RUN sed -i '/^;clear_env = no/s/^;//' /etc/php5/fpm/pool.d/www.conf
-RUN sed -i '/^;ping\.path/s/^;//' /etc/php5/fpm/pool.d/www.conf
-RUN sed -i '/^;pm\.status_path/s/^;//' /etc/php5/fpm/pool.d/www.conf
-```
-
----
-background-image:url(packer_docker_builder.png)
-
----
-background-image:url(docker_compose.png)
-## Container per Service
-
----
-```
-# docker-compose.yml
-version: '2'
-services:
-  app:
-    build: .
-    ports:
-     - "5000:5000"
-    volumes:
-     - .:/code
-    depends_on:
-     - redis
-  redis:
-    image: redis:2.8
-```
-???
-Good thing, since Docker can live on production.
-
----
-background-image:url(docker_compose_up_redis.png)
-
----
-background-image:url(docker_compose_scale.png)
-
----
-# Exploratory testing
-
----
-QA in production.
-
----
-PhantomJS running with http://testcontainers.viewdocs.io/testcontainers-java/
-Trying embedded things, but sometimes we need Redis.
-???
-Mac OSX users should be aware that PhantomJS doesn't load the FontAwesome glyths used in the test suite, I don't understand why. I fixed this locally by downloading FontAwesome and double clicking on the .otf file to install the font.
 
 
 ---
-# Configuration management
-no internal @Profiles. No env-soecific ifs
-
----
-
-
----
-- Application must be environment agnostic. No env-conditionals inside, no deciding which configuration to load.
-- Version Controlled
-- Journalled - who/when/what
-
----
-- configuration is part of app release (12-factor app style)
-- configuration is versioned, but lives inpedendently
-
----
-Spring Boot style
-https://spring.io/blog/2015/01/13/configuring-it-all-out-or-12-factor-app-style-configuration-with-spring
-???
-@Value("$(configurationKey)") String configurationKey
-- Local development configuration in local .yaml file
-- Transforms runtime parameters -Dkey=value and environment variables () into configuration
-- Other configuration on GitHub. /refresh endpoint with @RefreshScope beans
-
----
-Dealing with Dynamic infrastructure (e.g. auto-scaling). Consul to the rescue! What about less dynamic configuration?
-???
-Consul DNS! 0 TTL by default :-) Nice! Prevents routing to unhealty nodes. Random robin from healty notes.
-???
-Docker-Consul Registrator (service that you run): http://gliderlabs.com/registrator/latest/user/quickstart/
-
----
-background-image:url(consul-template.png)
-
----
-background-image:url(consul-template-example.png)
-
----
-background-image:url(consul-template-example-restart.png)
-
----
-background-image:url(confd.png)
-
----
-So, you keep Configuration Templates in GitHub and use git2consul. consul-template listen for Consul and generates configuration - (discovered stuff from Consul, credentials from Vault, other stuff hard-coded)
-
----
-git2consul (https://github.com/Cimpress-MCP/git2consul) -> envconsul (https://github.com/hashicorp/envconsul)
-
----
-Problem! Ephemeral servers? IP changes! Docker containers spin up! New instances get added. What if servers die? :-) How to unregister it?
-Configuration dependency inversion.
-
----
-- Docker pre-bundled. Slow. Env-specific container :(
-- Phoenix server - the same.
-- Data and configuration has different change cadence than the app.
-
-
----
-12-factor app
-![](12factor_config.png)
-The source of environment configuration should be read when preparing a release, and that any change to config, just like with a change to code, results in a new release.
-???
-- App + configuration = single, versioned deploy unit. Rollback (capistrano keeps old versions and rollback command)
-- I WOULD ARGUE: feature toggles? gradual rollouts? thread pool size?
-
----
-background-image:url(12factor_env.png)
-The environment is right there. Use it.
-
----
-background-image:url(envdir.png)
-
----
-One of the biggest misinterpretations is people thinking 12factor says “config should never be in a file anywhere”.
-
-12factor says config should not be in a file in your app, and your app should read from the environment. It has very little to say about where the environment might be sourced from.
-
-You’ll almost certainly have your config in some files somewhere.
-
-Update: This may be hiera if you use Puppet, or via some other configuration management system, or just plain files but in a different repo. 12factor primarily talks about building apps and not about building the environment they are deployed to.
-
-The point is that:
-
-Wherever you store your config, it is distinct from the app
-Your app reads its config from the environment
-
----
-So, changing consul and restarting the app is kinda... Not 2-factor app friendly.
-???
-if your code and config is managed in separate lifecycles, it ain’t Twelve Factor compatible.
-
----
-\- It doesn’t appear to leave any room for runtime config changes
-\- It’s not completely clear how it would work with dynamic service discovery
-Sometimes, however, the advantages of predictable, easy to reason about deployments outweigh the benefits of such niceties
-
-
-## Co-located (spirit of 12-factor app, where configuration changes together with app and is part of release. How do you A/B test this stuff?. You probbaly have infarstructure of A/B already. Now you need two :-)
-## GitHub
-## etcd (key-value store actually)
-
----
-Which parts to reload? Much easier to restart the whole app!
-
----
-https://www.hashicorp.com/blog/twelve-factor-consul.html
-
----
-mitmproxy / mitmdump
-background-image:url(mitmproxy.png)
+# mitmproxy / mitmdump / tamper
+![](mitmproxy.png)
 ???
 mitmproxy - interactive app
 mitmdump - console app
-
----
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/j_hwVb1Vc2U" frameborder="0" allowfullscreen></iframe>
-???
-Omg, you can change any websites behaviour w/o changing the website!
+tamper - DevTools extensions for changing website behaviour w/o changing website
 
 ---
 background-image:url(pathod.png)
@@ -1588,25 +1594,7 @@ I managed to kill vert.x this way.
 low-hanging fruits :-) usually, there are many!
 
 ---
-# Rate limiting (nginx, HAProxy, Varnish, ELB does not have rate limiting)
-# org.eclipse.jetty.servlets.DoSFilter
-# Implementing your own (Guava's RateLimiter)
-# The only way to protect from DDoS - make it financially unviable.
-# CloudFlare
----
-What happens if AWS is under DDoS and auto-scaling goes crazy? Same as CloudFlare, for all-layer attacks.
-
----
-# Continuous Security
-
-Use 2-Factor authentication for accessing something important. Using service that uses 2-Factor authentication.
-- share public gist
-- tweet
-
--
-
----
-https://keybase.io/
+keybase.io
 Very popular in OSS world and requires invitation. I have 8 invites, let me know if you need one.
 
 ---
@@ -1626,76 +1614,6 @@ open port scanner, xss, sql injection, session id length and crypto-function, se
 SecDevOps
 
 ---
-
-Let's Encrypt
-
----
-background-image:url(transcrypt.png)
-
----
-```
-The current repository was configured using transcrypt version 0.9.6
-and has the following configuration:
-
-  CIPHER:   aes-256-cbc
-  PASSWORD: MEu5xyQ&G@/}:D\___1231aala4
-
-Copy and paste the following command to initialize a cloned repository:
-
-  transcrypt -c aes-256-cbc -p 'MEu5xyQ&G@/}:D\___1231aala4'
-```
-
----
-background-image:url(gitcrypt.png)
-???
-Secrets goes everywhere. Hard to keep track and control access. Actions if compromised = change master password, so everything breaks :-)
-
----
-Access revocation?
-???
-Just remove access from GitHub. Anyway, access to old code will be granted :-)
-
----
-background-image:url(vault.png)
-???
-- Dynamic key generation
-- User password management inside enterprise
-- Centralized data encryption / decryption solution
-- Issuing temporary credentials for manual access!
-
----
-Backends!
-- Dynamic SQL user creation
-- Dynamic AWS access keys! Cannot be stolen, as they do not exist before they are read! Every client has different keys - wohoo.
-- Cassandra, MySQL, Postgres, SSH!
-???
-SSH - do not need to share private key for EC2 :-)
-
-
----
-Unsealing vault (on every start). Ouch! Because the master key is not stored, but generated every time Vault is started.
-
----
-- all operations wiht secret are leased! No exceptions.
-- Pre-bundling secrets in S3 stored images?
-- Fine-grained control which access tokens can access which secrets.
-- OK, what about audit log? e.g. which app accessed the key, when
-- Servers must know and get the secret / a key to decrypt the data. Many servers!
-
----
-class: center, middle
-## Our recommended approach to use Vault with any configuration manage tool is to move the secret retrieval and renewal into a runtime process instead of a build time process.
-###- [excerpt](https://www.hashicorp.com/blog/using-hashicorp-vault-with-chef.html) from Vault documentation
-???
-- Unable to handle lease revocation events
-- Unable to handle secret updates
-- Can easily become stale
-- Cannot use secrets that require lease renewal (read on)
-
----
-Then when applications request access to those secrets, Vault does not give out the root credentials
-
----
 background-image:url(gauntit_code.png)
 
 
@@ -1703,52 +1621,6 @@ background-image:url(gauntit_code.png)
 Bug Bounties!
 https://hackerone.com/
 https://bugcrowd.com
-
----
-# Testing firewalls / IDS
-### Signature-based detection
-### Behaviour-based detection)
-### Web App Firewalls (ModSecurity, CloudFlare, Incapsula)
-### OWASP Core Rule Set against OWASP Top 10
-???
-- How do we handle bots? Blocking traffic (ouch!) or SHOWING CAPTCHA
-- SBD - Hei, I saw that behaviour before. Must be a bot! COMPARISON (ip reputation, common attacks like XSS)
-- BDD - Hei, looks like this client is doing suspicious stuff. Must be a bot! SIGNS OF SUSPICIOUS ACTIVITIES, ANOMALIES. ML.
-
----
-You test in on production! :-)
-
----
-### Behaviour-based detection
-???
-
----
-```10.20.253.8 - - [23/Apr/2013:14:20:21 +0000] "POST /login HTTP/1.1" 200 267"-" "Mozilla/ 5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/ 20100101 Firefox/8.0" "77.77.165.233" Wednesday, July 10, 13```
-
----
-```10.20.253.8 - - [23/Apr/2013:14:20:22 +0000] "POST /users/king-roland/credit_cards HTTP/ 1.1" 302 2085 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20100101 Firefox/ 8.0" "77.77.165.233" Wednesday, July 10, 13```
-
----
-```10.20.253.8 - - [23/Apr/2013:14:20:23 +0000] "POST /users/king-roland/credit_cards HTTP/ 1.1" 302 2083 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20100101 Firefox/ 8.0" "77.77.165.233" Wednesday, July 10, 13```
-
----
-```10.20.253.8 - - [23/Apr/2013:14:20:24 +0000] "POST /users/king-roland/credit_cards HTTP/ 1.1" 302 2085 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20100101 Firefox/ 8.0" "77.77.165.233" Wednesday, July 10, 13```
-
----
-- User Agent
-- Action (adding credit to account, no other actions)
-- Http method distribution
-- Request Rate
-- IP (Bulgaria). Gmail security?
-
----
-# Conclusion:
-- Do not use your own Firewall
-- Make rules easy testable (e.g. captcha, rate limiting)
-- To make it easy testable, push functionality down to the app
-
----
-background-image:url(shader.png)
 
 ---
 background-image:url(heartbleed.png)
@@ -1761,8 +1633,6 @@ class: center, middle
 ![](mozilla-wiki.png)
 ### [WebAppSec/Secure Coding Guidelines](https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines)
 
-
-
 ---
 OWASP Application Security Verification Standard Project
 https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.0.pdf
@@ -1770,7 +1640,7 @@ https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.
 Guidelines.
 
 ---
-background-url(owasp.png)
+background-image:url(owasp.png)
 
 ---
 ### The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by hundreds of international volunteers*. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. Its also a great tool for experienced pentesters to use for manual security testing.
@@ -1790,107 +1660,72 @@ class: center, middle
 Thinking like a bad guy.
 
 ---
-Single CI for all teams :-)
-
----
-Simplicity.
-???
-Software might need to scale. No real stories of failed business during "unexpected" load.
-
----
-background-image:url(jenkins_ec2.png)
-
----
-AWS Lambdda - Serverless.
-???
-Cool stuff, testing is painful (there are applications that emulate AWS lambda locally)
-
----
 From Circle CI documentation:
 ### `Every time you push to your VCS system, we checkout your code and run your build inside of a fresh, on-demand, and isolated Linux container pre-loaded with most popular languages, tools, and framework. CircleCI, in many cases, will detect and automatically download and cache your dependencies, and you can fully script any steps or integrations.`
 
----
-background-image:url(containers.png)
-## Containers
 
 ---
-# [An empirical study of flaky tests](http://mir.cs.illinois.edu/~qluo2/fse14LuoHEM.pdf)
-
-- asynchronous waits
-```click_button "Send"
-sleep 5
-expect_email_to_be_sent
-```
-- concurrency
-- test order dependency
-
-
----
-`You don't push code that relies on schema changes until the schema has successfully gone out, and you don't push schema changes unless your automated tests show that they work in production.`
-[Continuous Deployment at IMVU: Doing the impossible fifty times a day.](http://timothyfitz.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/)
-
----
-background-image:url(simian_army.png)
-# https://github.com/Netflix/SimianArmy
-
----
-Consul
-
----
-UI: PhantomJs!
-headless Firefox (screen emulator)
-
----
-background-image:url(ievms.png)
+class: manybulls
+.l50[
+## Web Testing
+### phantomjs
+### xvfb
+### [ievms](https://github.com/xdissent/ievms)
+### browsersync
+### saucelabs
+## Stress Testing
+### gatling
+### load impact
+### simian army
+]
+.r50[
+## Fault Tolerance
+### risk storming
+### timeouts
+### circuit breakers / graceful degradation
+### bulkheads
+### handshaking / rate limiting
+### cloudflare
+### auto-scaling
+### continuous security
+]
 ???
-69 GB :-)
+- Xvfb - in-memory display server
+- 69 GB of IE images
+- autoscaling can be predictive
+- cloudflare - ddos, ids, OWASP Core Rule Set against OWASP Top 10
 
 ---
-Browsersync
-https://www.browsersync.io/
-???
-- all browser auto-update on change
+class: manybulls
+## Consider
+### immutable infrastructure
+### serverless
+### consumer-driven contracts ([accurest](https://github.com/Codearte/accurest) in particular)
 
 ---
-Gatling
-???
-Cloud - Load Impact
-
----
-http://martinfowler.com/articles/microservice-testing/#testing-end-to-end-diagram
-
-???
-- auto-scaling can be predictive (http://techblog.netflix.com/2013/11/scryer-netflixs-predictive-auto-scaling.html). Otherwise it may be too late. You can do the same with Jenkins btw.
-
----
-# PINGDOM
-???
-Why do you need Pingdom? Because your Zabbix is UNDER firewall :-)
-Pingdom measures response time from different locations.
-
----
-Graceful Degradation
-- Twitter example - served AD precision depends on server utilisation.
-
----
-# Implementing Continuous Delivery
-### - Find a bottleneck, set a goal
-### - Find the .strike[best] simplest possible solution and get sh%t done
-### - Repeat.
-# Recursive 80/20.
-# Grow DevOps Experts.
-# Redefine DONE
-# Planning and Retrospectives
-# Commitment language
-# Build quality in.
-???
-Re-define DONE. People still have "siloed", non-cross-functional thinking.
-
----
-Risk-storming.
+class: manybulls
+.l60[
+## Implementing Continuous Delivery
+### find a bottleneck, set a goal
+### find the .strike[best] simplest possible solution and get sh%t done
+### repeat.
+]
+.r40[
+## More
+### regular devops get-togethers
+### commitment language
+### 80/20
+### redefine "done"
+### reduce batching
+### build quality in
+]
 
 ---
 class: center, middle
+# Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+---
+class: fullscreen
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ZXsQAXx_ao0" frameborder="0" allowfullscreen></iframe>
 
 ---
