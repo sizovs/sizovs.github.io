@@ -163,7 +163,8 @@ background-image: url(devops_engineer.png)
 ### **Continuous Deployment**
 ]
 ???
-So Scrum vs. CD?
+- So Scrum vs. CD?
+- CDep is great, as it force you to eliminate manual and slow stuff. Every commit goes right away to prod.
 
 ---
 class: center, middle
@@ -258,7 +259,8 @@ class: center, middle, splash
 ### 4. Developers never push the code if a build is broken (why the build is broken if #3 is true?)
 ### 5. Build is **always** fixed within ten minutes of it going red
 ???
-2. not daily, every H. but every build!
+- 2. not daily, every H. but every build!
+- 5. ABR - always be ready
 
 ---
 class: center, middle, bad
@@ -330,6 +332,7 @@ background-image:url(toggles.png)
 ### - A/B testing
 ### - Addition to circuit breaking
 ???
+- decoupling, then do smoke tests on prod (can be automatically)
 - QA, by region, 1%
 - Custom flipping strategies (e.g. release on specific date)
 - E.g. too much users, feature is disabled.
@@ -588,8 +591,8 @@ public class FlawedList<T> extends ArrayList<T> {
 ![](goos.jpg)
 ]
 ???
-passing tests usually do not indicate readiness to deploy. But failing tests do not indicate non-readiness :-)))
-100% coverage doesn't mean anything
+- passing tests usually do not indicate readiness to deploy. But failing tests do not indicate non-readiness :-)))
+- 100% coverage doesn't mean anything
 
 ---
 background-image:url(pitest.png)
@@ -946,6 +949,11 @@ stderr_logfile=/var/log/app/stderr.log
 Autorestart!!! Win time before admin on duty can help!!!
 
 ---
+background-image:url(plug.png)
+???
+- let it crash!
+
+---
 ### deploy-playbook.yml
 ```ansible
 - hosts: all
@@ -980,6 +988,7 @@ Autorestart!!! Win time before admin on duty can help!!!
 ```
 ???
 -- graceful shutdown!!! http request must be completed (Jetty, StatisticsHandler polling)
+-  Amazon decides to ward off and destroy 37 racks randomly. :-))
 -- then we add node to HAPROXY and re-enable monitorning.
 
 ---
@@ -1196,6 +1205,7 @@ People have Graylog and sit with open windows all day :-) Or watch logs after pr
 background-image:url(graylog_alert.png)
 ???
 - Streams and Alerts - e.g. one cash miss doesn't mean anything. 20% cache miss - ouch!
+- optimize for sleep: warning is warning, error is error (degrade grafecully, slow down). Distinguish between errors and CRITICAL errors.
 
 ---
 background-image:url(jenkins_graylog_golive.png)
@@ -1203,7 +1213,8 @@ background-image:url(jenkins_graylog_golive.png)
 ---
 background-image:url(gor.png)
 ???
-single node can also be broken!
+- single node can also be broken!
+- direct traffic to new node, then compare metrics with the production
 
 ---
 background-image:url(fluentd_before.png)
@@ -1325,6 +1336,9 @@ class: invert, black, center, middle
 
 ---
 background-image:url(nginx_1.png)
+???
+- autoscalign!!! sleep well at night :-) now auto-scale across AZs (multi-homed systems, always working)
+- Oprah effect
 
 ---
 background-image:url(consul.png)
@@ -1410,6 +1424,8 @@ class: center, middle
 - Are you 100% your "recovery plan" works?
 - Do you have disaster recovery plan for the Jenkins, as for apps?
 - Do you monitor Jenkins, as your apps? Disk space trends etc.
+???
+collect MMTR, MTTD metrics
 
 ---
 class: center, middle
@@ -1501,6 +1517,8 @@ class: manybulls
 - autoscaling can be predictive
 - cloudflare - ddos, ids, OWASP Core Rule Set against OWASP Top 10
 - mitmproxy - interactive / mitmdump - console app / tamper - DevTools extensions
+- circuit breaker - not only degrade in a dumb way, but switch from Sendgrid to Mailgun
+- stress testing on prod. Add prod capacity.
 
 ---
 class: manybulls
