@@ -44,6 +44,7 @@
 
       .testcontainers { background-color: #0e1f26}
       .growbot { background-color: #6A4CA6}
+      .gaultlt { background-color: #0a2c36 }
       .fullscreen {
         padding: 0 !important;
       }
@@ -788,7 +789,8 @@ class UberSmartHttpClientTest {
 ```
 
 ---
-class: medium, middle
+class: medium
+# Fault injection
 ```java
 stubFor(get(urlEqualTo("/delayed")).willReturn(
         aResponse()
@@ -847,12 +849,19 @@ Good thing, since Docker can live on production.
 
 ---
 background-image:url(docker_compose_up_redis.png)
+???
+- spin up dependencies
+- run the app
+- run the tests (e.g. via API, UI or both)
+- shutdown
+- CircleCI builds code in a fresh, on-demand, and isolated Linux container.
 
 ---
 class: black
 background-image:url(docker_compose_scale.png)
 ???
 - now, I don't have to push code to run acceptance tests!
+- actually, you can completely avoid centralized testing environments now
 
 ---
 class: bad
@@ -1192,6 +1201,11 @@ background-image:url(graylog_alert.png)
 background-image:url(jenkins_graylog_golive.png)
 
 ---
+background-image:url(gor.png)
+???
+single node can also be broken!
+
+---
 background-image:url(fluentd_before.png)
 ???
 - Maxmind GeoIP databases
@@ -1220,18 +1234,10 @@ background-image:url(fluentd_example.png)
 ### curl -X POST -H "Content-Type: application/json" -d '{"event":"data"}' \
 ### localhost:9880/app.request
 ???
-file must be kept in version contorl together with infrastructure
+- file must be kept in version contorl together with infrastructure
 
 ---
-- Preflights - BRANCHES AGAIN! :))) Virtualization - locally or wherever.
-- acceptance testing, exploratory on real data
-- Duplicate traffic to test node (new node)?
-- Deadling with data
-- Dynamism
-- Terraform
-- Configuration management
-- Organizational patterns / batching / bringing CD to the company
-- Continuous Security
+background-image:url(sparse.png)
 
 ---
 background-image:url(jenkins_pipeline.png)
@@ -1268,7 +1274,9 @@ background-image:url(gitcrypt.png)
 class: center, middle
 # What do you do when a developer leaves the team or the repository is compromised?
 ???
-You change password on every production systems. Dependent systems start to fail. Takes times!
+- You change password on every production systems.
+- Dependent systems start to fail.
+- Takes time!
 
 ---
 background-image:url(vault.png)
@@ -1346,7 +1354,6 @@ background-image:url(12factor_env.png)
 ???
 The environment is right there. Use it.
 
-
 ---
 background-image:url(jenkins_pipeline.png)
 
@@ -1403,6 +1410,42 @@ class: center, middle
 - Are you 100% your "recovery plan" works?
 - Do you have disaster recovery plan for the Jenkins, as for apps?
 - Do you monitor Jenkins, as your apps? Disk space trends etc.
+
+---
+class: center, middle
+# Metadata survives the crash (build number, logs, history)
+???
+
+---
+class: center, middle
+# Slaves survive the crash
+
+---
+class: center, middle
+# All changes to Jenkins are pre-flight tested
+
+---
+class: center, middle
+# Each team has their own Jenkins and owns underlying infrastructure
+???
+- 100 Apps are build on a single Jenkins
+- 100 Jenkins instances on single VM - good luck!
+
+---
+class: center, middle
+# Hardware is never a bottleneck
+
+---
+class: center, middle
+# Jenkins is either auto-scalable or easy to scale
+### Consider [Jenkins EC2 plugin](https://wiki.jenkins-ci.org/display/JENKINS/Amazon+EC2+Plugin)
+???
+runs new slaves automatically on EC2 and kills them when not needed.
+
+---
+class: center, middle
+# Jenkins is at the close proximity with dependencies (which are redundant)
+???
 - DockerHub? Local artifact repository?
 - GitHub fails every year.
 
@@ -1423,246 +1466,9 @@ background-image:url(githubdown2016.png)
 background-image:url(githubdown.png)
 ???
 1.2 hours.
-
-
----
-class: center, middle
-# Metadata survives the crash (build number, logs, history)
 ???
-
----
-class: center, middle
-# Slaves survive the crash
-
----
-class: center, middle
-# All changes to Jenkins are pre-flight tested
-
----
-background-image:url(massala.png)
-???
-Completely erased all your servers and all your backups in a single strike
-
----
-class: center, middle
-# Each team has their own Jenkins and owns underlying infrastructure
-???
-- 100 Apps are build on a single Jenkins
-- 100 Jenkins instances on single VM - good luck!
-
----
-class: center, middle
-# Hardware is never a bottleneck
-
----
-class: center, middle
-# Jenkins is either auto-scalable or easy to scale
-???
-Jenkins EC2 plugin - runs new slaves automatically on EC2 and kills them when not needed.
-
----
-class: center, middle
-# Jenkins is at the close proximity with dependencies (which are redundant)
-
-
----
-Forget centralized test environment. Either locally or on AWS. Save money!
-
-DB migrations similar to configuration.
-blue-green
-
-Rollbacks?
-
----
-Git Sparse Chechouts! 1.7.0+
-
----
-background-image:url(identical_environments.png)
-## Creating identical environments
-
----
-background-image:url(ansible.png)
-???
-TDD for Ansible :-)
-http://serverspec.org/
-https://github.com/aelsabbahy/goss
-KitchenCI
-
----
-Typiacal issue: pressing the button at 00:00 :-)
-
----
-```
-# playbook.yml
----
-- hosts: 127.0.0.1
-  sudo: yes
-  connection: local
-  tasks:
-    - name: "ensure redis is up and running"
-      service: name=redis enabled=yes state=started
-    - name: Installs nginx web server
-      apt: pkg=nginx state=installed update_cache=true
-      notify:
-        - start nginx
-
-  handlers:
-    - name: start nginx
-      service: name=nginx state=started
-```
-
----
-class: black
-background-image:url(packer.png)
-
----
-class: middle
-```
-# sandbox.json
-{
-  "variables": {
-    "aws_access_key": "",
-    "aws_secret_key": ""
-  },
-  "builders": [{
-    "type": "amazon-ebs",
-    "access_key": "{{user `aws_access_key`}}",
-    "secret_key": "{{user `aws_secret_key`}}",
-    "region": "us-east-1",
-    "source_ami": "ami-80878fea",
-    "instance_type": "m1.small",
-    "ssh_username": "ubuntu",
-    "ami_name": "packer-example {{timestamp}}"
-  }],
-  "provisioners": [{
-    {
-      "type": "ansible-local",
-      "playbook_file": "playbook.yml"
-    }
-  }],
-  "post-processors": ["vagrant"]
-}
-```
-## `packer build sandbox.json`
-
----
-background-image:url(vagrant.png)
-
----
-
-##`vagrant box add {{location}}/sand.box`
-## `vagrant up`
-
----
-ALTER TABLE
-???
-Read-locks the table (with few exceptions, Online DDL from MySQL 5.6)
-
----
-background-image:url(percona.png)
-???
-Double-space please
-BE CAREFUL! A LOT OF CONFIGURATION and testing, especially in demanding environments.
-
----
-## Pain:
-### - Virtualbox is slow
-### - 2+ Virtualbox = Kernel panic
-???
-Environment can be on Virtualbox, AMI, **Docker**... (container including all dependencies)
-
----
-background-image:url(vagrant_vmware.png)
-
-
-
----
-# mitmproxy / mitmdump / tamper
-![](mitmproxy.png)
-???
-mitmproxy - interactive app
-mitmdump - console app
-tamper - DevTools extensions for changing website behaviour w/o changing website
-
----
-background-image:url(pathod.png)
-???
-pathod - any response that violate HTTP specification
-pathoc - any request
-I managed to kill vert.x this way.
-???
-low-hanging fruits :-) usually, there are many!
-
----
-keybase.io
-Very popular in OSS world and requires invitation. I have 8 invites, let me know if you need one.
-
----
-background-image:url(verified.png)
-
----
-Gitrob as part of pipeline
-https://github.com/michenriksen/gitrob
-???
-Gitrob is reactive: after push, E.g. whether you stored password and do not want to be Bitcoin mined
-Talisman is proactive: https://github.com/thoughtworks/talisman
-
----
-background-image:url(gauntlt.png)
-???
-open port scanner, xss, sql injection, session id length and crypto-function, secure cookies,
-SecDevOps
-
----
-background-image:url(gauntit_code.png)
-
-
----
-Bug Bounties!
-https://hackerone.com/
-https://bugcrowd.com
-
----
-background-image:url(heartbleed.png)
-???
-- I ran scanner on my EC2 machines and ALL of them had vulnerable OpenSSL :-)
-- April 2014
-
----
-class: center, middle
-![](mozilla-wiki.png)
-### [WebAppSec/Secure Coding Guidelines](https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines)
-
----
-OWASP Application Security Verification Standard Project
-https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.0.pdf
-???
-Guidelines.
-
----
-background-image:url(owasp.png)
-
----
-### The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by hundreds of international volunteers*. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. Its also a great tool for experienced pentesters to use for manual security testing.
-
----
-background-image:url(zap-webdriver.png)
-
----
-background-image:url(zap-checks.png)
-
----
-class: center, middle
-# Evil user stories
-### `As {some kind of bad guy} I want to {do some bad thing}…`
-![](evil_stories.gif)
-???
-Thinking like a bad guy.
-
----
-From Circle CI documentation:
-### `Every time you push to your VCS system, we checkout your code and run your build inside of a fresh, on-demand, and isolated Linux container pre-loaded with most popular languages, tools, and framework. CircleCI, in many cases, will detect and automatically download and cache your dependencies, and you can fully script any steps or integrations.`
-
+- github backup utilities
+- GitLab
 
 ---
 class: manybulls
@@ -1673,9 +1479,9 @@ class: manybulls
 ### [ievms](https://github.com/xdissent/ievms)
 ### browsersync
 ### saucelabs
+### mitmproxy / mitmdump / tamper
 ## Stress Testing
-### gatling
-### load impact
+### gatling / load impact
 ### simian army
 ]
 .r50[
@@ -1694,13 +1500,18 @@ class: manybulls
 - 69 GB of IE images
 - autoscaling can be predictive
 - cloudflare - ddos, ids, OWASP Core Rule Set against OWASP Top 10
+- mitmproxy - interactive / mitmdump - console app / tamper - DevTools extensions
 
 ---
 class: manybulls
 ## Consider
-### immutable infrastructure
+### zero-time data migrations (flyway, [LHM](https://github.com/soundcloud/lhm), [pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/2.1/pt-online-schema-change.html), testing migrations on replica)
+### immutable infrastructure (vagrant / vmware / ansible / serverspec / packer)
+### terraform
 ### serverless
 ### consumer-driven contracts ([accurest](https://github.com/Codearte/accurest) in particular)
+???
+flyway has callbacks!
 
 ---
 class: manybulls
@@ -1731,6 +1542,120 @@ class: fullscreen
 ---
 class: center, middle
 # Thank you!
+
+---
+class: center, middle
+# Continuous Security
+???
+Emergent trend - SecDevOps
+
+---
+# Validating Git for things that look suspicious:
+## - Gitrob (https://github.com/michenriksen/gitrob)
+## - Talisman (https://github.com/thoughtworks/talisman)
+???
+- pem files, rsa, awscreds, shell hist, mysql hist
+- Gitrob REACTIVE: works for existing GitHub repositories (requires push)
+- Talisman PROACTIVE: any repository
+
+---
+background-image:url(gauntlt.png)
+???
+- open port scanner, xss, sql injection, session id length and crypto-function, secure cookies
+- checkout the Gitproject with example attacks, modify them and voila!
+
+---
+class: medium
+```gherkin
+Scenario: Verify server is open on expected set of port
+  When I launch an "nmap" attack with:
+    """
+    nmap -F <hostname>
+    """
+  Then the output should match:
+    """
+    80/tcp\s+open
+    """
+
+Scenario: Verify that there are no unexpected ports open
+  When I launch an "nmap" attack with:
+    """
+    nmap -F <hostname>
+    """
+  Then the output should not contain:
+    """
+    22/tcp
+    25/tcp
+    """
+```
+
+---
+class: medium
+```gherkin
+Scenario: Ensure no anonymous certificates
+  When I launch an "sslyze" attack with:
+    """
+    python <sslyze_path> <hostname>:443
+    """
+  Then the output should not contain:
+    """
+    Anon
+```
+???
+- I ran scanner on my EC2 machines and ALL of them had heartbleed-vulnerable OpenSSL :-)
+- April 2014
+
+---
+background-image:url(pathod.png)
+???
+- pathod - any response that violate HTTP specification
+- pathoc - any request
+- I managed to kill vert.x this way.
+- low-hanging fruits :-) usually, there are many!
+
+---
+background-image:url(hackerone.png)
+???
+MUCH CHEAPER THAN PRO PENETRATION TESTING!
+
+---
+background-image:url(bugcrowd.png)
+
+---
+class: center, middle
+![](mozilla-wiki.png)
+### [WebAppSec/Secure Coding Guidelines](https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines)
+
+---
+class: center, middle
+![](owasp_logo.png)
+### [OWASP Application Security Verification Standard Project](https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.0.pdf)
+???
+Guidelines.
+
+---
+background-image:url(owasp.png)
+
+---
+class: center, middle
+## The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by hundreds of international volunteers*. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. Its also a great tool for experienced pentesters to use for manual security testing.
+
+---
+background-image:url(zap-webdriver.png)
+
+---
+background-image:url(zap-checks.png)
+
+---
+class: center, middle
+# Evil user stories
+### `As {some kind of bad guy} I want to {do some bad thing}…`
+![](evil_stories.gif)
+???
+Thinking like a bad guy.
+
+
+
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
