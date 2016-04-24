@@ -42,7 +42,7 @@
     "karma-phantomjs-launcher": "~1.0.0",
     "karma": "~0.13.22",
     "karma-ng-html2js-preprocessor": "~0.2.2",
-    "glob": "~3.2.3"
+    "glob": "~7.0.3"
   },
   "engines": {
     "node": ">=0.8.0"
