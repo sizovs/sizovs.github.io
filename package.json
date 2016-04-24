@@ -39,7 +39,7 @@
     "karma-coffee-preprocessor": "~0.1.2",
     "requirejs": "~2.1.9",
     "karma-requirejs": "~0.2.1",
-    "karma-phantomjs-launcher": "~0.1.1",
+    "karma-phantomjs-launcher": "~1.0.0",
     "karma": "~0.10.9",
     "karma-ng-html2js-preprocessor": "~0.2.2",
     "glob": "~3.2.3"
