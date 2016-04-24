@@ -23,7 +23,7 @@
     "grunt-newer": "~0.5.4",
     "grunt-ngmin": "~0.0.2",
     "grunt-rev": "~0.1.0",
-    "grunt-svgmin": "~0.2.0",
+    "grunt-svgmin": "~3.2.0",
     "grunt-usemin": "~2.0.0",
     "grunt-build-control": "~0.7.0",
     "jshint-stylish": "~2.1.0",
