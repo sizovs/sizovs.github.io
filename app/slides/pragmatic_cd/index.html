@@ -246,6 +246,8 @@ Or test on production!
 ---
 background-image: url(pipeline_classic.png)
 ## Deploy the same way to every environment
+???
+And the same version! :-) "LATEST" in the middle of pipeline
 
 ---
 class: center, middle, splash
@@ -290,6 +292,9 @@ class: center, middle
 ## One thing that I really like about open-source is that it really allows different people to work together. We don't have to like each other. And sometimes we really don't like each other.
 ## (c) Linus Torvalds
 ### http://www.ted.com/talks/linus_torvalds_the_mind_behind_linux
+???
+- That's why Linus developed GIT. To let work work in isolation.
+- We are OK with Git, but isolation is evil. We have to collaborate and integrate as often as we can.
 
 ---
 background-image:url(jenkins_pipeline.png)
@@ -360,6 +365,9 @@ if (ff4j.check("new-feature")) {
 
 ---
 background-image:url(launchdarkly.png)
+???
+- A/B testing
+- let's you define goals and measure the performance of your features
 
 ---
 class: bad, invert, center, middle
@@ -369,6 +377,9 @@ class: bad, invert, center, middle
 class: center, middle
 > ### Release toggles are a useful technique and lots of teams use them. However they should be your last choice when you're dealing with putting features into production. Your first choice should be to break the feature down so you can safely introduce parts of the feature into the product. The advantages of doing this are the same ones as any strategy based on small, frequent releases. You reduce the risk of things going wrong and you get valuable feedback on how users actually use the feature that will improve the enhancements you make later.
 ### (c) Martin Fowler at [Bliki](http://martinfowler.com/bliki/FeatureToggle.html)
+???
+- Try breaking the feature down and try to make increments visible to customer asap to get feedback from the real world and adapt.
+- Keeping a fat feature under toggle can lead to big bank release. Avoid this.
 
 ---
 class: center, middle, challenge
@@ -435,7 +446,7 @@ class: center, middle
 ## .strike[How]
 
 ---
-class: larger
+class: medium
 .l20[
 # 4W
 ## **W**ho
@@ -448,11 +459,11 @@ class: larger
 ```sh
 $ git log --oneline -5 --author cbeams --before "Fri Mar 26 2009"
 
-e5f4b49 Re-adding ConfigurationPostProcessorTests after its brief removal in r814. @Ignore-ing the testCglibClassesAreLoadedJustInTimeForEnhancement() method as it turns out this was one of the culprits in the recent build breakage. The classloader hacking causes subtle downstream effects, breaking unrelated tests. The test method is still useful, but should only be run on a manual basis to ensure CGLIB is not prematurely classloaded, and should not be run as part of the automated build.
-2db0f12 fixed two build-breaking issues: + reverted ClassMetadataReadingVisitor to revision 794 + eliminated ConfigurationPostProcessorTests until further investigation determines why it causes downstream tests to fail (such as the seemingly unrelated ClassPathXmlApplicationContextTests)
-147709f Tweaks to package-info.java files
-22b25e0 Consolidated Util and MutableAnnotationUtils classes into existing AsmUtils
+e5f4b49 Re-adding AutoConfigurationPostProcessor
+2db0f12 fixed two build-breaking issues
+147709f Tweaks to dependency files
 7f96f57 polishing
+2d30f32 implemented facebook integration
 ```
 
 &nbsp;
@@ -460,16 +471,18 @@ e5f4b49 Re-adding ConfigurationPostProcessorTests after its brief removal in r81
 ```sh
 $ git log --oneline -5 --author pwebb --before "Sat Aug 30 2014"
 
-5ba3db6 Fix failing CompositePropertySourceTests
-84564a0 Rework @PropertySource early parsing logic
-e142fd1 Add tests for ImportSelector meta-data
-887815f Update docbook dependency and generate epub
-ac8326d Polish mockito usage
+5ba3db6 Add automatic configuration with reasonable defaults
+84564a0 Improve stability of DateTime tests
+e142fd1 Set fixed Guava version from 16.0.* to 16.0.1
+ac8326d Polish mockito usage according to [best practices]
+2d30f32 Implement facebook authentication [FB-5332]
 ```
 ### -> [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
 ]
 ???
-How is clear from code.
+- How is clear from code.
+- When you see that given app version produces exceptions, Git logs will help you a lot.
+- Usually you need Gitlogs when you do not have much time. And when someone went to vacation.
 
 ---
 background-image:url(jenkins_pipeline.png)
@@ -488,6 +501,7 @@ class: center, middle
 Setting common ground: A unit tests is a test that exercises class. So unit is a class.
 
 ---
+.l30[
 # Unstable
 ### OS-specifics
 ### Wildcard dependency versions
@@ -495,6 +509,10 @@ Setting common ground: A unit tests is a test that exercises class. So unit is a
 ### System Time
 ### Asynchrony
 ### Concurrency
+]
+.r70[
+![](doppins_ex.png)
+]
 ???
 Wildcards - build becomes a lottery
 Refactor shared state - test scoping, passing parameters via methods, constructor...
@@ -1493,10 +1511,10 @@ class: manybulls
 ### xvfb
 ### [ievms](https://github.com/xdissent/ievms)
 ### browsersync
-### saucelabs
+### saucelabs / browserstack / aws device farm
 ### mitmproxy / mitmdump / tamper
 ## Stress Testing
-### gatling / load impact
+### gatling / loader.io / flood.io
 ### simian army
 ]
 .r50[
@@ -1518,6 +1536,7 @@ class: manybulls
 - mitmproxy - interactive / mitmdump - console app / tamper - DevTools extensions
 - circuit breaker - not only degrade in a dumb way, but switch from Sendgrid to Mailgun
 - stress testing on prod. Add prod capacity.
+- rate limiting can be on distributed client-side (Youtube)
 
 ---
 class: manybulls
@@ -1545,7 +1564,6 @@ class: manybulls
 ### regular devops get-togethers
 ### commitment language
 ### 80/20
-### redefine "done"
 ### reduce batching
 ### build quality in
 ]
