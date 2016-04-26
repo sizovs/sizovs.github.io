@@ -10,7 +10,7 @@
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
       @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
-      body { 
+      body {
         font-family: 'Yanone Kaffeesatz';
       }
 
@@ -64,7 +64,7 @@
       .condev {
         padding: 0;
       }
-      
+
       .spotify {
         background-color: white !important;
       }
@@ -107,6 +107,11 @@
         color: #2c5886;
       }
 
+      .officer {
+        background-position: right !important;
+        color: black
+      }
+
       .quote-author h3, .quote-author h2 {
         text-align: right;
       }
@@ -140,7 +145,7 @@
         background-color: black;
       }
 
-      .splash { 
+      .splash {
         position: absolute;
         right: 3em;
         bottom: 3em;
@@ -178,18 +183,18 @@
         width: 20%;
         float: left;
       }
-      
+
       .smelling-symptoms .right-column {
         width: 75%;
         float: right;
-      }      
+      }
 
       .packages pre {
         font-size: 2em;
       }
 
       .packages pre code {
-       font-size: 0.7em; 
+       font-size: 0.7em;
       }
 
       .packages pre strong {
@@ -212,30 +217,30 @@
       .fuckup .left-column {
         width: 8%;
         float: left;
-        vertical-align: top;        
+        vertical-align: top;
         text-align: center;
         background-color: #28c4c9;
         margin-right: 20px;
       }
-      
+
       .fuckup .right-column {
         width: 90%;
         float: right;
-      }      
+      }
 
       .fuckup .right-column h1 {
         margin-bottom: 0px;
-      }            
+      }
 
       .more .left-column {
         width: 55%;
         float: left;
       }
-      
+
       .more .right-column {
         width: 45%;
         float: right;
-      }      
+      }
 
       .trello {
         background-color: #0079bf !important;
@@ -243,12 +248,12 @@
 
       .equal-cols .left-column {
         width: 50%;
-        float: left;        
+        float: left;
       }
 
       .equal-cols .right-column {
         width: 50%;
-        float: right;        
+        float: right;
       }
 
       .thanks h1 {
@@ -270,7 +275,7 @@
 
       .mark h2 strong {
         color: white;
-      }      
+      }
     </style>
   </head>
   <body>
@@ -321,7 +326,7 @@ class: center, middle
 - Leam lead - once in a day
 - Ops did give support (review changes at end of Sprint)
 - devs continue on their own.
-- devs build pipeline and start deploying to production every day. 
+- devs build pipeline and start deploying to production every day.
 - they prepare a list of changes at the end of Sprint "because Ops wants so".
 - middle of week
 - production goes down (critical integration point)
@@ -372,17 +377,18 @@ class: center, middle
 # Lessons learned
 ## Since CD is primary a HUMAN system, ALIGNMENT is vital
 ## .fade[See the reason behind every denial]
-## .fade[Emphatize (work as an Ops guy for a week, pair-ops)]
+## .fade[Emphatize (spend a month in Ops, pair-ops, YBYR)]
 ## .fade[Compromise, don't go to the extreme on the first jump]
 ## .fade[Apply Beer-Driven Diplomacy]
 ???
-Ride the same bus. 
+- Ride the same bus.
+- pair-ops - both ops and dev go on duty
 
 ---
 # Lessons learned
 ## .fade[Since CD is primary a HUMAN system, ALIGNMENT is vital]
 ## See the reason behind every denial
-## .fade[Emphatize (work as an Ops guy for a week, pair-ops)]
+## .fade[Emphatize (spend a month in Ops, pair-ops, YBYR)]
 ## .fade[Compromise, don't go to the extreme on the first jump]
 ## .fade[Apply Beer-Driven Diplomacy]
 
@@ -390,7 +396,7 @@ Ride the same bus.
 # Lessons learned
 ## .fade[Since CD is primary a HUMAN system, ALIGNMENT is vital]
 ## .fade[See the reason behind every denial]
-## Emphatize (work as an Ops guy for a week, pair-ops)
+## Emphatize (spend a month in Ops, pair-ops, YBYR)
 ## .fade[Compromise, don't go to the extreme on the first jump]
 ## .fade[Apply Beer-Driven Diplomacy]
 
@@ -398,7 +404,7 @@ Ride the same bus.
 # Lessons learned
 ## .fade[Since CD is primary a HUMAN system, ALIGNMENT is vital]
 ## .fade[See the reason behind every denial]
-## .fade[Emphatize (work as an Ops guy for a week, pair-ops)]
+## .fade[Emphatize (spend a month in Ops, pair-ops, YBYR)]
 ## Compromise, don't go to the extreme on the first jump
 ## .fade[Apply Beer-Driven Diplomacy]
 
@@ -406,7 +412,7 @@ Ride the same bus.
 # Lessons learned
 ## .fade[Since CD is primary a HUMAN system, ALIGNMENT is vital]
 ## .fade[See the reason behind every denial]
-## .fade[Emphatize (work as an Ops guy for a week, pair-ops)]
+## .fade[Emphatize (spend a month in Ops, pair-ops, YBYR)]
 ## .fade[Compromise, don't go to the extreme on the first jump]
 ## Apply Beer-Driven Diplomacy
 
@@ -414,7 +420,7 @@ Ride the same bus.
 class: center, middle
 # Move Ops to cross-functional team as you do with QA.
 ???
-- Instead of delegating Ops duties (throwing over the wall) and building separate "Ops Team", give each team someone awesome at Ops. 
+- Instead of delegating Ops duties (throwing over the wall) and building separate "Ops Team", give each team someone awesome at Ops.
 
 ---
 class: spotify, middle, center
@@ -440,36 +446,37 @@ class: center, middle
 - In a dark room, tigers implement deployment pipeline using fancy frameworks while loser team having sex with legacy code and bugfixing.
 - Tigers go to losers and ask to make next deployment via pipeline
 - Losers refuse since they have different goals and no time "for playing games"
-- Tigers ask for manager's help. Together, they try to convince losers by gently setting deadline. 
-- Thanks to paid overtimes, losers give up. 
+- Tigers ask for manager's help. Together, they try to convince losers by gently setting deadline.
+- Thanks to paid overtimes, losers give up.
 - Rumors in the kitchen that managers values tigers more than losers.
-- Losers make deployment after 10 hot fixes introduced by tigers. Losers are making fun of tigers.
+- Losers make deployment after 100 of changes, fixes introduced by tigers. Pipeline reworked to suit looser's needs.
+- Losers are making fun of tigers.
 - Pipeline is green. Tigers are having a drink.
 - Losers are having a drink too - they celebrate the fact Tigers wasted 1 month of their life building this weird tool.
-- The next deployment is made in an old fashion, since team is more comfortable with it... Or just in spite of tigers.
-- The only team who maintains and loves pipeline is Tiger Team.
+- The next deployment is made in an old fashion, since team is more comfortable with it, IT WORK... Or just in spite of tigers.
+- Tigers charged the company 1K GBP per day per for work / tiger and leave.
 
 ---
 # Lessons learned
 ## Involve those affected by the change in the design of the change.
-## .fade[Over-utilized "slaves" can't do CD. "Tigers" will eventually fail.]
+## .fade[Over-utilized "slaves" can't do CD. Tigers will be hated.]
 ## .fade[CD is a journey, not a marathon.]
 
 
 ---
 # Lessons learned
 ## .fade[Involve those affected by the change in the design of the change.]
-## Over-utilized "slaves" can't do CD. "Tigers" will eventually fail.
+## Over-utilized "slaves" can't do CD. Tigers will be hated.
 ## .fade[CD is a journey, not a marathon.]
 ???
 - why we build tiger teams? Because we are not ready to give "slave" teams enough time. It's not gonna work.
-- instead of building tiger teams around UTILIZED slaves, give "slaves" 1/4 of their time, make them feel like tigers and coach them on CD. 
+- instead of building tiger teams around UTILIZED slaves, give "slaves" 1/4 of their time, make them feel like tigers and coach them on CD.
 - Overutilized teams can't do CD.
 
 ---
 # Lessons learned
 ## .fade[Involve those affected by the change in the design of the change.]
-## .fade[Over-utilized "slaves" can't do CD. "Tigers" will eventually fail.]
+## .fade[Over-utilized "slaves" can't do CD. Tigers will be hated.]
 ## CD is a journey, not a marathon.
 ???
 - why consultants can't implement continuous delivery (ok, solve problem, what's next?)
@@ -505,7 +512,7 @@ class: whitebg
 background-image:url(crack-ca-wall.png)
 class: whitebg
 ???
-it's very hard communicate (time overlap, california team). 
+it's very hard communicate (time overlap, california team).
 
 ---
 background-image:url(bringthepain.png)
@@ -528,7 +535,7 @@ class: story, middle, center
 ## Your team structure will override any architecture you have.
 ### (c) Jeffrey Sologov
 ???
-Check mate!!! 
+Check mate!!!
 
 ---
 class: whitebg
@@ -538,7 +545,7 @@ background-image:url(all-teams-on-single-codebase.png)
 class: whitebg
 background-image:url(uimwdb.png)
 ???
--- this one is worse!!! 
+-- this one is worse!!!
 -- can you ship features by solely doing changes in DB?
 
 ---
@@ -599,37 +606,37 @@ class: middle, fuckup
 ]
 .right-column[
 # Misunderstanding of Fundamental Principles
-## Because blindly following practices is not enough 
+## Because blindly following practices is not enough
 ]
 
 ---
-## Working in Mainline when branching is necessary
-## .fade[Deployment pipeline is in place, but inconsistent]
-## .fade[Buying expensive production-like environments for non-critical service testing]
+## Deployment pipeline is in place, but is inconsistent
+## .fade[Data migrations are tested. With 10 rows in SQLite]
+## .fade[100% unit/api/web test coverage vs. low MTTR / MMTD]
+## .fade[If somethings difficult or painful, do it more often (what if you're doing WRONG THING or doing THINGS WRONG?)]
+
+---
+## .fade[Deployment pipeline is in place, but is inconsistent]
+## Data migrations are tested. With 10 rows in SQLite
+## .fade[100% unit/api/web test coverage vs. low MTTR / MMTD]
 ## .fade[If somethings difficult or painful, do it more often (what if you're doing WRONG THING or doing THINGS WRONG?)]
 ???
-- Experiments that never needs to be merged back.
+Have we tested data migrations? Oh, we did! Go prod -> TRDDDDD!!!
 
 ---
-## .fade[Working in Mainline when branching is necessary]
-## Deployment pipeline is in place, but inconsistent
-## .fade[Buying expensive production-like environments for non-critical service testing]
+## .fade[Deployment pipeline is in place, but is inconsistent]
+## .fade[Data migrations are tested. With 10 rows in SQLite]
+## 100% unit/api/web test coverage vs. low MTTR / MMTD
 ## .fade[If somethings difficult or painful, do it more often (what if you're doing WRONG THING or doing THINGS WRONG?)]
 
 ---
-## .fade[Working in Mainline when branching is necessary]
-## .fade[Deployment pipeline is in place, but inconsistent]
-## Buying expensive production-like environments for non-critical service testing
-## .fade[If somethings difficult or painful, do it more often (what if you're doing WRONG THING or doing THINGS WRONG?)]
-
----
-## .fade[Working in Mainline when branching is necessary]
-## .fade[Deployment pipeline is in place, but inconsistent]
-## .fade[Buying expensive production-like environments for non-critical service testing]
+## .fade[Deployment pipeline is in place, but is inconsistent]
+## .fade[Data migrations are tested. With 10 rows in SQLite]
+## .fade[100% unit/api/web test coverage vs. low MTTR / MMTD]
 ## If somethings difficult or painful, do it more often (what if you're doing WRONG THING or doing THINGS WRONG?)
 
 ---
-background-image: url(condev.jpg) 
+background-image: url(condev.jpg)
 class: center, middle, condev
 ???
 My personal statistics: people who didn't read this book do obvious mistakes during their CD journey.
@@ -693,9 +700,9 @@ Linear relatinship between work-in-progress and average lead time. Increased lea
 
 ---
 class: center, middle, little
-Team has 32 cards in process (total WIP) and a throughput of 2 cards/day, 
+Team has 32 cards in process (total WIP) and a throughput of 2 cards/day,
 
-Average cycle time = **???** days 
+Average cycle time = **???** days
 
 ???
 16!!
@@ -740,7 +747,7 @@ class: middle, fuckup
 
 ---
 class: center, middle, story
-## Continuous Delivery is a software engineering approach in which teams keep producing **valuable** software in short cycles and ensure that the software can be reliably released at any time 
+## Continuous Delivery is a software engineering approach in which teams keep producing **valuable** software in short cycles and ensure that the software can be reliably released at any time
 ### (c) Wikipedia
 
 ---
@@ -758,29 +765,39 @@ class: middle, center
 # Value mining
 ## Genchi genbutsu
 ## .fade[Work closely with customer service team]
-## .fade[Experiment (MVP, A/B testing, pretotyping)]
+## .fade[Just build it!]
 ## .fade[Become a customer]
+???
+- Go and see how customers work. Understand what customers struggle with.
+- Do not trust anyone saying "this is important". Go and see yourself!
 
 ---
 # Value mining
 ## .fade[Genchi genbutsu]
 ## Work closely with customer service team
-## .fade[Experiment (MVP, A/B testing, pretotyping)]
+## .fade[Just build it!]
 ## .fade[Become a customer]
 
 ---
 # Value mining
 ## .fade[Genchi genbutsu]
 ## .fade[Work closely with customer service team]
-## Experiment (MVP, A/B testing, pretotyping)
+## Just build it!
 ## .fade[Become a customer]
+???
+- Don't wait for someone to ask you to build something, like customer or PO.
+- Build smth, ask customer whether he likes it. Just build it!!!
+- That's what I believe is called PRODUCTIVE PARTNERSHIP. Your fame and reputation in the org will grow fast!
 
 ---
 # Value mining
 ## .fade[Genchi genbutsu]
 ## .fade[Work closely with customer service team]
-## .fade[Experiment (MVP, A/B testing, pretotyping)]
+## .fade[Just build it!]
 ## Become a customer
+???
+- Sound crazy, but I know plenty of developers that do not use GREAT product they develop.
+- I don't even work there, but as a user I know their system better. Ridiculous!
 
 ---
 class: center, middle
@@ -829,14 +846,14 @@ background-image:url(deedee.jpg)
 ## it sure would be fun to use...
 ## Docker
 ## because...
-## everyone is using it 
+## everyone is using it
 
 ---
 background-image:url(deedee.jpg)
 ## it sure would be fun to use...
 ## Docker
 ## because...
-## everyone is using it 
+## everyone is using it
 ## and it opens new opportunities
 
 ---
@@ -850,7 +867,7 @@ background-image: url(marathon.png)
 
 ---
 class: center, middle
-# 1 month later... 
+# 1 month later...
 
 ---
 background-image:url(hydra.jpg)
@@ -860,7 +877,7 @@ background-image:url(hydra.jpg)
 background-image:url(hydra.jpg)
 class: story
 # Hydra was born
-## In Greek mythology, the Lernaean Hydra was an ancient serpent-like water monster with reptilian traits. **It possessed many heads – more heads than the vase-painters could paint – and for each head cut off it grew two more**. 
+## In Greek mythology, the Lernaean Hydra was an ancient serpent-like water monster with reptilian traits. **It possessed many heads – more heads than the vase-painters could paint – and for each head cut off it grew two more**.
 ???
 - They felt so small and totally out of control. Team became slave of the system.
 
@@ -879,7 +896,7 @@ background-image:url(lollypop.jpg)
 class: center, middle, story
 background-image:url(lollypop.jpg)
 ## [Trendy solutions] are like teenage sex.  Everyone is talking about it but few have actually done it.
-## Even if everyone is doing... doesn't mean you need to 
+## Even if everyone is doing... doesn't mean you need to
 
 ---
 class: center, middle, story
@@ -890,7 +907,7 @@ background-image:url(leaky.jpg)
 class: center, middle, story
 background-image:url(complexity.jpg)
 
-## **Complexitax** is the extra cost that you pay for accidental complexity introduced by a tool that does more than you need. 
+## **Complexitax** is the extra cost that you pay for accidental complexity introduced by a tool that does more than you need.
 ### (c) Neal Ford
 ???
 
@@ -899,7 +916,7 @@ background-image:url(complexity.jpg)
 class: center, middle, story
 ## Write down exactly what it is about the current stack that makes solving the problem prohibitively expensive and difficult.
 ???
-Rule: before you or someone adds new tools or frameworks. 
+Rule: before you or someone adds new tools or frameworks.
 - you will be surprised how little new things you really need and will avoid overproduction (important for CD)
 - Nothing opens more opportunities than simple, easy-to-understand solution (even if it's not fancy)
 
@@ -915,47 +932,56 @@ class: middle, fuckup
 ---
 background-image:url(cry.jpg)
 ## I don't keep up with testing!
+???
+WHY - tests are slow!
 
 ---
 background-image:url(cry.jpg)
 ## I don't keep up with testing!
 ## Working in trunk is stupid and dangerous idea.
+???
+WHY - you can't trust your tests, pipeline is crap!
+
 
 ---
 background-image:url(cry.jpg)
 ## I don't keep up with testing!
 ## Working in trunk is stupid and dangerous idea.
-## QA engineers have different manager, he will not understand.
+## Deployment is so annoying!
+???
+Of course it's annoying when you deployment involves carrying flash drives across the office!
+WHY - the most annoying operation must be PUSH of a button!
 
 ---
 background-image:url(cry.jpg)
 ## I don't keep up with testing!
 ## Working in trunk is stupid and dangerous idea.
-## QA engineers have different manager, he will not understand.
-## Deployment is so cumbersome.
+## Deployment is so annoying!
+## You really want me to talk to security officer?
+???
+- Just imagine security officer looks like these girl and go ahead!
+- I was looking for this picture in Coffee Shop yesterday, imagine people reaction :-)
+
+---
+class: officer
+background-color: white
+background-image:url(policeman.png)
+# CISSP®
+## Certified Information Systems Security Professional
 
 ---
 background-image:url(cry.jpg)
 ## I don't keep up with testing!
 ## Working in trunk is stupid and dangerous idea.
-## QA engineers have different manager, he will not understand.
-## Deployment is so cumbersome.
-## You really want me to talk to security officer? 
-
----
-background-image:url(cry.jpg)
-## I don't keep up with testing!
-## Working in trunk is stupid and dangerous idea.
-## QA engineers have different manager, he will not understand.
-## Deployment is so cumbersome.
-## You really want me to talk to security officer? 
+## Deployment is so annoying!
+## You really want me to talk to security officer?
 ## It doesn't work for us!
 
 ---
 class: center, middle
 # Continuous Delivery causes so many problems!
 ???
-CD puts a presure, but you crack. 
+CD puts a presure, but you crack.
 
 ---
 class: center, middle
@@ -974,8 +1000,8 @@ class: center, shadow, whitebg
 ![](leanenterprise.jpg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![](changetheworld.png)
 ???
-- In fact, you don't have to change the world. You have to start changing just your tiny company. 
-- And remember that inspiration comes during work not before it.
+- In fact, you don't have to change the world. You have to start changing just your tiny company.
+- your habits, and the way you work.
 
 
 ---
@@ -988,9 +1014,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(a
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
     </script>
     <script>
-      var slideshow = remark.create({ 
-            ratio: '16:9', 
-            slideNumberFormat: function (current, total) { return "" } 
+      var slideshow = remark.create({
+            ratio: '16:9',
+            slideNumberFormat: function (current, total) { return "" }
       });
     </script>
   </body>
