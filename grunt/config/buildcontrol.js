@@ -7,8 +7,10 @@ module.exports = {
   },
   pages: {
     options: {
-      remote: 'https://eduardsi:${GH_TOKEN}@github.com:eduardsi/eduardsi.github.io.git', 
+      remote: 'git@github.com:eduardsi/eduardsi.github.io.git',
       branch: 'master'
+      login: 'eduardsi'
+      token: '${GH_TOKEN}'
     }
   }
 }
