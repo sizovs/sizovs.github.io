@@ -2,5 +2,9 @@ language: node_js
 node_js:
   - '5.0.0'
 
-before_install: npm install -g grunt-cli@0.1.13 bower@1.6.5
-script: grunt deploy
+before_script:
+  - npm install -g grunt-cli@0.1.13
+  - npm install -g bower@1.6.5
+  - bower install
+script:
+  - grunt deploy
