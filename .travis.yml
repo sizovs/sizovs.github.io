@@ -1,10 +1,16 @@
-language: node_js
+language:
+  - node_js
 node_js:
-  - '5.0.0'
-
+  - 5.0.0
 before_script:
+  - git config --global user.email "nobody@nobody.io"
+  - git config --global user.name "Travis CI"
   - npm install -g grunt-cli@0.1.13
   - npm install -g bower@1.6.5
   - bower install -f
 script:
   - grunt deploy
+
+env:
+  global:
+  - secure: UM6di9J/sg0LFTAZG5xwjJ6SXk/JZjcai1qtq6UDcAT7IfsTERoQQa67TnL1lZQWS5U3VRtAV0m+JaDAnfP3aTI8+8KL0F7z6xiI9nLLE1/RZvBOWE0mpjeiw85Dr/qI1RyzAfluatcDiYHFo7U3/HLGg2qMjNqVNPgSZSmkjZ6jNAwBwvJJRUXfyrxL3BfiNqO2rN1uGKFudN0erUHbRY+MDOfOG/7WaTyuHOaxf9nEC4WeDR2HCB9w9Zv8NKYf8KivdBKqWCnwjZa9ebqutw1MLN0RujrsXHCt1mwUl8fHrlgTbNQw1X5EIiPgG1KmQn9CUdY9y6tYFA5Z8aECoIhhZ0YD96fjtjIfYsz3p8jXdsL/Q/QJ54RWV2usRkNosSqt1jQ4ZaxCmJ1tHDccjYtCrvQYOCCzBN53MS1DHsRhBuexk36qTzEGw4Cos/pzrshxcym6MoBJIhgBTgFEYijTES55v8dQAbrZhG82LkuxmfkOSHJEy+eQrjTzg/dKt4W9DlL25v0mx0SJ3pd1XhNE5LXZfd/GfAf8fnA7dsxJalEezEk3OTRJDeVHAVlKCSQYm4u+5yBlpu0KAG+pdvlP9bO3aKo4rrjsG+mKDe4wUwNFNAlsc1uZ7D/kozSPwgJGQjP8FrB/dYamHLsXOYJwon2V+QQY9cIcK9Yy0EY=
