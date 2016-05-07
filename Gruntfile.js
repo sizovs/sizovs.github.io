@@ -23,14 +23,6 @@ module.exports = function (grunt) {
     ]);
   });
 
-  grunt.registerTask('test', [
-    'clean:server',
-    'concurrent:test',
-    'autoprefixer',
-    'connect:test',
-    'karma'
-  ]);
-
   grunt.registerTask('build', [
     'clean:dist',
     'bower-install',
@@ -41,7 +33,7 @@ module.exports = function (grunt) {
     'ngmin',
     'copy:dist',
     'cdnify',
-    'cssmin', 
+    'cssmin',
     'uglify',
     'rev',
     'usemin',
@@ -55,7 +47,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'test',
     'build'
   ]);
 
@@ -63,7 +54,7 @@ module.exports = function (grunt) {
     var glob = require('glob');
     var object = {};
     var key;
-   
+
     glob.sync('*', {cwd: path}).forEach(function(option) {
       key = option.replace(/\.js$/,'');
       object[key] = require(path + option);
@@ -74,4 +65,3 @@ module.exports = function (grunt) {
   grunt.initConfig(configLoader('./grunt/config/'));
 
 };
-
