@@ -1355,6 +1355,15 @@ Cannot be stolen, as they do not exist before they are read! Every client has di
 - Cannot use secrets that require lease renewal (read on)
 
 ---
+background-image:url(meldium.png)
+
+---
+# Share access, not passwords!
+## - Okta
+## - OneLogin
+## - Dashlane
+
+---
 class: invert, black, center, middle
 # Dynamic infrastructure
 
@@ -1525,14 +1534,14 @@ class: manybulls
 ]
 .r50[
 ## Fault Tolerance
-### risk storming
 ### timeouts
-### circuit breakers / graceful degradation
-### bulkheads
-### handshaking / rate limiting
+### circuit breakers / bulkheads / handshakes / rate limiters
 ### cloudflare
 ### auto-scaling
 ### continuous security
+## Other
+### mailtrap
+### ngrok
 ]
 ???
 - Xvfb - in-memory display server
@@ -1542,7 +1551,7 @@ class: manybulls
 - mitmproxy - interactive / mitmdump - console app / tamper - DevTools extensions
 - circuit breaker - not only degrade in a dumb way, but switch from Sendgrid to Mailgun
 - stress testing on prod. Add prod capacity.
-- rate limiting can be on distributed client-side (Youtube)
+- rate limiting can be on distributed on client-side
 
 ---
 class: manybulls
