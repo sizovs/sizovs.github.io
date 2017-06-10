@@ -12,6 +12,9 @@
       h1, h2, h3 { font-family: 'Yanone Kaffeesatz'; font-weight: normal; }
       .back-h1 h1 { background-color: black; padding: 20px}
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-slide-content {
+        background-size: 100%;
+      }
       .black { background-color: black }
       .almostblack { background-color: #091513 }
       .invert { color: white; }
@@ -20,6 +23,7 @@
       .switcher h3 strong { color: black }
       .bad { background-color: #AA1914; color: white;}
       .oki { background-color: #3D9972; color: white;}
+      .bgh { background-size: auto 100%;}
 
       canvas.red { border: 3px solid red }
       canvas.whitebg {background-color: white}
@@ -89,21 +93,12 @@ background-image: url(devops_engineer.png)
 ---
 .l30.switcher[
 ### **DevOps**
-### Kanban
-### Continuous Integration
-### Continuous Testing
-### Continuous Delivery
-### Continuous Deployment
 ]
 
 ---
 .l30.switcher[
 ### DevOps
 ### **Kanban**
-### Continuous Integration
-### Continuous Testing
-### Continuous Delivery
-### Continuous Deployment
 ]
 ???
 - Kanban is a system for visualizing work (optimizing value stream via specific techniques)
@@ -113,9 +108,6 @@ background-image: url(devops_engineer.png)
 ### DevOps
 ### Kanban
 ### **Continuous Integration**
-### Continuous Testing
-### Continuous Delivery
-### Continuous Deployment
 ]
 
 ---
@@ -123,19 +115,7 @@ background-image: url(devops_engineer.png)
 ### DevOps
 ### Kanban
 ### Continuous Integration
-### **Continuous Testing**
-### Continuous Delivery
-### Continuous Deployment
-]
-
----
-.l30.switcher[
-### DevOps
-### Kanban
-### Continuous Integration
-### Continuous Testing
 ### **Continuous Delivery**
-### Continuous Deployment
 ]
 .r70[
 ## What?
@@ -158,7 +138,6 @@ background-image: url(devops_engineer.png)
 ### DevOps
 ### Kanban
 ### Continuous Integration
-### Continuous Testing
 ### Continuous Delivery
 ### **Continuous Deployment**
 ]
@@ -176,7 +155,9 @@ class: center, middle
 - custom development is uber expensive
 
 ---
-background-image:url(innovation.png)
+class:center, middle
+> ## .switcher[This book integrates into a compelling narrative the best current thinking about how to create great software-intensive products and services. The approach in this book is both challenging and disciplined, and **some organizations will be unable to imagine following this path. But those who make the journey will find it impossible to imagine ever going back—and if they happen to be a competitor, they are well positioned to steal both your market and your people**. Ignore this book at your own risk.]
+### **(c) Mary Poppendieck**
 
 ---
 class: center, middle
@@ -205,9 +186,9 @@ class: center, middle
 
 
 ---
-class:center, middle
-> ## .switcher[This book integrates into a compelling narrative the best current thinking about how to create great software-intensive products and services. The approach in this book is both challenging and disciplined, and **some organizations will be unable to imagine following this path. But those who make the journey will find it impossible to imagine ever going back—and if they happen to be a competitor, they are well positioned to steal both your market and your people**. Ignore this book at your own risk.]
-### **(c) Mary Poppendieck**
+class: bgh
+background-image:url(innovation.png)
+
 
 ---
 class: center, middle, splash
@@ -229,8 +210,8 @@ Easy to ensure - you just restrict deployment from local machines.
 background-image: url(pipeline_classic.png)
 ## All changes to production go through version control (from mainline!)
 ???
-- No release branches! No "quick fixes"!
-- RB evil - Bug fixing: you fix it twice. In different codebases. Do you write tests twice too?
+- No RBs! No "quick fixes"!
+- No RBs because of double bug fixing. In different codebases. Do you write tests twice too?
 - No releases from feature branches.
 
 ---
@@ -239,12 +220,14 @@ background-image: url(pipeline_classic.png)
 ???
 - Every build is potential release (vs. SNAPSHOT, BETA etc.)
 - means that your application is environment agnostic. No switches, Profiles etc.
+- DNS example (api.dev.events)
+- Configuration discovery
 
 ---
 background-image: url(pipeline_classic.png)
-## Test on production-like environment
+## Test on production-like environment (or TiP)
 ???
-Or test on production!
+- TiP - testing in production
 
 ---
 background-image: url(pipeline_classic.png)
@@ -258,21 +241,36 @@ class: center, middle, splash
 
 ---
 # Continuous Integration compliance checklist
+
+--
+
 ### 1. All developers push the code at least once a day (to Mainline)
+
+--
+
 ### 2. All developers run tests locally before pushing the code (and never push the code if tests fail)
+
+--
+
 ### 3. **Every change** results in a build and tests run
+???
+- not daily, every H. but every build!
+--
+
 ### 4. Developers never push the code if a build is broken (why the build is broken if #3 is true?)
+
+--
+
 ### 5. Build is **always** fixed within ten minutes of it going red
 ???
-- 2. not daily, every H. but every build!
-- 5. ABR - always be ready
+- ABR - always be ready
 
 ---
 class: center, middle, bad
 # I will work in a branch and sync with Mainline every day.
 ## (and push when my feature is ready)
 ???
-But what if no one pushes like you do?
+- But what if no else pushes? How do you sync with others?
 
 ---
 class: center, middle, bad
@@ -281,14 +279,34 @@ class: center, middle, bad
 ---
 # CI changes dynamics of a game
 ### - No painful merges (try aggressive refactoring w/o CI)
+
+--
+
 ### - Small increments (easier code review, more opportunities for pairing)
+
+--
+
 ### - Evergreen Mainline requires engineering rigor (TDD, preflight quality control)
+
+--
+
 ### - Feature branching becomes unnecessary (brings back synchronous code reviews)
+
+--
+
 ### - Faster feedback from Sheriff on Duty (SoD)
-### - Faster feedback from downstream quality gates (if any)
 ???
-- Not only SoD, but all workstreams can see and use your code - awesome!
-- One goal, extra care. If someone can release "in a special way", he doesn't care.
+- all workstreams can see and use your code - awesome!
+
+--
+
+### - Faster feedback from downstream quality gates
+
+---
+class: center, middle
+## The most controversial thing I say is that devs should work on trunk rather than feature branches... but I'm right.
+## (c) Jez Humble
+### https://twitter.com/jasonhand/status/860206341528354816
 
 ---
 class: center, middle
@@ -300,6 +318,11 @@ class: center, middle
 - We are OK with Git, but isolation is evil. We have to collaborate and integrate as often as we can.
 
 ---
+class: center, middle
+# Example pipeline:
+
+---
+class: bgh
 background-image:url(jenkins_pipeline.png)
 ???
 - Every version is release candidate
@@ -307,6 +330,7 @@ background-image:url(jenkins_pipeline.png)
 - We propagate the version to downstream jobs
 
 ---
+class: bgh
 background-image:url(jenkins_pipeline.png)
 <canvas width="300" height="400" class="red" />
 ???
@@ -336,22 +360,37 @@ class: black, invert
 background-image:url(toggles.png)
 # Use cases
 ### - Decoupling deployment from release
-### - Enabling feature for subgroup of users
-### - A/B testing
-### - Addition to circuit breaking
 ???
 - decoupling, then do smoke tests on prod (can be automatically)
-- QA, by region, 1%
-- Custom flipping strategies (e.g. release on specific date)
+
+--
+
+### - Enabling feature for subgroup of users
+???
+- QA, product owner
+
+--
+
+### - A/B testing
+???
+- by region, 1%
+
+--
+
+### - Addition to circuit breaking
+???
 - E.g. too much users, feature is disabled.
 
 ---
+class: bgh
 background-image:url(ff4j.png)
 ???
-Tracking feature usage
-Custom toggle flipping strategies (specific date)
+- Tracking feature usage
+- Custom toggle flipping strategies (specific date)
+- groups (enable many features in one go)
 
 ---
+class: bgh
 background-image:url(ff4j_console.png)
 
 ---
@@ -373,6 +412,13 @@ background-image:url(launchdarkly.png)
 - let's you define goals and measure the performance of your features
 
 ---
+background-image:url(split.png)
+
+---
+class: bad, invert, center, middle
+# Anti-pattern: Code Freeze Ceremony
+
+---
 class: bad, invert, center, middle
 # Anti-pattern: Feature Toggles introduce additional failure mode
 
@@ -390,7 +436,7 @@ class: center, middle, challenge
 
 ---
 class: center, middle
-# Rule: In Continuous Delivery there are no breaking changes
+# According to Continuous Delivery rules, there are no breaking changes.
 ???
 And no feature branches :-)
 
@@ -401,34 +447,42 @@ class: center, middle
 Instead of changing component...
 
 ---
+class: bgh
 background-image:url(bba.png)
 
 ---
+class: bgh
 background-image:url(bba2.png)
 
 ---
+class: bgh
 background-image:url(bba3.png)
 
 ---
+class: bgh
 background-image:url(bba4.png)
 
 ---
+class: bgh
 background-image:url(bba5.png)
 ???
 Large-scale refactoring done right
 
 
 ---
-class: center, middle
+class: center, middle, bgh
 background-image:url(strangler.png)
 
 ---
 class: center, middle
-# ?
-???
-What about changing an API?
+# What about changing APIs?
 
 ---
+class: center, middle
+# APIs, like diamonds, are forever.
+
+---
+class: bgh
 background-image:url(api_calendar.jpg)
 ???
 Calendar of API changes
@@ -488,11 +542,12 @@ ac8326d Polish mockito usage according to [best practices]
 - Usually you need Gitlogs when you do not have much time. And when someone went to vacation.
 
 ---
+class: bgh
 background-image:url(jenkins_pipeline.png)
 ???
 
----
-background-image:url(jenkins_pipeline.png)
+--
+
 <canvas width="380" height="400" class="red" />
 ???
 We have to run unit tests twice - before pushing the code, and then on CI.
@@ -501,27 +556,50 @@ We have to run unit tests twice - before pushing the code, and then on CI.
 class: center, middle
 # 6 Deadly Sins of A Unit Test
 ???
-Setting common ground: A unit tests is a test that exercises class. So unit is a class.
+Setting common ground: A unit tests is a test that exercises a unit. Sometimes unit is a single class, sometimes – composition of them.
 
 ---
-.l30[
-# Unstable
+# 1/6 Unstable
 ### OS-specifics
+
+--
+
 ### Wildcard dependency versions
-### Shared state in tests
-### System Time
-### Asynchrony
-### Concurrency
-]
-.r70[
-![](doppins_ex.png)
-]
 ???
-Wildcards - build becomes a lottery
-Refactor shared state - test scoping, passing parameters via methods, constructor...
+build becomes a lottery
+
+--
+
+### Shared state in tests
+???
+- test scoping, passing parameters via methods, constructor...
+- mark tests in a group
+
+--
+
+### System Time
+???
+- time mocking, time traveling (marking time travel tests)
+
+--
+
+### Asynchrony
+
+--
+
+### Concurrency
+???
+
 
 ---
 background-image:url(awaitility.png)
+???
+explicit waits, like in Selenium
+
+---
+
+class: bgh
+background-image:url(thread_weaver.png)
 
 ---
 class: middle, larger
@@ -560,9 +638,6 @@ public void testList() {
   assertThat(list.size(), is(1));
 }
 ```
-
----
-background-image:url(thread_weaver.png)
 
 ---
 class: middle, larger
@@ -604,7 +679,7 @@ public class FlawedList<T> extends ArrayList<T> {
 
 ---
 .l50[
-# Unreliable
+# 2/6 Unreliable
 ### No tests - bad
 ### Bad tests - even worse
 ]
@@ -620,23 +695,26 @@ background-image:url(pitest.png)
 
 ---
 .l50[
-# Slow
+# 3/6 Slow
 ### Implicit waiting
 ### Computation-intensive
-# Stupid
+
+# 4/6 Stupid
 ### Code coverage boosters
 ### Fuzzing
 ]
+
+--
+
 .r50[
-# Sequential
-### Shared state
-### &nbsp;
-# Sociable
+# 5/6 Sequential
+### Not designed for concurrency from day I
+### No time to build test grid
+# 6/6 Sociable
 ### Relying on concrete classes
 ### Relying on external systems
 ]
 ???
-CI - external module
 Sociable - we write the tests assuming everything other than that unit is working correctly.
 
 ---
@@ -781,7 +859,7 @@ class RedisBackedCacheTest {
 ```
 ???
 - Specific containers available
-- Can wrap your Mongo or Cassandra
+- Can wrap your Mongo, Cassandra or RabbitMQ
 
 ---
 background-image:url(wiremock.png)
@@ -826,20 +904,29 @@ stubFor(get(urlEqualTo("/delayed")).willReturn(
 - actually, we never do IT. For every service provider we create a test double.
 
 ---
+class: bgh
 background-image:url(mountebank.png)
 
 ---
-background-image:url(jenkins_pipeline.png)
+class: center, middle, splash
+# Acceptance Testing Stage
 
 ---
+class: bgh
 background-image:url(jenkins_pipeline.png)
+
+--
+
 <canvas width="300" height="200" class="red absolute" style="left: 620px; top: 120px" />
 ???
-- start/stop dependencies with tests w/o polluting the VM
+challenges:
+- start/stop dependencies with tests w/o polluting Jenkins vm with installations
 - run it as many times as I need, mb on different machines
-- run the same on dev machine
+- run the same on dev machine.
+- every dev has its own sandbox.
 
 ---
+class: bgh
 background-image:url(at_dependencies.png)
 
 ---
@@ -872,6 +959,7 @@ services:
 Good thing, since Docker can live on production.
 
 ---
+class: bgh
 background-image:url(docker_compose_up_redis.png)
 ???
 - spin up dependencies
@@ -922,16 +1010,20 @@ background-image:url(packer_docker_builder.png)
 background-image:url(sysdig.png)
 
 ---
-background-image:url(jenkins_pipeline.png)
-
+class: center, middle, splash
+# Build, promote, deploy
 
 ---
+class: bgh
 background-image:url(jenkins_pipeline.png)
+
+
+--
+
 <canvas width="650" height="200" class="red absolute" style="left: 450px; bottom: 150px" />
 ???
 - Why RPM - uberjars are usually enough, but once you have to distribute more files with JAR (e.g. init scripts)- you need an archive.
 - Ansible loves YUM!
-- Btw, in case of RPM, you don't have to build JAR inside. Package compiled classes.
 
 ---
 .l50[
@@ -949,7 +1041,7 @@ background-image:url(jenkins_pipeline.png)
 
 
 ---
-class: black
+class: black, bgh
 background-image:url(tree.png)
 
 ---
@@ -1008,8 +1100,8 @@ background-image:url(plug.png)
       supervisorctl: name=app state=stopped
 ```
 ???
+-- deploy one by one
 -- graceful shutdown!!! http request must be completed (Jetty, StatisticsHandler polling)
--  Amazon decides to ward off and destroy 37 racks randomly. :-))
 -- then we add node to HAPROXY and re-enable monitorning.
 
 ---
@@ -1024,32 +1116,51 @@ class: larger, middle
 - Ask.fm style deployment: pipeline step - deploy single node, deploy 50%, deploy the rest.
 
 ---
-.l70[
-### - bot: building **1.1.2** from commit [[add healtchecks](https://github.com/eduardsi/cucumber-3g/commit/fb60f27628b3eddbc81f94faf3a56ffa77692868)] by @eduardsi
-### - bot: **1.2.2** passed [commit stage]()
-### - bot: **1.2.2** passed [acceptance tests]()
-### - bot: **1.1.2** ready to be promoted to [exploratory testing]()
-### - $ promote 1.1.2
-### - bot: **1.1.2** is available at http://exploratory.app.io/1.1.2
-### - $ promote 1.1.2 --single 50% 100%
-]
-.r30[
-  ![](hubot.jpg)
-]
+class: center, middle
+# ChatOps
+![](hubot.jpg)
 
 ---
-.l70[
+
+### - bot: building **1.1.2** from commit [[add healtchecks](https://github.com/eduardsi/cucumber-3g/commit/fb60f27628b3eddbc81f94faf3a56ffa77692868)] by @eduardsi
+
+--
+
+### - bot: **1.2.2** passed [commit stage]()
+
+--
+
+### - bot: **1.2.2** passed [acceptance tests]()
+
+--
+
+### - bot: **1.1.2** ready to be promoted to [exploratory testing]()
+
+--
+
+### - $ promote 1.1.2
+
+--
+
+### - bot: **1.1.2** is available at http://exploratory.app.io/1.1.2
+
+### - $ promote 1.1.2 --single 50% 100%
+
+
+---
 ### - $ features list
 ### - bot: /facebook-registration (disabled)
 ###&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/twitter-registration (enabled, 100%)
+
+--
+
 ### - $ features enable facebook-registration 10%
+
+--
+
 ### - $ features list
 ### - bot: /facebook-registration (enabled 10%)
 ###&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/twitter-registration (enabled, 100%)
-]
-.r30[
-  ![](hubot.jpg)
-]
 
 ---
 class: medium
@@ -1068,7 +1179,7 @@ stderr_logfile=/var/log/app/stderr.log
 ```
 ???
 - PLEASE! Application must start with a reasonable defaults. Defaults must be printed out upon start into the log file!
-- Parameters that must be provided are well-documented. Not in documenent, but in code!
+- Parameters that must be provided are well-documented. Maybe wiki, ideally in code too.
 - Otherwise you start app, it crashes with NPEs, you pass param, wrong format etc.
 
 ---
@@ -1226,28 +1337,29 @@ People have Graylog and sit with open windows all day :-) Or watch logs after pr
 background-image:url(graylog_alert.png)
 ???
 - Streams and Alerts - e.g. one cash miss doesn't mean anything. 20% cache miss - ouch!
-- optimize for sleep: warning is warning, error is error (degrade grafecully, slow down). Distinguish between errors and CRITICAL errors.
+- optimize for sleep: warning vs. error (degrade grafecully, slow down, auto-scale) vs. critical (call admin)
 
 ---
+class: bgh
 background-image:url(jenkins_graylog_golive.png)
 
 ---
 background-image:url(gor.png)
 ???
-- single node can also be broken!
-- direct traffic to new node, then compare metrics with the production
+- single node can impact too many users...
+- start new node, clone traffic to new node, see exceptions, performance etc.
 
 ---
 background-image:url(fluentd_before.png)
 ???
-- Maxmind GeoIP databases
-- Sensu - OSS, plugins for java heap, slow queries. Provisionable, Used by Tesla!
-- Dashing - PROACTIVE vs. REACTIVE. You monitor trends (like CPU utilization, disk space, queue size). If CEO calls you - too late :-)
+- Sensu - OSS monitoring, provisionable! Used by Tesla!
+- Dashing - dashboards. PROACTIVE vs. REACTIVE. You monitor trends (like CPU utilization, disk space, queue size). If CEO calls you - too late :-)
 - S3 - How slow is is PayPal's API? How slow was PayPal's API yesterday?
-- Pingdom - your internal stuff is under firewall :-) Performance degradation from diff locations.
+- Pingdom story :-) Performance degradation from diff locations.
 
 
 ---
+class: bgh
 background-image:url(fluentd_logo.png)
 ???
 Fluentd has four key features that makes it suitable to build clean, reliable logging pipelines:
@@ -1272,11 +1384,12 @@ background-image:url(fluentd_example.png)
 background-image:url(sparse.png)
 
 ---
+class: bgh
 background-image:url(jenkins_pipeline.png)
 
----
+--
 class: right
-background-image:url(jenkins_pipeline.png)
+
 <canvas width="220" height="180" class="red absolute" style="left: 110px; top: 100px" />
 # Sensitive data?
 
@@ -1314,29 +1427,37 @@ class: center, middle
 - Takes time!
 
 ---
+class: bgh
 background-image:url(vault.png)
 ???
 Tool for managing secrets.
 
 ---
+class: bgh
 background-image:url(vault_before.png)
 
 ---
+class: bgh
 background-image:url(vault_before_hacked.png)
 
 ---
+class: bgh
 background-image:url(vault_after.png)
 
 ---
+class: bgh
 background-image:url(vault_after_hacked.png)
 
 ---
+class: bgh
 background-image:url(vault_after_revoked.png)
 
 ---
+class: bgh
 background-image:url(vault_dbmigrate.png)
 
 ---
+class: bgh
 background-image:url(vault_dbmigrate_token.png)
 ???
 - All secrets are dynamically generated and leased
@@ -1345,14 +1466,10 @@ background-image:url(vault_dbmigrate_token.png)
 
 ---
 class: center, middle
-## Our recommended approach to use Vault with any configuration manage tool is to move the secret retrieval and renewal into a runtime process instead of a build time process.
+## Our recommended approach to use Vault with any configuration management tool is to move the secret retrieval and renewal into a runtime process instead of a build time process.
 ###- [excerpt](https://www.hashicorp.com/blog/using-hashicorp-vault-with-chef.html) from Vault documentation
 ???
 Cannot be stolen, as they do not exist before they are read! Every client has different keys - wohoo.
-- Unable to handle lease revocation events
-- Unable to handle secret updates
-- Can easily become stale
-- Cannot use secrets that require lease renewal (read on)
 
 ---
 background-image:url(meldium.png)
@@ -1368,6 +1485,7 @@ class: invert, black, center, middle
 # Dynamic infrastructure
 
 ---
+class: bgh
 background-image:url(nginx_1.png)
 ???
 - autoscalign!!! sleep well at night :-) now auto-scale across AZs (multi-homed systems, always working)
@@ -1377,20 +1495,25 @@ background-image:url(nginx_1.png)
 background-image:url(consul.png)
 
 ---
+class: bgh
 background-image:url(nginx_2.png)
 ???
-if you devine healthchecks, consul will not return dead instances!
+if you define healthchecks, consul will not return dead instances!
 
 ---
+class: bgh
 background-image:url(nginx_3.png)
 
 ---
+class: bgh
 background-image:url(nginx_4.png)
 
 ---
+class: bgh
 background-image:url(nginx_5.png)
 
 ---
+class: bgh
 background-image:url(nginx_6.png)
 ???
 - Application is 100% configuration agnostic. All configuration is passed as environment variables.
@@ -1402,10 +1525,11 @@ background-image:url(12factor_env.png)
 The environment is right there. Use it.
 
 ---
+class: bgh
 background-image:url(jenkins_pipeline.png)
 
----
-background-image:url(jenkins_pipeline.png)
+--
+
 <canvas width="1000" height="150" class="red bottom" />
 
 ---
@@ -1459,6 +1583,7 @@ class: center, middle
 - Do you monitor Jenkins, as your apps? Disk space trends etc.
 - collect MMTR, MTTD metrics
 
+
 ---
 class: center, middle
 # Metadata survives the crash (build number, logs, history)
@@ -1511,6 +1636,7 @@ background-image:url(githubdown2016.png)
 2 hours
 
 ---
+class: bgh
 background-image:url(githubdown.png)
 ???
 1.2 hours.
@@ -1519,25 +1645,27 @@ background-image:url(githubdown.png)
 - GitLab
 
 ---
+background-image:url(gitlab.png)
+
+---
 class: manybulls
 .l50[
 ## Web Testing
-### phantomjs
+### phantomjs (headless chrome)
 ### xvfb
 ### [ievms](https://github.com/xdissent/ievms)
 ### browsersync
 ### saucelabs / browserstack / aws device farm
-### mitmproxy / mitmdump / tamper
+### mitmproxy
 ## Stress Testing
-### gatling / loader.io / flood.io
+### gatling / artillery.io / loader.io / flood.io
 ### simian army
 ]
 .r50[
 ## Fault Tolerance
-### timeouts
-### circuit breakers / bulkheads / handshakes / rate limiters
+### hystrix
 ### cloudflare
-### auto-scaling
+### (predictive) auto-scaling
 ### continuous security
 ## Other
 ### mailtrap
@@ -1546,9 +1674,6 @@ class: manybulls
 ???
 - Xvfb - in-memory display server
 - 69 GB of IE images
-- autoscaling can be predictive
-- cloudflare - ddos, ids, OWASP Core Rule Set against OWASP Top 10
-- mitmproxy - interactive / mitmdump - console app / tamper - DevTools extensions
 - circuit breaker - not only degrade in a dumb way, but switch from Sendgrid to Mailgun
 - stress testing on prod. Add prod capacity.
 - rate limiting can be on distributed on client-side
@@ -1559,10 +1684,10 @@ class: manybulls
 ### zero-time data migrations (flyway, [LHM](https://github.com/soundcloud/lhm), [pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/2.1/pt-online-schema-change.html), testing migrations on replica)
 ### immutable infrastructure (vagrant / vmware / ansible / serverspec / packer)
 ### terraform
+### dns simple
 ### serverless
-### consumer-driven contracts ([accurest](https://github.com/Codearte/accurest) in particular)
+### consumer-driven contracts ([spring cloiud contract](http://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html) in particular)
 ???
-- flyway has callbacks!
 - lhm works only on MySQL, based on Ruby's activerecord. Temporary tables + triggers!
 - VERY FUCKING TRICKY AND REQUIRES TESTIGN AND TUNING ON PARTICULAR DB ENGINES / VERSIONS!!!
 
@@ -1586,10 +1711,6 @@ class: manybulls
 ---
 class: center, middle
 # Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
-
----
-class: fullscreen
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/ZXsQAXx_ao0" frameborder="0" allowfullscreen></iframe>
 
 ---
 class: center, middle
@@ -1686,6 +1807,7 @@ class: center, middle
 Guidelines.
 
 ---
+class: bgh
 background-image:url(owasp.png)
 
 ---
@@ -1696,6 +1818,7 @@ class: center, middle
 background-image:url(zap-webdriver.png)
 
 ---
+class: bgh
 background-image:url(zap-checks.png)
 
 ---
