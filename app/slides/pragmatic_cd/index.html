@@ -436,7 +436,7 @@ class: center, middle, challenge
 
 ---
 class: center, middle
-# According to Continuous Delivery rules, there are no breaking changes.
+# According to Continuous Delivery rules, there should be no breaking changes.
 ???
 And no feature branches :-)
 
@@ -1381,9 +1381,6 @@ background-image:url(fluentd_example.png)
 - file must be kept in version contorl together with infrastructure
 
 ---
-background-image:url(sparse.png)
-
----
 class: bgh
 background-image:url(jenkins_pipeline.png)
 
@@ -1403,20 +1400,17 @@ The current repository was configured using transcrypt version 0.9.6
 and has the following configuration:
 
   CIPHER:   aes-256-cbc
-  PASSWORD: MEu5xyQ&G@/}:D\___1231aala4
+  PASSWORD: MEu5xyQ&G@/}:D\___1231aala
 
 Copy and paste the following command to initialize a cloned repository:
 
-  transcrypt -c aes-256-cbc -p 'MEu5xyQ&G@/}:D\___1231aala4'
+  transcrypt -c aes-256-cbc -p 'MEu5xyQ&G@/}:D\___1231aala'
 ```
 ???
 Jenkins should know the password. Stored securely under limited-access user. Actually, can be prompted during every Jenkins machine build.
 
 ---
 background-image:url(gitcrypt.png)
-
----
-background-image:url(keybase.png)
 
 ---
 class: center, middle
@@ -1662,14 +1656,15 @@ class: manybulls
 ### simian army
 ]
 .r50[
-## Fault Tolerance
+## Resilience
 ### hystrix
 ### cloudflare
 ### (predictive) auto-scaling
 ### continuous security
 ## Other
+### keybase
 ### mailtrap
-### ngrok
+### ngrok / localtunnel
 ]
 ???
 - Xvfb - in-memory display server
@@ -1686,7 +1681,7 @@ class: manybulls
 ### terraform
 ### dns simple
 ### serverless
-### consumer-driven contracts ([spring cloiud contract](http://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html) in particular)
+### consumer-driven contracts ([spring cloud contract](http://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html) in particular)
 ???
 - lhm works only on MySQL, based on Ruby's activerecord. Temporary tables + triggers!
 - VERY FUCKING TRICKY AND REQUIRES TESTIGN AND TUNING ON PARTICULAR DB ENGINES / VERSIONS!!!
@@ -1824,6 +1819,16 @@ class: center, middle
 ![](evil_stories.gif)
 ???
 Thinking like a bad guy.
+
+---
+# Books
+### - Continuous Delivery
+### - The Phoenix Project
+### - Lean Enteprise
+
+# Resources
+### - ThoughtWorks Technology Radar
+### - The State of DevOps Report
 
 ---
 class: center, middle
