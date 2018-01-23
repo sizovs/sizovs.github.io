@@ -1122,7 +1122,7 @@ class: center, middle
 
 ---
 
-### - bot: building **1.1.2** from commit [[add healtchecks](https://github.com/eduardsi/cucumber-3g/commit/fb60f27628b3eddbc81f94faf3a56ffa77692868)] by @eduardsi
+### - bot: building **1.2.2** from commit [[add healtchecks](https://github.com/eduardsi/cucumber-3g/commit/fb60f27628b3eddbc81f94faf3a56ffa77692868)] by @eduardsi
 
 --
 
@@ -1134,17 +1134,17 @@ class: center, middle
 
 --
 
-### - bot: **1.1.2** ready to be promoted to [exploratory testing]()
+### - bot: **1.2.2** ready to be promoted to [exploratory testing]()
 
 --
 
-### - $ promote 1.1.2
+### - $ promote 1.2.2
 
 --
 
-### - bot: **1.1.2** is available at http://exploratory.app.io/1.1.2
+### - bot: **1.2.2** is available at http://exploratory.app.io/1.2.2
 
-### - $ promote 1.1.2 --single 50% 100%
+### - $ promote 1.2.2 --single 50% 100%
 
 
 ---
@@ -1310,13 +1310,13 @@ background-image:url(metrics.png)
 ---
 <canvas width="600" height="80" class="red bottom" style="bottom: 80px" />
 .l70[
-### - bot: building **1.1.2** from commit [[add healtchecks](https://github.com/eduardsi/cucumber-3g/commit/fb60f27628b3eddbc81f94faf3a56ffa77692868)] by @eduardsi
+### - bot: building **1.2.2** from commit [[add healtchecks](https://github.com/eduardsi/cucumber-3g/commit/fb60f27628b3eddbc81f94faf3a56ffa77692868)] by @eduardsi
 ### - bot: **1.2.2** passed [commit stage]()
 ### - bot: **1.2.2** passed [acceptance tests]()
-### - bot: **1.1.2** ready to be promoted to [exploratory testing]()
-### - $ promote 1.1.2
-### - bot: **1.1.2** is available at http://exploratory.app.io/1.1.2
-### - $ promote 1.1.2 --single 50% 100%
+### - bot: **1.2.2** ready to be promoted to [exploratory testing]()
+### - $ promote 1.2.2
+### - bot: **1.2.2** is available at http://exploratory.app.io/1.2.2
+### - $ promote 1.2.2 --single 50% 100%
 ]
 .r30[
   ![](hubot.jpg)
@@ -1505,6 +1505,8 @@ background-image:url(nginx_4.png)
 ---
 class: bgh
 background-image:url(nginx_5.png)
+???
+Some values are hard-coded. The goal is for organizations of any size to use git as the backing store, audit trail, and access control mechanism for configuration changes and Consul as the delivery mechanism.
 
 ---
 class: bgh
@@ -1538,10 +1540,6 @@ class: center, middle
 ???
 - 3W
 - Means there are no manual changes, plugins installs via UI.
-
----
-class: center, middle, invert, bad
-# Golden Image
 
 ---
 class: larger
@@ -1664,14 +1662,13 @@ class: manybulls
 ## Other
 ### keybase
 ### mailtrap
+### let's encrypt
 ### ngrok / localtunnel
 ]
 ???
 - Xvfb - in-memory display server
 - 69 GB of IE images
-- circuit breaker - not only degrade in a dumb way, but switch from Sendgrid to Mailgun
-- stress testing on prod. Add prod capacity.
-- rate limiting can be on distributed on client-side
+- git pull directly from dev machines.
 
 ---
 class: manybulls
@@ -1683,8 +1680,7 @@ class: manybulls
 ### serverless
 ### consumer-driven contracts ([spring cloud contract](http://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html) in particular)
 ???
-- lhm works only on MySQL, based on Ruby's activerecord. Temporary tables + triggers!
-- VERY FUCKING TRICKY AND REQUIRES TESTIGN AND TUNING ON PARTICULAR DB ENGINES / VERSIONS!!!
+- immutable infrastructure protects against slowflake servers.
 
 ---
 class: manybulls
@@ -1709,7 +1705,7 @@ class: center, middle
 
 ---
 class: center, middle
-# Bonus chapter: Continuous Security
+# Continuous Security
 ???
 Emergent trend - SecDevOps
 
@@ -1807,10 +1803,6 @@ class: center, middle
 
 ---
 background-image:url(zap-webdriver.png)
-
----
-class: bgh
-background-image:url(zap-checks.png)
 
 ---
 class: center, middle
