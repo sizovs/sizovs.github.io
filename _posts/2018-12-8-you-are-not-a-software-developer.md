@@ -2,10 +2,11 @@
 layout: post
 title: You Are Not A Software Developer
 location: Riga, Latvia
-permalink: you-are-not-software-developer-but-a-problem-solver
 ---
 
-When I started my career in software development, I thought that my job is to write code. Every time my customer wanted a feature, my first solution was to code it. Over the years, I realized that sometimes writing code is not the best solution to the problem. Worse, more code produces more problems. 
+When I started my career in software development, I thought that my job is to write code. Every time my customer wanted a feature, my first solution was to code it. No questions asked. 
+
+Over the years, I realized that sometimes writing code is not the best solution to the problem. Worse, more code produces more problems. 
 
 Remember the universal law of software development?
 

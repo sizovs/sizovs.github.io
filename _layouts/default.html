@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} by {{ site.author }}</title>
 
     {% include meta.html %}
 
@@ -10,7 +10,7 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} by {{ site.author }}" href="{{ site.baseurl }}/feed.xml" />
     <link href="https://fonts.googleapis.com/css?family=Domine:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
@@ -37,8 +37,8 @@
         <i id="header-toggle" class="show-mobile fas fa-bars" onclick="show('header'); hide('header-toggle')"></i>
         <header id="header" class="masthead hide-mobile">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          <h2>Lifehacks for Developers</h2>
-          <h3><i>by Eduards Sizovs</i></h3>
+          <h2>{{site.title}}</h2>
+          <h3><i>by {{site.author}}</i></h3>
           <nav>
             <a href="/"><i class="fa fa-home"></i></a>
             <a href="{{ site.baseurl }}/about">About me</a>
