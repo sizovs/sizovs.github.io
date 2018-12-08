@@ -8,13 +8,14 @@ $blue: #4183C4;
 
 // Grays
 $black: #000;
+$emphasize: #FB6970;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
 $white: #fff;
-
 // Font stacks
+$primaryFont: "Domine", sans-serif;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
@@ -22,6 +23,12 @@ $georgia: Georgia, serif;
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1024px) {
     @content;
   }
 }

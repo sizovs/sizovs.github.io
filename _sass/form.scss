@@ -1,0 +1,41 @@
+input[type='email'], input[type='text']  {
+    font-family: $primaryFont;
+    font-size: 1em;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    background-image: none;
+    border: .05rem solid #bcc3ce;
+    border-radius: .2rem;
+    color: $darkGray;
+    display: block;
+    max-width: 100%;
+    outline: 0;
+    padding: 0.5em;
+    width: 100%;
+}
+
+input[type='submit'] {
+    cursor: pointer;
+    border: 1px solid $darkGray;
+    border-radius: .2rem;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+input[type='submit']:hover {
+    border: 1px solid $emphasize;
+}
+
+label {
+    display: block;
+    line-height: 1.2rem;
+    padding: .3rem 0;
+    margin-bottom: 0.5em;
+}
+
+.form-group {
+    margin-bottom: 2em;
+}

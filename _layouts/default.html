@@ -11,24 +11,39 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script>
+        function hide(eid) {
+          var item = document.getElementById(eid)
+          item.style.display = "none";
+        }
+
+        function show(eid) {
+          var item = document.getElementById(eid)
+          item.style.display = "block";
+        }              
+    </script>
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix">
+        <i id="header-toggle" class="show-mobile fas fa-bars" onclick="show('header'); hide('header-toggle')"></i>
+        <header id="header" class="masthead hide-mobile">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
+          <h2>Lifehacks for Developers</h2>
+          <h3><i>by Eduards Sizovs</i></h3>
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="/"><i class="fa fa-home"></i></a>
+            <a href="{{ site.baseurl }}/about">About me</a>
+            <a href="{{ site.baseurl }}/speaking">Speaking</a>
+            <a href="{{ site.baseurl }}/training">Training</a>
+            <a href="{{ site.baseurl }}/newsletter">Subscribe</a>
+            <a href="{{ site.baseurl }}/feed.xml"><i class="fas fa-rss"></i></a>
           </nav>
         </header>
       </div>
@@ -37,15 +52,6 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
     {% include analytics.html %}
   </body>
 </html>
