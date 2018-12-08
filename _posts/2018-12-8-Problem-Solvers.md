@@ -13,7 +13,7 @@ Remember the universal law of software development?
 
 Or
 
-> Errors = (more code)²
+> errors = (more code)²
 
 The more code you write, the more your team and the team after it has to maintain. More code leads to more complexity. Mode code leads to more bugs. 
 
