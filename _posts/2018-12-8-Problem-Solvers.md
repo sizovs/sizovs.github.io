@@ -57,4 +57,4 @@ If you don't know what to learn next — answer a simple question:
 
 > What skills can help my company make more money and reduce expenses?
 
-Very unlikely it's another web framework in JavaScript.
+Very unlikely it's another web framework written in JavaScript.
