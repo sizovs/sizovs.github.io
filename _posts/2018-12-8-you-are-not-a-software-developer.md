@@ -22,7 +22,7 @@ The more code you write, the more your team and the team after it has to maintai
 
 Writing well-tested, clean code takes a lot of time. When you're writing code, other important work is idle. The work that prevents your company from becoming rich. 
 
-A for-profit company wants to make money and reduce expenses. Then the company hires you to solve problems that prevent it from becoming rich. Confused by your job title, you take their money and turn it into expensive software. 
+A for-profit company wants to make money and reduce expenses. Then the company hires you to solve problems that prevent it from becoming rich. **Confused by your job title**, you take their money and turn it into expensive software. 
 
 But business has nothing to do about software. Even software business is not about software. Business is about making money.
 
