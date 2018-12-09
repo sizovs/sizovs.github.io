@@ -4,11 +4,11 @@ title: You Are Not A Software Developer
 location: Riga, Latvia
 ---
 
-When I started my career in software development, I thought that my job is to write code. Every time my customer wanted a feature, my first solution was to code it. No questions asked. 
+When I became a developer, I thought that my job is to write software. When my customer had a problem, I was ready to write software that solves that problem. I was taught to write software. 
 
-Over the years, I realized that sometimes writing code is not the best solution to the problem. Worse, more code produces more problems. 
+But what customers need is not software. They need a solution to their problem. Your job is to find the most cost-effective solution, what software often is not.
 
-Remember the universal law of software development?
+According to the universal law of software development, more code  leads to more bugs:
 
 > e = mc²
 
@@ -16,43 +16,47 @@ Or
 
 > errors = (more code)²
 
-The more code you write, the more your team and the team after it has to maintain. More code leads to more complexity. Mode code leads to more bugs. 
+The number of bugs grows with the amount of code. You have to prioritize, reproduce and fix bugs.
 
-While you're writing code, other important work is idle. Writing well-tested, clean code takes a lot of time. Coding is expensive. 
+The more code you write, the more your team and the team after it has to maintain. Even if you split the system into micro services, the complexity remains. 
 
-Because the code is expensive, you need to reduce the amount of produced code. But first, stop viewing yourself as a software developer.
+Writing well-tested, clean code takes a lot of time. When you're writing code, other important work is idle. The work that prevents your company from becoming rich. 
 
- > You are a problem solver.
+A for-profit company wants to make money and reduce expenses. Then the company hires you to solve problems that prevent it from becoming rich. Confused by your job title, you take their money and turn it into expensive software. 
 
-A for-profit company wants to make money and reduce expenses. Then the company hires you to solve problems that prevent it from becoming rich. 
-
-Stop thinking about code and features. Think about how to save and make money. 
-
-- Is testing slow? Become a tester. 
-- Is hiring not going well? Speak at a meetup and advertise your company.
-- Is your team not productive enough? Bring them coffee.
-
-Your job title doesn't matter. Ego doesn't matter either.
-
-Titles, roles, and responsibilities are distracting us from what matters to our customers. It's **money**.
-
+But business has nothing to do about software. Even software business is not about software. Business is about making money.
 
 <figure>
 <img src="/images/money.jpg">
 <figcaption>Photo by Pepi Stojanovski, taken from Unsplash</figcaption>
 </figure>
 
-**Your job is to understand how the company is making money, help it make more money and reduce expenses**. Once you know that, you will quickly become the most valuable asset in the company.
+**Your job is to understand how the company is making money, help make more money and reduce expenses**. Once you know that, you will become the most valuable asset in the company.
+
+ > Stop viewing yourself as a software developer. You are a money maker.
+
+Think about how to save and make money for your customers. Find the most annoying problem and fix it:
+
+- Is adding a new feature too costly? Solve the problem manually.
+- Is testing slow? Become a tester. 
+- Is hiring not going well? Speak at a meetup and advertise your company.
+- Is your team not productive enough? Bring them coffee.
+
+Your job title doesn't matter. Ego doesn't matter either. 
+
+Titles and roles are distracting us from what matters to our customers – **money**.  
 
 <hr>
 
-Thinking in money can help choose the next skill for development. For example:
+**You are a money maker**. Thinking as a money maker can help choose the next skill for development. For example:
 
-- **Serverless**: pay only for resources you consume, spend less time on capacity planning = 💰💰💰
+- **Serverless**: pay only for resources you consume, spend less time on capacity planning = 💰
 
-- **TDD**: shorter feedback cycle, fewer bugs = 💰💰💰
+- **Machine Learning**: get rid of manual decision-making = 💰
 
-- **Soft Skills**: inspire teammates, so they are more productive and happy = 💰💰💰
+- **TDD**: shorter feedback cycle, fewer bugs = 💰
+
+- **Soft Skills**: inspire teammates, so they are more productive and happy = 💰
 
 If you don't know what to learn next — answer a simple question:
 

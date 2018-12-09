@@ -91,16 +91,12 @@ h2 {
 }
 
 p {
-  // -webkit-font-smoothing: antialiased;
   line-height: 1.7em;
   margin-bottom: 1.7em;
-  // font-size: 20px;
 }
 
 a {
   color: $darkGray;
-  // text-decoration: none;
-  // font-weight: 700;
 	cursor: pointer;
   &:hover, &:active {
     color: $emphasize;
@@ -108,7 +104,8 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  line-height: 1.7em;
+  margin-bottom: 1.7em;  
   padding-left: 30px;
 }
 
