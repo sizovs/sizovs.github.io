@@ -104,6 +104,6 @@ Remember – frameworks, libraries and tools come and go. Time is precious.
 - ~~Microservices frameworks~~ Evolutionary Architecture
 - ~~New programming language~~ Clean Code, Design Patterns, DDD
 - ~~LeSS, SAFe~~ Lean manufacturing principles
-- ~~Hystryx~~ Fault Tolerance Patterns
+- ~~Hystrix~~ Fault Tolerance Patterns
 - ~~Docker~~ Continuous Delivery
 - ~~Angular~~ Web, HTTP and REST
