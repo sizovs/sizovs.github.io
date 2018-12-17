@@ -16,6 +16,6 @@ Training developers is a big part of my life. For me, the best way to learn is v
 
 ## Upcoming training
 
-[Lifehacks for Developers](https://lifehack.engineering) · 23–24 May, 2019 · Riga, Latvia
+[Lifehacks for Developers](http://lifehack.engineering) · 23–24 May, 2019 · Riga, Latvia
 
 I can run training on your premises, exclusively for your team. Ask me at [eduards@sizovs.net](mailto:eduards@sizovs.net). I will reply within 48 hours.
