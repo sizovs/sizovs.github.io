@@ -66,13 +66,14 @@ Mentor: "You'll thank me later."
 **This advice has changed my life**. I removed all framework books from [my bookshelf](https://www.goodreads.com/eduardsi). The guilt pile shrank from 50 to 0 books. What a relief!
 
 I bought a set of evergreen books. These books took 80% of my learning time:
+- [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
 - [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code)
 - [The Clean Coder](https://www.goodreads.com/book/show/10284614-the-clean-coder?ac=1&from_search=true)
 - [Domain-Driven Design](https://www.goodreads.com/book/show/179133.Domain_Driven_Design)
 - [Growing Object-Oriented Software, Guided by Tests](https://www.goodreads.com/book/show/4268826-growing-object-oriented-software-guided-by-tests)
 - [Continuous Delivery](https://www.goodreads.com/book/show/8686650-continuous-delivery)
 
-I also bought a single book on the current technology. **The Lindy effect** suggested that Spring Framework is a good investment:
+I also bought a single book on the current technology. **The Lindy effect** suggested that Spring Framework must be a good investment:
 
 > The future life expectancy of technology is proportional to its current age. Every extra period of survival implies a longer remaining life expectancy.
 
