@@ -80,7 +80,7 @@ The longer a technology is on the market, the safer investment it is.
 
 Don't rush to learn new technology – it has a high probability of dying. 
 
-Let will show which technology is worth investing. Time is your best advisor. Learn to wait.
+Time will show which technology is worth investing. Time is your best advisor. Learn to wait.
 
 ---
 
