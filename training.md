@@ -7,7 +7,7 @@ permalink: /training/
 # {{ page.title }}
 <hr>
 
-Training developers is a big part of my life. For me, the best way to learn is via face-to-face interaction, not online. This is why I organised 85 workshops for senior developers, architects and engineering leaders Worldwide.
+Training developers is a big part of my life. For me, the best way to learn is via face-to-face interaction, not online. That's is why I organized 85 workshops for senior developers, architects, and engineering leaders Worldwide.
 
 <figure>
 <img src="/images/training.jpg">
