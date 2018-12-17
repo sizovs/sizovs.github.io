@@ -46,7 +46,7 @@ Your job title doesn't matter. Ego doesn't matter either.
 
 Titles and roles are distracting us from what matters to our customers – **money**.  
 
-<hr>
+---
 
 **You are a money maker**. Thinking as a money maker can help choose the next skill for development. For example:
 
