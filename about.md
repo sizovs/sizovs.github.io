@@ -7,19 +7,19 @@ permalink: /about/
 # {{ page.title }}
 <hr>
 
-My name is Eduards Sizovs. I am programmer, trainer, speaker and a conference organiser. 
+My name is Eduards Sizovs. I am a programmer, trainer, speaker, and a conference organizer.
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2018, replying to an email.</figcaption>
 </figure>
 
-As a programmer, I've been doing commercial software development for 10 years. I quckly grew from a developer to architect, from architect to engineering manager. Then I quit full-time job and spent 3 years consulting CTOs in Riga and London. Thanks to Bitcoin and ~~luck~~ [lifehacks](/training), I retired early. Today, I develop my tech startup [DevTube](https://dev.tube) (#1 Hackernews, #3 ProductHunt). It's a hub for developer videos. 
+As a programmer, I've been doing commercial software development for 10 years. I quickly grew from a developer to architect, from architect to engineering manager. Then I quit the full-time job and spent 3 years consulting CTOs in Riga and London. Thanks to Bitcoin and ~~luck~~ [lifehacks](/training), I retired early. Today, I develop my tech startup [DevTube](https://dev.tube) (#1 Hackernews, #3 ProductHunt). It's a hub for developer videos. 
 
 As a trainer, [I teach developers practical lifehacks](/training).
 
-As a speaker, [I regularly appear on technical conferences and meetups](/speaking).
+As a speaker, [I regularly appear at technical conferences and meetups](/speaking).
 
-As a conference organiser, I lead [DevTernity](https://devternity.com). DevTernity is a mix of inspiring talks and practical workshops. No agile and marketing bullshit.
+As a conference organizer, I lead [DevTernity](https://devternity.com). DevTernity is a mix of inspiring talks and practical workshops. No agile and marketing bullshit.
 
 ## Email me
 
