@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Training
+title: Join training
 permalink: /training/
 ---
 

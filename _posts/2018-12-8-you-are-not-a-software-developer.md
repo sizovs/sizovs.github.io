@@ -8,6 +8,8 @@ When I became a developer, I thought that my job is to write software. When my c
 
 But what customers need is not software. They need a solution to their problem. Your job is to find the most cost-effective solution, what software often is not.
 
+---
+
 According to the universal law of software development, more code  leads to more bugs:
 
 > e = mc²

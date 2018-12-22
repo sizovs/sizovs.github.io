@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Public speaking
+title: Invite me
 permalink: /speaking/
 ---
 
@@ -24,16 +24,10 @@ Write me at [eduards@sizovs.net](mailto:eduards@sizovs.net). I will reply within
 
 ## Watch me
 
-### How we built DevTube (2018)
-This is a story about DevTube development, successes and failures.
-<div class="videoWrapper">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lojL7oDiaTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 ### Beyond Software Craftsmanship (2017)
 This talk provides you with secret career tricks.
 <div class="videoWrapper">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i6Dg5tvHNoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AEtCEt44vlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### 8 Things That Make Continuous Delivery Go Nuts (2016)

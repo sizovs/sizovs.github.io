@@ -6,9 +6,9 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <h6>{{ post.date | date: "%e %B %Y" }} · {% include read_time.html %}</h6>
+      <h6>{{ post.date | date: "%e %B %Y" }} · {% include read_time.html %} · <a class="commentCount" href="{{ site.url }}{{ post.url }}#disqus_thread">comments</a></h6>
       <div class="entry">
-        {{ post.excerpt }}
+        <p>{{ post.excerpt | strip_html }}</p>
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">continue...</a>
@@ -16,4 +16,5 @@ layout: default
 
     <hr>
   {% endfor %}
+  <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
 </div>

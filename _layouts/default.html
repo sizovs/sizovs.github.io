@@ -38,13 +38,20 @@
         <header id="header" class="masthead hide-mobile">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
           <h2>{{site.title}}</h2>
-          <h3><i>by {{site.author}}</i></h3>
+          <h3>
+            <i>
+              by {{site.author}}  
+              <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">
+                <i class="fab fa-twitter"></i>  
+              </a>
+            </i>
+          </h3>
           <nav>
             <a href="/"><i class="fa fa-home"></i></a>
             <a href="{{ site.baseurl }}/about">About me</a>
             <a href="{{ site.baseurl }}/speaking">Speaking</a>
             <a href="{{ site.baseurl }}/training">Training</a>
-            <a href="{{ site.baseurl }}/newsletter">Subscribe</a>
+            <a href="{{ site.baseurl }}/about#subscribeForm">Subscribe</a>
             <a href="{{ site.baseurl }}/feed.xml"><i class="fas fa-rss"></i></a>
           </nav>
         </header>
