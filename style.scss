@@ -22,6 +22,8 @@ body {
 	background: $white;
   font: 18px/1.4 $primaryFont;
   color: $darkGray;
+  min-height: 100%;
+  position: relative;
 }
 
 hr {
@@ -307,17 +309,6 @@ nav.share i {
 
 .post {
 
-  // p:nth-child(2):first-letter {
-  //   color: $emphasize;
-  //   float: left;
-  //   margin-right: 12px;
-  //   margin-top: 5px;
-  //   font-size: 70px;
-  //   font-weight: 700;
-  //   line-height: 70px;
-  //   text-transform: uppercase;
-  // }
-  
   blockquote {
     margin-top: 2.5em;
     margin-bottom: 2.5em;
@@ -342,10 +333,6 @@ nav.share i {
   }
 }
 
-footer {
-
-  text-align: center;
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
