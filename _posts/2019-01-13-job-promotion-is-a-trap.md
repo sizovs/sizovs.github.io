@@ -43,7 +43,7 @@ Remember:
 
 > Your current job title means nothing.
 
-The more the company needs you, the more tricks it will apply to keep you. The company will feed you with promises, loud job titles, and bonuses. But that's an illusion. No one cares about your career and safety. Job security is like Santa Claus – it does not exist. Your career and safety is your responsibility. 
+The more the company needs you, the it will do to keep you. The company will feed you with promises, loud job titles, and bonuses. But that's an illusion. No one cares about your career and safety. Job security is like Santa Claus – it does not exist. Your career and safety is your responsibility. 
 
 > Validate your seniority.
 
@@ -53,7 +53,7 @@ Even if you have a good job, attend job interviews often. At least 3 times in a 
 
 Getting a job in a small country is not the same as getting a job in London or Silicon Valley. Try places with developed IT market and high competition. You will know how demanded you are on the global market. 
 
-Attending job interview remotely, in a different country, is your testing environment. Your country is your production. Life-hack: you can change your LinkedIn location to London and buy a [disposable mobile number](https://hushed.com/). There are thousands of companies looking for developers.
+Attending job interview remotely, in a different country, is your testing environment. Your country is your production. Life-hack: you don't have to relocate or travel. Just change your LinkedIn location to London and buy a [disposable mobile number](https://hushed.com/). There are thousands of companies looking for developers.
 
 > Regular job interviews won't let you get trapped in a bubble.
 
