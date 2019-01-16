@@ -63,7 +63,7 @@ One day, getting a job in a highly-competitive Valley won't be a problem. You wi
 
 > Seniority is the number of job opportunities you have, not your current job title.
 
-Stop living in a bubble. Take a look around. **Schedule your next job interview today.**
+Stop living in a bubble. **Schedule your next job interview today.**
 
 <figure>
 <img src="/images/truman_free.jpg">
