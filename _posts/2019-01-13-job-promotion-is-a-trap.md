@@ -11,7 +11,7 @@ junior developer → developer → senior developer → principal developer → 
 
 With every unlocked achievement, we earn more $, and our social status grows. We are moving towards our dream. We are happy, and life is good.
 
-> But job promotion is a tool that employers use, so we stay at the company longer.
+> But job promotion is a tool that employers use, to make us stay at the company longer.
 
 ---
 
@@ -41,9 +41,9 @@ You start attending job interviews. After a series of devastating rejections, yo
 
 Remember:
 
-> Your current job title is a local measure.
+> Your current job title means nothing. It's just an internal measure.
 
-The more the company needs you, the more tricks it will apply to keep you stay. The company will feed you with promises, job titles, and bonuses. No one cares about your career and safety. Job security is like Santa Claus – it does not exist. Your career and safety is your responsibility. 
+The more the company needs you, the more tricks it will apply to keep you. The company will feed you with promises, loud job titles, and bonuses. But that's an illusion. No one cares about your career and safety. Job security is like Santa Claus – it does not exist. Your career and safety is your responsibility. 
 
 > Validate your seniority.
 
@@ -55,7 +55,7 @@ Getting a job in a small country is not the same as getting a job in London or S
 
 > Regular job interviews won't let you get trapped in a bubble.
 
-Job interviews will reveal a lack of technical, problem-solving or communication skills. With every interview, you learn, improve and become better. 
+Interviews will reveal a lack of necessary technical, problem-solving or communication skills. With every interview, you will learn, improve and become better. 
 
 One day, getting a job in a highly-competitive Valley won't be a problem. You will have many job opportunities. Job opportunities are essential, because
 
