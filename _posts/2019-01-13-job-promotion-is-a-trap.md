@@ -57,7 +57,7 @@ Use companies in a different country as a testing environment. Your country of l
 
 > Regular job interviews won't let you get trapped in a bubble.
 
-Interviews will reveal a lack of necessary technical, problem-solving or communication skills. With every interview, you will learn, improve and become better. 
+Interviews will reveal a lack of necessary technical, problem-solving or communication skills. With every interview, you will learn, improve and become better professional. 
 
 One day, getting a job in a highly-competitive Valley won't be a problem. You will have many job opportunities. Job opportunities are essential, because
 
