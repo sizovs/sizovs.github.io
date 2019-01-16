@@ -41,7 +41,7 @@ You start attending job interviews. After a series of devastating rejections, yo
 
 Remember:
 
-> Your current job title means nothing. It's just an internal measure.
+> Your current job title means nothing.
 
 The more the company needs you, the more tricks it will apply to keep you. The company will feed you with promises, loud job titles, and bonuses. But that's an illusion. No one cares about your career and safety. Job security is like Santa Claus – it does not exist. Your career and safety is your responsibility. 
 
