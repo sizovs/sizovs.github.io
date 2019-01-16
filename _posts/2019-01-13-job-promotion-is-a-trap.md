@@ -63,7 +63,7 @@ One day, getting a job in a highly-competitive Valley won't be a problem. You wi
 
 > Seniority is the number of job opportunities you have, not your current job title.
 
-Stop living in a bubble. **Don't be afraid to attend job interviews.** Job interviews have nothing to do with job seeking. Job interview helps us grow professionally.
+Stop living in a bubble. **Don't be afraid to attend job interviews.** Job interviews have nothing to do with job seeking. Job interviews help us grow professionally.
 
 <figure>
 <img src="/images/truman_free.jpg">
