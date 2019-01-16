@@ -32,7 +32,7 @@ What can go wrong?
 
 > The company goes out of business.
 
-You start attending job interviews. After a series of devastating rejections, you understand that you are not as good as you though. You are nothing. The money and social status you had is gone. For a long time, you were living inside the bubble:
+You start attending job interviews. After a series of devastating rejections, you understand that you are not as good as you thought. You are nothing. The money and social status you had is gone. For a long time, you were living inside the bubble:
 
 <figure>
 <img src="/images/truman.jpg">
