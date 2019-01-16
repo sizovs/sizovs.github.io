@@ -51,7 +51,9 @@ Even if you have a good job, attend job interviews often. At least 3 times in a 
 
 > Try different companies located in different countries.
 
-Getting a job in a small country is not the same as getting a job in London or Silicon Valley. Try places with developed IT market and high competition. You will know how demanded you are on the global market. Attending job interview remotely, in a different country, is your testing environment. Your country is your production.
+Getting a job in a small country is not the same as getting a job in London or Silicon Valley. Try places with developed IT market and high competition. You will know how demanded you are on the global market. 
+
+Attending job interview remotely, in a different country, is your testing environment. Your country is your production. Life-hack: you can change your LinkedIn location to London and buy a [disposable mobile number](https://hushed.com/).
 
 > Regular job interviews won't let you get trapped in a bubble.
 
