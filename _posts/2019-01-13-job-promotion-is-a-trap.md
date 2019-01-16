@@ -17,7 +17,7 @@ With every unlocked achievement, we earn more $, and our social status grows. We
 
 To make you stay at the company, employers must give you what you need – recognition and a sense of progress.
 
-To keep you happy, the promotion must be regular. Sooner or later, like in Mexico, all programmers in your company will become Señors. Reaching the highest rank is also not hard – **you just have to stay in a company longer than others**.
+To keep you happy, the promotion must be regular. Sooner or later, like in Mexico, all programmers in your company will become Señors. Reaching the highest rank is also not hard – **you just have to stay in the company longer than others**.
 
 <figure>
 <img src="/images/smykowski.jpg">
