@@ -51,7 +51,7 @@ Even if you have a good job, attend job interviews often. At least 3 times in a 
 
 > Try different companies located in different countries.
 
-Getting a job in a small country is not the same as getting a job in London or Silicon Valley. Try places with developed IT market and high competition. You will know how demanded you are on the global market. 
+Getting a job in a small country is not the same as getting a good job in London or Silicon Valley. Try places with developed IT market and high competition. You will know how demanded you are on the global market. 
 
 Use companies in a different country as a testing environment. Your country of living is your production environment. You don't have to relocate or travel. Change your LinkedIn location to London and buy a [disposable mobile number](https://hushed.com/). Voila! You are Londoner. There are thousands of companies looking for developers.
 
