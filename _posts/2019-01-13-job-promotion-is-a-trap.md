@@ -59,7 +59,7 @@ One day, getting a job in a highly-competitive Valley won't be a problem. You wi
 
 > The only measure of seniority is freedom. Freedom to decide what to do, for how much money, for what company, and whether to do something at all.
 
-Stop living in a bubble. **Don't be afraid to attend job interviews**. Regular job interviews won't let you get trapped in a bubble and give you direction for professional growth.
+Stop living in a bubble. Regular job interviews won't let you get trapped in a bubble and will facilitate professional growth.
 
 <figure>
 <img src="/images/truman_free.jpg">
