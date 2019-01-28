@@ -55,7 +55,7 @@ Use companies in a different country as a testing environment. Your country of l
 
 Interviews will reveal a lack of necessary technical, problem-solving or communication skills. With every interview, you will learn, improve and become better professional. 
 
-One day, getting a job in a highly-competitive Valley won't be a problem. You will have many job opportunities. Options equal freedom.
+One day, getting a job in a highly-competitive Valley won't be a problem. You will have many job opportunities and career options. Options equal freedom.
 
 > The only measure of seniority is freedom. Freedom to decide what to do, for how much money, for what company, and whether to do something at all.
 
