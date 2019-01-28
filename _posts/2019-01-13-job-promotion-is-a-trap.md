@@ -28,9 +28,7 @@ To keep you happy, the promotion must be regular. Sooner or later, like in Mexic
 
 Congratulations, you are Chief Software Architect. Your friends envy you, and your social status is high. To make things worse, the employer pays you 50% above the market average. Now you are happy to do tedious paperwork, attend meetings and draw boxes.
 
-What can go wrong?
-
-> The company goes out of business.
+Now imagine that the company goes out of business. **Or the company fires you**.
 
 You start attending job interviews. After a series of devastating rejections, you understand that you are not as good as you thought. You are nothing. The money and social status you had is gone. For a long time, you were living inside the bubble:
 
