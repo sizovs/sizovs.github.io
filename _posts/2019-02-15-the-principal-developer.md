@@ -27,6 +27,8 @@ Alex wasn't happy to hear that, so we quickly wrapped up our conversation. I fel
 <figcaption>© Moneyball (2011) by Bennett Miller</figcaption>
 </figure>
 
+---
+
 **I picked up a phone and dialed Andrey. Andrey is the CTO of the company:**
 
 Me: "Hey Andrey! Rumors say that you are looking for a principal developer. Why not just promote the most experienced developer from your team?"
