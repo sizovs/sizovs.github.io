@@ -4,7 +4,6 @@ title: Job Promotion Is a Trap
 location: Vilnius, Lithuania
 ---
 
-
 We love job promotion. The promotion gives us a sense of career progress:
 
 junior developer → developer → senior developer → principal developer → architect → senior architect → chief architect → CTO  →  CIO (Career Is Over).
