@@ -27,9 +27,7 @@ To keep you happy, the promotion must be regular. Sooner or later, like in Mexic
 
 Congratulations, you are Chief Software Architect. Your friends envy you, and your social status is high. To make things worse, the employer pays you 50% above the market average. Now you are happy to do tedious paperwork, attend meetings and draw boxes.
 
-What can go wrong?
-
-> The company goes out of business.
+Now imagine that the company goes out of business. **Or the company fires you**.
 
 You start attending job interviews. After a series of devastating rejections, you understand that you are not as good as you thought. You are nothing. The money and social status you had is gone. For a long time, you were living inside the bubble:
 
@@ -54,15 +52,13 @@ Getting a job in a small country is not the same as getting a good job in London
 
 Use companies in a different country as a testing environment. Your country of living is your production environment. You don't have to relocate or travel. Change your LinkedIn location to London and buy a [disposable mobile number](https://hushed.com/). Voila! You are Londoner. There are thousands of companies looking for developers.
 
-> Regular job interviews won't let you get trapped in a bubble.
-
 Interviews will reveal a lack of necessary technical, problem-solving or communication skills. With every interview, you will learn, improve and become better professional. 
 
-One day, getting a job in a highly-competitive Valley won't be a problem. You will have many job opportunities. Job opportunities are essential, because
+One day, getting a job in a highly-competitive Valley won't be a problem. You will have many job opportunities and career options. Options equal freedom.
 
-> Seniority is the number of job opportunities you have, not your current job title.
+> The only measure of seniority is freedom. Freedom to decide what to do, for how much money, for what company, and whether to do something at all.
 
-Stop living in a bubble. **Don't be afraid to attend job interviews.** Job interviews have nothing to do with job seeking. Job interviews help us grow professionally.
+Stop living in a bubble. Regular job interviews won't let you get trapped in a bubble and will facilitate professional growth.
 
 <figure>
 <img src="/images/truman_free.jpg">
