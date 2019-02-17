@@ -15,15 +15,16 @@ My name is Eduards Sizovs. I am a programmer, trainer, speaker, and a conference
 
 As a programmer, I've been doing commercial software development for 10 years. I quickly grew from a developer to architect, from architect to engineering manager. Then I quit the full-time job and spent 3 years consulting CTOs in Riga and London. 
 
-Thanks to Bitcoin and ~~luck~~ [lifehacks](/training), I retired early. Today, I develop my tech startup [DevTube](https://dev.tube) (#1 Hackernews, #3 ProductHunt). It's a hub for developer videos. 
+Today, [I train software developer](/training) and lead amazing [DevTernity](https://devternity.com) conference. Sometimes [I speak](/speaking) at conferences and meetups.
 
-I am the author of 📚[mustread.tech](https://mustread.tech). It's an open source and crowd-sourced book listing.
+I also contribute to open-source:
 
-As a trainer, I teach developers [practical lifehacks](/training).
+- 🍿 [DevTube](https://dev.tube) (#1 Hackernews, #3 ProductHunt) is a hub for developer videos.
 
-As a speaker, [I regularly appear](/speaking) at conferences and meetups.
+- 📚 [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
 
-As a conference organizer, I've been leading [DevTernity](https://devternity.com) since 2015. 
+- 🚀 [PipelinR](https://mustread.tech) is a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app.
+
 
 ## Email me
 
