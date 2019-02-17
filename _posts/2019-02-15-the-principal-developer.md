@@ -75,7 +75,7 @@ It could be eliminating delivery process bottlenecks, reducing operational expen
 
 > If your only tool is a hammer, then every problem looks like a nail.
 
-The more money makers a company has – the better. Behaviors a principal developer displays is the behaviors my company rewards and other developers mimic. That's why a principal developer must be **a trusted business partner in tech**. 
+The more money makers my company employs – the better. Behaviors a principal developer displays is the behaviors my company rewards and other developers mimic. That's why a principal developer must be **a trusted business partner in tech**. 
 
 Me (smiling): "With your requirements, you have just filtered out 99% of developers on the market, including Alex."
 
