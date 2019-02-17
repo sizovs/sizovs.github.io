@@ -13,7 +13,7 @@ My name is Eduards Sizovs. I am a programmer, trainer, speaker, and a conference
 <figcaption>It's me in 2018, replying to an email.</figcaption>
 </figure>
 
-As a programmer, I've been doing commercial software development for 10 years. I quickly grew from a developer to architect, from architect to engineering manager. Then I quit the full-time job and spent 3 years consulting CTOs in Riga and London. 
+As a programmer, I've been doing commercial software development for 13 years. I quickly grew from a developer to architect, from architect to engineering manager. Then I quit the full-time job and spent 3 years consulting CTOs in Riga and London. 
 
 Today, [I train software developer](/training) and lead amazing [DevTernity](https://devternity.com) conference. Sometimes [I speak](/speaking) at conferences and meetups.
 
