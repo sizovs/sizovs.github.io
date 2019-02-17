@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <h6>{{ post.date | date: "%e %B %Y" }} · {% include read_time.html %} · <a class="commentCount" href="{{ site.url }}{{ post.url }}#disqus_thread">comments</a></h6>
+      <h6>{{ post.date | date: "%e %B %Y" }} · {% include read_time.html content=post.content %} · <a class="commentCount" href="{{ site.url }}{{ post.url }}#disqus_thread">comments</a></h6>
       <div class="entry">
         <p>{{ post.excerpt | strip_html }}</p>
       </div>
