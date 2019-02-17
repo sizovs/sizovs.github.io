@@ -81,11 +81,9 @@ Me (smiling): "With your requirements, you have just filtered out 99% of develop
 
 Andrey: "**A principal developer is a professional who can make a significant impact on the organization**. Unfortunately, neither Alex nor 99% developers on the market can do that."
 
-Our industry needs more:
+Our industry needs:
 
-- ~~Smartasses~~ Mentors
-- ~~Coders~~ T-shaped professionals
-- ~~Silent complainers~~ Diplomatic communicators
-- ~~JIRA ticket closers~~ Business partners
-
-You can become one.
+- Fewer ~~smartasses~~, more **mentors**
+- Fewer ~~Coders~~, more **T-shaped professionals**
+- Fewer ~~Silent complainers~~, more **diplomatic communicators**
+- Fewer ~~JIRA ticket closers~~, more **business partners**
