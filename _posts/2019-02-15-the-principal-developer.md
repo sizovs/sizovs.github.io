@@ -71,7 +71,7 @@ The goal of any for-profit organization is money-making. Meanwhile, techies and 
 
 We need fewer coders and more [money makers](/2018/12/08/you-are-not-a-software-developer/). We need professionals, who understand the whole product development pipeline from concept to cash and contribute to the areas that produce maximum profits.
 
-Depending on a company, it could be eliminating delivery process bottlenecks, reducing operational expenses or even recruiting. **Occasionally, the maximum business impact is achievable with the help of a keyboard. But less often than most developers think.**"
+It could be eliminating delivery process bottlenecks, reducing operational expenses or even recruiting. **Occasionally, the maximum business impact is achievable with the help of a keyboard. But less often than most developers think.**"
 
 > If your only tool is a hammer, then every problem looks like a nail.
 
