@@ -29,7 +29,7 @@ Alex wasn't happy to hear that, so we quickly wrapped up our conversation. I fel
 
 ---
 
-**I picked up a phone and dialed Andrey. Andrey is the CTO of the company:**
+**I picked up a phone and dialed Andrey. Andrey is the CTO of the company.**
 
 Me: "Hey Andrey! Rumors say that you are looking for a principal developer. Why not just promote the most experienced developer from your team?"
 
@@ -75,7 +75,7 @@ Depending on a company, it could be eliminating delivery process bottlenecks, re
 
 > If your only tool is a hammer, then every problem looks like a nail.
 
-The more money makers a company has – the better. Behaviors a principal developer displays are a display of the behaviors my company rewards. That's why a principal developer must be **a trusted business partner in tech**. As a mentor, he will grow more developers that understand business.
+The more money makers a company has – the better. Behaviors a principal developer displays is the behaviors my company rewards and other developers mimic. That's why a principal developer must be **a trusted business partner in tech**. 
 
 Me (smiling): "With your requirements, you have just filtered out 99% of developers on the market, including Alex."
 
