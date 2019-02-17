@@ -15,9 +15,9 @@ My name is Eduards Sizovs. I am a programmer, trainer, speaker, and a conference
 
 As a programmer, I've been doing commercial software development for 13 years. I quickly grew from a developer to architect, from architect to engineering manager. Then I quit the full-time job and spent 3 years consulting CTOs in Riga and London. 
 
-Today, [I train software developers](/training) and lead amazing [DevTernity](https://devternity.com) conference (#3 in Europe)[https://itconference.top]. Sometimes [I speak](/speaking) at conferences and meetups.
+Today, [I train software developers](/training) and lead amazing [DevTernity](https://devternity.com) conference [#3 in Europe](https://itconference.top). Occasionally [I speak](/speaking) at conferences and meetups.
 
-I also contribute to open-source:
+I contribute to open-source:
 
 - 🍿 [DevTube](https://dev.tube) (#1 Hackernews, #3 ProductHunt) is a hub for developer videos.
 
