@@ -84,6 +84,6 @@ Andrey: "**A principal developer is a professional who can make a significant im
 Our industry needs:
 
 - Fewer ~~smartasses~~, more **mentors**
-- Fewer ~~Coders~~, more **T-shaped professionals**
-- Fewer ~~Silent complainers~~, more **diplomatic communicators**
+- Fewer ~~coders~~, more **T-shaped professionals**
+- Fewer ~~silent complainers~~, more **diplomatic communicators**
 - Fewer ~~JIRA ticket closers~~, more **business partners**
