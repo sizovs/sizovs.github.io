@@ -4,7 +4,7 @@ title: The Principal Developer
 location: Cancún, Mexico
 ---
 
-Yesterday I had a phone conversation with my ex-colleague Alex. Alex works as a software developer in a fast-growing international organization.
+Today I had a phone conversation with my ex-colleague Alex. Alex works as a software developer in a fast-growing international organization.
 
 Me: "How are things going?"
 
