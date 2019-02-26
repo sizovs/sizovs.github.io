@@ -23,7 +23,7 @@ I contribute to open-source:
 
 - 📚 [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
 
-- 🚀 [PipelinR](https://mustread.tech) is a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app.
+- 🚀 [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app.
 
 
 ## Email me
