@@ -143,6 +143,10 @@ figure {
   text-align: center;
 }
 
+.centered {
+  text-align: center;
+}
+
 img {
   max-width: 100%;
 }
@@ -277,18 +281,18 @@ nav {
     margin-left: 1em;
     font-weight: 600;
   }
+
+  a:first-child {
+    margin-left: 0;
+  }
 }
 
-nav.share {
-  text-align: center;
+.share i {
+  font-size: 2em;
 }
 
 .commentCount {
   text-transform: lowercase;
-}
-
-nav.share i {
-  font-size: 2em;
 }
 
 .posts > .post {
