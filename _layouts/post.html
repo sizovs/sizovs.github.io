@@ -9,7 +9,9 @@ layout: default
       {{ page.date | date: "%e %B %Y" }} · {{page.location}} · <a class="commentCount" href="{{ site.url }}{{ page.url }}#disqus_thread">comments</a>
   </h6>  
   {% endif %}
-  {% include share.html %}
+  <div class="centered">
+    {% include share.html %}
+  </div>
   <hr>
 
 
