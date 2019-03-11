@@ -107,6 +107,6 @@ The bigger impact you can make on the organization, the higher is your worth. Fo
 
 Use the balance wheel to identify your strenghts, weaknesses and competencies that require more attention than others.
 
-**Are your skills in balance?**
+**Are your skills in balance or you are The Imperial Star Destroyer?**
 
 [^leanBooks]: [Implementing Lean Software Development](https://mustread.tech/books/isbn/9780321437389) and [Lean From Trenches](https://mustread.tech/books/isbn/9781934356852).
