@@ -43,7 +43,7 @@ From now on, your primary responsibility will be reducing the professional gap b
 
 ### Mentoring skills
 
-With your remarkable technical skills you can do everything yourself, strictly police all code commits, hijack the architecturally significant tasks and let others do only HTML and CSS. Eventually, you will become the bottleneck and put the company at risk due to [the bus factor](https://en.wikipedia.org/wiki/Bus_factor).
+With your remarkable technical skills you can do all work yourself, strictly police all code commits, hijack the architecturally significant tasks and let others do only HTML and CSS. Eventually, you will become the bottleneck and put the company at risk due to [the bus factor](https://en.wikipedia.org/wiki/Bus_factor).
 
 > The principal developer must reduce the professional gap between teammates.
 
