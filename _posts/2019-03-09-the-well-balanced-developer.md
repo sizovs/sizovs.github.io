@@ -8,6 +8,8 @@ It's not a secret that some developers are worth more than others. That's all be
 
 > The bigger impact you can make on the organization, the higher is your worth.
 
+---
+
 To make an impact, [the principal developer](2019/02/15/the-principal-developer/) keeps 5 essential skills in balance:
 
 * Technical skills
