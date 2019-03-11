@@ -35,7 +35,7 @@ At the beginning of career, technical skills are the most important and should b
 
 You will learn about clean code, design patterns, and extreme programming. After years of deliberate practice, you'll be able to ship software features fast and with high quality. You'll start noticing and fixing the mess introduced by less experienced developers.
 
-You will continue pumping technical muscles. That will further increase **the professional gap** between your and your teammates. You’ll start complaining about your teammates because they do not meet your expectations and their code sucks.
+The faster you pump technical muscles, the bigger will be **the professional gap** between your and your teammates. Soon you’ll start complaining about your teammates because they do not meet your expectations and their code sucks.
 
 Congratulations. You have reached a major career milestone.
 
