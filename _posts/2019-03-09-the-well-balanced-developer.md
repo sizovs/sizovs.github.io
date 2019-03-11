@@ -75,7 +75,7 @@ Developers are the best candidates for intrapreneurship because no one else in t
 
 ![developers, developers, developers](/images/developers_developers.jpg)
 
-**Let me tell you a short story**. Once I wanted to build a fancy dashboard for one of the projects. My team leader didn’t buy it, so I coded a barely working prototype in my spare time. Thanks to caffeine, it took me only 20 hours. I showed the prototype to the customers and, to my surprise, they liked it. They allowed me to devote half of my working time for my project and use tools of my choice. I became the exception to some corporate policies, did not have to fill timesheets, could dictate my rules of the game and wear slippers. I got the full Corporate Bullshit Immunity (CBI). So can you.
+**Let me tell you a short story**. Once I wanted to build a fancy dashboard for one of the projects. My team leader didn’t buy it, so I coded a barely working prototype in my spare time. Thanks to caffeine, it took me only 20 hours. I showed the prototype to the customers and, to my surprise, they liked it. They allowed me to devote half of my working time for the project and use tools of my choice. I became the exception to some corporate policies, did not have to fill timesheets, could dictate my rules of the game and wear slippers. I got the full Corporate Bullshit Immunity (CBI). So can you.
 
 **You don't need to ask permission to innovate**. Just do it! Grab a lunchbox, open your mac, build a prototype, invite top management, make a nice demo, ask for funding. Even if you get no funding, business people will stop treating you as a geek. You are now part of the business family. It's time to learn how to play golf.
 
