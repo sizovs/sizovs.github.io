@@ -61,7 +61,7 @@ You can grow an army of super-skilled developers, but they won’t perform well 
 
 A small change to the process can multiply the throughput and productivity of the organization. By understanding development processes and their optimization, you can make a significant organization impact and become a hero.
 
-> The principal developer understands and optimizes development process from concept to cash.
+> The principal developer must optimize development process from concept to cash.
 
 Most developers believe that process optimization is not their responsibility. Don't you see the opportunity? Learn the principles of Lean software development [^leanBooks], acquire unique skills, take your money and run.
 
@@ -81,7 +81,7 @@ Developers are the best candidates for intrapreneurship because no one else in t
 
 Your mentoring skills mixed with business skills can turn the whole team into innovation machine. I can't imagine a bigger organization impact.
 
-> The principal developer turns the team into business innovation machine.
+> The principal developer must turn the team into business innovation machine.
 
 ![The Balance Wheel (Technical, Mentoring, Process and Business)](/images/wheelBusiness.png)
 
