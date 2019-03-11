@@ -10,7 +10,7 @@ It's not a secret that some developers are worth more than others. That's all be
 
 ---
 
-To make an impact, [the principal developer](2019/02/15/the-principal-developer/) keeps 5 essential skills in balance:
+To make an impact on the organization, [the principal developer](2019/02/15/the-principal-developer/) keeps 5 essential skills in balance:
 
 * Technical skills
 * Mentoring skills
