@@ -33,7 +33,7 @@ You can see a major disbalance and skew towards technical skills. The balance wh
 
 In the beginning of your career, technical skills are the most important and should be your primary focus.
 
-While completing assigned tasks, you will learn about clean code, design patterns, and extreme programming. After years of practice, you’ll be able to ship software features fast and with high quality. You’ll start noticing and fixing the mess introduced by less experienced developers.
+While completing assigned tasks, you will by learning clean code, design patterns, and extreme programming. After years of practice, you’ll be able to ship software features fast and with high quality. You’ll start noticing and fixing the mess introduced by less experienced developers.
 
 The faster you'll pump the technical muscles, the bigger will be **the professional gap** between your and your teammates. Soon you’ll start complaining about your teammates because they do not meet your expectations and their code sucks.
 
