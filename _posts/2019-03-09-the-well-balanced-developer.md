@@ -89,7 +89,7 @@ Your mentoring skills mixed with business skills can turn the whole team into in
 
 Last but not less important is communication – the cornerstone of five skills. Unless you are the creator of Git and Linux, lack of diplomatic communication skills is unforgivable.
 
-**Developers are masters of water cooler complaints.**. That's why the demand for diplomatic communicators has always been higher than the supply. By learning to negotiate scope with product owners, discussing project risks with customers, bridging the gap between technical and business people you gain skills will make you stand out from the crowd. Skills that never go out of date.
+**Developers are masters of complaining next to the water cooler**. That's why the demand for diplomatic communicators has always been higher than the supply. By learning to negotiate scope with product owners, discussing project risks with customers, bridging the gap between technical and business people you gain skills will make you stand out from the crowd. Skills that never go out of date.
 
 The only way to improve communication is to communicate a lot. Hang out with non-technical people. When at home, talk less about work. Use every opportunity to speak in front of the audience.
 
