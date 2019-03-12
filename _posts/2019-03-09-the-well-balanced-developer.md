@@ -4,19 +4,15 @@ title: The Well-Balanced Developer
 location: Riga, Latvia
 ---
 
-It's not a secret that some developers are worth more than others. That's all because some developers can make a significant organization impact, whereas others can’t.
-
-> The bigger impact you can make on the organization, the higher is your worth.
-
----
-
-To make an impact on the organization, [the principal developer](2019/02/15/the-principal-developer/) keeps 5 essential skills in balance:
+Some developers are worth more than others. The bigger impact you can make on the organization, the higher is your worth. To make a significant impact on the organization, developer must keeps 5 essential skills in balance:
 
 * Technical skills
 * Mentoring skills
 * Process Organization skills
 * Business skills
 * Communication skills
+
+---
 
 Sometimes I ask [my trainees](https://principal.dev) to measure their proficiency in each area from 0 to 10. Then we plot results on **the balance wheel**. I yet to find a developer who will draw a shape other than The Imperial Star Destroyer:
 
@@ -31,25 +27,25 @@ You can see a major disbalance and skew towards technical skills. The balance wh
 
 ### Technical skills
 
-In the beginning of your career, technical skills are the most important and should be your primary focus.
+In the beginning of your career, technical skills are the most important.
 
-While completing assigned tasks, you will be learning clean code, design patterns, and extreme programming. After years of practice, you’ll be able to ship software features fast and with high quality. You’ll start noticing and fixing the mess introduced by less experienced developers.
+You will learn about clean code, design patterns, and eXtreme Programming. After years of practice, you’ll be able to ship software features fast and with high quality. You’ll start noticing and fixing the mess introduced by less experienced developers.
 
-The faster you'll pump the technical muscles, the bigger will be **the professional gap** between your and your teammates. Soon you’ll start complaining about your teammates because they do not meet your expectations and their code sucks.
+> The faster you pump the technical muscles, the wider become the professional gap between your and your teammates.
 
-Congratulations. You have reached a major career milestone.
+Soon you’ll start complaining about teammates because they do not meet your expectations and their code sucks.
 
-From now on, your primary responsibility will be reducing the professional gap between teammates.
+With your remarkable technical skills you can do all work yourself, strictly police code commits, hijack the architecturally significant tasks and let others do only HTML and CSS. Eventually, you will become the bottleneck and put the company at risk due to [the bus factor](https://en.wikipedia.org/wiki/Bus_factor):
+
+![Ths Bus Factor](/images/bus_factor.jpg)
 
 ### Mentoring skills
 
-With your remarkable technical skills you can do all work yourself, strictly police all code commits, hijack the architecturally significant tasks and let others do only HTML and CSS. Eventually, you will become the bottleneck and put the company at risk due to [the bus factor](https://en.wikipedia.org/wiki/Bus_factor).
+Congratulations on your major career milestone! From now on, your primary responsibility is reducing the professional gap between teammates. Until you shrink the gap, you have to switch focus from individual contribution to mentoring.
 
-> The principal developer must reduce the professional gap between teammates.
+> Software developer must reduce the professional gap between teammates.
 
 Mentoring and building an A-class team requires certain skills. The brightest technical minds are often the worst mentors because dealing with irrational people is harder than feeding computers with instructions. A good mentor must gain trust, inspire, give constructive feedback, understand when to push harder and when to back off.
-
-Until you shrink the professional gap between you and teammates, you have to switch focus from individual contribution to mentoring.
 
 For me, the hardest part was to stop being an individual contributor. Gone are the days when I could proudly say "I shipped features A, B, and C... 💪". Most of the time I am saying "I am working on feature A with Alex and feature B with Kate."
 
@@ -59,9 +55,11 @@ For me, the hardest part was to stop being an individual contributor. Gone are t
 
 You can grow an army of super-skilled developers, but they won’t perform well if the process sucks. A good process multiplies performance, makes customers happy and competitors envy.
 
-A small change to the process can multiply the throughput and productivity of the organization. By understanding development processes and their optimization, you can make a significant organization impact and become a hero.
+A small change to the process can multiply the throughput and productivity of the organization. Developers who understand Little's Law can optimize development process from concept to cash. They wear polo t-shirts and play golf with the top management.
 
-> The principal developer must optimize development process from concept to cash.
+<p style="text-align: center">
+    <img src="/images/little.png" style="width: 60%" alt="Little's Law">
+</p>
 
 Most developers believe that process optimization is not their responsibility. Don't you see the opportunity? Learn the principles of Lean software development [^leanBooks], acquire unique skills, take your money and run.
 
@@ -69,7 +67,7 @@ Most developers believe that process optimization is not their responsibility. D
 
 ### Business skills
 
-Most developers work on existing products and implement someone else's ideas. When ideas become boring, we are dreaming about building our product. But you don’t need to become an entrepreneur and leave the company to work on cool stuff. **An intrapreneur is a person who behaves like an entrepreneur while working in an organization**.
+Most developers implement someone else's ideas. When ideas become boring, you start dreaming about building your our product. But you don’t need to become an entrepreneur and leave the company to work on cool stuff. **An intrapreneur is a person who behaves like an entrepreneur while working in an organization**.
 
 Developers are the best candidates for intrapreneurship because no one else in the company can build a product without help.
 
@@ -81,7 +79,7 @@ Developers are the best candidates for intrapreneurship because no one else in t
 
 Your mentoring skills mixed with business skills can turn the whole team into innovation machine. I can't imagine a bigger organization impact.
 
-> The principal developer must turn the team into business innovation machine.
+> Software developer must turn the team into business innovation machine.
 
 ![The Balance Wheel (Technical, Mentoring, Process and Business)](/images/wheelBusiness.png)
 
