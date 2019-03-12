@@ -61,7 +61,7 @@ A small change to the process can multiply the throughput and productivity of th
     <img src="/images/little.png" style="width: 60%" alt="Little's Law">
 </p>
 
-Most developers believe that process optimization is not their responsibility. Don't you see the opportunity? Learn the principles of Lean software development [^leanBooks], acquire unique skills, take your money and run.
+Most developers think that process optimization is not their responsibility. Don't you see the opportunity? Learn the principles of Lean software development [^leanBooks], acquire unique skills, take your money and run.
 
 ![The Balance Wheel (Technical, Mentoring and Process)](/images/wheelProcess.png)
 
