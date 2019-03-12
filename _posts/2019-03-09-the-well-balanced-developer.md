@@ -41,7 +41,7 @@ With your remarkable technical skills you can do all work yourself, strictly pol
 
 ### Mentoring skills
 
-Congratulations on your major career milestone! From now on, your primary responsibility is reducing the professional gap between teammates. Until you shrink the gap, your focus must be mentoring rather than individual contribution.
+Congratulations on your major career milestone! From now on, your primary responsibility is reducing the professional gap between teammates. Until you shrink the gap, your focus must be on mentoring rather than individual contribution.
 
 > Software developer must reduce the professional gap between teammates.
 
