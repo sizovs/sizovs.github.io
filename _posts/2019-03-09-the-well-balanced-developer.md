@@ -79,7 +79,7 @@ Developers are the best candidates for intrapreneurship because no one else in t
 
 Your mentoring skills mixed with business skills can turn the whole team into innovation machine. I can't imagine a bigger organization impact.
 
-> Software developer must turn the team into business innovation machine.
+> Software developer must turn the team into innovation machine.
 
 ![The Balance Wheel (Technical, Mentoring, Process and Business)](/images/wheelBusiness.png)
 
@@ -89,7 +89,14 @@ Last but not less important is communication – the cornerstone of five skills.
 
 **Developers are masters of water cooler ~~conversations~~ complaints**. That's why the demand for diplomatic communicators has always been higher than the supply. By learning to negotiate scope with product owners, discussing project risks with customers, bridging the gap between technical and business people you gain **rare skills that never go out of date**.
 
-The only way to improve communication is to communicate a lot. Hang out with non-technical people. When at home, talk less about work. Use every opportunity to speak in front of the audience.
+The only way to improve communication is to communicate a lot. Talk less about work. Hang out with non-technical people.
+
+<figure>
+<img src="/images/developers_party.jpg">
+<figcaption>Developers are party animals</figcaption>
+</figure>
+
+Use every opportunity to speak in front of the audience. Remember that every rockstar speaker started with a small presentation in a meeting room.
 
 ![The Balance Wheel (Technical, Mentoring, Process, Business and Communication)](/images/wheelCommunication.png)
 
