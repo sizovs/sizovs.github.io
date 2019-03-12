@@ -4,7 +4,7 @@ title: The Well-Balanced Developer
 location: Riga, Latvia
 ---
 
-Some developers are worth more than others. The bigger impact you can make on the organization, the higher is your worth. To make a significant impact on the organization, developer must keep 5 essential skills in balance:
+Some developers are worth more than others. The bigger impact you can make on the organization, the higher is your worth. To make a significant impact on the organization, the developer must keep 5 essential skills in balance:
 
 * Technical skills
 * Mentoring skills
