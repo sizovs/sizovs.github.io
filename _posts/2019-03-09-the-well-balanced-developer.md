@@ -67,7 +67,7 @@ Most developers think that process optimization is not their responsibility. Don
 
 ### Business skills
 
-Most developers implement someone else's ideas. When ideas become boring, you start dreaming about building your our product. But you don’t need to become an entrepreneur and leave the company to work on cool stuff. **An intrapreneur is a person who behaves like an entrepreneur while working in an organization**.
+Most developers implement someone else's ideas. When ideas become boring, we start dreaming about building our own product. But we don’t need to become entrepreneurs and leave the company to work on cool stuff. **An intrapreneur is a person who behaves like an entrepreneur while working in an organization**.
 
 Developers are the best candidates for intrapreneurship because no one else in the company can build a working product.
 
