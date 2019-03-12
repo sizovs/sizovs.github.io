@@ -77,9 +77,7 @@ Developers are the best candidates for intrapreneurship because no one else in t
 
 **You don't need to ask permission to innovate**. Grab a lunchbox, open your mac, build a prototype, invite top management, make a nice demo, ask for funding. Even if you get no funding, business people will stop treating you as a geek.
 
-Your mentoring skills mixed with business skills can turn the whole team into innovation machine. I can't imagine a bigger organization impact.
-
-> Software developer must turn the team into innovation machine.
+**Your mentoring skills mixed with business skills can turn the team into innovation machine**. I can't imagine a bigger organization impact.
 
 ![The Balance Wheel (Technical, Mentoring, Process and Business)](/images/wheelBusiness.png)
 
