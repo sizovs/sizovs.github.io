@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hi! 👋
 
-My name is Eduards Sizovs. I am a software architect, [trainer](https://devchampions.com/training/the-principal-developer/), [speaker](https://dev.tube/@eduardsi), and a [conference organizer](https://devternity.com).
+My name is Eduards Sizovs. I am a software architect, [trainer](https://principal.dev), [speaker](https://dev.tube/@eduardsi), and a [conference organizer](https://devternity.com).
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2018, replying to an email.</figcaption>
