@@ -14,7 +14,6 @@ I regularly speak at conferences and meetups. I spoke at 70 events in 20 countri
 <figcaption>Speaking at Heapcon in Serbia, 2018.</figcaption>
 </figure>
 
-
 I can speak at your conference or meetup. I never charge money for public speaking, but you'll have to pay for the travel.
 
 Write me at [eduards@sizovs.net](mailto:eduards@sizovs.net). I will reply within 48 hours.
