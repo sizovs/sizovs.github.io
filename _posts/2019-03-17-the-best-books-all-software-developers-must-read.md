@@ -116,7 +116,7 @@ Release It! is a practical guide on building modern fault-tolerant systems. The 
 
 ![Book](https://images.gr-assets.com/books/1386925124l/71730.jpg)
 
-NVC is a brilliant book on how to with different, sometimes complicated people. NVC provides an effective way of communicating, resolving conflicts, learning about ourselves and others, and living according to our needs and values. That's the best communication book I have ever read, and I practice NVC daily since I read it. **This book will change how you deal with colleagues, friends, and family.**
+NVC is a brilliant book on how to deal with different, sometimes complicated people. NVC provides an effective way of communicating, resolving conflicts, learning about ourselves and others, and living according to our needs and values. That's the best communication book I have ever read, and I practice NVC daily since I read it. **This book will change how you deal with colleagues, friends, and family.**
 <br>
 {% include buy_book.html asin='1892005034' %}
 
