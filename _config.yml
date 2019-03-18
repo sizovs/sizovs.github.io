@@ -2,8 +2,16 @@ title: The Principal Developer
 author: Eduards Sizovs
 description: Eduards Sizovs blogging about programming, career, soft skills for experienced developers; at least one new post every month.
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/me.png
+
+affiliates:
+  'amazon.com': 'mustr-20'
+  'amazon.ca': 'mustr00-20'
+  'amazon.de': 'mustread033-21'
+  'amazon.fr': 'mustread0f-21'
+  'amazon.es': 'mustread03c-21'
+  'amazon.it': 'mustread0c1-21'
+  'amazon.co.uk': 'mustread03-21'
 
 #
 # Flags below are optional
