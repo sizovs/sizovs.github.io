@@ -51,6 +51,16 @@ Clean Code teaches you how to write code that works well, reads well and express
 <br>
 {% include buy_book.html asin='0132350882' %}
 
+## The Clean Coder
+
+**Author**: Robert C. Martin (Uncle Bob) · **Topic**: soft skills · **Level**: beginner/intermid
+
+![Book](https://images.gr-assets.com/books/1347470803l/10284614.jpg)
+
+The Clean Coder is a sequel to Uncle Bob’s famous Clean Code book. This book contains practical advice about everything from estimating and coding to refactoring and testing. You will learn how to communicate, estimate and deal with difficult situations at work. Strongly recommended for all programmers that would like to call themselves "professional."
+<br>
+{% include buy_book.html asin='0137081073' %}
+
 ## Growing Object-Oriented Software Guided by Tests
 
 **Author:** Steve Freeman, Nat Pryce · **Topic:** testing and TDD · **Level:** intermediate
