@@ -130,6 +130,16 @@ NVC is a brilliant book on how to deal with different, sometimes complicated peo
 <br>
 {% include buy_book.html asin='189200528X' %}
 
+## The Goal: A Process of Ongoing Improvement
+
+**Author:** Eliyahu Goldratt · **Topic:** business and management · **Level:** advanced
+
+![Book](https://images.gr-assets.com/books/1475538328l/8125726.jpg)
+
+The Goal is a novel about Alex Rogo – a production plant manager. Alex's plant is not profitable and is soon to be shut down. In this book, Alex, guided by his mentor Jonas, will save the plant from disaster and will make it the most profitable plant in the country. If you want to make your company or organization profitable – read this book. **You will read this book in one breath.**
+<br>
+{% include buy_book.html asin='0884271951' %}
+
 ## Domain-Driven Design
 
 **Author:** Eric Evans · **Topic:** software architecture · **Level:** advanced
