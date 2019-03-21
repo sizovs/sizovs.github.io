@@ -59,19 +59,21 @@ Me: "Hmm... Only 20% for frameworks, libraries, and tools?"
 
 Mentor: "Yes. You'll learn them at work anyway while solving problems."
 
-Me: "Thanks." 
+Me: "Thanks."
 
 Mentor: "You'll thank me later."
 
 **This advice has changed my life**. I removed all framework books from [my bookshelf](https://www.goodreads.com/eduardsi). The guilt pile shrank from 50 to 0 books. What a relief!
 
 I bought a set of evergreen books. These books took 80% of my learning time:
-- [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
-- [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code)
-- [The Clean Coder](https://www.goodreads.com/book/show/10284614-the-clean-coder?ac=1&from_search=true)
-- [Domain-Driven Design](https://www.goodreads.com/book/show/179133.Domain_Driven_Design)
-- [Growing Object-Oriented Software, Guided by Tests](https://www.goodreads.com/book/show/4268826-growing-object-oriented-software-guided-by-tests)
-- [Continuous Delivery](https://www.goodreads.com/book/show/8686650-continuous-delivery)
+- [The Pragmatic Programmer](https://www.amazon.com/gp/product/020161622X/?tag=mustr-20)
+- [Clean Code](https://www.amazon.com/gp/product/0132350882/?tag=mustr-20)
+- [The Clean Coder](https://www.amazon.com/gp/product/0137081073/?tag=mustr-20)
+- [Domain-Driven Design](https://www.amazon.com/gp/product/0321125215/?tag=mustr-20)
+- [Growing Object-Oriented Software, Guided by Tests](https://www.amazon.com/gp/product/0321503627/?tag=mustr-20)
+- [Continuous Delivery](https://www.amazon.com/gp/product/0321601912/?tag=mustr-20)
+
+*[Check out the full list here.](/2019/03/17/the-best-books-all-software-developers-must-read/)*
 
 I also bought a single book on the current technology. **The Lindy effect** suggested that Spring Framework must be a good investment:
 
