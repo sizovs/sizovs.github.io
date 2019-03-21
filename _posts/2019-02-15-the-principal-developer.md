@@ -47,7 +47,7 @@ Me (positively excited): "Do you expect a principal developer to become a mentor
 
 Andrey: "Absolutely right. Too often developers complain that “the business” knows nothing about technology and don't know how to work with developers effectively. Does complaining solve the problem? No. Someone has to take full responsibility over the problem and fix it. Guess who is that?
 
-That's why a principal developer is **a diplomatic communicator**. He knows how to deal with different personalities, how to influence people **across the organization**, negotiate, [manage up and down](https://en.wikipedia.org/wiki/Managing_up_and_managing_down). He dares to raise uncomfortable questions, speak up when others are silent and align everyone around his vision."
+That's why a principal developer is **a diplomatic communicator**. He knows how to deal with different personalities, how to influence people **across the organization**, negotiate, [manage up and down](https://en.wikipedia.org/wiki/Managing_up_and_managing_down){: rel="nofollow" }. He dares to raise uncomfortable questions, speak up when others are silent and align everyone around his vision."
 
 <figure>
 <img src="/images/theoffice.gif" alt="bullshit" width="100%" align="center" />

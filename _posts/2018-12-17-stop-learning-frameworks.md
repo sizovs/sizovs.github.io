@@ -66,12 +66,12 @@ Mentor: "You'll thank me later."
 **This advice has changed my life**. I removed all framework books from [my bookshelf](https://www.goodreads.com/eduardsi). The guilt pile shrank from 50 to 0 books. What a relief!
 
 I bought a set of evergreen books. These books took 80% of my learning time:
-- [The Pragmatic Programmer](https://www.amazon.com/gp/product/020161622X/?tag=mustr-20)
-- [Clean Code](https://www.amazon.com/gp/product/0132350882/?tag=mustr-20)
-- [The Clean Coder](https://www.amazon.com/gp/product/0137081073/?tag=mustr-20)
-- [Domain-Driven Design](https://www.amazon.com/gp/product/0321125215/?tag=mustr-20)
-- [Growing Object-Oriented Software, Guided by Tests](https://www.amazon.com/gp/product/0321503627/?tag=mustr-20)
-- [Continuous Delivery](https://www.amazon.com/gp/product/0321601912/?tag=mustr-20)
+- [The Pragmatic Programmer](https://www.amazon.com/gp/product/020161622X/?tag=mustr-20){: rel="nofollow" }
+- [Clean Code](https://www.amazon.com/gp/product/0132350882/?tag=mustr-20){: rel="nofollow" }
+- [The Clean Coder](https://www.amazon.com/gp/product/0137081073/?tag=mustr-20){: rel="nofollow" }
+- [Domain-Driven Design](https://www.amazon.com/gp/product/0321125215/?tag=mustr-20){: rel="nofollow" }
+- [Growing Object-Oriented Software, Guided by Tests](https://www.amazon.com/gp/product/0321503627/?tag=mustr-20){: rel="nofollow" }
+- [Continuous Delivery](https://www.amazon.com/gp/product/0321601912/?tag=mustr-20){: rel="nofollow" }
 
 *[Check out the full list here.](/2019/03/17/the-best-books-all-software-developers-must-read/)*
 

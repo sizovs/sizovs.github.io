@@ -35,7 +35,7 @@ You will learn about clean code, design patterns, and eXtreme Programming. After
 
 Soon you’ll start complaining about teammates because they do not meet your expectations and their code sucks.
 
-With your remarkable technical skills you can do all work yourself, strictly police code commits, hijack the architecturally significant tasks and let others do only HTML and CSS. Eventually, you will become the bottleneck and put the company at risk due to [the bus factor](https://en.wikipedia.org/wiki/Bus_factor):
+With your remarkable technical skills you can do all work yourself, strictly police code commits, hijack the architecturally significant tasks and let others do only HTML and CSS. Eventually, you will become the bottleneck and put the company at risk due to [the bus factor](https://en.wikipedia.org/wiki/Bus_factor){: rel="nofollow" }:
 
 ![Ths Bus Factor](/images/bus_factor.jpg)
 

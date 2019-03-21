@@ -17,16 +17,17 @@ input[type='email'], input[type='text']  {
     width: 100%;
 }
 
-input[type='submit'], button {
+input[type='submit'], button, .button {
     cursor: pointer;
     background-color: white;
     border: 1px solid $darkGray;
     border-radius: .2rem;
     font-size: 1em;
     padding: 0.5em;
+    text-decoration: none;
 }
 
-input[type='submit']:hover, input[type='submit']:focus, button:hover, button:focus {
+input[type='submit']:hover, input[type='submit']:focus, .button:hover, .button:focus, button:hover, button:focus {
     border: 1px solid $emphasize;
 }
 

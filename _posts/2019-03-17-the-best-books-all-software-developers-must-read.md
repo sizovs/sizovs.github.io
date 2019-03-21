@@ -15,9 +15,11 @@ location: Riga, Latvia
     }
 </style>
 
+**The list was updated in {{ 'now' | date: "%Y" }}.**
+
 Books are your best mentor. If you read one good programming book every month, roughly ten pages a day, you’ll soon have a firm grasp on the industry and distinguish yourself from nearly every developer around you.
 
-There are thousands of books, but not all of them are equally good. Below is my list of the best programming books of all time. I will keep this list in sync with new releases. **The list was updated in {{ 'now' | date: "%Y" }}.**
+There are thousands of books, but not all of them are equally good. Below is my list of the best programming books of all time. I will keep this list in sync with new releases. 
 
 ---
 
