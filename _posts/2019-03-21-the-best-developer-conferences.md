@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Best Developer Conferences 2019
+title: The Best Developer Conferences
 location: Riga, Latvia
 noActions: true
 
