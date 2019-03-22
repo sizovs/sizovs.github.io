@@ -19,7 +19,10 @@ layout: default
     {{ content }}
   </div>
 
-  {% include call_for_action.html %}
+  {% unless page.noActions %}
+    {% include call_for_action.html %}
+  {% endunless %}
+  
   {% include share.html %}
 
   {% include disqus.html %}

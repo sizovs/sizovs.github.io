@@ -2,6 +2,7 @@
 layout: post
 title: The Best Books For Software Developers
 location: Riga, Latvia
+
 ---
 
 <style type="text/css">

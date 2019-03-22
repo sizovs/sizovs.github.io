@@ -167,6 +167,22 @@ h6, figcaption {
   margin-bottom: 2em;
 }
 
+br {
+  clear: both;
+}
+
+table td, table th {
+  padding: 5px;
+}
+
+table td {
+  border-top: 1px solid #E8E8E8;
+}
+
+table th {
+  font-weight: bold;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -261,6 +277,10 @@ header {
   @include mobile {
     margin: 3px 0;
   }
+}
+
+.fa-heart {
+  color: #DC143C;
 }
 
 .videoWrapper {
