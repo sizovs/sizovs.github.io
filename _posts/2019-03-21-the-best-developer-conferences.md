@@ -25,6 +25,10 @@ noActions: true
         transform: scale(1.05);
     }
 
+    .fa-external-link-alt {
+        color: #989898;
+    }
+
 </style>
 
 **The list was updated in {{'now' | date: "%Y"}}.**

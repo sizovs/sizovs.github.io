@@ -14,11 +14,18 @@
 
 ## {{generalUpcomingSorted | size}} upcoming {{include.what }} conferences of {{ thisYear }}
 
-| Name           | Location  | Date           |
-| :------------- | :-------- | :------------- |
+| Name           | Location  | Date           | CFP  |
+| :------------- | :-------- | :------------- | : ---|
 {% for c in generalUpcomingSorted -%}
 {% assign name = c.name | truncate: 30, '...' -%}
 {% assign location = c.city | append: ", " | append: c.country | truncate: 25 -%}
+{% assign cfpRunning = c.cfpEndDate > today -%}
+{% if cfpRunning and c.cfpUrl -%}
+{% capture cfpLink -%}[<i class="fas fa-external-link-alt"></i>]({{c.cfpUrl}}){: rel="nofollow" }{% endcapture -%}
+{% elsif cfpRunning -%}
+{% capture cfpLink -%}[<i class="fas fa-external-link-alt"></i>]({{c.url}}){: rel="nofollow" }{% endcapture -%}
+{% else cfpRunning -%}
+{% endif -%}
 {% unless c.startDate contains c.endDate -%}
 {% assign endDay = c.endDate | date: "%-d" -%}
 {% assign month = c.startDate | date: "%b %y" -%}
@@ -28,9 +35,13 @@
 {% assign date = c.startDate | date: "%-d %b %y" -%}
 {% endif -%}
 {% unless c.staffPick -%}
-| {{name}} | {{location}} | {{date}} |
+{% if cfpRunning -%}
+| {{name}} | {{location}} | {{date}} | {{cfpLink}} |
+{% else -%}
+| {{name}} | {{location}} | {{date}} | – |
+{% endif -%}
 {% endunless -%}
 {% if c.staffPick -%}
-| 🏅[{{name}}]({{c.url}}) | {{location}} | {{date}} |
+| 🏅[{{name}}]({{c.url}}) | {{location}} | {{date}} | – |
 {% endif -%}
 {% endfor %}
