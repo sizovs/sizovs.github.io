@@ -21,6 +21,7 @@ noActions: true
     }
 
     img[alt=Conference]:hover {
+        cursor: pointer;
         transform: scale(1.05);
     }
 

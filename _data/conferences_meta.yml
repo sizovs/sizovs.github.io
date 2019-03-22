@@ -1,9 +1,16 @@
 ---
   picks:
-    - name: DevTernity
+    - name: DevTernity 2019
       city: Riga
       country: Latvia
-      startDate: 2019-12-06
-      endDate: 2019-12-07
+      startDate: "2019-12-06"
+      endDate: "2019-12-07"
       url: https://devternity.com
       staffPick: true
+    - name: The Principal Developer
+      city: Riga
+      country: Latvia
+      startDate: "2019-05-23"
+      endDate: "2019-05-24"
+      url: https://principal.dev
+      staffPick: true      

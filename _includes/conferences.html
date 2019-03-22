@@ -1,17 +1,22 @@
 {% assign thisYear = '2019' %}
 {% assign nextYear = '2020' %}
 
+{% assign today = 'now' | date: "%Y-%m-%d" %}
+
 {% assign picks = site.data.conferences_meta.picks %}
 {% assign allConferences = site.data.confs.conferences %}
-{% assign skipPicks = allConferences[thisYear][include.topic] | concat: allConferences[nextYear][include.topic] %}
-{% assign general = picks | concat: skipPicks %}
-{% assign generalUpcoming = (general | sort: 'date') %}
+{% assign confsTech = allConferences[thisYear][include.topic] | concat: allConferences[nextYear][include.topic] %}
+{% assign confsTechNoDevTernity = confsTech | where_exp: "self", "self.name != 'DevTernity'" %}
+{% assign confsTechNoMyStuff = confsTechNoDevTernity | where_exp: "self", "self.name != 'The Principal Developer'" %}
+{% assign general = picks | concat: confsTechNoMyStuff %}
+{% assign generalUpcoming = general | where_exp: "self", "self.startDate > today" %}
+{% assign generalUpcomingSorted = generalUpcoming | sort: "startDate" %}
 
-## {{generalUpcoming | size}} upcoming {{include.what }} conferences of {{ thisYear }}
+## {{generalUpcomingSorted | size}} upcoming {{include.what }} conferences of {{ thisYear }}
 
 | Name           | Location  | Date           |
 | :------------- | :-------- | :------------- |
-{% for c in generalUpcoming -%}
+{% for c in generalUpcomingSorted -%}
 {% assign name = c.name | truncate: 30, '...' -%}
 {% assign location = c.city | append: ", " | append: c.country | truncate: 25 -%}
 {% unless c.startDate contains c.endDate -%}
@@ -26,6 +31,6 @@
 | {{name}} | {{location}} | {{date}} |
 {% endunless -%}
 {% if c.staffPick -%}
-| [{{name}}]({{c.url}}) (🏅top 3 in Europe) | {{location}} | {{date}} |
+| 🏅[{{name}}]({{c.url}}) | {{location}} | {{date}} |
 {% endif -%}
 {% endfor %}
