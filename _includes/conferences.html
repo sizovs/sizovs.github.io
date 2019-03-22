@@ -1,13 +1,17 @@
+{% assign thisYear = '2019' %}
+{% assign nextYear = '2020' %}
+
 {% assign picks = site.data.conferences_meta.picks %}
 {% assign allConferences = site.data.confs.conferences %}
 {% assign skipPicks = allConferences[thisYear][include.topic] | concat: allConferences[nextYear][include.topic] %}
 {% assign general = picks | concat: skipPicks | concat: picks | sort: "date" %}
+{% assign generalUpcoming = general  %}
 
-## {{general | size}} {{include.what }} developer conferences of {{ thisYear }}
+## {{generalUpcoming | size}} upcoming {{include.what }} conferences of {{ thisYear }}
 
 | Name           | Location  | Date           |
 | :------------- | :-------- | :------------- |
-{% for c in general -%}
+{% for c in generalUpcoming -%}
 {% assign name = c.name | truncate: 30, '...' -%}
 {% assign location = c.city | append: ", " | append: c.country | truncate: 25 -%}
 {% unless c.startDate contains c.endDate -%}
@@ -16,7 +20,7 @@
 {% assign date = c.startDate | date: "%-d" | append: "–" | append: endDay | append: " " | append: month -%}
 {% endunless -%}
 {% if c.startDate contains c.endDate -%}
-{% assign date = c.startDate | date: "%-d %b" -%}
+{% assign date = c.startDate | date: "%-d %b %y" -%}
 {% endif -%}
 {% unless c.staffPick -%}
 | {{name}} | {{location}} | {{date}} |

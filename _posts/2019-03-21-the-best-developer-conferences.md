@@ -26,11 +26,7 @@ noActions: true
 
 </style>
 
-{% assign thisYear = 'now' | date: "%Y"%}
-{% assign nextYear = '2020' %}
-{% assign today = site.time | date: '%s' %}
-
-**The list was updated in {{thisYear}}.**
+**The list was updated in {{'now' | date: "%Y"}}.**
 
 Conferences are a great place to network with like-minded professionals as well as learn about technologies and best practices. There are thousands of conferences happening around the world, but not all of them are equally good. Below is my ultimate list of the best vendor-independent engineering conferenes. **I personally attended every conference on the list**.
 
@@ -201,7 +197,7 @@ DevTernity is the top 3 international software development conference in Europe.
 
 I picked the best conferences for your convenience. Here is the full conference list:
 
-{% include conferences.html topic='general' what='' %}
+{% include conferences.html topic='general' what='developer' %}
 {% include conferences.html topic='java' what='Java' %}
 {% include conferences.html topic='dotnet' what='.NET' %}
 {% include conferences.html topic='devops' what='DevOps' %}
