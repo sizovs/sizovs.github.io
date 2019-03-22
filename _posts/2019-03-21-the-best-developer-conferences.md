@@ -182,11 +182,11 @@ NDC is one of the world's largest independent software conferences covering pret
 
 <br>
 
-## DevTernity (🏅 Top 3 in Europe)
+## DevTernity
 
 **Audience**: developers, architects ·  **Location:** Riga, Latvia · **Date**: 6–7 Dec 2019
 
-[![Conference](/images/are_you_in.png)](https://devternity.com)
+[![Conference](/images/devternity_old.png)](https://devternity.com)
 
 DevTernity is the top 3 international software development conference in Europe. Located in the heart of Europe, in a beautiful city of Riga, this well-organized conference focuses on the core skills paramout to your success – code design, software architecture and leadership. Organizers promise no agile bulsh\*\*t or marketing talks. **This is a must-see event!**
 

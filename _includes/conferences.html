@@ -4,8 +4,8 @@
 {% assign picks = site.data.conferences_meta.picks %}
 {% assign allConferences = site.data.confs.conferences %}
 {% assign skipPicks = allConferences[thisYear][include.topic] | concat: allConferences[nextYear][include.topic] %}
-{% assign general = picks | concat: skipPicks | concat: picks | sort: "date" %}
-{% assign generalUpcoming = general  %}
+{% assign general = picks | concat: skipPicks %}
+{% assign generalUpcoming = (general | sort: 'date') %}
 
 ## {{generalUpcoming | size}} upcoming {{include.what }} conferences of {{ thisYear }}
 
@@ -26,6 +26,6 @@
 | {{name}} | {{location}} | {{date}} |
 {% endunless -%}
 {% if c.staffPick -%}
-| **[{{name}}]({{c.url}}) (🏅top 3 in Europe)** | {{location}} | {{date}} |
+| [{{name}}]({{c.url}}) (🏅top 3 in Europe) | {{location}} | {{date}} |
 {% endif -%}
 {% endfor %}
