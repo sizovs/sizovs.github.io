@@ -155,4 +155,20 @@ If you develop large enterprise systems, not reading this book borders on profes
 
 ---
 
-📚 If you want more books on different themes, check out [mustread.tech](https://mustread.tech). It's an open-source and crowd-sourced book listing.
+📚 If you want more books on different themes, check out [mustread.tech](https://mustread.tech). It's an open-source and crowd-sourced book listing:
+
+- [Agile](https://mustread.tech/books/about/agile)
+- [Algorithms](https://mustread.tech/books/about/algorithms)
+- [Coding and Programming](https://mustread.tech/books/about/coding)
+- [Communication](https://mustread.tech/books/about/communication)
+- [General Software Development](https://mustread.tech/books/about/general)
+- [Java](https://mustread.tech/books/about/java)
+- [JavaScript](https://mustread.tech/books/about/javascript)
+- [Leadership and Management](https://mustread.tech/books/about/management)
+- [Operating Systems](https://mustread.tech/books/about/operating~systems)
+- [Product Development](https://mustread.tech/books/about/product~development)
+- [Ruby](https://mustread.tech/books/about/ruby)
+- [Software Architecture](https://mustread.tech/books/about/architecture)
+- [Testing and Quality Assurance](https://mustread.tech/books/about/testing)
+- [Thinking](https://mustread.tech/books/about/thinking)
+- [Web Technologies](https://mustread.tech/books/about/web)
