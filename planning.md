@@ -20,6 +20,8 @@ To achive my goal, I need to be visible on the public:
 {% assign year = 'now' | date: '%Y' %}
 {% assign age = year | minus: 1988 %}
 
+Remember that every project must keep people engaged by giving a sense of progress. The user must feel that he is "leveling up".
+
 ### ratings.io
 
 *92% say they trust recommendations from friends and family above all other forms of advertising. 70% say they trust online consumer reviews, most trusted recommendation above all other forms of advertising.* [Example](http://ratingratingov.ru/metodologiya_web){: rel="nofollow" }
