@@ -36,9 +36,9 @@
 {% endif -%}
 {% unless c.staffPick -%}
 {% if cfpRunning -%}
-| {{name}} | {{location}} | {{date}} | {{cfpLink}} |
+| [{{name}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | {{cfpLink}} |
 {% else -%}
-| {{name}} | {{location}} | {{date}} | – |
+| [{{name}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | – |
 {% endif -%}
 {% endunless -%}
 {% if c.staffPick -%}

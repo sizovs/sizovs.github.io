@@ -56,6 +56,7 @@ DevTernity is the top 3 international software development conference in Europe.
 This is one of the best conferences organized by Java User Group in Russia. The venue, the staff, the travel organization and of course the audience is excellent. The conference offers good soft and hard-core talk balance. The only issue is that *some* talks are in Russian. That might scare some international attendees.
 
 <br>
+[Website](https://jokerconf.com){: .button rel="nofollow" }
 
 ## CraftConf
 
@@ -65,6 +66,7 @@ This is one of the best conferences organized by Java User Group in Russia. The 
 CRAFT is the most well-organized general software development conference in Europe. The conference organizers excel at everything they do – from organization to the content. Here you will learn about tools, methods, and practices from the best speakers and practitioners in the software development community. This is a really good conference.
 
 <br>
+[Website](https://craft-conf.com){: .button rel="nofollow" }
 
 ## GOTO Berlin
 
@@ -75,6 +77,7 @@ CRAFT is the most well-organized general software development conference in Euro
 GOTO is a general software development conference that covers wide range of topics from coding to management. The content is very diverse and thought-provoking. The conference allows you to meet new people easily and hang out at one of the expo booths, because there is plenty of breaks and room available between sessions. The conference also runs in Copenhagen and Amsterdam.
 
 <br>
+[Website](https://gotober.com){: .button rel="nofollow" }
 
 ## Devoxx Belgium
 
@@ -85,6 +88,7 @@ GOTO is a general software development conference that covers wide range of topi
 Devoxx is an annual community conference organized by the Belgian Java User Group. The conference has become the biggest Java conference in the world. Devoxx sets high standards for other Java conferences. I believe that every Java developer must attend Devoxx at least once (and try Belgian beer). The conference also runs in the London, Poland, Amsterdam and Chicago.
 
 <br>
+[Website](https://devoxx.be){: .button rel="nofollow" }
 
 ## The Lead Developer
 
@@ -95,6 +99,7 @@ Devoxx is an annual community conference organized by the Belgian Java User Grou
 As a tech lead, you have to be a great developer. But you also need to be a good team leader, be commercially astute, and stay on top of all the tech developments and trends coming over the horizon. The Lead Developer conference prepares you for a tech leaders role and covers the wide range of topics that every lead developer need to know. Really good conference!
 
 <br>
+[Website](https://theleaddeveloper.com){: .button rel="nofollow" }
 
 ## GeekOut
 
@@ -105,6 +110,7 @@ As a tech lead, you have to be a great developer. But you also need to be a good
 GeekOut is a high-quality conference for Java developers in a cozy city of Tallinn. It's well-organized, has a great venue and speakers lineup. GeekOut gathers 600 participants every year and has a better cost/value ratio than other Java conferences in Northern Europe. GeekOut organizers are seasoned Java practitioners with good understanding of what Java developers need to know.
 
 <br>
+[Website](https://geekout.ee){: .button rel="nofollow" }
 
 ## QCon San Francisco
 
@@ -115,6 +121,7 @@ GeekOut is a high-quality conference for Java developers in a cozy city of Talli
 QCon is a large conference for senior software engineers and architects on the patterns, practices, and use cases leveraged by the world’s most innovative software shops. The conference is well-organized, the talks are diverse, most of them are relevant and deeply technical. That I like about the conference is that you can attend hands-on workshops led by industry experts. The conference also runs in New York, San Francisco, London, Brazil, and Shanghai.
 
 <br>
+[Website](https://qconsf.com){: .button rel="nofollow" }
 
 ## JavaZone
 
@@ -125,6 +132,7 @@ QCon is a large conference for senior software engineers and architects on the p
 JavaZone is organized by javaBin, the Norwegian Java User Group. Its goal is to organize a community-driven conference for Java developers where they can learn new things, share knowledge, and socialize. JavaZone is one of the most visited Java conferences in Europe. Every year, the conference gathers many Java champions and takes content quality seriously. The only downside is that the trip can blow your family budget, because Oslo is very expensive city.
 
 <br>
+[Website](https://javazone.no){: .button rel="nofollow" }
 
 ## The Principal Developer
 
@@ -156,6 +164,7 @@ JFokus is a general software development conference about literally everything �
 Build Stuff Lithuania is one of the largest software development events in Baltics. The conference is well-organized, has many good speakers and diversity of talks. What makes this conference particularly great is that it's not just another money-making conference. It's organized with passion and special care about attendees and speakers.
 
 <br>
+[Website](https://buildstuff.lt){: .button rel="nofollow" }
 
 ## SoCraTes
 
@@ -166,6 +175,7 @@ Build Stuff Lithuania is one of the largest software development events in Balti
 SoCraTes is about software craftsmanship, sustainable creation of useful software in a responsible way. The event is run as a non-profit, low-cost event and has a lot of highly collaborative interactions and Open Space sessions. You should attend this event if you want are ready to interact with other attendees, not just sit and listen.
 
 <br>
+[Website](https://socrates-conference.de){: .button rel="nofollow" }
 
 ## Øredev
 
@@ -176,6 +186,7 @@ SoCraTes is about software craftsmanship, sustainable creation of useful softwar
 The conference gathers 1300 participants to talk about Web, Data Science, Cloud, .Net, AR/VR, IoT, Agile, Android, Machine Learning, Architecture, AI, Quality, Security, DevOps, Java, JavaScript, Tools, and much more. Diversity of talks is making Øredev one of the most interesting conference to attend. Only at Øredev you will hear about cognitive aspects of software design and morality.
 
 <br>
+[Website](http://oredev.org){: .button rel="nofollow" }
 
 ## NDC London
 
@@ -186,6 +197,7 @@ The conference gathers 1300 participants to talk about Web, Data Science, Cloud,
 NDC is one of the world's largest independent software conferences covering pretty much everything you need to know about software development. NDC speakers come from all over the world and are recognized as experts and thought leaders in their field. What I like about NDC is that it offers many full-day workshops. The conference also runs in Copenhagen, Oslo, Sydney and Minnesota.
 
 <br>
+[Website](https://ndcconferences.com){: .button rel="nofollow" }
 
 ## DevTernity
 

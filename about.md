@@ -6,7 +6,10 @@ permalink: /about/
 
 # Hi! 👋
 
-My name is Eduards Sizovs. I am a software architect, [trainer](https://principal.dev), [speaker](https://dev.tube/@eduardsi), and a [conference organizer](https://devternity.com) from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia.
+{% assign year = 'now' | date: '%Y' %}
+{% assign age = year | minus: 1988 %}
+
+My name is Eduards Sizovs. I am a software architect, [trainer](https://principal.dev), [speaker](https://dev.tube/@eduardsi), and a [conference organizer](https://devternity.com) from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old.
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2018, replying to an email.</figcaption>
@@ -14,7 +17,7 @@ My name is Eduards Sizovs. I am a software architect, [trainer](https://principa
 
 I've been doing commercial software development for over 15 years. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I consult C-level technical people and organize training for experienced developers:
 
-- 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass the next-gen tech leaders
+- 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for the next-gen tech leaders
 
 I organize a conference, that turns devs into architects and engineering leaders:
 
