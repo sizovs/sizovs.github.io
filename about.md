@@ -31,6 +31,9 @@ I contribute to open-source:
 
 - 🚀 [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app.
 
+I share cool links on my Telegram channel for software developers:
+
+- 💬[DevChampions](http://t.me/devchampions)
 
 ## Email me
 
