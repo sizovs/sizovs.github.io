@@ -210,16 +210,14 @@ DevTernity is the top 3 international software development conference in Europe.
 <br>
 [Website](https://devternity.com){: .button }
 
----
-
 I picked the best conferences for your convenience. Here is the full conference list:
 
-{% include conferences.html topic='general' what='developer' %}
-{% include conferences.html topic='java' what='Java' %}
-{% include conferences.html topic='dotnet' what='.NET' %}
-{% include conferences.html topic='devops' what='DevOps' %}
-{% include conferences.html topic='php' what='PHP' %}
-{% include conferences.html topic='javascript' what='JavaScript' %}
+- [DevOps conferences](/conferences/devops)
+- [Full-stack conferences](/conferences/full-stack)
+- [Java conferences](/conferences/java)
+- [JavaScript and Web conferences](/conferences/javascript-and-web)
+- [.NET conferences](/conferences/dotnet)
+- [PHP conferences](/conferences/php)
 
 ---
 

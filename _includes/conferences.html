@@ -12,7 +12,11 @@
 {% assign generalUpcoming = general | where_exp: "self", "self.startDate > today" %}
 {% assign generalUpcomingSorted = generalUpcoming | sort: "startDate" %}
 
-## {{generalUpcomingSorted | size}} upcoming {{include.what }} conferences of {{ thisYear }}
+**The list was updated in {{thisYear}}.**
+
+This is the ultimate list of all {{include.what}} conferences in Europe and USA. The list includes call-for-papers (CFP) dates. All the information here has been compiled correctly to the best of my knowledge. If you notice that I’ve left out a {{include.what}} conference or conference date that’s been published in the meantime, please comment.
+
+## {{generalUpcomingSorted | size}} upcoming {{include.what}} conferences
 
 | Name           | Location  | Date           | CFP  |
 | :------------- | :-------- | :------------- | : ---|
