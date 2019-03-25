@@ -85,7 +85,7 @@ GOTO is a general software development conference that covers wide range of topi
 
 ![Unconference](https://avatars.io/twitter/devoxx)
 
-Devoxx is an annual community conference organized by the Belgian Java User Group. The conference has become the biggest Java conference in the world. Devoxx sets high standards for other Java conferences. I believe that every Java developer must attend Devoxx at least once (and try Belgian beer). The conference also runs in the London, Poland, Amsterdam and Chicago.
+Devoxx is an annual community conference organized by the Belgian Java User Group. Devoxx has become one of the best Java conference in the world. Devoxx sets high standards for other Java conferences. I believe that every Java developer must attend Devoxx at least once (and try Belgian beer). The conference also runs in the London, Poland, Amsterdam and Chicago.
 
 <br>
 [Website](https://devoxx.be){: .button rel="nofollow" }
@@ -194,7 +194,7 @@ The conference gathers 1300 participants to talk about Web, Data Science, Cloud,
 
 ![Unconference](https://avatars.io/twitter/ndc_conferences)
 
-NDC is one of the world's largest independent software conferences covering pretty much everything you need to know about software development. NDC speakers come from all over the world and are recognized as experts and thought leaders in their field. What I like about NDC is that it offers many full-day workshops. The conference also runs in Copenhagen, Oslo, Sydney and Minnesota.
+NDC is one of the best .NET conferences in Europe. NDC speakers come from all over the world and are recognized as experts and thought leaders in their field. What I like about NDC is that it offers many full-day workshops. The conference also runs in Copenhagen, Oslo, Sydney and Minnesota.
 
 <br>
 [Website](https://ndcconferences.com){: .button rel="nofollow" }
