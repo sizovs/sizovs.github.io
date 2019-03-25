@@ -1,6 +1,7 @@
 ---
 layout: post
 title: .NET Conferences 
+includeYear: true
 noActions: true
 
 ---

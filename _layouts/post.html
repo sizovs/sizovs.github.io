@@ -3,7 +3,12 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+  {% if page.includeYear %}
+  <h1>{{ page.title }} {{'now' | date: "%Y"}}</h1>
+  {% else %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}  
+  
   {% if page.date %}
   <h6>
       {{ page.date | date: "%e %B %Y" }} · {{page.location}} · <a class="commentCount" href="{{ site.url }}{{ page.url }}#disqus_thread">comments</a>

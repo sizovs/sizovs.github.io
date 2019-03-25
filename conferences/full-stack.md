@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Full-Stack Developer Conferences 
+includeYear: true
 noActions: true
 
 ---
