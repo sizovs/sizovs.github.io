@@ -33,7 +33,7 @@ noActions: true
 
 **The list was updated in {{'now' | date: "%Y"}}.**
 
-Conferences are a great place to network with like-minded professionals as well as learn about technologies and best practices. There are thousands of conferences happening around the world, but not all of them are equally good. Below is my ultimate list of the best vendor-independent engineering conferenes. **I personally attended every conference on the list**.
+Conferences are a great place to network with like-minded professionals as well as learn about technologies and best practices. There are thousands of conferences happening around the world, but not all of them are equally good. Below is my ultimate list of the best vendor-independent engineering conferences. **I personally attended every conference on the list**.
 
 ---
 
