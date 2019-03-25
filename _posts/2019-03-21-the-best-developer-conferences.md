@@ -33,7 +33,7 @@ noActions: true
 
 **The list was updated in {{'now' | date: "%Y"}}.**
 
-Conferences are a great place to network with like-minded professionals as well as learn about technologies and best practices. There are thousands of conferences happening around the world, but not all of them are equally good. Below is my ultimate list of the best vendor-independent engineering conferences. **I personally attended every conference on the list**.
+Conferences are a great place to network with like-minded developers and learn from the best developers in our field. Thousands of conferences happening around the world, but not all of them are equally good. Below is my list of the best software development conferences of all time. **I personally attended every conference on the list**.
 
 ---
 
@@ -43,7 +43,7 @@ Conferences are a great place to network with like-minded professionals as well 
 
 [![Conference](/images/are_you_in.png)](https://devternity.com)
 
-DevTernity is the top 3 international software development conference in Europe. Located in the heart of Europe, in a beautiful city of Riga, this well-organized conference focuses on the core skills paramount to your success – code design, software architecture and leadership. Organizers promise no agile bulsh\*\*t or marketing talks. **This is a must-see event!**
+DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in a beautiful city of Riga, this well-organized conference focuses on the core skills paramount to your success – code design, software architecture and leadership. Organizers promise no agile bulsh\*\*t or marketing talks. **This is a must-see event!**
 
 <br>
 [Website](https://devternity.com){: .button }
