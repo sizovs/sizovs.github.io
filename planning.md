@@ -20,7 +20,7 @@ To achive my goal, I need to be visible on the public:
 {% assign year = 'now' | date: '%Y' %}
 {% assign age = year | minus: 1988 %}
 
-Remember that every project must keep people engaged by giving a sense of progress. The user must feel that he is "leveling up".
+Remember that every project must keep people engaged by giving a sense of progress. The user must feel that he is "leveling up". Belts is amazing. Java Black Belt, Krav Maga etc.
 
 ### ratings.io
 
