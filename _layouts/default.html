@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} by {{ site.author }}</title>
+      {% if page.includeYear %}
+        {% assign year = 'now' | date: "%Y" %}
+      {% else %}
+        {% assign year = "" %}
+      {% endif %}      
+    <title>{% if page.title %}{{ page.title }} {{year}} – {% endif %}{{ site.title }} by {{ site.author }}</title>
 
     {% include meta.html %}
 
