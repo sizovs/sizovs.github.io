@@ -34,7 +34,7 @@ Companies spend millions on TA departments, recruiters, promo websites and video
 <figcaption>Nowaday's recruiting</figcaption>
 </figure>
 
-In a current market situation, every company needs to build a mentoring capacity. The most experienced developers should find time to grow less experienced colleagues through pair programming, continuous feedback, career advice. We must suggest books, blogs, videos, learning materials, encourage colleagues to attend meetups, conferences, and workshops.
+In a current market situation, every company needs to build a mentoring capacity. The most experienced developers should find time to grow less experienced colleagues through pair programming, continuous feedback, career advice. We must suggest [books](/2019/03/17/the-best-books-all-software-developers-must-read/), blogs, [videos](https://dev.tube), encourage colleagues to attend meetups, [conferences](https://sizovs.net/2019/03/21/the-best-developer-conferences/), and workshops.
 
 Mentoring is not easy; it requires a significant time commitment and excellent communication skills. We must encourage developers to [build](https://principal.dev) mentoring skills. If you are in doubt whether you should invest time in mentoring, I can assure you that mentoring is the best way to get followers and boost your authority and reputation. **Your mentees will support you and promote you for the rest of your life.**
 
