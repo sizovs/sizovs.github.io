@@ -18,7 +18,7 @@ The best developers I hired were far from ideal candidates. They lacked technica
 
 ![Impostor Syndrome](/images/impostor.png)
 
-Today, companies create ridiculously complicated multi-step interview processes that [filter out](https://rejected.us){:rel="nofollow"} candidates that are "not good enough." We rarely give an opportunity to candidates spoiled by shitty companies and bad influence. We forget that some candidates are not lucky enough to meet an inspiring mentor and work in a supportive team.
+Today, companies create ridiculously complicated multi-step interview processes that [filter out](https://rejected.us){:rel="nofollow"} candidates that are "not good enough." We rarely give an opportunity to candidates spoiled by shitty companies and bad influence. We forget that some candidates were never lucky enough to meet an inspiring mentor or work in a supportive team.
 
 <figure>
 <img src="/images/broken_toy.jpg" alt="A broken toy">
