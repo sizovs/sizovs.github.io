@@ -59,7 +59,7 @@ The same stone after careful cutting and polishing:
 <figcaption>Now it's a beautiful diamond.</figcaption>
 </figure>
 
-Someone has to take a raw diamond that looks like a regular stone, cut it, polish it and voila – we have a beautiful shiny diamond. Companies are looking for polished diamonds and create hiring processes that throw raw diamonds in a trash bin.
+Someone has to take a raw diamond that looks like a regular stone, cut it, polish it and voila – you have a beautiful shiny diamond. Companies are looking for polished diamonds and create hiring processes that throw raw diamonds in a trash bin.
 
 Instead of throwing diamonds away, we can learn to polish them. **We can create environments where people with eagerness and capacity to learn can become great developers.**
 
