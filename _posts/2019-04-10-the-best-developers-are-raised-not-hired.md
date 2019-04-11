@@ -10,6 +10,8 @@ location: Riga, Latvia
 
 Every company on the market is **looking for the best talent**. Companies are waiting when "the talent" will appear from nowhere as if there were some secret talent factory. The ideal candidate will have all necessary technical skills, will be a good "culture fit" and will perform well with little or no supervision.
 
+---
+
 But there is a problem:
 
 The best developers I hired were far from ideal candidates. They lacked technical skills, didn't know how to test software and work in an agile team. They didn't believe in themselves and their ability. They didn't think they can be good leaders. They didn't sound convincing during the job interview. **Some of them were suffering from impostor syndrome, doubting their actual ability:**
