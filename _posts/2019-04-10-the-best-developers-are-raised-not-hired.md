@@ -27,7 +27,7 @@ Today, companies create ridiculously complicated multi-step interview processes 
 
 We prefer hiring self-confident rockstars with a solid track record. The reason is simple – we fail to create environment and work conditions in which people can grow professionally, develop good habits and become rock-stars. Skilled developers do not have time for mentoring, because they are busy with coding and architecture. Mentoring is not part of our hiring and delivery processes. Mentoring is not a buzzword, you can't learn it on Coursera, and it's not visible on a [tech radar](https://www.thoughtworks.com/radar){:rel="nofollow"}.
 
-Companies spend millions on TA departments, recruiters, promo websites and videos, struggling to find the best talent. We have this crazy talent search problem because companies are searching for the best engineers, instead of raising them. Everyone is fishing, but there is not much fish left. Recruiting more fishers and paying them high commission does not help. The pond is empty.
+Companies spend millions on TA departments, recruiters, promo websites and videos, struggling to find the best talent. We have this crazy talent search problem because companies are searching for the best engineers, instead of raising them. Everyone is fishing, but there is not much fish left. Recruiting more fishers and paying them high commission does not help. **The pond is empty.**
 
 <figure>
 <img src="/images/fishing.png" alt="Fishing">
