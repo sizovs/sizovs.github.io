@@ -74,3 +74,5 @@ How?
 - If you work in a large company and care about our profession, consider creating a Bootcamp for complete beginners.
 
 You can escape this crazy hiring race by creating an environment, where experienced developers mentor less experienced developers. Hire for attitude, and teach technical skills. **The best developers are raised, not hired**.
+
+Be the company that says: we are ~~hiring~~ **mentoring**.
