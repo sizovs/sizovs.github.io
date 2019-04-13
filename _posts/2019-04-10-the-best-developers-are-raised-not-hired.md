@@ -6,6 +6,9 @@ location: Riga, Latvia
 ---
 
 <style type="text/css">
+    img[alt=Fishing], img[alt=Raw] {
+        width: 100%;
+    }
 </style>
 
 Every company on the market is **looking for the best talent**. Companies are waiting when "the talent" will appear from nowhere as if there were some secret talent factory. The ideal candidate will have all necessary technical skills, will be a good "culture fit" and will perform well with little or no supervision.
@@ -51,14 +54,14 @@ By building mentoring capacity at work, you can hire newcomers, broken toys, imp
 Would you send this stone to a trash can?
 
 <figure>
-<img src="/images/raw_diamond.jpg">
+<img src="/images/raw_diamond.jpg" alt="Raw">
 <figcaption>A stone. Doesn't look like a diamond.</figcaption>
 </figure>
 
 The same stone after careful cutting and polishing:
 
 <figure>
-<img src="/images/diamond.gif">
+<img src="/images/diamond.gif" alt="Polished">
 <figcaption>Now it's a beautiful diamond.</figcaption>
 </figure>
 
