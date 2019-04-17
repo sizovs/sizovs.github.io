@@ -7,9 +7,16 @@ permalink: /about/
 # Hi! 👋
 
 {% assign year = 'now' | date: '%Y' %}
-{% assign age = year | minus: 1988 %}
+{% assign month = 'now' | date: '%m' | minus: 0 %}
+{% assign day = 'now' | date: '%d' | minus: 0 %}
 
-My name is Eduards Sizovs. I am a software architect, [trainer](https://principal.dev), [speaker](https://dev.tube/@eduardsi), and a [conference organizer](https://devternity.com) from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old.
+{% if month <= 6 and day < 21 %}
+{% assign age = year | minus: 1988 | minus: 1 %}
+{% else %}
+{% assign age = year | minus: 1988 | minus: 0 %}
+{% endif %}
+
+My name is Eduards Sizovs. I am a coding software architect, [trainer](https://principal.dev), [speaker](https://dev.tube/@eduardsi), and a [conference organizer](https://devternity.com) from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old.
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2018, replying to an email.</figcaption>
@@ -17,7 +24,9 @@ My name is Eduards Sizovs. I am a software architect, [trainer](https://principa
 
 I've been doing commercial software development for over 15 years. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I consult C-level technical people and organize training for experienced developers:
 
-- 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for the next-gen tech leaders
+- 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for the next-gen tech leaders.
+
+- 🎓 [Awesome Java Architecture](https://devchampions.com/training/java) is a 2-day training for Java developers.
 
 I organize a conference, that turns devs into architects and engineering leaders:
 
