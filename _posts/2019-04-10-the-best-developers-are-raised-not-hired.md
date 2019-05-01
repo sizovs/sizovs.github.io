@@ -20,7 +20,7 @@ But there is a problem:
 The best developers I hired were far from ideal candidates. They lacked technical skills, didn't know how to test software and work in an agile team. They didn't believe in themselves and their ability. They didn't think they can be good leaders. They didn't sound convincing during the job interview. **Some of them were suffering from impostor syndrome, doubting their actual ability:**
 
 <figure>
-<img src="/images/impostor.png" alt="Impostor Sydrome">
+<img src="/images/impostor.png" alt="Impostor Syndrome">
 <figcaption>Image from <a href="https://www.youtube.com/watch?v=1i8ylq4j_EY" rel="nofollow">It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech</a></figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Mentoring is not easy; it requires a significant time commitment and excellent c
 
 <figure>
 <img src="/images/funclub.jpg">
-<figcaption>Your mentees is your fan club.</figcaption>
+<figcaption>Your mentees are your fan club.</figcaption>
 </figure>
 
 By building mentoring capacity at work, you can hire newcomers, broken toys, impostors and turn them into the loyal, high-quality workforce. Shifting focus from assessing to mentoring can simplify your interviewing process. Instead of trying to predict future performance by asking tough questions and sending candidate through nine circles of hell, you can hire candidates with a growth mindset and grow them.
@@ -55,7 +55,7 @@ Would you send this stone to a trash can?
 
 <figure>
 <img src="/images/raw_diamond.jpg" alt="Raw">
-<figcaption>A stone. Doesn't look like a diamond.</figcaption>
+<figcaption>A stone that doesn't look like a diamond</figcaption>
 </figure>
 
 The same stone after careful cutting and polishing:
@@ -75,7 +75,7 @@ How?
 
 - Adjust your interview process and give a chance to candidates that are not good enough yet, but are eager to learn and have a growth mindset. They are raw diamonds.
 
-- Relax "hard requirements" in your job ads to avoid filtering out impostors. Remember that most women apply to positions only where they 100% fit the requirements.
+- Relax "hard requirements" in your job ads to avoid filtering out impostors. Remember that most women apply to positions only where they completely fit the requirements.
 
 - If you work in a large company and care about our profession, consider creating a Bootcamp for complete beginners.
 
