@@ -49,10 +49,12 @@ I share cool links on my Telegram channel for software developers:
 My email is [eduards@sizovs.net](mailto:eduards@sizovs.net). I reply within 48 hours.
 
 ## Follow me
-I use Twitter. <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">Follow me</a> to learn more about people and technology.
+I use Twitter. <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">Follow me</a> to learn more about technology and people.
+
+You can [invite me](https://www.linkedin.com/in/eduardsi){: rel="nofollow" } on LinkedIn. Please introduce yourself when sending an invitation.
 
 ## Subscribe
-Once a month, I send a summary of my writing activity. Sometimes it includes Tweets and interesting things from the web. You can subscribe and unsubscribe any time, no questions asked. 
+Once a month, I send a summary of my writing activity. Sometimes it includes Tweets and interesting things from the web. You can subscribe and unsubscribe any time, no questions asked. I won't spam you with commercials and will never share your email with a third party.
 
 <div id="subscribeForm">
   <form action="https://www.getrevue.co/profile/sizovs/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
