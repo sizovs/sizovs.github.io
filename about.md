@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-# Hi! 👋
+# Hi. 👋
 
 {% assign year = 'now' | date: '%Y' %}
 {% assign month = 'now' | date: '%m' | minus: 0 %}
