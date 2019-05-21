@@ -10,7 +10,7 @@ permalink: /about/
 {% assign month = 'now' | date: '%m' | minus: 0 %}
 {% assign day = 'now' | date: '%d' | minus: 0 %}
 
-{% if month <= 6 and day < 21 %}
+{% if month < 6 or month == 6 and day < 21 %}
 {% assign age = year | minus: 1988 | minus: 1 %}
 {% else %}
 {% assign age = year | minus: 1988 | minus: 0 %}
