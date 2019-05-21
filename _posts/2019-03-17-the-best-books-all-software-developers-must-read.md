@@ -124,6 +124,16 @@ Release It! is a practical guide on building modern fault-tolerant systems. The 
 <br>
 {% include buy_book.html asin='1680502395' %}
 
+## Peopleware
+
+**Author:** Tom DeMarco · **Topic:** productivity · **Level:** intermediate
+
+![Book](https://images.gr-assets.com/books/1386925395l/67825.jpg)
+
+Peopleware is a book about productivity. The book explains in great detail that the main software development challenges are sociological, not technical. Read this book if you want to create an environment where people can show outstanding results and performance. The book covers topics such as office space organization, motivation, teamwork, multitasking, and some basic psychology. **️❤️The manager’s function is not to make people work, but to make it possible for people to work.**
+<br>
+{% include buy_book.html asin='0932633439' %}
+
 ## Nonviolent Communication
 
 **Author:** Marshall Rosenberg · **Topic:** communication skills · **Level:** advanced
