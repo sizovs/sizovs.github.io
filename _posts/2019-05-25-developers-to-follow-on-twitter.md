@@ -17,7 +17,7 @@ noActions: true
 
 **The list was updated in {{'now' | date: "%Y"}}.**
 
-In addition to [books](/2019/03/17/the-best-books-all-software-developers-must-read/) and [conferences](/2019/03/21/the-best-developer-conferences/), Twitter is my primary source of inspiration. Unfortunately, some developers don't use Twitter because they find it too noisy. To improve the situation, I decided to compile a list of **{{site.data.twitter.accounts.size}} high-quality Twitter accounts** that post only relevant content.
+In addition to [books](/2019/03/17/the-best-books-all-software-developers-must-read/) and [conferences](/2019/03/21/the-best-developer-conferences/), Twitter is my primary source of inspiration. Unfortunately, some developers don't use Twitter because they find it too noisy. To improve the situation, I decided to compile a list of **{{site.data.twitter.accounts.size}} high-quality Twitter accounts** with good signal vs. noise ratio.
 
 <figure>
 <img src="/images/selfie.jpg" alt="bullshit" width="200px" align="center" />
