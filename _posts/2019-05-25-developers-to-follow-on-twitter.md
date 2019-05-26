@@ -34,4 +34,4 @@ In addition to [books](/2019/03/17/the-best-books-all-software-developers-must-r
 
 ---
 
-Do you know of other accounts with a good noise vs. signal ratio?
+Do you know of other accounts with a good signal vs. noise ratio?
