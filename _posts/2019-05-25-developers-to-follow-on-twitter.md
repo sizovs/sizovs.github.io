@@ -21,7 +21,7 @@ In addition to [books](/2019/03/17/the-best-books-all-software-developers-must-r
 
 <figure>
 <img src="/images/selfie.jpg" alt="bullshit" width="200px" align="center" />
-<figcaption>No cats, politics and selfies allowed.</figcaption>
+<figcaption>No cats, politics, and selfies allowed.</figcaption>
 </figure>
 
 ---
@@ -35,4 +35,4 @@ In addition to [books](/2019/03/17/the-best-books-all-software-developers-must-r
 
 ---
 
-Do you know of other accounts with good signal vs. noise ratio?
+Do you know of other accounts with good signal vs. noise ratio, that you never considered muting?
