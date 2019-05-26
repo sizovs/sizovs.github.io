@@ -3,81 +3,117 @@
     - handle: jnabrdalik
       name: Jakub Nabrdalik
       about: Jakub is a hands-on Solutions Architect with deep experience is Domain Driven Design, Test/Behavior Driven Development, Spring, Microservices, and JVM.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My new trick for remote work – <br>When I fail to solve a coding problem that I need solved by the next day, instead of staying late and fighting while tired, I leave &amp; wake up earlier to solve it in the morning.<br>It&#39;s so much easier to code when you are rested.</p>&mdash; Jakub Nabrdalik (@jnabrdalik) <a href="https://twitter.com/jnabrdalik/status/1044827367238246400?ref_src=twsrc%5Etfw">September 26, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: venkat_s
       name: Venkat Subramaniam
       about: Venkat is a programmer, author of many books, speaker, founder Agile Developer, Inc., professor of Computer Science at the University of Houston.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Learning to program is like learning music. We don&#39;t learn by merely watching others or listening. Learn by creating a lot of noise, be guided and critiqued continuously, and practice like crazy until you can feel the harmony (in code).</p>&mdash; Venkat Subramaniam (@venkat_s) <a href="https://twitter.com/venkat_s/status/1099312786557956097?ref_src=twsrc%5Etfw">February 23, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: sandromancuso
       name: Sandro Mancuso
       about: Sandro is a software craftsman, speaker, founder of London Software Craftsmanship Community, and the author of [The Software Craftsman](https://mustread.tech/books/isbn/9780134052502) book.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Code coverage is a side effect, not a goal. The only time I find the metric useful is when I’m working with legacy and want to have an indication if there are tests for the part of the code I’m interested in.</p>&mdash; Sandro Mancuso (@sandromancuso) <a href="https://twitter.com/sandromancuso/status/1091701221390516224?ref_src=twsrc%5Etfw">February 2, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: kelseyhightower
       name: Kelsey Hightower
       about: Kelsey is a well-known authority in the DevOps community. He works as a Staff Developer Advocate for Google Cloud Platform.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Once you&#39;ve found success, your next goal should be helping others do the same.</p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/1053389901117325312?ref_src=twsrc%5Etfw">October 19, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: sarah_edo
       name: Sarah Drasner
       about: Sarah is an award-winning speaker, Head of Developer Experience at Netlify, and Writer at CSS-Tricks. She is also a Vue Core team member.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">So strange I never saw people count the lines of code Steve Jobs or Elon Musk have written 🤔</p>&mdash; Sarah Drasner (@sarah_edo) <a href="https://twitter.com/sarah_edo/status/1116843870841712640?ref_src=twsrc%5Etfw">April 12, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: paul_irish
       name: Paul Irish
       about: Paul works on the Google Chrome team focused on Developer Tooling, and everything else Chrome can do to make you a productive web developer. Paul has developed many OSS tools including Modernizr, Yeoman, and HTML5 Boilerplate.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When you&#39;re optimizing performance of your site/app, your priorities are 1. Network connections 2. DOM access 3. Javascript optimizations.</p>&mdash; Paul Irish (@paul_irish) <a href="https://twitter.com/paul_irish/status/143077300441853952?ref_src=twsrc%5Etfw">December 3, 2011</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: mfeathers
       name: Michael Feathers
       about: Michael is an expert in software and organization design. He is the author of [Working Effectively with Legacy Code](https://mustread.tech/books/isbn/0076092025986) book.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Imagine how nicer code would become if GitHub’s pages for source didn’t support horizontal scrolling.</p>&mdash; Michael Feathers (@mfeathers) <a href="https://twitter.com/mfeathers/status/1132017539129593856?ref_src=twsrc%5Etfw">May 24, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: yegor256
       name: Yegor Bugayenko
       about: Yegor is a programmer, OSS contributor, and the founder of Zerocracy — software engineering and management platform with a unique methodology. He is also an author of [Elegant Objects](https://mustread.tech/books/isbn/9781534908307) – a book about object-oriented programming.
-
-
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A good code is not the one that works, but the one that is easy to read.</p>&mdash; Yegor Bugayenko (@yegor256) <a href="https://twitter.com/yegor256/status/1017067587044282368?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     - handle: unclebobmartin
       name: Robert C. Martin
       about: Robert Martin, also known as Uncle Bob, is the author of bestselling [Clean Code](https://mustread.tech/books/isbn/9780132350884), [Clean Coder](https://mustread.tech/books/isbn/9780137081073) and Clean Architecture books.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Developers do not have to justify testing and refactoring to management; because those disciplines increase efficiency and productivity. Indeed, it is the lack of such disciplines that ought to require justification. I doubt any could truly be found.</p>&mdash; Uncle Bob Martin (@unclebobmartin) <a href="https://twitter.com/unclebobmartin/status/1130449247390851072?ref_src=twsrc%5Etfw">May 20, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: martinfowler
       name: Martin Fowler
       about: Martin is an expert in the enterprise software design and the author of [Refactoring](https://mustread.tech/books/isbn/9780201485677) and [Patterns of Enterprise Application Architecture](https://mustread.tech/books/isbn/9780321127426) books.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Good software architecture advice is always worth considering, but it should never be always carried out</p>&mdash; Martin Fowler (@martinfowler) <a href="https://twitter.com/martinfowler/status/606900042226651137?ref_src=twsrc%5Etfw">June 5, 2015</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: jbrains
       name: J. B. Rainsberger
       about: J.B. is a conference speaker and software mentor, helping both teams and individual programmers learn high-productivity techniques for delivering software.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Another successful coaching session. This time – don&#39;t rush to write elegant code; write inelegant code, then look for examples of how you might improve it, then let yourself refactor in that direction. Building a vocabulary makes elegance easier to achieve.</p>&mdash; ☕ J. B. Rainsberger (@jbrains) <a href="https://twitter.com/jbrains/status/1017518232054517761?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - name: Kent Beck
       handle: kentbeck
       about: Kent Beck is the original signer of the Agile Manifesto, author of the eXtreme Programming book series, rediscoverer of Test-Driven Development.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">tdd is a great excuse to think about the problem before you think about the solution</p>&mdash; Kent Beck (@KentBeck) <a href="https://twitter.com/KentBeck/status/371313634225311744?ref_src=twsrc%5Etfw">August 24, 2013</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - name: Sam Newman
       handle: samnewman
       about: Independent consultant focusing on Microservices, cloud, and Continuous Delivery. Sam wrote a book on Building Microservices.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Saying a software architecture is “bad” isn’t terribly helpful, and misses the point. All architecture ends up being optimised around something, and the goals and constraints you now have may just differ from those people who came before</p>&mdash; Sam Newman (@samnewman) <a href="https://twitter.com/samnewman/status/1061989650133323776?ref_src=twsrc%5Etfw">November 12, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - name: Cory House
       handle: housecor
       about: Cory is a React consultant, trainer at Pluralsight, speaker, software architect, and Microsoft MVP.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Unpopular opinion – The team lead should approve all code reviews. <br><br>Without a clear person with skin in the game, code quality tends to atrophy. Why? Code reviews get rubber stamped.<br><br>Yes, the team should review too, but the lead is ultimately responsible for maintaining quality.</p>&mdash; Cory House (@housecor) <a href="https://twitter.com/housecor/status/1113216035958796299?ref_src=twsrc%5Etfw">April 2, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - name: Simon Brown
       handle: simonbrown
       about: Author of "Software Architecture for Developers," award-winning speaker, trainer, creator of C4 model for visualizing software structure.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It’s funny, software developers often won’t listen to architects in their own organisations who haven’t written code for N years, yet they *will* listen to speakers at conferences who haven’t built or run real software systems for N years.</p>&mdash; Simon Brown (@simonbrown) <a href="https://twitter.com/simonbrown/status/1106088844158480384?ref_src=twsrc%5Etfw">March 14, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - name: Victor Rentea
       handle: victorrentea
       about: Java Champion, the founder of Bucharest Software Craftsmanship Community, trainer, speaker, lead architect at IBM.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;When one person teaches, two people learn.&quot;</p>&mdash; Victor Rentea (@VictorRentea) <a href="https://twitter.com/VictorRentea/status/1131445658450374656?ref_src=twsrc%5Etfw">May 23, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - name: Eric Elliott
       handle: _ericelliott
       about: Eric is the author of "Composing Software" and "Programming JavaScript Applications" books. Founder of DevAnywhere.io. Mentor of mentors.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Frameworks and APIs change fast. Software design principles are evergreen. Learn principles that translate across language barriers.</p>&mdash; Eric Elliott (@_ericelliott) <a href="https://twitter.com/_ericelliott/status/1132302830935654402?ref_src=twsrc%5Etfw">May 25, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - name: Kamil Szymański
       handle: kszdev
       about: Software developer, problem solver, JVM & open-source enthusiast.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">DRY is not about avoiding code repetition, it&#39;s all about having only single representation of a piece of knowledge in code - don&#39;t repeat your knowledge!</p>&mdash; Kamil Szymański (@kszdev) <a href="https://twitter.com/kszdev/status/1083303691963285505?ref_src=twsrc%5Etfw">January 10, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - name: Andrey Adamovich
       handle: codingandrey
       about: Developer, entrepreneur, open-source enthusiast, DevOps and eXtreme Automation trainer.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When you know the tool - it&#39;s just a tool, when you don&#39;t know the tool - it&#39;s a legendary artifact only to be used by chosen ones (<a href="https://twitter.com/hashtag/git?src=hash&amp;ref_src=twsrc%5Etfw">#git</a>, <a href="https://twitter.com/hashtag/docker?src=hash&amp;ref_src=twsrc%5Etfw">#docker</a>, <a href="https://twitter.com/hashtag/strace?src=hash&amp;ref_src=twsrc%5Etfw">#strace</a> etc)</p>&mdash; Andrey Adamovich (@codingandrey) <a href="https://twitter.com/codingandrey/status/1034051268862464003?ref_src=twsrc%5Etfw">August 27, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
     - handle: eduardsi
       name: Eduards Sizovs
       about: You can follow me, too. I tweet about software development, mentoring, and recruiting.
+      tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When developers who complain that their managers do not give enough time to write &quot;high-quality code,&quot; are given more time, they keep producing crap. There must be a connection.</p>&mdash; Eduards Sizovs 👨🏻‍💻 (@eduardsi) <a href="https://twitter.com/eduardsi/status/1128669882642513921?ref_src=twsrc%5Etfw">May 15, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

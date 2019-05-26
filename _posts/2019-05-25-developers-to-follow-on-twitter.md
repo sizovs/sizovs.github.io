@@ -30,6 +30,7 @@ In addition to [books](/2019/03/17/the-best-books-all-software-developers-must-r
 ## {{avatar}}  [{{account.name}}](https://twitter.com/{{account.handle}}){:rel="nofollow" }
 
 {{account.about}}
+{{account.tweet}}
 {% endfor %}
 
 ---
