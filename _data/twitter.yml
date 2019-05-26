@@ -1,0 +1,83 @@
+---
+  accounts:
+    - handle: jnabrdalik
+      name: Jakub Nabrdalik
+      about: Jakub is a hands-on Solutions Architect with deep experience is Domain Driven Design, Test/Behavior Driven Development, Spring, Microservices, and JVM.
+
+    - handle: venkat_s
+      name: Venkat Subramaniam
+      about: Venkat is a programmer, author of many books, speaker, founder Agile Developer, Inc., professor of Computer Science at the University of Houston.
+
+    - handle: sandromancuso
+      name: Sandro Mancuso
+      about: Sandro is a software craftsman, speaker, founder of London Software Craftsmanship Community, and the author of [The Software Craftsman](https://mustread.tech/books/isbn/9780134052502) book.
+
+    - handle: kelseyhightower
+      name: Kelsey Hightower
+      about: Kelsey is a well-known authority in the DevOps community and a Staff Developer Advocate for Google Cloud Platform.
+
+    - handle: sarah_edo
+      name: Sarah Drasner
+      about: Sarah is an award-winning Speaker, Head of Developer Experience at Netlify, and Staff Writer at CSS-Tricks. She's a Vue Core team member.
+
+    - handle: paul_irish
+      name: Paul Irish
+      about: Paul works on the Google Chrome team focused on Developer Tooling, and everything else Chrome can do to make you a productive web developer. Paul has developed many OSS tools including Modernizr, Yeoman, and HTML5 Boilerplate.
+
+    - handle: mfeathers
+      name: Michael Feathers
+      about: Michael is an expert in software and organization design. He is the author of [Working Effectively with Legacy Code](https://mustread.tech/books/isbn/0076092025986) book.
+
+    - handle: yegor256
+      name: Yegor Bugayenko
+      about: Yegor is a programmer, OSS contributor, and the founder of Zerocracy — software engineering and management platform with a unique methodology. He is also an author of [a book](https://mustread.tech/books/isbn/9781534908307) about object-oriented programming.
+
+
+
+    - handle: unclebobmartin
+      name: Robert C. Martin
+      about: Robert Martin, also known as Uncle Bob, is the author of bestselling [Clean Code](https://mustread.tech/books/isbn/9780132350884), [Clean Coder](https://mustread.tech/books/isbn/9780137081073) and Clean Architecture books.
+
+    - handle: martinfowler
+      name: Martin Fowler
+      about: Martin is an expert in the enterprise software design and the author of [Refactoring](https://mustread.tech/books/isbn/9780201485677) and [Patterns of Enterprise Application Architecture](https://mustread.tech/books/isbn/9780321127426) books.
+
+    - handle: jbrains
+      name: J. B. Rainsberger
+      about: J.B. is a conference speaker and software mentor, helping both teams and individual programmers learn high-productivity techniques for delivering software.
+
+    - name: Kent Beck
+      handle: kentbeck
+      about: Kent Beck is the original signer of the Agile Manifesto, author of the eXtreme Programming book series, rediscoverer of Test-Driven Development.
+
+    - name: Sam Newman
+      handle: samnewman
+      about: Independent consultant focusing on Microservices, cloud, and Continuous Delivery. Sam wrote a book on Building Microservices.
+
+    - name: Cory House
+      handle: housecor
+      about: Cory is a React consultant, trainer at Pluralsight, speaker, software architect, and Microsoft MVP.
+
+    - name: Simon Brown
+      handle: simonbrown
+      about: Author of "Software Architecture for Developers," award-winning speaker, trainer, creator of C4 model for visualizing software structure.
+
+    - name: Victor Rentea
+      handle: victorrentea
+      about: Java Champion, the founder of Bucharest Software Craftsmanship Community, trainer, speaker, lead architect at IBM.
+
+    - name: Eric Elliott
+      handle: _ericelliott
+      about: Eric is the author of "Composing Software" and "Programming JavaScript Applications" books. Founder of DevAnywhere.io. Mentor of mentors.
+
+    - name: Kamil Szymański
+      handle: kszdev
+      about: Software developer, problem solver, JVM & open-source enthusiast.
+
+    - name: Andrey Adamovich
+      handle: codingandrey
+      about: Developer, entrepreneur, open-source enthusiast, DevOps and eXtreme Automation trainer.
+
+    - handle: eduardsi
+      name: Eduards Sizovs
+      about: You can follow me, too. I tweet about software development, mentoring, and recruiting.
