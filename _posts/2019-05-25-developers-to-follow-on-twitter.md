@@ -35,4 +35,4 @@ In addition to [books](/2019/03/17/the-best-books-all-software-developers-must-r
 
 ---
 
-Do you know other accounts with good signal vs. noise ratio, that you never considered muting?
+What accounts you actively follow and never considered muting?
