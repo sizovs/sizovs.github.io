@@ -31,3 +31,5 @@ Instagram is becoming the next big think in education. In addition to [books](/2
 ---
 
 What Instagram people do you follow to learn tech?
+
+P.S. check out [Twitter accounts](https://sizovs.net/2019/05/25/developers-to-follow-on-twitter/) as well.
