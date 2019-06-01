@@ -38,6 +38,11 @@ hr {
   border: 0;  
 }
 
+sup {
+ vertical-align: super;
+ font-size: smaller;
+}
+
 hr:before {
   content: "···";
   letter-spacing: 1em;
