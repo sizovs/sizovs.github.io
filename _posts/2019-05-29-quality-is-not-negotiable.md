@@ -68,7 +68,7 @@ We forget that nothing great comes without sacrifice and stop in the middle of h
 
 Quality of your work shows how much you care about your teammates and people who will work on the codebase after you leave the project. You are what you do, not what you say you do. If you want others to treat you as a professional, behave accordingly. That is, do quality work.
 
-If you work in a team, you should care about your teammates. If someone is spending extra hours at work away from their family, trying to understand your shit, while you are on vacation, you’re not a good teammate. If you expect someone to recommend you in their circles – forget about it.
+If you work in a team, you should care about your teammates. If someone is spending extra hours at work away from their family, trying to understand your shit, while you are on vacation, you’re not a good teammate. If you expect victims of your code recommend you in their circles – forget about it.
 
 <figure>
 <img src="/images/bad_peter.png" alt="You are a bad person, Peter">
