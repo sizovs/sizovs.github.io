@@ -12,7 +12,7 @@ I never liked technical interviews. When I was a young developer, certain interv
 
 Building an interview process is like creating a product. If you create a product that people don’t like, you won’t get any users. Today, companies build products that people are afraid to use yet still expect candidates to line up for an interview. Something is wrong here.
 
-**The problem is that we design the interview process from the wrong end.** We make the process convenient for interviewers, not the candidates. But a product that doesn't take user interests into account cannot be successful. Users vote with their feet.
+**The problem is that we design the interview process from the wrong end.** We make the process convenient for interviewers, not the candidates. But the product that doesn't take user interests into account cannot be successful. Users vote with their feet.
 
 Instead of fixing a broken process, companies pay recruiters and hope that they will generate more traffic. It's like pushing a shitty product uphill and paying for ads, instead of building a great product and enjoying organic growth, thanks to recommendations and word of mouth.
 
