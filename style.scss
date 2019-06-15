@@ -98,12 +98,13 @@ footer {
 h1 {
   text-align: center;
   margin-top: 1.5em;
-  font-size: 3em;
+  font-size: 2em;
   @include mobile {
     font-size: 1.5em;
   }
   a {
     color: inherit;
+    text-decoration: none;
   }
 }
 
@@ -375,6 +376,7 @@ nav {
   }
 
   .read-more {
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 15px;
   }
