@@ -55,7 +55,7 @@ Conferences are a great place to network with like-minded developers and learn f
 
 [![Conference](/images/are_you_in.png)](https://devternity.com)
 
-DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in beautiful Riga, this full-stack conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first day is packed with high-quality talks. The second conference day is devoted to full-day power workshops. **Perhaps the best choice you can make.** 
+DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in beautiful Riga, this conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first day is packed with high-quality talks. The second conference day is devoted to full-day power workshops. **Perhaps the best choice you can make.** 
 
 <br>
 [Register](https://devternity.com){: .button }
@@ -206,7 +206,7 @@ NDC is one of the best .NET conferences in Europe. NDC speakers come from all ov
 
 ![Conference](/images/the_principal_logo.png)
 
-If conferences are too theoretical for you and you prefer workshops, consider this 2-day masterclass for experienced developers. The course takes your technical skills and put them on steroids. You will learn secrets of good development processes, improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you the key asset in any modern technology organization. **The course has admission requirements.**
+If conferences are too theoretical for you and you prefer workshops, consider this 2-day masterclass for experienced developers. The course takes your technical skills and put them on steroids. You will learn secrets of good engineering practices and development processes. You will improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior dev and or a team lead.
 
 <br>
 [Register](https://principal.dev){: .button }
