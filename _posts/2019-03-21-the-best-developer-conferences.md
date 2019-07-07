@@ -77,10 +77,10 @@ Conferences are a great place to network with like-minded developers and learn f
 
 [![Conference](/images/are_you_in.png)](https://devternity.com)
 
-DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in beautiful Riga, this conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first day is packed with high-quality talks. The second conference day is devoted to full-day power workshops. **Perhaps the best choice you can make**.
+DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in beautiful Riga, this conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first conference's day is packed with high-quality talks. The second day is devoted to full-day workshops. This conference is in demand among developers and tickets are rarely available. **If you can get ticket to this one – lucky you.**
 
 <br>
-[Register](https://devternity.com){: .button-emph }
+[Tickets](https://devternity.com){: .button-emph }
 
 ## JokerConf
 
@@ -228,7 +228,7 @@ NDC is one of the best .NET conferences in Europe. NDC speakers come from all ov
 
 ![Conference](/images/the_principal_logo.png)
 
-If you find conferences too noizy and theoretical, consider this 2-day masterclass for experienced developers. The course takes your technical skills and put them on steroids. You will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior dev or a team lead.
+If you find conferences too noizy and theoretical, consider this 2-day masterclass for experienced developers. The course takes your technical skills and put them on steroids. You will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
 
 <br>
 [Register](https://principal.dev){: .button }
