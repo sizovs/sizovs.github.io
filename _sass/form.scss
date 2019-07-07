@@ -31,6 +31,22 @@ input[type='submit']:hover, input[type='submit']:focus, .button:hover, .button:f
     border: 1px solid $emphasize;
 }
 
+.button-emph {
+    cursor: pointer;
+    color: white;
+    background-color: #00A86B;
+    border: 1px solid #039c64;
+    border-radius: .2rem;
+    font-size: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.button-emph:hover, .button-emph:focus{
+    border: 1px solid black;
+    color: black;
+}
+
 label {
     display: block;
     line-height: 1.2rem;
