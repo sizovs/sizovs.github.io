@@ -8,13 +8,24 @@ noActions: true
 ---
 
 <style type="text/css">
+
+    .entry h2:not(:first-of-type), .entry h2:not(:first-of-type) ~ p {
+        color: #585858 !important;
+    }
+
+    .entry h2:last-of-type, .entry h2:last-of-type ~ p {
+        color: black !important;
+    }    
+
     img[alt=Conference], img[alt=Unconference] {
         width: 200px;
         float: left;
         margin-right: 1em;
     }
+
     img[alt=Unconference] {
         filter: grayscale(90%);
+        opacity: 0.8;
     }
 
     img[alt=Conference] {
@@ -44,17 +55,17 @@ Conferences are a great place to network with like-minded developers and learn f
 
 [![Conference](/images/are_you_in.png)](https://devternity.com)
 
-DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in a beautiful city of Riga, this well-organized conference focuses on the core skills paramount to your success – code design, software architecture and leadership. Organizers promise no agile bulsh\*\*t or marketing talks. **This is a must-see event that sells out quickly!**
+DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in beautiful Riga, this full-stack conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first day is packed with high-quality talks. The second conference day is devoted to full-day power workshops. **Perhaps the best choice you can make.** 
 
 <br>
-[Website](https://devternity.com){: .button }
+[Register](https://devternity.com){: .button }
 
 ## JokerConf
 
 **Audience**: Java developers ·  **Location:** Saint Petersburg, Russia · **Date**: 25–26 Oct 2019
 
 ![Unconference](https://avatars.io/twitter/jugru)
-This is one of the best conferences organized by Java User Group in Russia. The venue, the staff, the travel organization and of course the audience is excellent. The conference offers good soft and hard-core talk balance. The only issue is that *some* talks are in Russian. That might scare some international attendees.
+This is one of the best conferences organized by Java User Group in Russia. The venue, the staff, the travel organization and of course the audience is excellent. The conference offers good soft and hard-core talk balance. **The only issue is that some talks are in Russian and you will probably need a visa.** That might scare some international attendees.
 
 <br>
 <!-- [Website](https://jokerconf.com){: .button rel="nofollow" } -->
@@ -135,17 +146,6 @@ JavaZone is organized by javaBin, the Norwegian Java User Group. Its goal is to 
 <br>
 <!-- [Website](https://javazone.no){: .button rel="nofollow" } -->
 
-## The Principal Developer
-
-**Audience**: development leaders · **Location:** Riga, Latvia · **Date**: 23–24 May 2019
-
-![Conference](/images/the_principal_logo.png)
-
-If conferences are too theoretical for you and you prefer workshops, consider this 2-day masterclass for experienced engineers. The course takes your technical skills and put them on steroids. You will understand how organizations work, learn secrets of good development processes, improve communication, teamwork, and mentoring skills. The goal of this course is to make you the key asset in any modern technology organization. **The course is invite-only and has certain admission requirements.**
-
-<br>
-[Website](https://principal.dev){: .button }
-
 ## JFokus
 
 **Audience**: Java developers · **Location:** Stockholm, Sweden · **Date**: 4-6 Feb 2019
@@ -200,16 +200,18 @@ NDC is one of the best .NET conferences in Europe. NDC speakers come from all ov
 <br>
 <!-- [Website](https://ndcconferences.com){: .button rel="nofollow" } -->
 
-## DevTernity
+## The Principal Developer
 
-**Audience**: developers, architects ·  **Location:** Riga, Latvia · **Date**: 6–7 Dec 2019
+**Audience**: developers, team leaders · **Location:** Riga, Latvia · **Date**: 3-4 Oct 2019
 
-[![Conference](/images/devternity_old.png)](https://devternity.com)
+![Conference](/images/the_principal_logo.png)
 
-DevTernity is the top 3 international software development conference in Europe. Located in the heart of Europe, in a beautiful city of Riga, this well-organized conference focuses on the core skills paramout to your success – code design, software architecture and leadership. Organizers promise no agile bulsh\*\*t or marketing talks. **This is a must-see event!**
+If conferences are too theoretical for you and you prefer workshops, consider this 2-day masterclass for experienced developers. The course takes your technical skills and put them on steroids. You will learn secrets of good development processes, improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you the key asset in any modern technology organization. **The course has admission requirements.**
 
 <br>
-[Website](https://devternity.com){: .button }
+[Register](https://principal.dev){: .button }
+
+> If you are still in doubt and want to make the best choice quickly, go for [DevTernity](https://devternity.com). It's the perfectly-balanced developer conference.
 
 I picked the best conferences for your convenience. Here is the full conference list:
 
