@@ -20,7 +20,7 @@ Conferences are a great place to network with like-minded developers and learn f
 **Date:** 6–7 Dec 2019
 
 [![Conference](/images/are_you_in.png)](https://devternity.com)
-DevTernity is one of the most demanded developer conferences in Europe. Located in beautiful city of Riga, this conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first conference's day is packed with high-quality talks. The second day is devoted to full-day workshops. This conference is in demand among developers and tickets are rarely available. **If you can get ticket to this one – lucky you.**
+DevTernity is one of the most demanded developer conferences in Europe. Located in beautiful city of Riga, this conference focuses on coding, architecture and leadership skills. The first conference's day is packed with high-quality talks. The second day is devoted to full-day workshops. This conference is in demand among developers and tickets are rarely available. **If you can get ticket to this event – lucky you.**
 <br>
 [Tickets](https://devternity.com){: .button-emph }
 
