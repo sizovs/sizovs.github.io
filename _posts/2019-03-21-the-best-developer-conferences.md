@@ -213,4 +213,4 @@ If you find conferences too noizy and theoretical, consider this 2-day mastercla
 
 > If you are still in doubt and want to make the best choice quickly, go for [DevTernity](https://devternity.com). It's a perfectly-balanced developer conference.
 
-Mark your calendars and make your choices soon. Prices may vary based on how early you register. Also, remember that hotel and travel costs are generally separate from the conference pricing. Enjoy!
+I picked the best conferences for your convenience. Now, make a good choice and mark your calendar. Prices may vary based on how early you register. Also, remember that hotel and travel costs are generally separate from the conference pricing. Enjoy!
