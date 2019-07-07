@@ -73,7 +73,7 @@ Conferences are a great place to network with like-minded developers and learn f
 
 ## DevTernity 2019 (🏅 TOP 3 IN EUROPE)
 
-**Audience**: developers, architects ·  **Location:** Riga, Latvia · **Date**: 6–7 Dec 2019
+**Location:** Riga, Latvia · **Date**: 6–7 Dec 2019
 
 [![Conference](/images/are_you_in.png)](https://devternity.com)
 
@@ -83,7 +83,7 @@ DevTernity is one of the most demanded developer conferences in Europe. Located 
 
 ## JokerConf
 
-**Audience**: Java developers ·  **Location:** Saint Petersburg, Russia · **Date**: 25–26 Oct 2019
+**Location:** Saint Petersburg, Russia · **Date**: 25–26 Oct 2019
 
 ![Unconference](https://avatars.io/twitter/jugru)
 This is one of the best conferences organized by Java User Group in Russia. The venue, the staff, the travel organization and of course the audience is excellent. The conference offers good soft and hard-core talk balance. **The only issue is that some talks are in Russian and you will probably need a visa.** That might scare some international attendees.
@@ -93,7 +93,7 @@ This is one of the best conferences organized by Java User Group in Russia. The 
 
 ## CraftConf
 
-**Audience**: developers, managers ·  **Location:** Budapest, Hungary · **Date**: 7–10 May 2019
+**Location:** Budapest, Hungary · **Date**: 7–10 May 2019
 
 ![Unconference](https://avatars.io/twitter/craftconf)
 CRAFT is a very well-organized general software development conference in Europe. The conference organizers excel at everything they do – from organization to the content. Here you will learn about tools, methods, and practices from the best speakers and practitioners in the software development community. This is a really good conference.
@@ -103,7 +103,7 @@ CRAFT is a very well-organized general software development conference in Europe
 
 ## GOTO Berlin
 
-**Audience**: developers, managers ·  **Location:** Berlin, Germany · **Date**: 21–25 Oct 2019
+**Location:** Berlin, Germany · **Date**: 21–25 Oct 2019
 
 ![Unconference](https://avatars.io/twitter/gotober)
 
@@ -114,7 +114,7 @@ GOTO is a general software development conference that covers wide range of topi
 
 ## Devoxx Belgium
 
-**Audience**: Java developers ·  **Location:** Antwerp, Belgium · **Date**: 4–8 Nov 2019
+**Location:** Antwerp, Belgium · **Date**: 4–8 Nov 2019
 
 ![Unconference](https://avatars.io/twitter/devoxx)
 
@@ -125,7 +125,7 @@ Devoxx is an annual community conference organized by the Belgian Java User Grou
 
 ## The Lead Developer
 
-**Audience**: developers, team leaders ·  **Location:** London, UK · **Date**: 11–12 Jun 2019
+**Location:** London, UK · **Date**: 11–12 Jun 2019
 
 ![Unconference](https://avatars.io/twitter/theleaddev)
 
@@ -136,7 +136,7 @@ As a tech lead, you have to be a great developer. But you also need to be a good
 
 ## GeekOut
 
-**Audience**: Java developers ·  **Location:** Tallinn, Estonia · **Date**: 26–27 Sep 2019
+**Location:** Tallinn, Estonia · **Date**: 26–27 Sep 2019
 
 ![Unconference](https://avatars.io/twitter/geekoutee)
 
@@ -147,7 +147,7 @@ GeekOut is a high-quality conference for Java developers in a cozy city of Talli
 
 ## QCon San Francisco
 
-**Audience**: software architects ·  **Location:** San Francisco, US · **Date**: 4–8 Mar 2019
+**Location:** San Francisco, US · **Date**: 4–8 Mar 2019
 
 ![Unconference](https://avatars.io/twitter/qconsf)
 
@@ -158,7 +158,7 @@ QCon is a large conference for senior software engineers and architects on the p
 
 ## JavaZone
 
-**Audience**: Java developers ·  **Location:** Oslo, Norway · **Date**: 10 Sep 2019
+**Location:** Oslo, Norway · **Date**: 10 Sep 2019
 
 ![Unconference](https://avatars.io/twitter/javazone)
 
@@ -169,7 +169,7 @@ JavaZone is organized by javaBin, the Norwegian Java User Group. Its goal is to 
 
 ## JFokus
 
-**Audience**: Java developers · **Location:** Stockholm, Sweden · **Date**: 4-6 Feb 2019
+**Location:** Stockholm, Sweden · **Date**: 4-6 Feb 2019
 
 ![Unconference](https://avatars.io/twitter/jfokus)
 
@@ -179,7 +179,7 @@ JFokus is a general software development conference about literally everything �
 
 ## Build Stuff
 
-**Audience**: Developers · **Location:** Vilnius, Lithuania · **Date**: 13–15 Nov 2019
+**Location:** Vilnius, Lithuania · **Date**: 13–15 Nov 2019
 
 ![Unconference](https://avatars.io/twitter/buildstufflt)
 
@@ -190,7 +190,7 @@ Build Stuff Lithuania is one of the largest software development events in Balti
 
 ## SoCraTes
 
-**Audience**: Developers · **Location:** Soltau, Germany · **Date**: 22–25 Aug 2019
+**Location:** Soltau, Germany · **Date**: 22–25 Aug 2019
 
 ![Unconference](https://avatars.io/twitter/socrates_conf)
 
@@ -201,7 +201,7 @@ SoCraTes is about software craftsmanship, sustainable creation of useful softwar
 
 ## Øredev
 
-**Audience**: developers, architects ·  **Location:** Malmö, Sweden · **Date**: 6–8 Nov 2019
+**Location:** Malmö, Sweden · **Date**: 6–8 Nov 2019
 
 ![Unconference](https://avatars.io/twitter/oredev)
 
@@ -212,7 +212,7 @@ The conference gathers 1300 participants to talk about Web, Data Science, Cloud,
 
 ## NDC London
 
-**Audience**: developers, architects ·  **Location:** London, UK · **Date**: 27-31 Jan 2020
+**Location:** London, UK · **Date**: 27-31 Jan 2020
 
 ![Unconference](https://avatars.io/twitter/ndc_conferences)
 
@@ -223,7 +223,7 @@ NDC is one of the best .NET conferences in Europe. NDC speakers come from all ov
 
 ## The Principal Developer
 
-**Audience**: developers, team leaders · **Location:** Riga, Latvia · **Date**: 3-4 Oct 2019
+**Location:** Riga, Latvia · **Date**: 3-4 Oct 2019
 
 ![Conference](/images/the_principal_logo.png)
 
