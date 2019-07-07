@@ -79,7 +79,6 @@ Conferences are a great place to network with like-minded developers and learn f
 
 DevTernity is one of the most demanded developer conferences in Europe. Located in beautiful city of Riga, this conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first conference's day is packed with high-quality talks. The second day is devoted to full-day workshops. This conference is in demand among developers and tickets are rarely available. **If you can get ticket to this one – lucky you.**
 
-<br>
 [Tickets](https://devternity.com){: .button-emph }
 
 ## JokerConf
@@ -230,7 +229,6 @@ NDC is one of the best .NET conferences in Europe. NDC speakers come from all ov
 
 If you find conferences too theoretical, consider this 2-day masterclass. Designed for experienced developers, this course takes your technical skills and put them on steroids. Here you will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
 
-<br>
 [Register](https://principal.dev){: .button }
 
 > If you are still in doubt and want to make the best choice quickly, go for [DevTernity](https://devternity.com). It's a perfectly-balanced developer conference.
