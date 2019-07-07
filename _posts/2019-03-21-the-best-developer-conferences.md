@@ -9,11 +9,11 @@ noActions: true
 
 <style type="text/css">
 
-    .entry h2:not(:first-of-type), .entry h2:not(:first-of-type) ~ p {
+    main h2:not(:first-of-type), main h2:not(:first-of-type) ~ p {
         color: #585858 !important;
     }
 
-    .entry h2:last-of-type, .entry h2:last-of-type ~ p {
+    main h2:last-of-type, main h2:last-of-type ~ p {
         color: black !important;
     }    
 
