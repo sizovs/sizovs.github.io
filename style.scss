@@ -26,7 +26,7 @@ body {
   position: relative;
 }
 
-hr {
+hr, section::after, article h6::after {
   margin-left: auto!important;
   margin-right: auto!important;
   margin-top: 1.6rem;
@@ -38,14 +38,14 @@ hr {
   border: 0;  
 }
 
+hr:before, section::after, article h6::after{
+  content: "···";
+  letter-spacing: 1em;
+}
+
 sup {
  vertical-align: super;
  font-size: smaller;
-}
-
-hr:before {
-  content: "···";
-  letter-spacing: 1em;
 }
 
 .container {
@@ -73,7 +73,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  padding: 60px;
   text-align: center;  
 }
 
@@ -240,6 +239,10 @@ table th {
 //
 
 header {
+  
+  .container {
+    text-align: center;
+  }
   h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     margin: 0;
@@ -247,10 +250,17 @@ header {
   h3, h3 a {
     color: $gray;
   }
-}
 
-.masthead {
-  text-align: center;
+  
+  @include mobile {
+    h2 {
+      font-size: 1em;
+    }
+    h3 {
+      display: none;
+    }
+  }  
+  
 }
 
 .site-avatar {
@@ -383,6 +393,55 @@ nav {
 }
 
 
+// best developer conferences
+
+.confs {
+
+  main h2:not(:first-of-type), main h2:not(:first-of-type) ~ p {
+      color: #585858 !important;
+  }
+
+  main h2:last-of-type, main h2:last-of-type ~ p {
+      color: black !important;
+  }    
+
+  main h2:first-of-type::after {
+    content: " (🏅 TOP 3 IN EUROPE)"
+  }
+
+  h2 + p strong:nth-child(n+2)::before {
+    content: " · "
+  }
+
+  img[alt=Conference], img[alt=Unconference] {
+      width: 200px;
+      float: left;
+      margin-right: 1em;
+  }
+
+  img[alt=Unconference] {
+      filter: grayscale(90%);
+      opacity: 0.8;
+  }
+
+  img[alt=Conference] {
+      transition: all .2s ease-in-out;
+  }
+
+  img[alt=Conference]:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+  }
+
+  .button-emph, .button {
+    display: inline-block;
+    margin-top: 1em;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
+
+
+

@@ -1,4 +1,8 @@
 <footer>
-    {% assign year = 'now' | date: '%Y' %}
-    © Eduards Sizovs · 2018 – {{year}}
+    <div class="container">
+        {% include share.html %}
+        <br>
+        <br>
+        {% include disqus.html %}
+    </div>
 </footer>

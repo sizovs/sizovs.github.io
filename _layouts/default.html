@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
       {% if page.includeYear %}
         {% assign year = 'now' | date: "%Y" %}
@@ -14,9 +14,9 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?version=3" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?version=4" />  
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} by {{ site.author }}" href="{{ site.baseurl }}/feed.xml" />
-    <link href="//fonts.googleapis.com/css?family=Oswald:400|Lora:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Oswald:400%7CLora:400,700" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" />
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
@@ -38,11 +38,12 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <i id="header-toggle" class="show-mobile fas fa-bars" onclick="show('header'); hide('header-toggle')"></i>
-        <header id="header" class="masthead hide-mobile">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+      <header id="header">
+        <div class="container show-mobile">
+            <i id="toggle" class="fas fa-bars" onclick="show('about'); hide('toggle')"></i>
+        </div>
+        <div class="container hide-mobile" id="about">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="Eduard's avatar"/></a>
           <h2>{{site.title}}</h2>
           <h3>
             <i>
@@ -59,13 +60,13 @@
             <a href="{{ site.baseurl }}/about#subscribeForm">Subscribe</a>
             <a href="{{ site.baseurl }}/feed.xml"><i class="fas fa-rss"></i></a>
           </nav>
-        </header>
-      </div>
-    </div>
+        </div>
+      </header>
+  
 
-    <div id="main" role="main" class="container">
+    <main class="container {{page.root_class_class}}">
       {{ content }}
-    </div>
+    </main>
     {% include analytics.html %}
   </body>
 </html>
