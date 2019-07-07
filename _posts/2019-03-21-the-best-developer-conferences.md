@@ -211,7 +211,7 @@ If conferences are too theoretical for you and you prefer workshops, consider th
 <br>
 [Register](https://principal.dev){: .button }
 
-> If you are still in doubt and want to make the best choice quickly, go for [DevTernity](https://devternity.com). It's the perfectly-balanced developer conference.
+> If you are still in doubt and want to make the best choice quickly, go for [DevTernity](https://devternity.com). It's a perfectly-balanced developer conference.
 
 I picked the best conferences for your convenience. Here is the full conference list:
 
