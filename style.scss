@@ -397,15 +397,15 @@ nav {
 
 .confs {
 
-  main h2:not(:first-of-type), main h2:not(:first-of-type) ~ p {
+  h2:not(:first-of-type), main h2:not(:first-of-type) ~ p {
       color: #585858 !important;
   }
 
-  main h2:last-of-type, main h2:last-of-type ~ p {
+  h2:last-of-type, main h2:last-of-type ~ p {
       color: black !important;
   }    
 
-  main h2:first-of-type::after {
+  h2:first-of-type::after {
     content: " (🏅 TOP 3 IN EUROPE)"
   }
 
