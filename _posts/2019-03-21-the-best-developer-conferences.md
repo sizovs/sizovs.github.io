@@ -41,6 +41,24 @@ noActions: true
         color: #989898;
     }
 
+    
+    .button-emph {
+        cursor: pointer;
+        color: white;
+        background-color: #00A86B;
+        border: 1px solid #039c64;
+        border-radius: .2rem;
+        font-size: 1em;
+        padding: 0.5em;
+        text-decoration: none;
+    }
+
+    .button-emph:hover, .button-emph:focus{
+        border: 1px solid black;
+        color: black;
+    }
+
+
     @media (max-width: 599px) {
         
     }    
