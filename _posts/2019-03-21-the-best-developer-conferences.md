@@ -77,7 +77,7 @@ Conferences are a great place to network with like-minded developers and learn f
 
 [![Conference](/images/are_you_in.png)](https://devternity.com)
 
-DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in beautiful Riga, this conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first conference's day is packed with high-quality talks. The second day is devoted to full-day workshops. This conference is in demand among developers and tickets are rarely available. **If you can get ticket to this one – lucky you.**
+DevTernity is the top 3 developer conference in Europe. Located in the heart of Europe, in beautiful Riga, this conference focuses on the core skills paramount to your success – coding, architecture and leadership. The first conference's day is packed with high-quality talks, followed by a day of practical workshops. This conference is in demand among developers and tickets are rarely available. **If you can get ticket to this one – lucky you.**
 
 <br>
 [Tickets](https://devternity.com){: .button-emph }
