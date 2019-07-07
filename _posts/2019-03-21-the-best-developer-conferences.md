@@ -10,7 +10,7 @@ root_class_class: confs
 
 **The list was updated in {{'now' | date: "%Y"}}.**
 
-Conferences are a great place to network with like-minded developers and learn from the best developers in our field. Thousands of conferences happening around the world, but not all of them are equally good. Below is my list of the best software development conferences of all time. **I personally attended every conference on the list**.
+Conferences are a great place to network with like-minded developers and learn from the best developers in our field. Thousands of conferences happening around the world, but not all of them are equally good. Below is my list of the best software development conferences to attend in {{'now' | date: "%Y"}}. **I personally attended every conference on the list**.
 
 ---
 
