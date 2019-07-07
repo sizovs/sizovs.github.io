@@ -206,7 +206,7 @@ NDC is one of the best .NET conferences in Europe. NDC speakers come from all ov
 
 ![Conference](/images/the_principal_logo.png)
 
-If conferences are too theoretical for you and you prefer workshops, consider this 2-day masterclass for experienced developers. The course takes your technical skills and put them on steroids. You will learn secrets of good engineering practices and development processes. You will improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior dev and or a team lead.
+If you find conferences too noizy and theoretical, consider this 2-day masterclass for experienced developers. The course takes your technical skills and put them on steroids. You will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior dev or a team lead.
 
 <br>
 [Register](https://principal.dev){: .button }
