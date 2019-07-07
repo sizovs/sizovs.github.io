@@ -81,6 +81,7 @@ DevTernity is one of the most demanded developer conferences in Europe. Located 
 
 [Tickets](https://devternity.com){: .button-emph }
 
+<br>
 ## JokerConf
 
 **Location:** Saint Petersburg, Russia · **Date**: 25–26 Oct 2019
