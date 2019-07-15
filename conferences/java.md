@@ -7,4 +7,4 @@ root_class_class: confs-list
 
 ---
 
-{% include conferences.html topic='java' what='Java Developer' extra='oxx' icon='<i class="fab fa-java"></i>' %}
+{% include conferences.html topic='java' what='Java Developer' extra='' icon='<i class="fab fa-java"></i>' %}
