@@ -27,7 +27,7 @@
       "@type": "EducationEvent",
       "name": "{{c.name}}",
       "image": "{{c.img}}",
-      "description": "{{c.about}}",
+      "description": "{{c.about | xml_escape}}",
       "startDate": "{{c.startDate}}T09:00",
       "endDate": "{{c.endDate}}T20:00",
       "performer": {
