@@ -21,6 +21,31 @@
 ![Unconference]({{c.img}})
 {{c.about}}
 {% endif -%}
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "EducationEvent",
+      "name": "{{c.name}}",
+      "image": "{{c.img}}",
+      "description": "{{c.about}}",
+      "startDate": "{{c.startDate}}T09:00",
+      "endDate": "{{c.endDate}}T20:00",
+      "performer": {
+        "@type": "Organization",
+        "name": "{{c.name}}",
+        "sameAs": "{{c.url}}"
+      },
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "{{c.city}}",
+          "addressRegion": "{{c.country}}"
+        },
+        "name": "{{c.city}}, {{c.country}}"
+      }
+    }      
+  </script>
 {% endfor %}
 
 > Still in doubt? Go to **[DevTernity](https://devternity.com)**.
