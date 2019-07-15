@@ -420,6 +420,21 @@ nav {
       color: black !important;
   }    
 
+  h2:first-of-type + p + p a.button {
+    cursor: pointer;
+    color: white;
+    background-color: #00A86B !important;
+    border: 1px solid #039c64;
+    border-radius: .2rem;
+    font-size: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    &:hover, &:focus {
+      border: 1px solid black;
+      color: black;
+    }
+  }
+
   h2:first-of-type::after {
     content: " (🏅 TOP 3 IN EUROPE)"
   }

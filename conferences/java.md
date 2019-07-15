@@ -1,10 +1,12 @@
 ---
 layout: post
-title: Java Developer Conferences 
+title: The Best Java Developer Conferences 
+location: Stockholm, Sweden
+date: "2019-03-03"
 includeYear: true
 noActions: true
-root_class_class: confs-list
+root_class_class: confs
 
 ---
 
-{% include conferences.html topic='java' what='Java Developer' extra='' icon='<i class="fab fa-java"></i>' %}
+{% include conferences_nice.html tag='java' what='Java developer conferences' %}

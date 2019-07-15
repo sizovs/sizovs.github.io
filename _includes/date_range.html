@@ -1,0 +1,5 @@
+{% assign dayFrom = include.from | date: "%-d" %}
+{% if include.from != include.to -%}
+{% assign dayTo = include.to | date: "%-d" %}        
+{% endif -%}
+{{dayFrom}}–{{dayTo}} {{include.from | date: "%b %Y" %}}

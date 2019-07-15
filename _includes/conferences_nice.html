@@ -1,0 +1,28 @@
+{% assign confs = site.data.events.list | where_exp: "self", "self.tags contains include.tag" %}
+
+**The list was updated in {{'now' | date: "%Y"}}.**
+
+{{include.what | capitalize}} are a great place to network with like-minded developers and learn from the best software engineers in our field. Thousands of conferences happening around the world, but not all of them are equally good. Below is my list of {{confs.size}} best {{include.what}} to attend in {{'now' | date: "%Y"}}. **I personally attended every conference on the list**.
+
+---
+
+{% for c in confs -%}
+## {{c.name}}
+
+**Location:** {{c.city}}, {{c.country}}
+**Date:** {% include date_range.html from=c.startDate to=c.endDate %}
+
+{% if c.url -%}
+[![Conference]({{c.img}})]({{c.url}})
+{{c.about}}
+<br>
+[Tickets]({{c.url}}){: .button }
+{% else %}
+![Unconference]({{c.img}})
+{{c.about}}
+{% endif -%}
+{% endfor %}
+
+> Still in doubt? Go to **[DevTernity](https://devternity.com)**.
+
+I picked the best {{include.what}} for your convenience. Now, make a good choice and mark your calendar. Prices may vary based on how early you register. Also, remember that hotel and travel costs are generally separate from the conference pricing. Enjoy!

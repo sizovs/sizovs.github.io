@@ -1,0 +1,231 @@
+---
+  list:
+    - name: DevTernity 2019
+      city: Riga
+      country: Latvia
+      startDate: "2019-12-06"
+      endDate: "2019-12-07"
+      url: https://devternity.com
+      img: /images/are_you_in.png
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - java
+        - javascript
+      about: 
+        DevTernity is one of the most demanded developer conferences in Europe. Located in beautiful city of Riga, this conference focuses on coding, architecture and leadership skills. The first conference's day is packed with high-quality talks. The second day is devoted to full-day workshops. This conference is in demand among developers and tickets are rarely available. **If you can get ticket to this event – lucky you.**
+    - name: JokerConf
+      city: Saint Petersburg
+      country: Russia
+      startDate: "2019-10-25"
+      endDate: "2019-10-26"
+      img: //avatars.io/twitter/jugru
+      tags: 
+        - general
+        - java
+      about:
+        This is one of the best conferences organized by Java User Group in Russia. The venue, the staff, the travel organization and of course the audience is excellent. The conference offers good soft and hard-core talk balance. **The only issue is that some talks are in Russian and you will probably need a visa.** That might scare some international attendees.
+    - name: CraftConf
+      city: Budapest
+      country: Hungary
+      startDate: "2019-05-07"
+      endDate: "2019-05-10"
+      img: //avatars.io/twitter/craftconf
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - java
+        - javascript      
+      about:
+          CRAFT is a well-organized general software development conference in Europe. The conference organizers excel at everything they do – from organization to the content. Here you will learn about tools, methods, and practices from the best speakers and practitioners in the software development community. **It's a really good event, but four days may be too much.**
+    - name: GOTO Berlin
+      city: Berlin
+      country: Germany
+      startDate: "2019-10-21"
+      endDate: "2019-10-25"
+      img: //avatars.io/twitter/gotober
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - java
+        - javascript       
+      about:
+        GOTO is a general software development conference that covers wide range of topics from coding to management. The content is very diverse and thought-provoking. The conference allows you to meet new people easily and hang out at one of the expo booths, because there is plenty of breaks and room available between sessions. The conference also runs in Copenhagen and Amsterdam.
+    - name: Devoxx Belgium
+      city: Antwerp
+      country: Belgium
+      startDate: "2019-11-04"
+      endDate: "2019-11-08"
+      img: //avatars.io/twitter/devoxx
+      tags: 
+        - general
+        - devops
+        - java
+        - javascript
+      about:
+        Devoxx is an annual community conference organized by the Belgian Java User Group. Devoxx has become one of the best and oldest Java conferences in the world. Devoxx sets high standards for other Java conferences. I believe that every Java developer must attend Devoxx at least once (and try Belgian beer). The conference also runs in the London, Poland, Amsterdam and Chicago.
+    - name: The Lead Developer
+      city: London
+      country: UK
+      startDate: "2019-06-11"
+      endDate: "2019-06-12"
+      img: //avatars.io/twitter/theleaddev
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - javascript        
+      about:
+          As a tech lead, you have to be a great developer. But you also need to be a good team leader, be commercially astute, and stay on top of all the tech developments and trends coming over the horizon. The Lead Developer conference prepares you for a tech leaders role and covers the wide range of topics that every lead developer need to know. Great conference!
+    - name: Kotlin Conf
+      city: Copenhagen
+      country: Denmark
+      startDate: "2019-12-04"
+      endDate: "2019-12-06"
+      img: //avatars.io/twitter/kotlinconf
+      tags:
+        - java
+      about: Kotlin has become de-facto programming language for development on Android platform. If you want to stay up-to-date with Kotlin development, then there is no best conference than Kotlin Conf by JetBrains. The conference is brought by JetBrains, the creators of Kotlin and features the best Kotlin experts, including the key contributors to the language.
+    - name: GeekOut
+      city: Tallinn
+      country: Estonia
+      startDate: "2019-09-26"
+      endDate: "2019-09-27"
+      img: //avatars.io/twitter/geekoutee
+      tags: 
+        - java
+      about:
+        GeekOut is a high-quality conference for Java developers in a cozy city of Tallinn. It's well-organized, has a great venue and speakers lineup. GeekOut gathers 600 participants every year and has a better cost/value ratio than other Java conferences in Northern Europe. GeekOut organizers are seasoned Java practitioners with good understanding of what Java developers need to know.
+    - name: SCLConf London
+      city: London
+      country: UK
+      startDate: "2019-10-03"
+      endDate: "2019-10-04"
+      img: //avatars.io/twitter/sclconf
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - javascript      
+      about:
+        SC is the place where passionate software craftspeople, community, and thought leaders come together. Being a software craftsperson calls on many hard and soft skills. This is where the mindset of a software craftsperson comes in and SCLConf is where this mindset plus latest technologies; agile ways of working and tools will be showcased and nurtured.        
+    - name: JavaZone
+      city: Oslo
+      country: Norway
+      startDate: "2019-09-11"
+      endDate: "2019-09-12"
+      img: //avatars.io/twitter/javazone
+      tags:
+        - java
+      about:
+          JavaZone is organized by javaBin, the Norwegian Java User Group. Its goal is to organize a community-driven conference for Java developers where they can learn new things, share knowledge, and socialize. JavaZone is one of the most visited Java conferences in Europe. Every year, the conference gathers many Java champions and takes content quality seriously. **The only downside is that the trip can blow your family budget, because Oslo is a very expensive city.**
+    - name: JFokus
+      city: Stockholm
+      country: Sweden
+      startDate: "2019-02-04"
+      endDate: "2019-02-06"
+      img: //avatars.io/twitter/jfokus
+      tags:
+        - general
+        - java
+      about:
+        JFokus is a general software development conference about literally everything – Web, DevOps, IoT, AI, Cloud, Big Data, Future and Trends. Even so, I see a major focus on Java, Kotlin, Scala and other JVM languages (hence "J" the name). It's a large and well-organized conference with some famous speakers on stage. I attended the conference in 2016 together with my team and we enjoyed it.
+    - name: Build Stuff
+      city: Vilnius
+      country: Lithuania
+      startDate: "2019-11-13"
+      endDate: "2019-11-15"
+      img: //avatars.io/twitter/buildstufflt
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - java
+        - javascript          
+      about:
+        Build Stuff Lithuania is one of the largest software development events in Baltics. The conference is well-organized, has many good speakers and diversity of talks. What makes this conference particularly great is that it's not just another money-making conference. It's organized with passion and special care about attendees and speakers.
+    - name: GeeCon
+      city: Kraków
+      country: Poland
+      startDate: "2019-05-15"
+      endDate: "2019-05-17"
+      img: //avatars.io/twitter/geecon
+      tags:
+        - java
+      about:
+        GeeCON is focused on Java and JVM based technologies, with special attention to dynamic languages like Groovy and Scala. The event is for everyone interested in new things from the world of Java and related universes! Conference schedule is a mix of invited and call for papers talks, which leads to pretty good quality. The conference also takes place in Prague.
+    - name: SoCraTes
+      city: Soltau
+      country: Germany
+      startDate: "2019-08-22"
+      endDate: "2019-08-25"
+      img: //avatars.io/twitter/socrates_conf
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - javascript  
+      about:
+        SoCraTes is about software craftsmanship, sustainable creation of useful software in a responsible way. The event is run as a non-profit, low-cost event and has a lot of highly collaborative interactions and Open Space sessions. You should attend this event if you want are ready to interact with other attendees, not just sit and listen.    
+    - name: Øredev
+      city: Malmö
+      country: Sweden
+      startDate: "2019-11-06"
+      endDate: "2019-11-08"
+      img: //avatars.io/twitter/oredev
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - java
+        - javascript        
+      about:
+        The conference gathers more than one thousand participants to talk about literally everything related to software development. Diversity of talks is making Øredev interesting conference to attend. Where else you can hear a talk about behavioral neuroscience? **The average quality of talks is good, but sometimes you can come across a low quality talk**.
+    - name: NDC London
+      city: London
+      country: UK
+      startDate: "2020-01-27"
+      endDate: "2020-01-31"
+      img: //avatars.io/twitter/ndc_conferences
+      tags: 
+        - general
+        - dotnet
+      about:
+        NDC is one of the best .NET conferences in Europe. NDC speakers come from all over the world and are recognized as experts and thought leaders in their field. What I like about NDC is that it offers many full-day workshops. The conference also runs in Copenhagen, Oslo, Sydney and Minnesota.
+    - name: The Principal Developer
+      city: Riga
+      country: Latvia
+      startDate: "2019-10-03"
+      endDate: "2019-10-04"
+      img: /images/the_principal_logo.png
+      url: //principal.dev
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - javascript      
+      about: 
+        If you find conferences too theoretical, consider this 2-day masterclass. Designed for experienced developers, this course takes your technical skills and put them on steroids. Here you will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
+    - name: Awesome Java Architecture for Developers
+      city: Riga
+      country: Latvia
+      startDate: "2019-09-26"
+      endDate: "2019-07-27"
+      img: /images/awesome-java.png
+      url: //devchampions.com/training/java/
+      tags: 
+        - java 
+      about: 
+        If you find conferences too theoretical, consider this 2-day masterclass. In this hands-on workshop you will learn how to build modern, clean and maintainable enterprise applications using up to date Java techniques, frameworks and secret gems. You will be equipped with effective practical solutions to real-world architecture and design challenges.
