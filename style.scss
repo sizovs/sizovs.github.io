@@ -309,6 +309,10 @@ header {
   color: #DC143C;
 }
 
+.fa-star {
+  color: #ffd700;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -392,6 +396,17 @@ nav {
   }
 }
 
+
+// conference listings 
+
+.confs-list {
+  tr td, tr td a {
+    color: #878686 !important;
+  }
+  tr td strong a, tr td strong {
+    color: black !important;
+  }  
+}
 
 // best developer conferences
 

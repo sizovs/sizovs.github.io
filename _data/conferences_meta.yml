@@ -1,6 +1,13 @@
 ---
   picks:
     - name: DevTernity 2019
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - java
+        - javascript    
       city: Riga
       country: Latvia
       startDate: "2019-12-06"
@@ -8,9 +15,25 @@
       url: https://devternity.com
       staffPick: true
     - name: The Principal Developer
+      tags: 
+        - general
+        - devops
+        - php
+        - dotnet
+        - java
+        - javascript
       city: Riga
       country: Latvia
       startDate: "2019-10-03"
       endDate: "2019-10-04"
       url: https://principal.dev
       staffPick: true      
+    - name: Awesome Java Architecture
+      tags: 
+        - java
+      city: Riga
+      country: Latvia
+      startDate: "2019-09-26"
+      endDate: "2019-09-27"
+      url: https://devchampions.com/training/java/
+      staffPick: true            

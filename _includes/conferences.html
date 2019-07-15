@@ -3,26 +3,27 @@
 
 {% assign today = 'now' | date: "%Y-%m-%d" %}
 
-{% assign picks = site.data.conferences_meta.picks %}
-{% assign allConferences = site.data.confs.conferences %}
-{% assign confsTech = allConferences[thisYear][include.topic] | concat: allConferences[nextYear][include.topic] %}
+{% assign picks = site.data.conferences_meta.picks | where_exp: "self", "self.tags contains include.topic" %}
+{% assign all = site.data.confs.conferences %}
+{% assign extras = all[thisYear]['general'] | concat: all[nextYear]['general'] | where_exp: "self", "self.name contains include.extra" %}
+{% assign confsTech = all[thisYear][include.topic] | concat: all[nextYear][include.topic] | concat: extras %}
 {% assign confsTechNoDevTernity = confsTech | where_exp: "self", "self.name != 'DevTernity'" %}
 {% assign confsTechNoMyStuff = confsTechNoDevTernity | where_exp: "self", "self.name != 'The Principal Developer'" %}
 {% assign general = picks | concat: confsTechNoMyStuff %}
 {% assign generalUpcoming = general | where_exp: "self", "self.startDate > today" %}
 {% assign generalUpcomingSorted = generalUpcoming | sort: "startDate" %}
 
-**The list was updated in {{thisYear}}.**
+<i class="far fa-star"></i> **The list was updated in {{thisYear}}.**
 
 This is the ultimate list of all {{include.what}} conferences in Europe and USA. The list includes call-for-papers (CFP) dates. All the information here has been compiled correctly to the best of my knowledge. If you notice that I’ve left out a {{include.what}} conference or conference date that’s been published in the meantime, please comment.
 
-## {{generalUpcomingSorted | size}} upcoming {{include.what}} conferences
+## {{include.icon}} {{generalUpcomingSorted | size}} upcoming {{include.what}} conferences
 
 | Name           | Location  | Date           | CFP  |
 | :------------- | :-------- | :------------- | : ---|
 {% for c in generalUpcomingSorted -%}
 {% assign name = c.name | truncate: 30, '...' -%}
-{% assign location = c.city | append: ", " | append: c.country | truncate: 25 -%}
+{% assign location = c.city  | append: ", " | append: c.country | truncate: 15 -%}
 {% assign cfpRunning = c.cfpEndDate > today -%}
 {% if cfpRunning and c.cfpUrl -%}
 {% capture cfpLink -%}[<i class="fas fa-external-link-alt"></i>]({{c.cfpUrl}}){: rel="nofollow" }{% endcapture -%}
@@ -40,12 +41,19 @@ This is the ultimate list of all {{include.what}} conferences in Europe and USA.
 {% endif -%}
 {% unless c.staffPick -%}
 {% if cfpRunning -%}
-| [{{name}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | {{cfpLink}} |
+| <i class="fas fa-check-circle"></i> [{{name}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | {{cfpLink}} |
 {% else -%}
-| [{{name}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | – |
+| <i class="fas fa-check-circle"></i> [{{name}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | – |
 {% endif -%}
 {% endunless -%}
 {% if c.staffPick -%}
-| 🏅[{{name}}]({{c.url}}) | {{location}} | {{date}} | – |
+| <i class="far fa-heart"></i> **[{{name}}]({{c.url}})** | **{{location}}** | **{{date}}** | – |
 {% endif -%}
 {% endfor %}
+
+
+---
+
+> Still in doubt? Go for **[DevTernity](https://devternity.com)**.
+
+I complied the list of {{include.what}} conferences for your convenience. Now, make a good choice and mark your calendar. Prices may vary based on how early you register. Also, remember that hotel and travel costs are generally separate from the conference pricing. Enjoy!

@@ -72,14 +72,6 @@ As a tech lead, you have to be a great developer. But you also need to be a good
 ![Unconference](https://avatars.io/twitter/geekoutee)
 GeekOut is a high-quality conference for Java developers in a cozy city of Tallinn. It's well-organized, has a great venue and speakers lineup. GeekOut gathers 600 participants every year and has a better cost/value ratio than other Java conferences in Northern Europe. GeekOut organizers are seasoned Java practitioners with good understanding of what Java developers need to know.
 
-## QCon San Francisco
-
-**Location:** San Francisco, US
-**Date:** 4–8 Mar 2019
-
-![Unconference](https://avatars.io/twitter/qconsf)
-QCon is a large conference for senior software engineers and architects on the patterns, practices, and use cases leveraged by the world’s most innovative software shops. The conference is well-organized, the talks are diverse, most of them are relevant and deeply technical. That I like about the conference is that you can attend hands-on workshops led by industry experts. The conference also runs in New York, San Francisco, London, Brazil, and Shanghai.
-
 ## JavaZone
 
 **Location:** Oslo, Norway
