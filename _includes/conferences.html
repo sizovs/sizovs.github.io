@@ -41,9 +41,9 @@ This is the ultimate list of all {{include.what}} conferences in Europe and USA.
 {% endif -%}
 {% unless c.staffPick -%}
 {% if cfpRunning -%}
-| <i class="fas fa-check-circle"></i> [{{name}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | {{cfpLink}} |
+| <i class="fas fa-check-circle"></i> [{{name | xml_escape}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | {{cfpLink}} |
 {% else -%}
-| <i class="fas fa-check-circle"></i> [{{name}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | – |
+| <i class="fas fa-check-circle"></i> [{{name | xml_escape}}]({{c.url}}){: rel="nofollow" } | {{location}} | {{date}} | – |
 {% endif -%}
 {% endunless -%}
 {% if c.staffPick -%}
