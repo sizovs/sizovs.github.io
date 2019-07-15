@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Best Developer Conferences
-location: Riga, Latvia
+location: Berlin, Germany
 includeYear: true
 noActions: true
 root_class_class: confs
