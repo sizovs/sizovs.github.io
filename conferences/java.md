@@ -9,4 +9,4 @@ root_class_class: confs
 
 ---
 
-{% include conferences_nice.html tag='java' what='Java developer conferences' %}
+{% include conferences_nice.html tag='java' what='Java developer conferences' fullList='/conferences/ultimate-list-of-java-conferences' %}

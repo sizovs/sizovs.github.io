@@ -9,4 +9,4 @@ excerpt: Developer conferences are a great place to network with like-minded dev
 
 ---
 
-{% include conferences_nice.html tag='general' what='developer conferences' %}
+{% include conferences_nice.html tag='general' what='developer conferences' fullList='/conferences/full-stack' %}
