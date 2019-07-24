@@ -1,11 +1,15 @@
 ---
   list:
     - name: DevTernity 2019
+      awsm: true
       city: Riga
       country: Latvia
+      region: Europe
+      place: National Library of Latvia
+      price: 598
       startDate: "2019-12-06"
       endDate: "2019-12-07"
-      url: https://devternity.com
+      url: //devternity.com
       img: /images/are_you_in.png
       tags: 
         - general
@@ -19,8 +23,12 @@
     - name: JokerConf
       city: Saint Petersburg
       country: Russia
+      region: RU
+      place: Expoforum
+      price: 480
       startDate: "2019-10-25"
       endDate: "2019-10-26"
+      url: //jokerconf.com
       img: //avatars.io/twitter/jugru
       tags: 
         - general
@@ -30,8 +38,12 @@
     - name: CraftConf
       city: Budapest
       country: Hungary
+      region: Europe
+      place: Hungarian Railway History Park
+      price: 1000
       startDate: "2019-05-07"
       endDate: "2019-05-10"
+      url: //craft-conf.com
       img: //avatars.io/twitter/craftconf
       tags: 
         - general
@@ -45,8 +57,12 @@
     - name: GOTO Berlin
       city: Berlin
       country: Germany
+      region: Europe
+      place: Berlin Congress Center
+      price: 1200
       startDate: "2019-10-21"
       endDate: "2019-10-25"
+      url: //gotober.com
       img: //avatars.io/twitter/gotober
       tags: 
         - general
@@ -60,8 +76,12 @@
     - name: Devoxx Belgium
       city: Antwerp
       country: Belgium
+      region: Europe
+      place: Kinepolis
+      price: 845
       startDate: "2019-11-04"
       endDate: "2019-11-08"
+      url: //devoxx.be
       img: //avatars.io/twitter/devoxx
       tags: 
         - general
@@ -69,12 +89,15 @@
         - java
         - javascript
       about:
-        Devoxx is an annual community conference organized by the Belgian Java User Group. Devoxx has become one of the best and oldest Java conferences in the world. Devoxx sets high standards for other Java conferences. I believe that every Java developer must attend Devoxx at least once (and try Belgian beer). The conference also runs in the London, Poland, Amsterdam and Chicago.
+        Devoxx is an annual community conference organized by the Belgian Java User Group. Devoxx has become one of the best and oldest Java conferences in the world. Devoxx sets high standards for other Java conferences. I believe that every Java developer must attend Devoxx at least once (and try Belgian beer). The conference also runs in the London, Poland, and Amsterdam.
     - name: The Lead Developer
       city: London
       country: UK
+      region: UK
+      place: Barbican Centre
       startDate: "2019-06-11"
       endDate: "2019-06-12"
+      url: //theleaddeveloper.com
       img: //avatars.io/twitter/theleaddev
       tags: 
         - general
@@ -87,8 +110,11 @@
     - name: Kotlin Conf
       city: Copenhagen
       country: Denmark
+      region: Europe
+      place: Bella Center
       startDate: "2019-12-04"
       endDate: "2019-12-06"
+      url: //kotlinconf.com
       img: //avatars.io/twitter/kotlinconf
       tags:
         - java
@@ -96,18 +122,40 @@
     - name: GeekOut
       city: Tallinn
       country: Estonia
+      region: Europe
+      place: Kultuurikatel
       startDate: "2019-09-26"
       endDate: "2019-09-27"
+      url: //geekout.ee
       img: //avatars.io/twitter/geekoutee
       tags: 
         - java
       about:
         GeekOut is a high-quality conference for Java developers in a cozy city of Tallinn. It's well-organized, has a great venue and speakers lineup. GeekOut gathers 600 participants every year and has a better cost/value ratio than other Java conferences in Northern Europe. GeekOut organizers are seasoned Java practitioners with good understanding of what Java developers need to know.
+    - name: GOTO Chicago
+      city: Chicago
+      country: United States
+      region: Illinois
+      place: Navy Pier
+      startDate: "2019-04-29"
+      endDate: "2019-04-30"
+      url: //gotochgo.com      
+      img: //avatars.io/twitter/gotochgo
+      tags:
+        - general
+        - devops
+        - php
+        - dotnet
+        - javascript
+      about: Organized by developers, GOTO Chicago focuses on the latest trends in software engineering. The conference covers both deeply technical topics, as well as soft topics such as career and teamwork. The conference is well-organized. Majority of speakers are really good. If you are looking for a conference in the US and don't have opportunity to visit Europe, then GOTO Chicago is perhaps the best choice.
     - name: SCLConf London
       city: London
       country: UK
+      region: UK
+      place: CodeNode
       startDate: "2019-10-03"
       endDate: "2019-10-04"
+      url: //sc-london.com
       img: //avatars.io/twitter/sclconf
       tags: 
         - general
@@ -120,8 +168,11 @@
     - name: JavaZone
       city: Oslo
       country: Norway
+      region: Europe
+      place: Oslo Spektrum
       startDate: "2019-09-11"
       endDate: "2019-09-12"
+      url: //javazone.no
       img: //avatars.io/twitter/javazone
       tags:
         - java
@@ -130,8 +181,11 @@
     - name: JFokus
       city: Stockholm
       country: Sweden
+      region: Europe
+      place: Radisson Blu Waterfront Hotel
       startDate: "2019-02-04"
       endDate: "2019-02-06"
+      url: //jfokus.se
       img: //avatars.io/twitter/jfokus
       tags:
         - general
@@ -141,8 +195,11 @@
     - name: Build Stuff
       city: Vilnius
       country: Lithuania
+      region: Europe
+      place: Radisson Blu
       startDate: "2019-11-13"
       endDate: "2019-11-15"
+      url: //buildstuff.lt
       img: //avatars.io/twitter/buildstufflt
       tags: 
         - general
@@ -156,8 +213,11 @@
     - name: GeeCon
       city: Kraków
       country: Poland
+      region: Europe
+      place: Multikino Kraków
       startDate: "2019-05-15"
       endDate: "2019-05-17"
+      url: //geecon.org
       img: //avatars.io/twitter/geecon
       tags:
         - java
@@ -166,8 +226,11 @@
     - name: SoCraTes
       city: Soltau
       country: Germany
+      region: Europe
+      place: Hotel Park Soltau
       startDate: "2019-08-22"
       endDate: "2019-08-25"
+      url: //socrates-conference.de
       img: //avatars.io/twitter/socrates_conf
       tags: 
         - general
@@ -180,8 +243,11 @@
     - name: Øredev
       city: Malmö
       country: Sweden
+      region: Europe
+      place: Malmö Mässan, Exhibition and Conference Center
       startDate: "2019-11-06"
       endDate: "2019-11-08"
+      url: //oredev.org
       img: //avatars.io/twitter/oredev
       tags: 
         - general
@@ -195,8 +261,11 @@
     - name: NDC London
       city: London
       country: UK
+      region: UK
+      place: Queen Elizabeth II Centre
       startDate: "2020-01-27"
       endDate: "2020-01-31"
+      url: //ndc-london.com
       img: //avatars.io/twitter/ndc_conferences
       tags: 
         - general
@@ -204,8 +273,12 @@
       about:
         NDC is one of the best .NET conferences in Europe. NDC speakers come from all over the world and are recognized as experts and thought leaders in their field. What I like about NDC is that it offers many full-day workshops. The conference also runs in Copenhagen, Oslo, Sydney and Minnesota.
     - name: The Principal Developer
+      awsm: true
       city: Riga
       country: Latvia
+      region: Europe
+      place: Hotel Neiburgs
+      price: 900
       startDate: "2019-10-03"
       endDate: "2019-10-04"
       img: /images/the_principal_logo.png
@@ -219,8 +292,12 @@
       about: 
         If you find conferences too theoretical, consider this 2-day masterclass. Designed for experienced developers, this course takes your technical skills and put them on steroids. Here you will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
     - name: Awesome Java Architecture for Developers
+      awsm: true
       city: Riga
       country: Latvia
+      region: Europe
+      place: Hotel Neiburgs
+      price: 699
       startDate: "2019-09-26"
       endDate: "2019-07-27"
       img: /images/awesome-java.png

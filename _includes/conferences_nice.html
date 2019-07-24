@@ -7,12 +7,18 @@
 ---
 
 {% for c in confs -%}
+{% if c.place -%}
+{% assign place = c.place %}
+{% else %}
+{% assign place = c.city | append: ' ' | append: c.country %}
+{% endif -%}
+
 ## {{c.name}}
 
 **Location:** {{c.city}}, {{c.country}}
 **Date:** {% include date_range.html from=c.startDate to=c.endDate %}
 
-{% if c.url -%}
+{% if c.awsm -%}
 [![Conference]({{c.img}})]({{c.url}})
 {{c.about}}
 <br>
@@ -35,14 +41,26 @@
         "name": "{{c.name}}",
         "sameAs": "{{c.url}}"
       },
+      "offers": {
+        "@type": "Offer",
+        "url": "{{c.url}}",
+        "price": "{{c.price | default: 1000}}",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2019-06-06T16:00"
+      },      
       "location": {
         "@type": "Place",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "{{c.city}}",
-          "addressRegion": "{{c.country}}"
+          "addressRegion": "{{c.region}}",
+          "addressCountry": {
+            "@type": "Country",
+            "name": "{{c.country}}"
+          }
         },
-        "name": "{{c.city}}, {{c.country}}"
+        "name": "{{place}}"
       }
     }      
   </script>
