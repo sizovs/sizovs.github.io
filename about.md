@@ -27,7 +27,7 @@ I've been doing commercial software development for over 15 years. I quickly gre
 <div id="training"></div>
 - 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for the next-gen tech leaders.
 
-- 🎓 [Awesome Java Architecture](https://devchampions.com/training/java) is a 2-day training for Java developers.
+- 🎓 [Effective Java Software Design](https://devchampions.com/training/effective-java-software-design/) is a 2-day training for Java developers.
 
 I organize a conference, that turns devs into architects and engineering leaders:
 

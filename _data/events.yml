@@ -291,7 +291,7 @@
         - javascript      
       about: 
         If you find conferences too theoretical, consider this 2-day masterclass. Designed for experienced developers, this course takes your technical skills and put them on steroids. Here you will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
-    - name: Awesome Java Architecture for Developers
+    - name: Effective Java Software Design
       awsm: true
       city: Riga
       country: Latvia
@@ -301,7 +301,7 @@
       startDate: "2019-09-26"
       endDate: "2019-07-27"
       img: /images/awesome-java.png
-      url: //devchampions.com/training/java/
+      url: //devchampions.com/training/effective-java-software-design/
       tags: 
         - java 
       about: 

@@ -28,12 +28,12 @@
       endDate: "2019-10-04"
       url: https://principal.dev
       staffPick: true      
-    - name: Awesome Java Architecture
+    - name: Effective Java Software Design
       tags: 
         - java
       city: Riga
       country: Latvia
       startDate: "2019-09-26"
       endDate: "2019-09-27"
-      url: https://devchampions.com/training/java/
+      url: https://devchampions.com/training/effective-java-software-design/
       staffPick: true            
