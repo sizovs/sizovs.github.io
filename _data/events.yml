@@ -293,16 +293,22 @@
         If you find conferences too theoretical, consider this 2-day masterclass. Designed for experienced developers, this course takes your technical skills and put them on steroids. Here you will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
     - name: Effective Java Software Design
       awsm: true
+      duration: 2
       city: Riga
       country: Latvia
       region: Europe
       place: Hotel Neiburgs
       price: 699
+      date: "26 Sep 2019"
       startDate: "2019-09-26"
-      endDate: "2019-07-27"
+      endDate: "2019-09-27"
       img: /images/awesome-java.png
       url: //devchampions.com/training/effective-java-software-design/
       tags: 
         - java 
       about: 
         If you find conferences too theoretical, consider this 2-day masterclass. In this hands-on workshop you will learn how to build modern, clean and maintainable enterprise applications using up to date Java techniques, frameworks and secret gems. You will be equipped with effective practical solutions to real-world architecture and design challenges.
+      info: |
+        During this intensive, practical and entertaining workshop you will learn how to develop modern, clean and maintainable applications using the latest Java best practices, frameworks and libraries.
+
+        The course is designed for Java developers who want to expand their knowledge beyond basic and easy-to-google concepts. You will be equipped with practical solutions to your daily coding, design and architecture challenges.
