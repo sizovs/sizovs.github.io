@@ -122,7 +122,7 @@ This live session will introduce you to Elixir and OTP. You will gain an underst
 Testcontainers is a popular JVM testing library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. In this live session, Sergei will show this amazing library in action.
 
 ![Speaker](https://devternity.com/images/hanselman.png)
-**{ 20/20 } Scott Hanselman · Scott Hanselman**
+**{ 20/20 } Scott Hanselman · Scaling Yourself**
 
 We are asked to absorb even more information than ever before – more blogs, more documentation, more patterns, more layers of abstraction, Twitter, Facebook and email. Does all this information take a toll on your psyche or sharpen the saw? Is it a matter of finding the right tools and filters to capture what you need, or do you just need to unplug? Scott knows the answer.
 
