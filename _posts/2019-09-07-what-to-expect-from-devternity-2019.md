@@ -3,6 +3,8 @@ layout: post
 title: What to expect from DevTernity 2019?
 location: Izmir, Turkey
 root_class_class: what-to-expect
+excerpt: DevTernity conference is growing in popularity, hitting the charts and attracting hundreds of engineers not only from Europe, but also from the USA, Canada, Asia, and even Iceland. What can you expect from DevTernity this year?
+
 ---
 
 **[DevTernity](https://devternity.com)** conference is growing in popularity, hitting the charts and attracting hundreds of engineers not only from Europe, but also from the USA, Canada, Asia, and even Iceland. What can you expect from DevTernity this year?
