@@ -49,7 +49,7 @@ In this session, Paul will demonstrate examples of how to secure infrastructure 
 ![Speaker](https://devternity.com/images/roy_vec.png)
 **{ 5/20 } Roy Osherove · The Coaching Architect Manifesto**
 
-You'll learn practical techniques that architects and tech leads can use to briing their teams to the next level. Roy will share do's and don'ts from the hard won battles in the field. Roy will also run a workshop "Elastic Leadership".
+You'll learn practical techniques that architects and tech leads can use to bring their team to the next level. Roy will share do's and don'ts from the hard won battles in the field. Roy will also run a workshop "Elastic Leadership".
 
 ![Speaker](https://devternity.com/images/moffat.png)
 **{ 6/20 } Robin Moffatt · Apache Kafka and KSQL in Action**
