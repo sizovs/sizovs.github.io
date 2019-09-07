@@ -15,7 +15,7 @@ includeYear: true
 
 Attending an expert-led course is the best way to boost Java skills. No online course can compare with live learning, when when you work in a group of like-minded people, ask questions and learn from industry practitioners. 
 
-**I manually collected the ultimate list of trainings offered by different European training providers and individuals.** This is the list of all Java courses I am aware of. All the information here has been compiled correctly to the best of my knowledge. If some great Java training is missing, let me know.
+**I manually collected the ultimate list of training courses offered by different European training providers and individuals.** This is the list of all Java courses I am aware of. All the information here has been compiled correctly to the best of my knowledge. If some great Java training is missing, let me know.
 
 ![Venkat](/images/venk.jpg)
 

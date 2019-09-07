@@ -397,6 +397,20 @@ nav {
 }
 
 
+.what-to-expect {
+  img[alt=Speaker] {
+    width: 68px;
+    float: left;
+    margin-right: 1em;
+  } 
+
+  img[alt=Sponsor] {
+    height: 60px;
+    max-width: 100%;
+    margin-right: 1em;
+  }   
+}
+
 // conference listings 
 
 .confs-list {
