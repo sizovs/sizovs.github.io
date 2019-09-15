@@ -25,15 +25,15 @@ My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a coding software architect
 I've been doing commercial software development for over 15 years. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I keep writing code and organize training for experienced developers:
 
 <div id="training"></div>
-- 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for the next-gen tech leaders.
+- 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for the next-gen tech leaders. Here I give career advice, dive deep into engineering practices, lean software development, recruiting, and mentoring.
 
-- 🎓 [Effective Java Software Design](https://devchampions.com/training/effective-java-software-design/) is a 2-day training for Java developers.
+- 🎓 [Effective Java Software Design](https://devchampions.com/training/effective-java-software-design/) is a 2-day training for Java developers. This one is about designing clean and maintainable enterprise applications in Java.
+
+You can hire me to run a training for your team. 
 
 I organize a conference, that turns devs into architects and engineering leaders:
 
 - 👨‍💻 [DevTernity](https://devternity.com) ([top 3 in Europe](https://itconference.top))
-
-You can hire me to run a 2-day training for your team.
 
 I contribute to open-source:
 
