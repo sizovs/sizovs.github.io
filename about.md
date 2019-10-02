@@ -19,42 +19,43 @@ permalink: /about/
 My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a coding software architect, [trainer](https://principal.dev), [speaker](https://dev.tube/@eduardsi), and a [conference organizer](https://devternity.com) from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old.
 <figure>
 <img src="/images/about.jpg">
-<figcaption>It's me in 2018, replying to an email.</figcaption>
+<figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I've been doing commercial software development for over 15 years. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I keep writing code and organize training for experienced developers:
+I've been doing commercial software development for over 15 years. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I keep writing code, mentor software developers and their managers.
+
+## My training
 
 <div id="training"></div>
-- 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for the next-gen tech leaders. Here I give career advice, dive deep into engineering practices, lean software development, recruiting, and mentoring.
+🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for technical leaders. Here I give a practical career advice, make a deep-dive into engineering practices, lean software development, soft skills, recruiting, and mentoring.
 
-- 🎓 [Effective Java Software Design](https://devchampions.com/training/effective-java-software-design/) is a 2-day training for Java developers. This one is about designing clean and maintainable enterprise applications in Java.
+🎓 [Effective Java Software Design](https://devchampions.com/training/effective-java-software-design/) is a 2-day training for Java developers. Here you will learn how to design clean and lightweight enterprise applications in Java, that are easy and fun to maintain.
 
-You can hire me to run a training for your team. 
+**You can hire me to run a training for your team.**
 
-I organize a conference, that turns devs into architects and engineering leaders:
+## My conference
 
-- 👨‍💻 [DevTernity](https://devternity.com) ([top 3 in Europe](https://itconference.top))
+[DevTernity](https://devternity.com) is [the top 3 developer conferences in Europe](https://itconference.top). It's a must-visit event, where, together with my team, we turn developers into architects and engineering leaders. 
 
-I contribute to open-source:
+## My open source work
 
-- 🍿 [DevTube](https://dev.tube) (#1 Hackernews, #3 ProductHunt) is a hub for developer videos.
+🍿 [DevTube](https://dev.tube) (#1 Hackernews, #3 ProductHunt) is a hub for developer videos.
 
-- 📚 [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
+📚 [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
 
-- 🚀 [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app.
+🚀 [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app.
 
-I share cool links on my Telegram channel for software developers:
+I share cool links on my [Telegram](https://t.me/devchampions){: rel="nofollow" } channel for software developers.
 
-- 💬[DevChampions](http://t.me/devchampions)
+## Get in touch
 
-## Email me
+<i class="far fa-envelope"></i> My email is [eduards@sizovs.net](mailto:eduards@sizovs.net). I reply within 48 hours.
 
-My email is [eduards@sizovs.net](mailto:eduards@sizovs.net). I reply within 48 hours.
+<i class="fab fa-twitter-square"></i> <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">Follow me</a> for relevant tech content. I have zero politics and cat picture policy.
 
-## Follow me
-I use Twitter. <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">Follow me</a> to learn more about technology and people.
+<i class="fab fa-linkedin"></i> Please introduce yourself when sending an [invitation](https://www.linkedin.com/in/eduardsi){: rel="nofollow" }.
 
-You can [invite me](https://www.linkedin.com/in/eduardsi){: rel="nofollow" } on LinkedIn. Please introduce yourself when sending an invitation.
+<i class="fab fa-instagram"></i> To get a glimpse of my life, follow me on [Instagram](https://instagram.com/eduards.sizovs/){: rel="nofollow" }.
 
 ## Subscribe
 Once a month, I send a summary of my writing activity. Sometimes it includes Tweets and interesting things from the web. You can subscribe and unsubscribe any time, no questions asked. I won't spam you with commercials and will never share your email with a third party.
