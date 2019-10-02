@@ -24,7 +24,7 @@ My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a coding software architect
 
 I've been doing commercial software development for over 15 years, primarily in Java. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I keep writing code, mentor software developers and their managers.
 
- I’m an Oracle Certified Master and Java Enterprise Architect (OCMEA), Certified Scrum Master, Certified Product Owner, PMP, and an ICF certified coach.
+ I’m an Oracle Certified Master and Java Enterprise Architect (OCMEA), Certified Scrum Master, Certified Product Owner, Certified Project Management Professional (PMP), and an ICF certified coach.
 
 ## My training
 
