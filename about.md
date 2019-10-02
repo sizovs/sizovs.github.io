@@ -22,7 +22,9 @@ My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a coding software architect
 <figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I've been doing commercial software development for over 15 years. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I keep writing code, mentor software developers and their managers.
+I've been doing commercial software development for over 15 years, primarily in Java. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I keep writing code, mentor software developers and their managers.
+
+ I’m an Oracle Certified Master and Java Enterprise Architect (OCMEA), Certified Scrum Master, Certified Product Owner, PMP, and an ICF certified coach.
 
 ## My training
 
@@ -52,6 +54,8 @@ I've been doing commercial software development for over 15 years. I quickly gre
 <i class="fab fa-twitter-square"></i> <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">Follow me</a> for relevant tech content. I have zero politics and cat picture policy.
 
 <i class="fab fa-linkedin"></i> Please introduce yourself when sending an [invitation](https://www.linkedin.com/in/eduardsi){: rel="nofollow" }.
+
+<i class="fab fa-goodreads"></i> I share and review what I read on [Goodreads](https://goodreads.com/eduardsi){: rel="nofollow" }.
 
 <i class="fab fa-instagram"></i> To get a glimpse of my life, follow me on [Instagram](https://instagram.com/eduards.sizovs/){: rel="nofollow" }.
 
