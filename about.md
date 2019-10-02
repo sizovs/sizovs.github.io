@@ -45,8 +45,6 @@ I've been doing commercial software development for over 15 years. I quickly gre
 
 🚀 [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app.
 
-I share cool links on my [Telegram](https://t.me/devchampions){: rel="nofollow" } channel for software developers.
-
 ## Get in touch
 
 <i class="far fa-envelope"></i> My email is [eduards@sizovs.net](mailto:eduards@sizovs.net). I reply within 48 hours.
@@ -56,6 +54,8 @@ I share cool links on my [Telegram](https://t.me/devchampions){: rel="nofollow" 
 <i class="fab fa-linkedin"></i> Please introduce yourself when sending an [invitation](https://www.linkedin.com/in/eduardsi){: rel="nofollow" }.
 
 <i class="fab fa-instagram"></i> To get a glimpse of my life, follow me on [Instagram](https://instagram.com/eduards.sizovs/){: rel="nofollow" }.
+
+<i class="fab fa-telegram-plane"></i> I share interesting articles on my [Telegram](https://t.me/devchampions){: rel="nofollow" } channel.
 
 ## Subscribe
 Once a month, I send a summary of my writing activity. Sometimes it includes Tweets and interesting things from the web. You can subscribe and unsubscribe any time, no questions asked. I won't spam you with commercials and will never share your email with a third party.
