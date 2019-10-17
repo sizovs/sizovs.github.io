@@ -40,4 +40,4 @@ Attending an expert-led course is the best way to boost Java skills. No online c
 <hr>
 {% endfor %}
 
-> Hard to choose? Check out my [Java training](https://devchampions.com/training/effective-java-software-design/).
+> Hard to choose? Check out my [Java training](https://devchampions.com/training/java/).

@@ -272,25 +272,25 @@
         - dotnet
       about:
         NDC is one of the best .NET conferences in Europe. NDC speakers come from all over the world and are recognized as experts and thought leaders in their field. What I like about NDC is that it offers many full-day workshops. The conference also runs in Copenhagen, Oslo, Sydney and Minnesota.
-    - name: The Principal Developer
-      awsm: true
-      city: Riga
-      country: Latvia
-      region: Europe
-      place: Hotel Neiburgs
-      price: 900
-      startDate: "2019-10-03"
-      endDate: "2019-10-04"
-      img: /images/the_principal_logo.png
-      url: //principal.dev
-      tags: 
-        - general
-        - devops
-        - php
-        - dotnet
-        - javascript      
-      about: 
-        If you find conferences too theoretical, consider this 2-day masterclass. Designed for experienced developers, this course takes your technical skills and put them on steroids. Here you will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
+    # - name: The Principal Developer
+    #   awsm: true
+    #   city: Riga
+    #   country: Latvia
+    #   region: Europe
+    #   place: Hotel Neiburgs
+    #   price: 900
+    #   startDate: "2019-10-03"
+    #   endDate: "2019-10-04"
+    #   img: /images/the_principal_logo.png
+    #   url: //principal.dev
+    #   tags: 
+    #     - general
+    #     - devops
+    #     - php
+    #     - dotnet
+    #     - javascript      
+    #   about: 
+    #     If you find conferences too theoretical, consider this 2-day masterclass. Designed for experienced developers, this course takes your technical skills and put them on steroids. Here you will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
     - name: Effective Java Software Design
       awsm: true
       duration: 2
@@ -303,7 +303,7 @@
       startDate: "2019-09-26"
       endDate: "2019-09-27"
       img: /images/awesome-java.png
-      url: //devchampions.com/training/effective-java-software-design/
+      url: //devchampions.com/training/java/
       tags: 
         - java 
       about: 
