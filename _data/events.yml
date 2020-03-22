@@ -1,14 +1,14 @@
 ---
   list:
-    - name: DevTernity 2019
+    - name: DevTernity 2020
       awsm: true
       city: Riga
       country: Latvia
       region: Europe
       place: National Library of Latvia
       price: 598
-      startDate: "2019-12-06"
-      endDate: "2019-12-07"
+      startDate: "2020-12-03"
+      endDate: "2020-12-04"
       url: //devternity.com
       img: /images/are_you_in.png
       tags: 
@@ -26,8 +26,8 @@
       region: RU
       place: Expoforum
       price: 480
-      startDate: "2019-10-25"
-      endDate: "2019-10-26"
+      startDate: "2020-10-23"
+      endDate: "2020-10-24"
       url: //jokerconf.com
       img: //avatars.io/twitter/jugru
       tags: 
@@ -41,8 +41,8 @@
       region: Europe
       place: Hungarian Railway History Park
       price: 1000
-      startDate: "2019-05-07"
-      endDate: "2019-05-10"
+      startDate: "2020-10-13"
+      endDate: "2020-10-16"
       url: //craft-conf.com
       img: //avatars.io/twitter/craftconf
       tags: 
@@ -60,8 +60,8 @@
       region: Europe
       place: Berlin Congress Center
       price: 1200
-      startDate: "2019-10-21"
-      endDate: "2019-10-25"
+      startDate: "2020-10-26"
+      endDate: "2020-10-30"
       url: //gotober.com
       img: //avatars.io/twitter/gotober
       tags: 
@@ -79,8 +79,8 @@
       region: Europe
       place: Kinepolis
       price: 845
-      startDate: "2019-11-04"
-      endDate: "2019-11-08"
+      startDate: "2020-11-09"
+      endDate: "2020-11-13"
       url: //devoxx.be
       img: //avatars.io/twitter/devoxx
       tags: 
@@ -95,8 +95,8 @@
       country: UK
       region: UK
       place: Barbican Centre
-      startDate: "2019-06-11"
-      endDate: "2019-06-12"
+      startDate: "2021-02-01"
+      endDate: "2021-02-02"
       url: //theleaddeveloper.com
       img: //avatars.io/twitter/theleaddev
       tags: 
@@ -108,12 +108,12 @@
       about:
           As a tech lead, you have to be a great developer. But you also need to be a good team leader, be commercially astute, and stay on top of all the tech developments and trends coming over the horizon. The Lead Developer conference prepares you for a tech leaders role and covers the wide range of topics that every lead developer need to know. Great conference!
     - name: Kotlin Conf
-      city: Copenhagen
-      country: Denmark
-      region: Europe
-      place: Bella Center
-      startDate: "2019-12-04"
-      endDate: "2019-12-06"
+      city: Montreal
+      country: Canada
+      region: US
+      place: Palais des Congrès
+      startDate: "2020-09-09"
+      endDate: "2020-09-11"
       url: //kotlinconf.com
       img: //avatars.io/twitter/kotlinconf
       tags:
@@ -124,8 +124,8 @@
       country: Estonia
       region: Europe
       place: Kultuurikatel
-      startDate: "2019-09-26"
-      endDate: "2019-09-27"
+      startDate: "2021-09-26"
+      endDate: "2021-09-27"
       url: //geekout.ee
       img: //avatars.io/twitter/geekoutee
       tags: 
@@ -137,8 +137,8 @@
       country: United States
       region: Illinois
       place: Navy Pier
-      startDate: "2019-04-29"
-      endDate: "2019-04-30"
+      startDate: "2020-04-27"
+      endDate: "2020-05-01"
       url: //gotochgo.com      
       img: //avatars.io/twitter/gotochgo
       tags:
@@ -153,8 +153,8 @@
       country: UK
       region: UK
       place: CodeNode
-      startDate: "2019-10-03"
-      endDate: "2019-10-04"
+      startDate: "2021-10-03"
+      endDate: "2021-10-04"
       url: //sc-london.com
       img: //avatars.io/twitter/sclconf
       tags: 
@@ -170,8 +170,8 @@
       country: Norway
       region: Europe
       place: Oslo Spektrum
-      startDate: "2019-09-11"
-      endDate: "2019-09-12"
+      startDate: "2020-09-09"
+      endDate: "2020-09-10"
       url: //javazone.no
       img: //avatars.io/twitter/javazone
       tags:
@@ -183,8 +183,8 @@
       country: Sweden
       region: Europe
       place: Radisson Blu Waterfront Hotel
-      startDate: "2019-02-04"
-      endDate: "2019-02-06"
+      startDate: "2020-02-03"
+      endDate: "2020-02-05"
       url: //jfokus.se
       img: //avatars.io/twitter/jfokus
       tags:
@@ -197,10 +197,10 @@
       country: Lithuania
       region: Europe
       place: Radisson Blu
-      startDate: "2019-11-13"
-      endDate: "2019-11-15"
+      startDate: "2020-11-11"
+      endDate: "2020-11-15"
       url: //buildstuff.lt
-      img: //avatars.io/twitter/buildstufflt
+      img: //avatars.io/twitter/BuildStuffConf
       tags: 
         - general
         - devops
@@ -215,8 +215,8 @@
       country: Poland
       region: Europe
       place: Multikino Kraków
-      startDate: "2019-05-15"
-      endDate: "2019-05-17"
+      startDate: "2020-09-02"
+      endDate: "2020-09-04"
       url: //geecon.org
       img: //avatars.io/twitter/geecon
       tags:
@@ -228,8 +228,8 @@
       country: Germany
       region: Europe
       place: Hotel Park Soltau
-      startDate: "2019-08-22"
-      endDate: "2019-08-25"
+      startDate: "2020-08-27"
+      endDate: "2020-08-30"
       url: //socrates-conference.de
       img: //avatars.io/twitter/socrates_conf
       tags: 
@@ -245,8 +245,8 @@
       country: Sweden
       region: Europe
       place: Malmö Mässan, Exhibition and Conference Center
-      startDate: "2019-11-06"
-      endDate: "2019-11-08"
+      startDate: "2020-11-03"
+      endDate: "2020-11-06"
       url: //oredev.org
       img: //avatars.io/twitter/oredev
       tags: 
@@ -263,8 +263,8 @@
       country: UK
       region: UK
       place: Queen Elizabeth II Centre
-      startDate: "2020-01-27"
-      endDate: "2020-01-31"
+      startDate: "2021-01-25"
+      endDate: "2021-01-29"
       url: //ndc-london.com
       img: //avatars.io/twitter/ndc_conferences
       tags: 
@@ -291,24 +291,24 @@
     #     - javascript      
     #   about: 
     #     If you find conferences too theoretical, consider this 2-day masterclass. Designed for experienced developers, this course takes your technical skills and put them on steroids. Here you will learn secrets of good engineering practices and development processes, as well as improve communication, teamwork, mentoring and interviewing skills. The goal of this course is to make you a great senior developer or a team lead.
-    - name: Effective Java Software Design
-      awsm: true
-      duration: 2
-      city: Riga
-      country: Latvia
-      region: Europe
-      place: Hotel Neiburgs
-      price: 699
-      date: "26 Sep 2019"
-      startDate: "2019-09-26"
-      endDate: "2019-09-27"
-      img: /images/awesome-java.png
-      url: //devchampions.com/training/java/
-      tags: 
-        - java 
-      about: 
-        If you find conferences too theoretical, consider this 2-day masterclass. In this hands-on workshop you will learn how to build modern, clean and maintainable enterprise applications using up to date Java techniques, frameworks and secret gems. You will be equipped with effective practical solutions to real-world architecture and design challenges.
-      info: |
-        During this intensive, practical and entertaining workshop you will learn how to develop modern, clean and maintainable applications using the latest Java best practices, frameworks and libraries.
+    # - name: Effective Java Software Design
+    #   awsm: true
+    #   duration: 2
+    #   city: Riga
+    #   country: Latvia
+    #   region: Europe
+    #   place: Hotel Neiburgs
+    #   price: 699
+    #   date: "26 Sep 2019"
+    #   startDate: "2019-09-26"
+    #   endDate: "2019-09-27"
+    #   img: /images/awesome-java.png
+    #   url: //devchampions.com/training/java/
+    #   tags: 
+    #     - java 
+    #   about: 
+    #     If you find conferences too theoretical, consider this 2-day masterclass. In this hands-on workshop you will learn how to build modern, clean and maintainable enterprise applications using up to date Java techniques, frameworks and secret gems. You will be equipped with effective practical solutions to real-world architecture and design challenges.
+    #   info: |
+    #     During this intensive, practical and entertaining workshop you will learn how to develop modern, clean and maintainable applications using the latest Java best practices, frameworks and libraries.
 
-        The course is designed for Java developers who want to expand their knowledge beyond basic and easy-to-google concepts. You will be equipped with practical solutions to your daily coding, design and architecture challenges.
+    #     The course is designed for Java developers who want to expand their knowledge beyond basic and easy-to-google concepts. You will be equipped with practical solutions to your daily coding, design and architecture challenges.

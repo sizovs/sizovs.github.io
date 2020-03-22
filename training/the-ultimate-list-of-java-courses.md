@@ -5,7 +5,7 @@ noActions: true
 includeYear: true
 
 ---
-{% assign thisYear = '2019' %}
+{% assign thisYear = '2020' %}
 
 {% assign picks = site.data.events.list | where_exp: "self", "self.name contains 'Effective Java'" %} 
 {% assign courses = picks | concat: site.data.courses %} 

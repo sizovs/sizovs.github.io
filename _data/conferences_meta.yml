@@ -1,6 +1,6 @@
 ---
   picks:
-    - name: DevTernity 2019
+    - name: DevTernity 2020
       tags: 
         - general
         - devops
@@ -10,8 +10,8 @@
         - javascript    
       city: Riga
       country: Latvia
-      startDate: "2019-12-06"
-      endDate: "2019-12-07"
+      startDate: "2020-12-03"
+      endDate: "2020-12-04"
       url: https://devternity.com
       staffPick: true     
     - name: Effective Java Software Design
