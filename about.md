@@ -41,25 +41,27 @@ I've been doing commercial software development for over 15 years, primarily in 
 
 ## My open source work
 
-🍿 [DevTube](https://dev.tube) (#1 Hackernews, #3 ProductHunt) is a hub for developer videos.
+<i class="fas fa-check"></i> [dev.tube](https://dev.tube) is a crowd-sourced hub for developer videos.
 
-📚 [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
+<i class="fas fa-check"></i> [dev.events](https://dev.events) is a crowd-sourced event listing.
 
-🚀 [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app.
+<i class="fas fa-check"></i> [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
 
-## Get in touch
+<i class="fas fa-check"></i> [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline for Java.
 
-<i class="far fa-envelope"></i> My email is [eduards@sizovs.net](mailto:eduards@sizovs.net). I reply within 48 hours.
+## Let's connect
 
-<i class="fab fa-twitter-square"></i> <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">Follow me</a> for relevant tech content. I have zero politics and cat picture policy.
+<i class="far fa-envelope"></i> [eduards@sizovs.net](mailto:eduards@sizovs.net)
 
-<i class="fab fa-linkedin"></i> Please introduce yourself when sending an [invitation](https://www.linkedin.com/in/eduardsi){: rel="nofollow" }.
+<i class="fab fa-twitter-square"></i> <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">@eduardsi</a>
 
-<i class="fab fa-goodreads"></i> I share and review what I read on [Goodreads](https://goodreads.com/eduardsi){: rel="nofollow" }.
+<i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/eduardsi){: rel="nofollow" }
 
-<i class="fab fa-instagram"></i> To get a glimpse of my life, follow me on [Instagram](https://instagram.com/eduards.sizovs/){: rel="nofollow" }.
+<i class="fab fa-goodreads"></i> [Goodreads](https://goodreads.com/eduardsi){: rel="nofollow" }
 
-<i class="fab fa-telegram-plane"></i> I share interesting articles on my [Telegram](https://t.me/devchampions){: rel="nofollow" } channel.
+<i class="fab fa-instagram"></i> [Instagram](https://instagram.com/eduards.sizovs/){: rel="nofollow" } (posting stuff together with my wife Julia)
+
+<i class="fab fa-telegram-plane"></i> [Telegram](https://t.me/devchampions){: rel="nofollow" }
 
 ## Subscribe
 Once a month, I send a summary of my writing activity. Sometimes it includes Tweets and interesting things from the web. You can subscribe and unsubscribe any time, no questions asked. I won't spam you with commercials and will never share your email with a third party.
