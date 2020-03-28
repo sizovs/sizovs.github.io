@@ -81,4 +81,4 @@ It doesn't matter if you send rockets to space or keep a legacy accounting softw
 
 In this crazy hiring race, we have lost sight of what really matters. In an attempt to attract and retain the best talent, money is being wasted on modern offices, perks, parties, ping-pong tables, and promo videos showcasing that all. 
 
-Instead of building a fancy place to go to work, give people a good reason to come to work. Stop putting lipstick on a pig. People in charge of hiring and leaders at all levels must understand what motivates developers and start designing organizations accordingly. Good developers don't need ping-pong tables. Developers need autonomy, mastery, and purpose.
+Instead of building a fancy place to go to work, give people a good reason to come to work. We can't keep putting lipstick on a pig. People in charge of hiring and leaders at all levels must understand what motivates developers and start designing organizations accordingly. Good developers don't need ping-pong tables. Developers need autonomy, mastery, and purpose.
