@@ -7,7 +7,7 @@ location: Koh Samui, Thailand
 Today, a software development company's office reminds an amusement park, rather than a workplace. There is no need to visit Disneyland anymore, because ping-pong tables, golf fields, game consoles, and color chairs are spread across the office rooms, connected by roller coaster rails and water slides.
 
 <figure>
-<img src="/images/productivity.jpg" alt="productivity">
+<img src="/images/amuse.jpg" alt="productivity">
 </figure>
 
 ---
@@ -26,7 +26,7 @@ When I asked him what motivates software developers, he shrugged.
 
 Companies waste millions on building the environment **they think** makes developers happy, without understanding what actually makes developers tick.
 
-Unless your goal is to win a ping-pong tournament, here is that you need to know about motivation: when developers change jobs, the last thing they care about is your fancy office and table tennis. Developers need **autonomy, mastery, and purpose.**
+Unless your goal is to win a ping-pong tournament, remember: when developers change jobs, the last thing they care about is your fancy office and table tennis. Developers need **autonomy, mastery, and purpose.**
 
 ## Autonomy
 
@@ -68,7 +68,7 @@ Unfortunately, developer work often reminds playing Fruit Ninja: you cut through
 
 When the work is meaningless, it's only a question of time when developers will find the true meaning of work. The culmination will be your corporate blog re-implemented using a reactive microservice architecture.
 
-It doesn't matter if you send rockets to space or keep a legacy accounting software alive. **To reinforce the sense of purpose at work:**
+It doesn't matter if you send rockets to space or keep a legacy accounting software alive. **To reinforce the sense of purpose:**
 
 * Develop psychological ownership. Psychological ownership is when an individual feels psychologically tied to something. Working in a stable, long-lived team builds a sense of belonging. Responsibility for a single codebase builds a sense of ownership. Serving one customer grows into meaningful relationships, empathy, and trust. Caring for things that matter to us is endowed with purpose.
 
@@ -81,4 +81,6 @@ It doesn't matter if you send rockets to space or keep a legacy accounting softw
 
 In this crazy hiring race, we have lost sight of what really matters. In an attempt to attract and retain the best talent, money is being wasted on modern offices, perks, parties, ping-pong tables, and promo videos showcasing that all. 
 
-Instead of building a fancy place to go to work, give people a good reason to come to work. Stop putting lipstick on a pig. People in charge of hiring and leaders at all levels must understand what motivates developers and start designing organizations accordingly. Good developers don't need ping-pong tables. Developers need autonomy, mastery, and purpose.
+Instead of building a fancy place to work, give people a reason to come to work. Otherwise, you're putting lipstick on a pig. People in charge of hiring and leaders must understand what motivates developers, and start designing organizations accordingly. 
+
+Good developers don't need ping-pong tables. Developers need autonomy, mastery, and purpose.
