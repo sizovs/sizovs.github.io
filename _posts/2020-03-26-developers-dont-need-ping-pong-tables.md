@@ -28,6 +28,15 @@ Companies waste millions on building the environment **they think** makes develo
 
 Unless your goal is to win a ping-pong tournament, remember: when developers change jobs, the last thing they care about is your fancy office and table tennis. Developers need **autonomy, mastery, and purpose.**
 
+<br>
+<figure>
+<img src="/images/drive.jpg">
+<figcaption>
+{% include buy_book.html asin='1594488843' %}
+</figcaption>
+</figure>
+
+
 ## Autonomy
 
 Autonomy is a certain amount of freedom every developer needs. Here is how companies destroy autonomy:
