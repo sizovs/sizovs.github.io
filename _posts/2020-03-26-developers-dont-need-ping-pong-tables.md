@@ -92,4 +92,4 @@ In this crazy hiring race, we have lost sight of what really matters. In an atte
 
 Leaders and people in charge of hiring must understand what motivates developers, and start designing organizations accordingly. Instead of building a fancy place to work, give people a reason to come to work. Otherwise, you're just putting lipstick on a pig. 
 
-Good developers don't need ping-pong tables. Developers need autonomy, mastery, and purpose.
+Developers don't need ping-pong tables; they need autonomy, mastery, and purpose.
