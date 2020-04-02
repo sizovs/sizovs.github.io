@@ -59,7 +59,7 @@ I've been doing commercial software development for over 15 years, primarily in 
 
 <i class="fab fa-goodreads"></i> [Goodreads](https://goodreads.com/eduardsi){: rel="nofollow" }
 
-<i class="fab fa-instagram"></i> [Instagram](https://instagram.com/coding.unicorn/){: rel="nofollow" } (posting stuff together with my wife Julia)
+<i class="fab fa-instagram"></i> [Instagram](https://instagram.com/coding_unicorn/){: rel="nofollow" } (posting stuff together with my wife Julia)
 
 <i class="fab fa-telegram-plane"></i> [Telegram](https://t.me/devchampions){: rel="nofollow" }
 
