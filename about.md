@@ -35,6 +35,12 @@ I've been doing commercial software development for over 15 years, primarily in 
 
 **You can hire me to run a training for your team.**
 
+<div class="videoWrapper">
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/AEtCEt44vlE?autoplay=0&origin=https://sizovs.net"
+  frameborder="0"></iframe>
+</div>
+
 ## My conference
 
 [DevTernity](https://devternity.com) is [the top 3 developer conferences in Europe](https://itconference.top). It's a must-visit event, where, together with my team, we turn developers into architects and engineering leaders. 
@@ -48,20 +54,6 @@ I've been doing commercial software development for over 15 years, primarily in 
 <i class="fas fa-check"></i> [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
 
 <i class="fas fa-check"></i> [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline for Java.
-
-## Let's connect
-
-<i class="far fa-envelope"></i> [eduards@sizovs.net](mailto:eduards@sizovs.net)
-
-<i class="fab fa-twitter-square"></i> <a href="https://twitter.com/intent/follow?screen_name=eduardsi" target="_blank">@eduardsi</a>
-
-<i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/eduardsi){: rel="nofollow" }
-
-<i class="fab fa-goodreads"></i> [Goodreads](https://goodreads.com/eduardsi){: rel="nofollow" }
-
-<i class="fab fa-instagram"></i> [Instagram](https://instagram.com/coding_unicorn/){: rel="nofollow" } (posting stuff together with my wife Julia)
-
-<i class="fab fa-telegram-plane"></i> [Telegram](https://t.me/devchampions){: rel="nofollow" }
 
 ## Subscribe
 Once a month, I send a summary of my writing activity. Sometimes it includes Tweets and interesting things from the web. You can subscribe and unsubscribe any time, no questions asked. I won't spam you with commercials and will never share your email with a third party.
