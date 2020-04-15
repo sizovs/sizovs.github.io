@@ -16,7 +16,7 @@ permalink: /about/
 {% assign age = year | minus: 1988 | minus: 0 %}
 {% endif %}
 
-My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a coding software architect, [trainer](https://principal.dev), [speaker](https://dev.tube/@eduardsi), and a [conference organizer](https://devternity.com) from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old.
+My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a coding software architect, trainer, speaker, and a conference organizer from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old.
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2019.</figcaption>
@@ -33,7 +33,7 @@ I've been doing commercial software development for over 15 years, primarily in 
 
 🎓 [Effective Java Software Design](https://devchampions.com/training/java/) is a 2-day training for Java developers. Here you will learn how to design clean and lightweight enterprise applications in Java, that are easy and fun to maintain.
 
-**You can hire me to run a training for your team.**
+You can hire me to run a training for your team.
 
 <div class="videoWrapper">
 <iframe id="ytplayer" type="text/html" width="640" height="360"
@@ -41,11 +41,11 @@ I've been doing commercial software development for over 15 years, primarily in 
   frameborder="0"></iframe>
 </div>
 
-## My conference
+## DevTernity
 
-[DevTernity](https://devternity.com) is [the top 3 developer conferences in Europe](https://itconference.top). It's a must-visit event, where, together with my team, we turn developers into architects and engineering leaders. 
+I organize [DevTernity](https://devternity.com) conference — [the top 3 developer event in Europe](https://itconference.top). It's a must-visit event, where, together with my team, we turn developers into architects and engineering leaders. 
 
-## My open source work
+## Open source
 
 <i class="fas fa-check"></i> [dev.tube](https://dev.tube) is a crowd-sourced hub for developer videos.
 
@@ -54,6 +54,8 @@ I've been doing commercial software development for over 15 years, primarily in 
 <i class="fas fa-check"></i> [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
 
 <i class="fas fa-check"></i> [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline for Java.
+
+[Here](https://github.com/sizovs/mac) you can see what's on my Macbook.
 
 ## Subscribe
 Once a month, I send a summary of my writing activity. Sometimes it includes Tweets and interesting things from the web. You can subscribe and unsubscribe any time, no questions asked. I won't spam you with commercials and will never share your email with a third party.
