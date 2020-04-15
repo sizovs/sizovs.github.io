@@ -16,15 +16,15 @@ permalink: /about/
 {% assign age = year | minus: 1988 | minus: 0 %}
 {% endif %}
 
-My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a coding software architect, trainer, speaker, and a conference organizer from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old.
+My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a software developer, trainer, speaker, and a conference organizer from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old.
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I've been doing commercial software development for over 15 years, primarily in Java. I quickly grew from a developer to architect, from architect to software engineering manager, from manager to IT director. Today, I keep writing code, mentor software developers and their managers.
+I've been doing commercial software development for over fifteen years, primarily using Java ecosystem. I quickly grew from a developer to architect, from architect to engineering manager, from manager to IT director. Today I keep writing code, mentoring software engineers, and their managers.
 
- I’m an Oracle Certified Master and Java Enterprise Architect (OCMEA), Certified Scrum Master, Certified Product Owner, Certified Project Management Professional (PMP), and an ICF certified coach.
+ I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), ICF certified coach, and a certified good guy.
 
 ## My training
 
@@ -33,7 +33,7 @@ I've been doing commercial software development for over 15 years, primarily in 
 
 🎓 [Effective Java Software Design](https://devchampions.com/training/java/) is a 2-day training for Java developers. Here you will learn how to design clean and lightweight enterprise applications in Java, that are easy and fun to maintain.
 
-You can hire me to run a training for your team.
+People say my training is always practical, inspiring, with energy level over 9000. **You can hire me to run a training for your team.**
 
 <div class="videoWrapper">
 <iframe id="ytplayer" type="text/html" width="640" height="360"
