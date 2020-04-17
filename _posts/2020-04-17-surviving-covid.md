@@ -12,7 +12,7 @@ In this post, I will summarize my thoughts on what helps me survive the COVID cr
 
 In 2014 I faced a crisis. I woke up one morning and asked myself what's the point of going to work. And because my work lacked any meaning, the answer didn't follow. The next week I resigned to pursue my dream – helping software developers grow professionally. Together with like-minded people, we created a software craftsmanship community and a successful conference. Since then, I've been running 20-30 workshops a year. I went from depression to passion, thanks to the crisis. 
 
-This crisis (危机 or wēijī in Chinese) is no different. 危 means danger. 机 means opportunity, a point where things change, or the right timing.
+This crisis (危机 or wēijī in Chinese) is no different. 危 means danger. 机 means opportunity, a point where things change, the right timing.
 
 If the crisis has hit you hard, treat it as a call to action. It's good time for change. Perhaps it's time to find your Element. The Element is the point at which your natural talent meets personal passion. 
 
