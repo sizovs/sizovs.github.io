@@ -66,7 +66,7 @@ I don't know what's your current situation, but if you own stocks, cryptocurrenc
 
 It's common sense, but not a common practice. Humans are loss averse. When we see our assets falling in value, a demon on our shoulder nudges us to sell. Instead, if you have available cash, it's an excellent time to learn investments and start buying.
 
-If you drive a fancy car but have no available cash to buy stocks, maybe it's time to reconsider. If you neither have a fancy car nor free funds, it's time to reconsider, too. Here is a book. No need to thank me:
+If you drive a fancy car but have no available cash to buy stocks, maybe it's time to learn some basic financial planning. If you neither have a fancy car nor free funds, here is a book for you. No need to thank me:
 
 <figure>
 <img src="/images/richdad.jpg">
