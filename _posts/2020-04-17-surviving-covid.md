@@ -14,7 +14,7 @@ In 2014 I faced a crisis. I woke up one morning and asked myself what's the poin
 
 This crisis (危机 or wēijī in Chinese) is no different. 危 means danger. 机 means opportunity, a point where things change, or the right timing.
 
-If the crisis has hit you hard, treat it as a call to action. It's good timing for change. Perhaps it's time to find your Element. The Element is the point at which your natural talent meets personal passion. 
+If the crisis has hit you hard, treat it as a call to action. It's good time for change. Perhaps it's time to find your Element. The Element is the point at which your natural talent meets personal passion. 
 
 If you've already found your Element, help people in your circles discover theirs. Become a guide. Help overcome fears. Or just present them some motivating book.
 
