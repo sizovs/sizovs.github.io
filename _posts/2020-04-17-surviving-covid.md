@@ -81,7 +81,7 @@ The best cure against COVID is optimism. Scientists say that COVID doesn't stick
 
 I avoid mass media at all costs because it's full of negative bull shiitake. Twitter is particularly guilty; Those never-ending COVID tweets plant virus seeds in our heads. If you don't have a magic foil shield, make sure you're checking news at most once a day. **For the sake of your health, block people with apocalyptic mood.** Before sharing something, ask yourself – does it plant hope? Does it spread optimism? Does it make people smile? Otherwise, don't share.
 
-And remember the power of positive thinking and affirmations. Yesterday, while having a walk, we cleaned the beach from plastic bottles. My wife said: fucking tourists. I said: you made the beach a little happier. We are both right. Yet, there is a big difference.
+And remember the power of positive thinking and affirmations. Yesterday, while having a walk, we cleaned the beach from plastic bottles. My wife said: fucking tourists. I said: you made the beach a little happier. We are both right. Yet, your words become your thoughts.
 
 ## Health
 
