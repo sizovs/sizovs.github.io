@@ -62,7 +62,7 @@ I am saying this because 85% of my life savings have greatly dropped in value. T
 </figure>
 <br>
 
-I don't know what's your current situation, but if you own stocks, cryptocurrency, or any other asset that has dropped in value: don't sell low during the market crash. Grab a beer and wait until market recovers. Stay away from red charts.
+I don't know what's your current situation, but if you own stocks, cryptocurrency, or any other asset that has dropped in value, remember: don't sell low during the market crash. Grab a beer and wait until market recovers. Stay away from red charts.
 
 It's common sense, but not a common practice. Humans are loss averse. When we see our assets falling in value, a demon on our shoulder nudges us to sell. Instead, if you have available cash, it's an excellent time to learn investments and start buying.
 
