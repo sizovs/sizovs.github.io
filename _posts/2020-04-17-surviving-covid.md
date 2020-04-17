@@ -27,7 +27,7 @@ If you've already found your Element, help people in your circles discover their
 
 ## Noise
 
-Today, what worked before has stopped working. That also applies to things that worked exceptionally well. For example, I organize a conference that developers enjoy. I know that because people every year we are always full-house.
+Today, what worked before has stopped working. That also applies to things that worked exceptionally well. For example, I organize a conference that developers enjoy. I know that because people keep returning every year and we are always full-house.
 
 When people register, it makes me tick. For me, every registration is like hearing, "we like what you do; keep going."
 
