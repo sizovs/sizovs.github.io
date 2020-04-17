@@ -92,7 +92,7 @@ During COVID, not only our hands require hygiene, but also our noisy minds. Medi
 </figure>
 <br>
 
-Shaking up helps a lot. A closed gym is not an excuse. You can workout alone (doesn't work for me). You can join an online class (my wife is attending [this one](https://www.instagram.com/bukrey.fit)). Or you find a private instructor for 1x1 training. A Muay Thai trainer is coming to my house three times a week, and we're kicking the shit out of COVID. By spending money on good causes, I contribute to the wellbeing of others who also need to pay bills.
+Shaking up helps a lot. A closed gym is not an excuse. You can workout alone (doesn't work for me). You can join an online class (my wife is attending [this one](https://www.instagram.com/bukrey.fit)). Or you find a private instructor for 1x1 training. A Muay Thai trainer is coming to my house three times a week, and we're kicking the shit out of COVID. By spending money on good causes, I contribute to the wellbeing of people who also need to pay bills.
 
 ## Wrap up
 
