@@ -16,7 +16,7 @@ This crisis (危机 or wēijī in Chinese) is no different. 危 means danger. �
 
 If the crisis has hit you hard, treat it as a call to action. It's good time for change. Perhaps it's time to find your Element. The Element is the point at which your natural talent meets personal passion. 
 
-If you've already found your Element, help people in your circles discover theirs. Become a guide. Help overcome fears. Or just present them some motivating book.
+If you've already found your Element, help people in your circles discover theirs. Become a guide. Help overcome fears. Or just present them some motivational book. Here is a good one:
 
 <figure>
 <img src="/images/element.jpg">
@@ -31,7 +31,7 @@ Today, what worked before has stopped working. That also applies to things that 
 
 When people register, it makes me tick. For me, every registration is like hearing, "we like what you do; keep going."
 
-It's April now - time when people register in large batches - but they don't. The registration rate is as low as never before.
+It's April now - time when people register in large batches - but they don't. The registration rate is as low as never.
 
 To stay on track, I am telling myself stories. I understand that travel is limited, and people are waiting for the crisis to resolve. I know that the recession is temporary. I am sure that the conference is as good as before.
 
@@ -42,7 +42,7 @@ But there are also other voices living in my head. I am in doubt because there a
 </figure>
 <br>
 
-**Danger lurks here.** Because your efforts have temporarily ceased to bring satisfaction or money, you might start questioning your work, talents, and interests. It's so easy to betray your passion and switch to something "that works now."
+**Danger lurks here.** Because your efforts have temporarily ceased to provide satisfaction and money, you might start questioning your work, talents, and interests. It's so easy to betray your passion and switch to something "that works now."
 
 But what was awesome before the crisis, will stay awesome after the crisis. While others withdraw from the race, stay on track — polish the awesome.
 
@@ -64,7 +64,7 @@ I am saying this because 85% of my life savings have greatly dropped in value. T
 
 I don't know what's your current situation, but if you own stocks, cryptocurrency, or any other asset that has dropped in value, remember: don't sell low during the market crash. Grab a beer and wait until market recovers. Stay away from red charts.
 
-It's common sense, but not a common practice. Humans are loss averse. When we see our assets falling in value, a demon on our shoulder nudges us to sell. Instead, if you have available cash, it's an excellent time to learn investments and start buying.
+It's common sense, but not a common practice. Humans are loss averse. When we see our assets falling in value, a demon on our shoulder nudges us to sell. Instead, if you have available cash, it's an excellent time to learn investment and start buying.
 
 If you drive a fancy car but have no available cash to buy stocks, maybe it's time to learn some basic financial planning. If you neither have a fancy car nor free funds, here is a book for you. No need to thank me:
 
