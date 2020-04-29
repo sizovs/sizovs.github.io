@@ -45,6 +45,15 @@ Knowing the object-oriented programming (OOP) basics does not make you a good OO
 <br>
 {% include buy_book.html asin='0596007124' %}
 
+## Head First Object-Oriented Analysis and Design
+
+**Authors:** Brett McLaughlin, David West · **Topic**: code design · **Level**: beginner
+
+![Book](https://images.gr-assets.com/books/1388549244l/179207.jpg)
+This book shows you how to analyze, design, and write serious object-oriented software: software that's easy to reuse, maintain, and extend; software that doesn't hurt your head; software that lets you add new features without breaking the old ones. This book explains the best practices such as using delegation over inheritance, the Single Responsibility Principle (SRP), Open-Closed Principle (OCP) in great detail.
+<br>
+{% include buy_book.html asin='0596008678' %}
+
 ## Clean Code: A Handbook of Agile Software Craftsmanship
 
 **Author**: Robert C. Martin (Uncle Bob) · **Topic**: coding · **Level**: beginner/intermediate
@@ -133,6 +142,16 @@ Release It! is a practical guide on building modern fault-tolerant systems. The 
 Peopleware is a book about productivity. The book explains in great detail that the main software development challenges are sociological, not technical. Read this book if you want to create an environment where people can show outstanding results and performance. The book covers topics such as office space organization, motivation, teamwork, multitasking, and some basic psychology. **️❤️The manager’s function is not to make people work, but to make it possible for people to work.**
 <br>
 {% include buy_book.html asin='0932633439' %}
+
+## Extreme Ownership
+
+**Author:**  Jocko Willink · **Topic:** leadership · **Level:** intermediate
+
+![Book](https://images.gr-assets.com/books/1427163007l/23848190.jpg)
+
+ This a book for team leaders. It is one of those books that really makes you introspect and makes you realise you can be a better version of yourself. You can also transform your workplace in a much better place. Taking lessons from the SEALs and real situations during the Iraq war, the book shows how companies of any size could work efficiently if the people working there at all levels followed some of those lessons.
+<br>
+{% include buy_book.html asin='1250067057' %}
 
 ## Nonviolent Communication
 
