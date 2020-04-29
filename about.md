@@ -22,18 +22,18 @@ My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a software developer, train
 <figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I've been doing commercial software development for over fifteen years, primarily using Java ecosystem. I quickly grew from a developer to architect, from architect to engineering manager, from manager to IT director. Today I keep writing code, mentoring software engineers, and their managers.
+I've been crafting enterprise software for over fifteen years, primarily in Java. I quickly grew from a developer to architect, from architect to engineering manager, from manager to IT director. Today I keep writing code, mentoring software engineers, and their managers.
 
- I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), ICF certified coach, and a certified good guy.
+ I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), and ICF certified coach.
 
 ## My training
 
 <div id="training"></div>
-🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for technical leaders. Here I give a practical career advice, make a deep-dive into engineering practices, lean software development, soft skills, recruiting, and mentoring.
+🎓 [The Principal Developer](https://principal.dev) is a two-day masterclass for the current or future engineering leaders. Here we make a deep-dive into engineering practices, Lean software development, soft skills, recruiting, and mentoring.
 
-🎓 [Effective Coding Principles and Patterns in Java 14](https://devchampions.com/training/java/) is a 2-day training for Java developers. Here you will learn how to design clean and lightweight enterprise applications in Java, that are easy and fun to maintain.
+🎓 [Effective Coding Principles and Patterns in Java 14](https://devchampions.com/training/java/) is a two-day training for Java developers. Here you learn how to develop modern, clean, and maintainable applications using the latest Java best practices, frameworks, and libraries.
 
-People say my training is always practical, inspiring, with energy level over 9000. **You can hire me to run a training for your team.**
+Attendees claim that my training is practical, inspiring, and high-energy. Most of my customers become repeat customers. **You can hire me to run a training for your team.**
 
 <div class="videoWrapper">
 <iframe id="ytplayer" type="text/html" width="640" height="360"
