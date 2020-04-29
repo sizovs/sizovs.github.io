@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Well-Balanced Developer
+title: The well-balanced developer
 location: Riga, Latvia
 ---
 

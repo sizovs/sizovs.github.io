@@ -31,7 +31,7 @@ I've been doing commercial software development for over fifteen years, primaril
 <div id="training"></div>
 🎓 [The Principal Developer](https://principal.dev) is a 2-day masterclass for technical leaders. Here I give a practical career advice, make a deep-dive into engineering practices, lean software development, soft skills, recruiting, and mentoring.
 
-🎓 [Effective Java Software Design](https://devchampions.com/training/java/) is a 2-day training for Java developers. Here you will learn how to design clean and lightweight enterprise applications in Java, that are easy and fun to maintain.
+🎓 [Effective Coding Principles and Patterns in Java 14](https://devchampions.com/training/java/) is a 2-day training for Java developers. Here you will learn how to design clean and lightweight enterprise applications in Java, that are easy and fun to maintain.
 
 People say my training is always practical, inspiring, with energy level over 9000. **You can hire me to run a training for your team.**
 

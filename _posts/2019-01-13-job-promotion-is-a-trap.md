@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Job Promotion Is a Trap
+title: Job promotion is a trap
 location: Vilnius, Lithuania
 ---
 

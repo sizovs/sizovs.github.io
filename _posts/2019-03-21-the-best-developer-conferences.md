@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Best Developer Conferences
+title: The best developer conferences
 location: Berlin, Germany
 includeYear: true
 noActions: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You Are Not A Software Developer
+title: You are not a software developer
 location: Riga, Latvia
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stop Learning Frameworks
+title: Stop learning frameworks
 location: Riga, Latvia
 ---
 
