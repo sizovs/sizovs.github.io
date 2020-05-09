@@ -26,14 +26,14 @@ I've been crafting enterprise software for over fifteen years, primarily in Java
 
  I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), and ICF certified coach.
 
-## My training
+## Learn from me
 
 <div id="training"></div>
-🎓 [The Principal Developer](https://principal.dev) is a two-day masterclass for the current or future engineering leaders. Here we make a deep-dive into engineering practices, Lean software development, soft skills, recruiting, and mentoring.
+🎓 **[The Principal Developer](https://principal.dev)** is a two-day masterclass for software development team leaders. Here we deep-dive into engineering practices, Lean software development, soft skills, recruiting, and mentoring.
 
-🎓 [Effective Coding Principles and Patterns in Java 14](https://devchampions.com/training/java/) is a two-day training for Java developers. Here you learn how to develop modern, clean, and maintainable applications using the latest Java best practices, frameworks, and libraries.
+🎓 **[Effective Coding Principles and Patterns in Java 14](https://devchampions.com/training/java/)** is a two-day training for Java developers. Here you learn how to develop modern, clean, and maintainable applications using the latest Java best practices, patterns, and libraries.
 
-Attendees claim that my training is practical, inspiring, and high-energy. Most of my customers become repeat customers. **You can hire me to run a training for your team.**
+Attendees say that my training is always practical, inspiring, and high-energy. **You can hire me to run a training for your team.**
 
 <div class="videoWrapper">
 <iframe id="ytplayer" type="text/html" width="640" height="360"
@@ -41,11 +41,11 @@ Attendees claim that my training is practical, inspiring, and high-energy. Most 
   frameborder="0"></iframe>
 </div>
 
-## DevTernity
+## Join DevTernity
 
-I organize [DevTernity](https://devternity.com) conference — [the top 3 developer event in Europe](https://itconference.top). It's a must-visit event, where, together with my team, we turn developers into architects and engineering leaders. 
+I lead **[DevTernity](https://devternity.com)** conference. It's a must-visit event that has been turning developers into architects and engineering leaders since 2015. It's among **[the best developer conferences in Europe](https://itconference.top)**.
 
-## Open source
+## Check out my Github
 
 <i class="fas fa-check"></i> [dev.tube](https://dev.tube) is a crowd-sourced hub for developer videos.
 
