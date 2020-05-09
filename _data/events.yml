@@ -29,7 +29,7 @@
       startDate: "2020-10-23"
       endDate: "2020-10-24"
       url: //jokerconf.com
-      img: //avatars.io/twitter/jugru
+      img: //twitter-avatar.now.sh/jugru
       tags: 
         - general
         - java
@@ -44,7 +44,7 @@
       startDate: "2020-10-13"
       endDate: "2020-10-16"
       url: //craft-conf.com
-      img: //avatars.io/twitter/craftconf
+      img: //twitter-avatar.now.sh/craftconf
       tags: 
         - general
         - devops
@@ -63,7 +63,7 @@
       startDate: "2020-10-26"
       endDate: "2020-10-30"
       url: //gotober.com
-      img: //avatars.io/twitter/gotober
+      img: //twitter-avatar.now.sh/gotober
       tags: 
         - general
         - devops
@@ -82,7 +82,7 @@
       startDate: "2020-11-09"
       endDate: "2020-11-13"
       url: //devoxx.be
-      img: //avatars.io/twitter/devoxx
+      img: //twitter-avatar.now.sh/devoxx
       tags: 
         - general
         - devops
@@ -98,7 +98,7 @@
       startDate: "2021-02-01"
       endDate: "2021-02-02"
       url: //theleaddeveloper.com
-      img: //avatars.io/twitter/theleaddev
+      img: //twitter-avatar.now.sh/theleaddev
       tags: 
         - general
         - devops
@@ -115,7 +115,7 @@
       startDate: "2020-09-09"
       endDate: "2020-09-11"
       url: //kotlinconf.com
-      img: //avatars.io/twitter/kotlinconf
+      img: //twitter-avatar.now.sh/kotlinconf
       tags:
         - java
       about: Kotlin has become de-facto programming language for development on Android platform. If you want to stay up-to-date with Kotlin development, then there is no best conference than Kotlin Conf by JetBrains. The conference is brought by JetBrains, the creators of Kotlin and features the best Kotlin experts, including the key contributors to the language.
@@ -127,7 +127,7 @@
       startDate: "2021-09-26"
       endDate: "2021-09-27"
       url: //geekout.ee
-      img: //avatars.io/twitter/geekoutee
+      img: //twitter-avatar.now.sh/geekoutee
       tags: 
         - java
       about:
@@ -140,7 +140,7 @@
       startDate: "2020-04-27"
       endDate: "2020-05-01"
       url: //gotochgo.com      
-      img: //avatars.io/twitter/gotochgo
+      img: //twitter-avatar.now.sh/gotochgo
       tags:
         - general
         - devops
@@ -156,7 +156,7 @@
       startDate: "2021-10-03"
       endDate: "2021-10-04"
       url: //sc-london.com
-      img: //avatars.io/twitter/sclconf
+      img: //twitter-avatar.now.sh/sclconf
       tags: 
         - general
         - devops
@@ -173,7 +173,7 @@
       startDate: "2020-09-09"
       endDate: "2020-09-10"
       url: //javazone.no
-      img: //avatars.io/twitter/javazone
+      img: //twitter-avatar.now.sh/javazone
       tags:
         - java
       about:
@@ -186,7 +186,7 @@
       startDate: "2020-02-03"
       endDate: "2020-02-05"
       url: //jfokus.se
-      img: //avatars.io/twitter/jfokus
+      img: //twitter-avatar.now.sh/jfokus
       tags:
         - general
         - java
@@ -200,7 +200,7 @@
       startDate: "2020-11-11"
       endDate: "2020-11-15"
       url: //buildstuff.lt
-      img: //avatars.io/twitter/BuildStuffConf
+      img: //twitter-avatar.now.sh/BuildStuffConf
       tags: 
         - general
         - devops
@@ -218,7 +218,7 @@
       startDate: "2020-09-02"
       endDate: "2020-09-04"
       url: //geecon.org
-      img: //avatars.io/twitter/geecon
+      img: //twitter-avatar.now.sh/geecon
       tags:
         - java
       about:
@@ -231,7 +231,7 @@
       startDate: "2020-08-27"
       endDate: "2020-08-30"
       url: //socrates-conference.de
-      img: //avatars.io/twitter/socrates_conf
+      img: //twitter-avatar.now.sh/socrates_conf
       tags: 
         - general
         - devops
@@ -248,7 +248,7 @@
       startDate: "2020-11-03"
       endDate: "2020-11-06"
       url: //oredev.org
-      img: //avatars.io/twitter/oredev
+      img: //twitter-avatar.now.sh/oredev
       tags: 
         - general
         - devops
@@ -266,7 +266,7 @@
       startDate: "2021-01-25"
       endDate: "2021-01-29"
       url: //ndc-london.com
-      img: //avatars.io/twitter/ndc_conferences
+      img: //twitter-avatar.now.sh/ndc_conferences
       tags: 
         - general
         - dotnet

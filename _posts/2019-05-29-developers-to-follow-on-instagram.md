@@ -21,8 +21,7 @@ Instagram is becoming the next big thing in education. In addition to [books](/2
 
 ---
 {% for account in site.data.instagram.accounts -%}
-{% capture avatar -%}![Avatar](https://avatars.io/instagram/{{account.handle}}){:rel="nofollow" }{% endcapture -%}
-## {{avatar}}  [{{account.name}}](https://twitter.com/{{account.handle}}){:rel="nofollow" }
+## [{{account.name}}](https://twitter.com/{{account.handle}}){:rel="nofollow" }
 
 {{account.about}}
 {{account.tweet}}
