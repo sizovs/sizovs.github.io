@@ -66,10 +66,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.7em;
   margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h1, h2 {
   @include mobile {
     margin-top: 0 !important;
-  }
-  margin-bottom: 0.5em;
+  }  
 }
 
 footer {
