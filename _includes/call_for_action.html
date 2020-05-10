@@ -1,3 +1,72 @@
-<p>
-    <!-- ↓  Share &nbsp;&nbsp;&nbsp; ➕<a href="/about/#subscribeForm">Subscribe</a> &nbsp;&nbsp;&nbsp; 🎓<a href="https://principal.dev">Join Masterclass</a> &nbsp;&nbsp;&nbsp; 👨‍💻<a href="https://devternity.com">Join DevTernity</a> -->
-</p>
+    <div id="message-widget">
+        <div class="buttons">
+            <span class="close" onclick="closePopup()">
+                <span class="fa fa-times"></span>
+            </span>
+        </div>
+        <a href="https://devternity.com"><img src="https://twitter-avatar.now.sh/devternity" alt="DevTernity avatar" class="agent" /></a>
+        <div class="message">
+            <div class="content">
+                <p>Want to learn from industry leaders?</p>
+                <a href="https://devternity.com" class="button is-success"> Join DevTernity </a>
+            </div>
+        </div>
+    </div>
+<style>
+
+#message-widget {
+    display: none;
+    opacity: .95;
+    border-radius: 5px;
+    width: 320px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 40;
+    box-shadow: 2px 10px 40px rgba(22, 20, 19, 0.4);
+}
+
+.is-success {
+    background-color: #42b983;
+    color: white;
+    border-color: #4aa27a;
+}
+.is-success:hover {
+    background-color: #4aa27a;
+    border-color: #4aa27a;
+    color: white !important;
+}
+
+.buttons span {
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    color: #dbdbdb !important;
+}  
+
+.message {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-size: 0.8em;
+    padding: 30px;
+}
+.agent {
+    position: absolute;
+    left: -40px;
+    top: 20px;
+    border: 3px solid #fff;
+    width: 60px;
+    border-radius: 50%;
+} 
+</style>
+<script>
+    setTimeout(function() {
+        document.getElementById('message-widget').style.display = "block";
+    }, 10000);
+
+    function closePopup() {
+        document.getElementById('message-widget').style.display = "none";
+    }
+</script>
