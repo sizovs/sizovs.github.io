@@ -1,10 +1,10 @@
 ---
 layout: post
-title: .NET Conferences 
+title: The best .NET developer conferences 
 includeYear: true
 noActions: true
-root_class_class: confs-list
+root_class_class: confs
 
 ---
 
-{% include conferences.html topic='dotnet' what='.NET Developer' extra='' icon='<i class="fab fa-windows"></i>' %}
+{% include conferences_nice.html tag='dotnet' meet='.NET developers' what='developer conferences' %}

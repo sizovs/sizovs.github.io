@@ -1,10 +1,10 @@
 ---
 layout: post
-title: PHP Conferences 
+title: The best PHP developer conferences 
 includeYear: true
 noActions: true
-root_class_class: confs-list
+root_class_class: confs
 
 ---
 
-{% include conferences.html topic='php' what='PHP Developer' extra='php' icon='<i class="fab fa-php"></i>' %}
+{% include conferences_nice.html tag='php' meet='PHP developers' what='PHP conferences' %}

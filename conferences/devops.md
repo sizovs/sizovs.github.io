@@ -1,10 +1,11 @@
 ---
 layout: post
-title: DevOps Conferences 
+title: The best DevOps conferences 
 noActions: true
 includeYear: true
-root_class_class: confs-list
+root_class_class: confs
 
 ---
 
-{% include conferences.html topic='devops' what='DevOps' extra='SRE' icon='<i class="fab fa-docker"></i>' %}
+{% include conferences_nice.html tag='devops' meet='DevOps engineers' what='DevOps conferences' %}
+

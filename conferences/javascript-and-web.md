@@ -1,10 +1,10 @@
 ---
 layout: post
-title: JavaScript and Web Conferences
+title: The best JavaScript conferences
 includeYear: true
 noActions: true
-root_class_class: confs-list
+root_class_class: confs
 
 ---
 
-{% include conferences.html topic='javascript' extra='javascript' what='JavaScript and Web Developer' icon='<i class="fab fa-js"></i>' %}
+{% include conferences_nice.html tag='javascript' meet='JavaScript, front-end, and web developers' what='JavaScript conferences' %}

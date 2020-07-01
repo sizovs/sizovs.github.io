@@ -34,7 +34,72 @@
         - general
         - java
       about:
-        This is one of the best conferences organized by Java User Group in Russia. The venue, the staff, the travel organization and of course the audience is excellent. The conference offers good soft and hard-core talk balance. **The only issue is that some talks are in Russian and you will probably need a visa.** That might scare some international attendees.
+        This is one of the best conferences organized by Java User Group in Russia. The venue, the staff, the travel organization and of course the audience is excellent. The conference offers good soft and hard-core talk balance. **The only issue is that some talks are in Russian and you will probably need a visa.** That might scare some international attendees.        
+    - name: Laracon EU
+      city: Amsterdam
+      country: Netherlands
+      region: EU
+      price: 579
+      startDate: "2021-01-18"
+      endDate: "2021-01-19"
+      url: //laracon.eu
+      img: //twitter-avatar.now.sh/laraconEU
+      tags: 
+        - php
+      about:
+        Laracon is the official Laravel conference centered around the Laravel framework, covering its development, uses, and related general software development topics. Laracon has taken place in the United States, Europe and online in the past. Typically, the conference happens in the United States and Europe every year. The conference covers topics other than Laravel, such as software architecture, coding practices, TDD and much more.
+    - name: DockerCon
+      city: Austin
+      country: United States
+      region: Texas
+      place: Austin Convention Center
+      startDate: "2020-06-15"
+      endDate: "2020-06-18"
+      url: //docker.events.cube365.net/docker/dockercon/
+      img: //twitter-avatar.now.sh/DockerCon
+      tags: 
+        - devops
+      about:
+        DockerCon is the worlds largest container industry conference for makers and operators of next generation distributed applications built with containers. If you're building container apps or tooling for Docker and Kubernetes – it's a must-attend conference. The only problem with DockerCon is that it's relatively expensive; The price starts at 1000$.
+    - name: Web Summit
+      city: Lisbon
+      country: Portugal
+      region: Europe
+      place: Altice Arena
+      startDate: "2020-11-02"
+      endDate: "2020-11-05"
+      url: //websummit.com
+      img: //twitter-avatar.now.sh/WebSummit
+      tags: 
+        - javascript
+      about:
+        Web Summit is an annual technology conference held in Lisbon, Portugal, considered the largest tech event in the world. This conference is for you if you like dozens of tracks, tons of content, and huge crowds. I personally prefer smaller and cozier events, because networking matters to me and because less is more. But the choise is yours.
+    - name: Amazon re:Invent
+      city: Las Vegas
+      country: United States
+      region: Nevada
+      place: Austin Convention Center
+      startDate: "2020-12-01"
+      endDate: "2020-12-04"
+      url: //reinvent.awsevents.com
+      img: //twitter-avatar.now.sh/awsReInvent
+      tags: 
+        - devops
+      about:
+        This is the biggest and by far the greatest event for developers interested in cloud technology, software architecture, and DevOps. Even though re:Invent is organized by Amazon is vendor-specific, we still highly recommend it, if your work background is not AWS. Amazon is putting so much money into this event, that it's worth every penny. Beware that re:Invent is can be pricey for your company – the full conference pass is 1799$.
+    - name: Microsoft Ignite
+      city: New Orleans
+      country: United States
+      region: Louisiana
+      place: Ernest N. Morial Convention Center
+      price: 2100
+      startDate: "2020-09-21"
+      endDate: "2020-09-25"
+      url: //microsoft.com/en-us/ignite
+      img: //twitter-avatar.now.sh/ms_ignite
+      tags: 
+        - dotnet
+      about: Microsoft Ignite is an annual conference for developers and IT professionals hosted by Microsoft. I would not limit attendees to developers, though, because Microsoft usually announces a few things that consumers care about each year. It's one of the biggest Mirosoft events in the World and is pretty expensive.
     - name: CraftConf
       city: Budapest
       country: Hungary
@@ -51,7 +116,7 @@
         - php
         - dotnet
         - java
-        - javascript      
+        - javascript
       about:
           CRAFT is a well-organized general software development conference in Europe. The conference organizers excel at everything they do – from organization to the content. Here you will learn about tools, methods, and practices from the best speakers and practitioners in the software development community. **It's a really good event, but four days may be too much.**
     - name: GOTO Berlin
@@ -132,6 +197,19 @@
         - java
       about:
         GeekOut is a high-quality conference for Java developers in a cozy city of Tallinn. It's well-organized, has a great venue and speakers lineup. GeekOut gathers 600 participants every year and has a better cost/value ratio than other Java conferences in Northern Europe. GeekOut organizers are seasoned Java practitioners with good understanding of what Java developers need to know.
+    - name: .NET Developer Days
+      city: Warsaw
+      country: Poland
+      region: Europe
+      place: EXPO XXI Warsaw
+      startDate: "2020-10-20"
+      endDate: "2020-10-21"
+      url: //net.developerdays.pl/
+      img: //twitter-avatar.now.sh/developerdayspl
+      tags: 
+        - dotnet
+      about:
+        .NET DeveloperDays is the biggest event in Central and Eastern Europe dedicated exclusively to application development on the .NET platform. It is designed for architects, developers, testers and project managers using .NET in their work and to those who want to improve their knowledge and skills in this field. The conference content is 100% English, making it easy for the international audience to attend.
     - name: GOTO Chicago
       city: Chicago
       country: United States
@@ -258,6 +336,18 @@
         - javascript        
       about:
         The conference gathers more than one thousand participants to talk about literally everything related to software development. Diversity of talks is making Øredev interesting conference to attend. Where else you can hear a talk about behavioral neuroscience? **The average quality of talks is good, but sometimes you can come across a low quality talk**.
+    - name: HalfStack
+      city: London
+      country: United Kingdom
+      place: Truman Brewery
+      startDate: "2020-11-20"
+      endDate: "2020-11-20"
+      url: //halfstackconf.com/
+      img: //twitter-avatar.now.sh/HalfStackConf
+      tags: 
+        - javascript
+      about:
+        HalfStack is single-day event focused on UI-centric JavaScript and web development. The priority for HalfStack is the attendee experience, with great food, drinks, talks, swag, and community. I like that HalfStack carefully curates all talks. The conference also runs in New York, Vienna, Tel Aviv, and the United States.
     - name: NDC London
       city: London
       country: UK

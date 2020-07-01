@@ -439,9 +439,9 @@ nav {
       color: #585858 !important;
   }
 
-  h2:last-of-type, h2:last-of-type ~ p {
-      color: black !important;
-  }    
+  // h2:last-of-type, h2:last-of-type ~ p {
+  //     color: black !important;
+  // }    
 
   h2:first-of-type + p + p a.button {
     cursor: pointer;

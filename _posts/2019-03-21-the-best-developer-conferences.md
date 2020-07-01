@@ -9,13 +9,13 @@ excerpt: Developer conferences are a great place to network with like-minded dev
 
 ---
 
-{% include conferences_nice.html tag='general' what='developer conferences' fullList='/conferences/full-stack' %}
+{% include conferences_nice.html tag='general' what='Developer conferences' fullList='/conferences/full-stack' %}
 
 Hungry for more?
 
 * [Full-stack conferences](/conferences/full-stack)
 * [.NET conferences](/conferences/dotnet)
 * [DevOps conferences](/conferences/devops)
-* [Java conferences](/conferences/ultimate-list-of-java-conferences)
+* [Java conferences](/conferences/java)
 * [JS and Web conferences](/conferences/javascript-and-web)
 * [PHP conferences](/conferences/php)

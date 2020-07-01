@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Full-Stack Developer Conferences 
+title: The best full-stack developer conferences 
 includeYear: true
 noActions: true
-root_class_class: confs-list
+root_class_class: confs
 
 ---
 
-{% include conferences.html topic='general' what='Full stack developer' extra='stack' icon='<i class="fab fa-stack-overflow"></i>' %}
+{% include conferences_nice.html tag='general' meet='full-stack developers' what='Developer conferences' %}
