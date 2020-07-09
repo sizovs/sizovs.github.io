@@ -21,14 +21,12 @@ Instagram is becoming the next big thing in education. In addition to [books](/2
 
 ---
 {% for account in site.data.instagram.accounts -%}
-## [{{account.name}}](https://twitter.com/{{account.handle}}){:rel="nofollow" }
+## [{{account.name}}](https://instagram.com/{{account.handle}}){:rel="nofollow" }
 
 {{account.about}}
 {{account.tweet}}
 {% endfor %}
 
 ---
-
-What Instagram people do you follow to learn tech?
 
 P.S. check out [Twitter accounts](https://sizovs.net/2019/05/25/developers-to-follow-on-twitter/) as well.
