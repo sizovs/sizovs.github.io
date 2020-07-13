@@ -102,5 +102,5 @@ It was nice e-meeting you! Let's stay in touch on socials, and I hope to meet yo
 
 <figure>
 <img src="/images/me_again.jpg">
-<figcaption>Trainer Yongyut Chairan and me</figcaption>
+<figcaption>It's me :-)</figcaption>
 </figure>
