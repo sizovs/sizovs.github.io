@@ -78,7 +78,7 @@ I am an astute reader. I read and grasped all fundamental technical books – fr
 <figcaption>My bookshelf</figcaption>
 </figure>
 
-I don't read news and don't have TV. In the age of information abundance, we're getting distracted from thinking for ourselves. Because all answers are inside us, I prefer to unplug and look for answers walking, observing, and meditating. I also practice Krav Maga and Muay Thai, because a a healthy mind requires a healty body.
+I don't read news and don't have a TV. In the age of information abundance, we're getting distracted from thinking for ourselves. Because all answers are inside us, I prefer to unplug and look for answers walking, observing, and meditating. I also practice Krav Maga and Muay Thai, because a a healthy mind requires a healty body.
 
 <figure>
 <img src="/images/muay.jpg">
