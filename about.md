@@ -54,7 +54,7 @@ In addition to DevTernity, I organize a masterclass for development team leaders
 
 In 2019 I achieved financial independence, also known as [FIRE](https://en.wikipedia.org/wiki/FIRE_movement). In other words, I generate enough passive income from my investment (ETFs and cryptocurrency), so I don't have to do any forced work. This allows me to focus on what I care about the most: developing myself and developing others. 
 
-I am solopreneur, meaning that I don't have "physical" business, office and colleagues to hang out with. Being a "company of one" allows me to charge reasonable fees for my services, which is rarely happens nowadays in enterprise software development. Moreover, it also allows me to travel the world with my family, and live quality, balanced, independent life. 
+I am solopreneur, meaning that I don't have "physical" business, office and colleagues to hang out with. Being a "company of one" allows me to charge reasonable fees for my services, that rarely happens nowadays in enterprise software development. Moreover, it also allows me to travel the world with my family, and live quality, balanced, independent life. 
 
 <figure>
 <img src="/images/samui_me.jpg">
