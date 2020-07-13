@@ -22,11 +22,17 @@ My name is Eduards Sizovs  /ɛdwərdz sɪzovs/. I am a software developer, train
 <figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I’ve been involved in enterprise software development for over 15 years as a developer, architect, CTO, IT director, and independent consultant. Through regular training and mentoring I helped 63 startups, scale-ups, and large enterprises establish good coding culture, fix broken agile process, and accelerate hiring. Being a hard-code developer and an IT manager gave me a unique and rare perspective on IT. I am still writing code and can teach you a trick or two.
+I’ve been involved in enterprise software development for over 15 years as a developer, architect, CTO, IT director, and independent consultant. Through regular training and mentoring I helped 63 startups, scale-ups, and large enterprises establish good coding culture, fix broken agile process, and accelerate hiring. Being a hard-code developer and an IT manager gave me a unique perspective on IT.
 
-In 2014, I founded Latvian Software Craftsmanship Community, that has naturally transformed into **[DevTernity](https://devternity.com)** conference; At DevTernity we help developers masters skills they need to become architects or engineering leaders – coding, architecture, and leadership. Scott Hanselman, Sandro Mancuso, Kevlin Henney, Venkat Subramaniam, J.B Rainsberger are our regular guests. The conference is among **[the best developer conferences in Europe](https://itconference.top)**.
+In 2014, I founded Latvian Software Craftsmanship Community, that has naturally transformed into **[DevTernity](https://devternity.com)** conference, where we turns developers into architects and engineering leaders. Scott Hanselman, Sandro Mancuso, Kevlin Henney, Venkat Subramaniam, J.B Rainsberger are our regular guests. Since, it has been recognized as one of **[the best developer conferences in Europe](https://itconference.top)**.
 
-I spoke at 103 events Worldwide, including conferences with 1000+ attendees.
+<figure>
+<img src="/images/devternity_prep.jpg">
+<figcaption>Preparing for amazing DevTernity.</figcaption>
+</figure>
+
+I personally spoke at 103 events Worldwide, including conferences with 1000+ attendees. You can see me in action:
+
 
 <div class="videoWrapper">
 <iframe id="ytplayer" type="text/html" width="640" height="360"
@@ -35,30 +41,66 @@ I spoke at 103 events Worldwide, including conferences with 1000+ attendees.
 </div>
 
 
-<br>
-I make living by organizing a fantastic conference **[DevTernity](https://devternity.com)** and growing developers and their managers via **[The Principal Developer](https://principal.dev)** course. Attendees say that my training is always practical, inspiring, and high-energy. **You can hire me to run a training for your team (in English or Russian).** 
+--- 
 
-## A bit more about me
+In addition to DevTernity, I organize a masterclass for development team leaders – **[The Principal Developer](https://principal.dev)**. Attendees say that my training is always practical, inspiring, and high-energy. You can hire me to run a training for your team (in English or Russian).
 
-I am solopreneur, meaning that I don't have "physical" business, office and colleagues to hang out with. Being a company of one allows me to charge reasonable fees for my services, which is pretty rare in enterprise software development. Moreover, it also allows me to travel the world with my family, and live quality, balanced, independent life. Right now, I am writing this from sunny Koh Samui, Thailand. 
+<figure>
+<img src="/images/me_training.jpg">
+<figcaption>It's me with a training group in 2018</figcaption>
+</figure>
 
-I enjoy guaranteed passive income from ETFs (Exchange-Traded Funds) and cryptocurrency. Being financially independent allows me to focus on what I care about more: self-developing and developing others. 
+---
 
-I am an astute reader. I read and grasped all fundamental technical books – from clean code to continuous delivery. I am particularly interested in psychology, anthropology, science. I don't read news and social media, because it's distracting us from what truly matters.
+In 2019 I achieved financial independence, also known as [FIRE](https://en.wikipedia.org/wiki/FIRE_movement). In other words, I generate enough passive income from my investment (ETFs and cryptocurrency), so I don't have to do any forced work. This allows me to focus on what I care about the most: developing myself and developing others. 
 
-I believe that all answers hide inside ourselves. In the age of information abundance, we're searching for answers outside too much. Yet, we should be looking for answers inside our own minds. Walking, observing, and meditation helps a lot. I also practice Krav Maga and Muay Thai, because a healthy body is required for a healthy mind.
+I am solopreneur, meaning that I don't have "physical" business, office and colleagues to hang out with. Being a "company of one" allows me to charge reasonable fees for my services, which is rarely happens nowadays in enterprise software development. Moreover, it also allows me to travel the world with my family, and live quality, balanced, independent life. 
 
-I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), and ICF certified coach. But that doesn't matter much.
+<figure>
+<img src="/images/samui_me.jpg">
+<figcaption>Right now, I am writing this from sunny Koh Samui, Thailand. </figcaption>
+</figure>
 
+When I have time, I contribute to open-source. I built a bunch of nice projects such as [dev.events](https://dev.events), [mustread.tech](https://mustread.tech), and [PipelinR](https://github.com/sizovs/pipelinr). Among the most successful creations with 200K users is [dev.tube](https://dev.tube) – a crowd-sourced hub for developer videos. I didn't expect it to become so popular. You can watch the full story here:
 
-## Other projects
+<div class="videoWrapper">
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/lojL7oDiaTk?autoplay=0&origin=https://sizovs.net"
+  frameborder="0"></iframe>
+</div>
 
-<i class="fas fa-check"></i> [dev.tube](https://dev.tube) is a crowd-sourced hub for developer videos.
+---
 
-<i class="fas fa-check"></i> [dev.events](https://dev.events) is a crowd-sourced event listing.
+I am an astute reader. I read and grasped all fundamental technical books – from clean code to continuous delivery. Apart of computer science, I am interested in psychology, philosophy, anthropology, communication, and leadership:
 
-<i class="fas fa-check"></i> [mustread.tech](https://mustread.tech) is a crowd-sourced book listing.
+<figure>
+<img src="/images/bookshelf.jpg">
+<figcaption>My bookshelf</figcaption>
+</figure>
 
-<i class="fas fa-check"></i> [PipelinR](https://github.com/sizovs/pipelinr) is a lightweight command processing pipeline for Java.
+I don't read news and don't have TV. In the age of information abundance, we're getting distracted from thinking for ourselves. Because all answers are inside us, I prefer to unplug and look for answers walking, observing, and meditating. I also practice Krav Maga and Muay Thai, because a a healthy mind requires a healty body.
 
-I also help my wife Julia a promote her Instagram account **[Coding Unicorn](https://www.instagram.com/coding_unicorn/)**, where we share coding and career advice for the next generation of developers. We already gathered 55K followers.
+<figure>
+<img src="/images/muay.jpg">
+<figcaption>Trainer Yongyut Chairan and me</figcaption>
+</figure>
+
+I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), and ICF certified coach. But who cares about certificates anyway.
+
+---
+
+Together with my wife Julia we created an Instagram account **[Coding Unicorn](https://www.instagram.com/coding_unicorn/)**. By sharing coding and career advice, the unicorn has become the top tech influencer with 55K followers (and counting).
+
+<figure>
+<a href="https://www.instagram.com/coding_unicorn/"><img src="/images/unicorn.jpg"></a>
+<figcaption>Coding Unicorn</figcaption>
+</figure>
+
+## You made it.
+
+It was nice e-meeting you! Let's stay in touch on socials, and I hope to meet you in real at **[DevTernity](https://devternity.com)**, or perhaps at **[The Principal Developer](https://principal.dev)**.
+
+<figure>
+<img src="/images/me_again.jpg">
+<figcaption>Trainer Yongyut Chairan and me</figcaption>
+</figure>
