@@ -6,7 +6,7 @@
       {% else %}
         {% assign year = "" %}
       {% endif %}      
-    <title>{% if page.title %}{{ page.title }} {{year}} – {% endif %}{{ site.title }} by {{ site.author }}</title>
+    <title>{% if page.title %}{{ page.title }} {{year}} – {% endif %}{{ site.title }}</title>
 
     {% include meta.html %}
 
@@ -15,7 +15,7 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?version=7" />  
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} by {{ site.author }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
     <link href="//fonts.googleapis.com/css?family=Oswald:400%7CLora:400,700" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" />
