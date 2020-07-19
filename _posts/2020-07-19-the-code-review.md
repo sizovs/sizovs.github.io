@@ -155,7 +155,7 @@ Or it can be an effective, encouraging, and positive activity. Just like this:
 
 <img src="/images/review_laugh.jpg" alt="Two programmers laugh" width="500">
 
-The difference is in implementation details. To make code review great again, remember that:
+The difference is in implementation details. To make code review great, remember that:
 
 * Code review is better without tools
 * Code review is more mentoring than control
