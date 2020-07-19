@@ -141,7 +141,7 @@ To make code review short and efficient, reviewee must prepare carefully. Pay yo
 * The problem you tried to solve
 * The reasoning behind design decisions
 
-Use notes and write important things down. The better you'll explain the problem to the reviewer, the more valuable review will be. Otherwise, it's waste of time.
+Use notes and write important things down. The better you'll explain the problem to the reviewer, the more thorough and valuable review will be. Otherwise, it's waste of time.
 
 Show code in small increments. Don’t wait until your 2-week-long user story is completed – such reviews consume too much time and energy. They also cause too much re-work, if you got requirements wrong. Use git commits to tell the story in small chapters, ordered chronologically. Show one commit at a time.
 ## Wrap up
