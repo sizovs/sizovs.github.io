@@ -78,7 +78,7 @@ When I meet a team that drowns in spaghetti but resists strict code review, I of
 Then, I use code review time that developers trusted me to accelerate their professional growth: I code things, explain things, share inspiration, and books. My goal is to make myself unnecessary. A great team doesn’t need a gatekeeper. And because it scales well, I can focus on more strategic tasks than gatekeeping. Remember: **more mentoring, less control.**
 
 #### 3. Code review is not only about bad parts
-Criticizing and finding flaws in someone else’s work is easy. Just look at the internet and social media – people’s work is being aggressively criticized, every comment is like a small cut; add twenty years of school; add what parents said; Those cuts accumulate and we start drowning in self-doubt, afraid to fly. This blog post will be criticized, too.
+Criticizing and finding flaws in someone else’s work is easy. Just look at the internet and social media – people’s work is being aggressively criticized, every comment is like a small cut; add twelve years of school; add what parents said; Those cuts accumulate and we start drowning in self-doubt, afraid to fly. This blog post will be criticized, too.
 
 I think we can do better. Criticism is important, but the question is – can you also find and appreciate good parts?
 
