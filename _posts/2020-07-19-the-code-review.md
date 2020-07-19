@@ -93,7 +93,7 @@ So, don’t turn code review into a funeral ceremony; keep looking for good part
 #### 4. Code review doesn't tolerate exceptions
 I regularly meet teams where seniors review juniors, but juniors are not allowed to review seniors. This brings an unhealthy divide into the team and leads to shitty company culture: juniors mimic the behavior of seniors; they start thinking, that, the day when they grow up, they’ll be writing perfect code that doesn’t need review, and seniors are always right. You probably met seniors like that. Now you know where they come from.
 
-In a healthy organization, seniors’ solutions, ideas, and code should be openly challenged and reviewed by juniors. Seniors have enough motivation, patience, and skills to explain. In such environments, juniors grow into good seniors; and seniors… well, when they’ not around, juniors just stop calling them assholes.
+In a healthy organization, seniors’ solutions, ideas, and code should be openly challenged and reviewed by juniors. Seniors have enough motivation, patience, and skills to explain. In such environments, juniors grow into good seniors; and seniors… well, juniors just stop calling them assholes.
 
 Dear juniors! I learned a lot from your feedback, questions, and ideas that seemed crazy then. You made me a better programmer, mentor, human. Thank you.
 
