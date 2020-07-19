@@ -164,7 +164,7 @@ The difference is in implementation details. To make code review great again, re
 * Code review doesn't tolerate exceptions
 * Code review doesn't tolerate abstract judgment
 
-Thanks for your attention. 
+Thank you for attention. 
 
 ---
 
