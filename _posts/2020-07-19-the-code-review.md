@@ -132,7 +132,7 @@ In a bad team, code review is the last priority. Pull-requests hang open for day
 
 In a good team, code review is the top priority. You raise a hand screaming: “I need code review!”. Because you're only one step away from delivering value to the customer, a teammate replies immediately: “I am coming!” and moves his chair next to you. Then review, a couple of fixes, all green. Git push. The feature is live. Traffic starts coming; no errors in logs. The value was delivered and you mark the task completed. Together with the reviewer, smiling, you go to the kitchen for a coffee.
 
- Code review is a "blocker" that makes customers wait. Make it the first priority.
+Make code review the first priority; it's a blocker.
 
 #### 8. Code review is better when you come prepared
 To make code review short and efficient, reviewee must prepare carefully. Pay your reviewer respect and think of how you’ll explain:
