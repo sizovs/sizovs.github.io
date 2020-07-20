@@ -22,6 +22,8 @@ Then silence came again. Click. Click. Scroll. Click. Click.
 
 Junior, hoping to learn something, was still sitting next to Senior. The air was tense and smelled with trotyl. The senior – like a C4 – was ready to explode if someone moves or says a word. 
 
+<span id="continue"></span>
+
 ---
 
 Twenty minutes have passed before Senior returned from the deep trance:
