@@ -148,11 +148,11 @@ Use notes and write important things down. The better you'll explain the problem
 Show code in small increments. Don’t wait until your 2-week-long user story is completed – such reviews consume too much time and energy. They also cause too much re-work, if you got requirements wrong. Use git commits to tell the story in small chapters, ordered chronologically. Show one commit at a time.
 ## Wrap up
 
-Your code review process can be a torture. Just like this:
+Your code review process can be a torture:
 
 <img src="/images/review_nok.png?new=1" alt="Angry people reviewing code" width="500">
 
-Or it can be an effective, encouraging, and positive activity. Just like this:
+Or it can be an effective, encouraging, and positive activity:
 
 
 <img src="/images/review_ok.png?new=1" alt="Happy people reviewing code" width="500">
