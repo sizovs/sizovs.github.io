@@ -148,12 +148,12 @@ Show code in small increments. Don’t wait until your 2-week-long user story is
 
 Your code review process can be a turture. Just like this:
 
-<img src="/images/review_nok.png" alt="Angry people reviewing code" width="500">
+<img src="/images/review_nok.png?new=1" alt="Angry people reviewing code" width="500">
 
 Or it can be an effective, encouraging, and positive activity. Just like this:
 
 
-<img src="/images/review_ok.png" alt="Happy people reviewing code" width="500">
+<img src="/images/review_ok.png?new=1" alt="Happy people reviewing code" width="500">
 
 The difference is in implementation details. To make code review great, remember:
 
