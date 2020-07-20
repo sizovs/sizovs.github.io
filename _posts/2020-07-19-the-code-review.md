@@ -88,7 +88,7 @@ When I discover a “bad” part, I look at its positive sides. In 99% of cases,
 
 So, don’t turn code review into a funeral ceremony; keep looking for good parts.
 
-![a joke where reviewer, looking for good parts, says: at least we don't need to obfuscate before shipping](/images/dont_obfuscate.jpeg)
+![a joke where reviewer, looking for good parts, says: at least we don't need to obfuscate before shipping](/images/obfuscate.png)
 
 #### 4. Code review doesn't tolerate exceptions
 I regularly meet teams where seniors review juniors, but juniors are not allowed to review seniors. This brings an unhealthy divide into the team and leads to shitty company culture: juniors mimic the behavior of seniors; they start thinking, that, the day when they grow up, they’ll be writing perfect code that doesn’t need review, and seniors are always right. You probably met seniors like that. Now you know where they come from.
