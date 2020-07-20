@@ -159,12 +159,12 @@ Or it can be an effective, encouraging, and positive activity:
 
 The difference is in implementation details. To make code review great, remember:
 
-* Code review is better without tools
 * Code review is better when you come prepared
+* Code review is better without tools
 * Code review is more mentoring than control
-* Code review is must be the first priority
-* Code review is an act of humility
 * Code review is not only about bad parts
+* Code review is an act of humility
+* Code review must be the first priority
 * Code review doesn't tolerate exceptions
 * Code review doesn't tolerate abstract judgment
 
