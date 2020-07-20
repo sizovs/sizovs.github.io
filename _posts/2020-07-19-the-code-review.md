@@ -50,7 +50,7 @@ Junior: (⊙_⊙)
 
 ---
 
-People rarely talk about it, but in many companies, code review makes developers feel like shit. In one company I felt myself this way, too, but never told anyone. Because no one is asking juniors and no one is watching the watchman.
+People rarely talk about it, but in many companies, code review makes developers feel like shit. In one company I felt myself this way, too, but never told anyone. Because no one is asking juniors and no one is watching the watchmen.
 
 Code review is an extremely delicate form of feedback: when people put their soul into work, they become vulnerable and sensitive to criticism. Saying that “the code review is not about us, it’s about our code” doesn’t help much. We are what we do. 
 
