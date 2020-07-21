@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Your first day at work
+title: Sprint Retrospective
 location: Koh Samui, Thailand
 twitter_card: player
 twitter_site: '@eduardsi'
