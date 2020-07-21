@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sprint Retrospective
+title: Welcome to your weekly sprint retrospective
 location: Koh Samui, Thailand
 twitter_card: player
 twitter_site: '@eduardsi'
