@@ -1,7 +1,12 @@
 ---
 layout: post
-title: Sprint Retrospective
+title: Your first day at work
 location: Koh Samui, Thailand
+twitter_card: player
+twitter_site: '@eduardsi'
+twitter_description: It's your first day at work, and you were invited to join Sprint Retrospective together with your new team. Scrum Master is facilitation the retro
+twitter_image: https://sizovs.net/images/nickolson.jpg
+twitter_player: https://watch.cloudflarestream.com/fffdf418217b1e2b790c8f586cc40f12
 ---
 
 It's your first day at work, and you were invited to join Sprint Retrospective together with your new team. Scrum Master is facilitation the retro:
