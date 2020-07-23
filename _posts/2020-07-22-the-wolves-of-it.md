@@ -15,7 +15,7 @@ Money always attracts wolves. IT companies, whose growth is limited by lack of d
 
 ---
 
-Those agencies will call you to tell sweet lies *exactly* the way you want to hear: your Product Backlog is full, hiring is slow, and you have more important things to do than hunting people on LinkedIn; you can trust this work to experts, as other successful companies do; soon you'll see developers queuing up in front of your office doors. 
+Those agencies will call you to tell sweet lies *exactly* the way you want to hear: your Product Backlog is full, hiring is slow, and you have more important things to focus on than hunting people on LinkedIn; you can trust this work to experts, as other successful companies do; soon you'll see developers queuing up in front of your office doors. 
 
 Finally, you found a broker you can trust:
 
