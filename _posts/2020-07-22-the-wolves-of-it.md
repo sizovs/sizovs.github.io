@@ -71,7 +71,7 @@ You can't control who is approaching *your* people and how. This is what you pai
 
 **Smart companies** don't play sucker's games and protect their reputation. Non-suckers hire the best recruiters in-house, educate them, pair up with developers, and turn them into brand ambassadors. In a good company, a tech recruiter works closely with the development team. A shared Kanban board with candidates "moving" through the interview steps gets everyone on the same page. Regular hiring retrospectives, attended by everyone, promote creativity and continuous improvement.
 
-Now, as you control the quality of inbound traffic, you can start building long-term relationships with candidates: spend more time with each candidate, make interviews more thorough, incorporate mentorship.
+Now, as you control the quality of inbound traffic, you can start building long-term relationships with candidates: spend more time with each candidate, make interviews more thorough, [incorporate mentoring into recruitment process](/2019/04/10/the-best-developers-are-raised-not-hired/).
 
 ---
 
