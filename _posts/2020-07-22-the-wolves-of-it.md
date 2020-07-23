@@ -81,7 +81,11 @@ There are two reasons why modern recruitment has become the parade of incompeten
 
 There must be a fix:
 
-Stop paying insane commissions to incompetent agencies, and attracting hungry wolves. Take full responsibility for recruitment activities; hire and educate ethical recruiters; build relationships; this is better for your organization and our community. 
+* Stop paying insane commissions to incompetent agencies. Take full responsibility for recruitment activities and build internal recruitment capacity. You might not need recruiters at all;
+* If you need recruiters – find, hire, and educate ethical recruiters;
+* Remember that [great developers are raised, not hired](/2019/04/10/the-best-developers-are-raised-not-hired/).
+
+Stop feeding wolves. This is much better for your organization and our community.
 
 Thank you for attention.
 
