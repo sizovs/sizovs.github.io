@@ -76,8 +76,8 @@ Now, as you control the quality of inbound traffic, you can start building long-
 ---
 
 There are two reasons why modern recruitment has become the parade of incompetence and arcane interviews:
-* companies looking for shortcuts;
-* recruitment agencies that don’t have skin in the game;
+* companies look for shortcuts;
+* recruitment agencies don’t have skin in the game;
 
 There must be a fix:
 
