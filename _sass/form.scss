@@ -51,6 +51,7 @@ label {
 .dropdown .show { display: block; }
 
 .dropdown-content {
+    text-align: left;
     display: none;
     position: absolute;
     background-color: white;
@@ -61,6 +62,7 @@ label {
 
   /* Links inside the dropdown */
 .dropdown-content a {
+    font-style: normal;
     padding: 12px 16px;
     display: block;
   }
