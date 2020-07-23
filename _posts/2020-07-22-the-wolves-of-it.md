@@ -81,7 +81,7 @@ There are two reasons why modern recruitment has become the parade of incompeten
 
 There must be a fix:
 
-* Stop paying insane commissions to incompetent agencies. Take full responsibility for recruitment activities and build internal recruitment capacity. You might not need recruiters at all;
+* Stop paying insane commissions to incompetent agencies. Take full responsibility for recruitment activities and build internal recruitment capacity. [If you know how to attract the right talent](/2020/03/26/developers-dont-need-ping-pong-tables/), you might not need recruiters at all;
 * If you need recruiters – find, hire, and educate ethical recruiters;
 * Remember that [great developers are raised, not hired](/2019/04/10/the-best-developers-are-raised-not-hired/).
 
