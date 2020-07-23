@@ -32,7 +32,7 @@ But things don't go as you envisioned.
 
 A huge number of application start falling on your shoulders. Every CV looks suspiciously well-tailored; those motherfuckers know all your standard questions and how to answer them well. Someone must be preparing them. Your team is spending hours in the interviewing room, rejecting one candidate after another. 
 
-Traffic has increased, your team is overwhelmed, but you’re not making new hires. The agency says that the rejected candidates were top notch. You put pressure on your team, doubting the interviewing process: perhaps it's too strict?
+Traffic has increased, your team is overwhelmed, but you’re not making new hires. The agency says that the rejected candidates were top-notch, and already landed other jobs. You put pressure on your team, doubting the interviewing process: perhaps it's too strict?
 
 Who is leaking information? Who wants a candidate to "pass"? Who is the rat?
 
