@@ -38,7 +38,7 @@ Who is leaking information? Who wants a candidate to "pass"? Who is the rat?
 
 ---
 
-Using insiders information that *you* shared about the position, agencies will prepare candidates so they can "crack" your interview. Their interviewing skills surpass their actual work performance by a mile. I was prepared that once, too.
+Using insider information that *you* shared about the position, agencies will prepare candidates so they can "crack" your interview. Their interviewing skills surpass their actual work performance by a mile. I was prepared that once, too.
 
 For a recruitment agency, sending you an army of well-prepared candidates has only upsides, because it increases the probability of successful placement and getting the commission. The downsides are absorbed by your team and your company. Using Nasim Taleb’s terminology:
 
