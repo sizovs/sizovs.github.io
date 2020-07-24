@@ -4,7 +4,7 @@ title: The wolves of IT
 location: Bangkok, Thailand
 ---
 
-Most recruiters don’t understand IT and software development. They have never worked closely with programmers, have never been part of a development team, and never developed software products. For them, a programmer is just a combination of triggering keywords and Java is the same as JavaScript. 
+Recruiters don’t understand IT and software development. They have never worked closely with programmers, have never been part of a development team, and never developed software products. For them, a programmer is just a combination of keywords and Java is the same as JavaScript.
 
 Money always attracts wolves. IT companies, whose growth is limited by lack of developers, have become the target of wolve attacks. Particularly hungry wolves, who smelled the abundant and dependable food source, unite and make packs also known as “recruitment agencies”:
 
