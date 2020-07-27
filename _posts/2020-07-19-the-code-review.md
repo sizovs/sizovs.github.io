@@ -157,7 +157,7 @@ Or it can be an effective, encouraging, and positive activity:
 
 <img src="/images/review_ok.png?new=1" alt="Happy people reviewing code" width="500">
 
-The difference is in implementation details. Code review:
+The difference is in implementation details. Remember that code review:
 
 * is better when you come prepared
 * is better without tools
