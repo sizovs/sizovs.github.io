@@ -157,16 +157,15 @@ Or it can be an effective, encouraging, and positive activity:
 
 <img src="/images/review_ok.png?new=1" alt="Happy people reviewing code" width="500">
 
-The difference is in implementation details. To make code review great, remember:
+The difference is in implementation details. Code review:
 
-* Code review is better when you come prepared
-* Code review is better without tools
-* Code review is more mentoring than control
-* Code review is not only about bad parts
-* Code review is an act of humility
-* Code review must be the first priority
-* Code review doesn't tolerate exceptions
-* Code review doesn't tolerate abstract judgment
+* is better when you come prepared
+* is better without tools
+* is more mentoring than control
+* is not only about bad parts
+* is an act of humility
+* must be the first priority
+* doesn't tolerate exceptions &amp; abstract judgment
 
 Thank you for attention. 
 
