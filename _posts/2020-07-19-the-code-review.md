@@ -139,8 +139,8 @@ Make code review the first priority.
 #### 8. Code review is better when you come prepared
 To make code review short and efficient, reviewee must prepare carefully. Pay your reviewer respect and think of how you’ll explain:
 
-* The task or feature you're working on
-* The problem you tried to solve
+* The task or feature you've been working on
+* The problem you've been trying to solve
 * The reasoning behind design decisions
 
 Use notes and write important things down. The better you'll explain the problem to the reviewer, the more thorough and valuable review will be. Otherwise, it's waste of time.
