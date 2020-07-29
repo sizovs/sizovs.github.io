@@ -77,7 +77,7 @@ Some seniors see code review as a means for controlling quality and preventing b
 
 When I meet a team that drowns in spaghetti but resists strict code review, I offer them mentorship via code review. Developers accept it with ease because mastery is [what motivates developers the most](/2020/03/26/developers-dont-need-ping-pong-tables/). 
 
-Then, I use code review time that developers trusted me to accelerate their professional growth: I code things, explain things, share inspiration, and books. My goal is to make myself unnecessary. A great team doesn’t need a gatekeeper. And because it scales well, I can focus on more strategic tasks than gatekeeping. Remember: **more mentoring, less control.**
+Then, I use code review time that developers trusted me to accelerate their professional growth: I write code, explain things, share inspiration and books. My goal is to make myself unnecessary. A great team doesn’t need a gatekeeper. And because it scales well, I can focus on more strategic tasks than gatekeeping. Remember: **more mentoring, less control.**
 
 #### 3. Code review is not only about bad parts
 Criticizing and finding flaws in someone else’s work is easy. Just look at the internet and social media – people’s work is being aggressively criticized, every comment is like a small cut; add twelve years of school; add what parents said; Those cuts accumulate and we start drowning in self-doubt, afraid to fly. This blog post will be criticized, too.
