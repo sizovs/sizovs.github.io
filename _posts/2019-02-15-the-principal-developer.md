@@ -20,7 +20,7 @@ Alex: "Of course! I have been writing code and solving intricate technology prob
 
 Me: "I guess this is the exact reason why you don't qualify."
 
-Alex wasn't happy to hear that, so we quickly wrapped up our conversation. I felt good because I hit the target.
+Alex wasn't happy to hear that, so we quickly wrapped up our conversation. I hit the target.
 
 <figure>
 <img src="/images/moneyball.jpg">
