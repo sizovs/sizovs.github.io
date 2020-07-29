@@ -132,7 +132,7 @@ If code review is not a top priority, then something is wrong with your prioriti
 
 In a bad team, code review is the last priority. Pull-requests hang open for days, sometimes weeks, or even months. Everyone is busy doing “their own stuff.” This kills motivation because our hard work doesn’t seem important. To avoid “idle state”, we start working on new tasks; then switching back to the code review; then back again. Productivity drops.
 
-In a good team, code review is the top priority. You raise a hand screaming: “I need code review!”. Because you're only one step away from delivering value to the customer, a teammate replies immediately: “I am coming!” and moves his chair next to you. Then review, a couple of fixes, all green. Git push. The feature is live. Traffic starts coming; no errors in logs. The value was delivered and you mark the task completed. Together with the reviewer, smiling, you go to the kitchen for a coffee.
+In a good team, code review is the top priority. You raise a hand screaming: “I need code review!”. Because you're one step away from delivering value to the customer, a teammate replies immediately: “I am coming!” and moves his chair next to you. Then review, a couple of fixes, all green. Git push. The feature is live. Traffic starts coming; no errors in logs. The value was delivered and you mark the task completed. Together with the reviewer, smiling, you go to the kitchen for a coffee.
 
 Make code review the first priority.
 
