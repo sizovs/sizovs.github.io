@@ -73,7 +73,7 @@ If you don't like your teammates, pull requests, Slack, and Gerrit will make you
 You will only need a check-list with “issues” that you discovered during the review and that need to be fixed. I use high-tech tools called pen and paper. Believe it or not, but writing by hand is incredibly cool; writing together even more so. Remember: **more face-to-face, fewer tools.**
 
 #### 2. Code review is more mentoring than control
-Some seniors see code review as a means for controlling quality and preventing bad things from happening on production. Seniors become gatekeepers. This is often met with resistance and rebellion because control implies control implies lack of trust. It also doesn't scale well as your team grows.
+Some seniors see code review as a means for controlling quality and preventing bad things from happening on production. Seniors become gatekeepers. This is often met with resistance and rebellion because control implies lack of trust. It also doesn't scale well as your team grows.
 
 When I meet a team that drowns in spaghetti but resists strict code review, I offer them mentorship via code review. Developers accept it with ease because mastery is [what motivates developers the most](/2020/03/26/developers-dont-need-ping-pong-tables/). 
 
