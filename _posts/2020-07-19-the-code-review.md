@@ -125,7 +125,7 @@ Calling code “bad”, “crap”, or “unreadable” is subjective and abstra
 
 This is your new code review language.
 
-It’s also important to learn to demonstrate the impact of those qualities in action: break the code to demonstrate the value of a unit test; write a test to simulate bad performance; move a class to a different package to demonstrate coupling; ask a third person to read the code and explain what the code does; this is how you assess comprehensibility. **Be concrete in judgment, and creative in demonstrations.**
+It’s also important to learn to demonstrate the impact of those qualities in action: break the code to demonstrate the value of a unit test; write a test to simulate bad performance; move a class to a different package to demonstrate coupling; ask a third person to read the code and explain what the code does – this is how you assess comprehensibility. **Be concrete in judgment, and creative in demonstrations.**
 
 #### 7. Code review must be the first priority
 If code review is not a top priority, then something is wrong with your priorities. Or you let the work pile up and then deliver it in batches, making continuous delivery impossible.
