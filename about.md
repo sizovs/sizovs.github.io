@@ -71,7 +71,7 @@ When I have time, I contribute to open-source. I built a bunch of nice projects 
 
 ---
 
-I am an astute reader. I read and grasped all fundamental technical books – from clean code to continuous delivery. Apart of computer science, I am interested in psychology, philosophy, anthropology, communication, and leadership:
+I am an avid reader. I read and grasped all fundamental technical books – from clean code to continuous delivery. Apart of computer science, I am interested in psychology, philosophy, anthropology, communication, and leadership:
 
 <figure>
 <img src="/images/bookshelf.jpg">
