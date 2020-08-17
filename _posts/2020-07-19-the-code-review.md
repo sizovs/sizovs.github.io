@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code review – from good to great
+title: Code review best practices
 location: Koh Samui, Thailand
 ---
 
@@ -60,7 +60,7 @@ I believe we can do better.
 
 ---
 
-## Here are my eight recommendations on how to create a code review process that people love. 
+## Below are eight recommendations and best practices on how to create a code review process that people love.
 
 #### 1. Code review is better without tools
 The best code review is face-to-face. People are designed to efficiently exchange information with words, body language, and voice. This is how we understand each other and build relationships. Tools turn humans into 128x128 avatars and feelings into emojis.
