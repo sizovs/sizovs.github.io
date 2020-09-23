@@ -22,7 +22,7 @@ My name is Eduards Sizovs  /ɛdwərd sɪzov/. I am a software developer, trainer
 <figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I’ve been involved in enterprise software development for over 15 years as a developer, architect, CTO, IT director, and independent consultant. Through regular training and mentoring I helped 63 startups, scale-ups, and large enterprises establish good coding culture, fix broken agile process, and accelerate hiring. Being a hard-code developer and an IT manager gave me a unique perspective on IT.
+I’ve been involved in enterprise software development for over 15 years as a developer, architect, CTO, IT director, and independent consultant. Through regular training and mentoring I helped 63 startups, scale-ups, and large enterprises establish good coding culture, fix broken agile process, and accelerate hiring. 
 
 In 2014, I founded Latvian Software Craftsmanship Community, that has naturally transformed into **[DevTernity](https://devternity.com)** conference, where we turns developers into architects and engineering leaders. Scott Hanselman, Sandro Mancuso, Kevlin Henney, Venkat Subramaniam, J.B Rainsberger are our regular guests. Since, it has been recognized as one of **[the best developer conferences in Europe](https://itconference.top)**.
 
