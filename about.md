@@ -24,7 +24,7 @@ My name is Eduards Sizovs  /ɛdwərd sɪzov/. I am a software developer, trainer
 
 I’ve been involved in enterprise software development for over 15 years as a developer, architect, CTO, IT director, and independent consultant. Through regular training and mentoring I helped 63 startups, scale-ups, and large enterprises establish good coding culture, fix broken agile process, and accelerate hiring. 
 
-I lead **[DevTernity](https://devternity.com)** conference, where we turns developers into architects and engineering leaders. It has been recognized as one of **[the best developer conferences in Europe](https://itconference.top)**.
+I lead **[DevTernity](https://devternity.com)** conference, where we turn developers into architects and engineering leaders. It has been recognized as one of **[the best developer conferences in Europe](https://itconference.top)**.
 
 I personally spoke at 103 events Worldwide, including conferences with 1000+ attendees. You can see me in action:
 
