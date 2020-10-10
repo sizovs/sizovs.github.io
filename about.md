@@ -38,17 +38,21 @@ I personally spoke at 103 events Worldwide, including conferences with 1000+ att
 
 --- 
 
-In addition to DevTernity, I organize a masterclass for development team leaders – **[The Principal Developer](https://principal.dev)**. I also run **[Effective Java Software Design](https://devchampions.com/training/java)** training. Attendees say that my training is always practical, inspiring, and high-energy. You can hire me to run a training for your team (in English or Russian).
+<span id="courses"></span>
 
-<figure>
-<img src="/images/me_training.jpg">
-<figcaption>It's me with a training group in 2018</figcaption>
-</figure>
+I organize certification training and masterclasses for software engineers:
+- **[Effective Soft Skills and Leadership for Developers](https://devchampions.com/training/softskills)**
+- **[Effective Coding Principles and Patterns in Java](https://devchampions.com/training/java)** 
+- **[The Principal Developer](https://principal.dev)**
 
+Attendees say that my training is always practical, inspiring, and high-energy. You can hire me to run a training for your team.
 
-When I have time, I contribute to open-source. I built a bunch of nice projects such as [dev.events](https://dev.events), [mustread.tech](https://mustread.tech), and [PipelinR](https://github.com/sizovs/pipelinr). Among the most successful creations with 200K users is [dev.tube](https://dev.tube) – a crowd-sourced hub for developer videos. I didn't expect it to become so popular. 
 
 ---
 
-I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), and ICF certified coach. But who cares about certificates anyway.
+When I have time, I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [mustread.tech](https://mustread.tech), and [PipelinR](https://github.com/sizovs/pipelinr). Among the most successful creations is [dev.tube](https://dev.tube) – a crowd-sourced hub for developer videos. I didn't expect it to become so popular. 
+
+---
+
+I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), and ICF certified coach. I have two degrees in Computer Science (programming and software architecture) and international MBA degree (IT process organization, leadership, management, recruiting, remote work).
 
