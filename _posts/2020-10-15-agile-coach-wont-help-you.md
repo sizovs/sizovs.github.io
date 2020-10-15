@@ -12,7 +12,7 @@ Developers think:
 
 > "OK, you're telling me I should do TDD, why can't you just show me how?".
 
-Developers then are given a free access to Pluralsight or a theoretical TDD book, with an example of test-driving a fibonacci sequence, which is different from a messy production code you deal with every day. So, everyone happily keeps moving post-it notes, eating pizzas, while the code is becoming less and less responsive to change, until things are totally messed up in the kitchen you hear conversation about a big rewrite.
+Developers then are given a free access to Pluralsight or a theoretical TDD book, with an example of test-driving a fibonacci sequence, which is different from a messy production code you deal with every day. So, everyone happily keeps moving post-it notes, eating pizzas, while the code is becoming less and less responsive to change, until things are totally messed up, and you start hearing kitchen conversations about a big rewrite.
 
 ---
 
