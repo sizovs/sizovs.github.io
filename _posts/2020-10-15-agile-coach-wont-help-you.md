@@ -12,10 +12,10 @@ Developers think:
 
 > "OK, you're telling me I should do TDD, why can't you just show me how?".
 
-Developers then are given a free access to Pluralsight or a theoretical TDD book, with an example of test-driving a fibonacci sequence, which is different from a messy production code you deal with every day. Sometimes it’s just `¯\_(ツ)_/¯`, that literally means "it's not my problem. I am here to move post-it notes."
+Developers then are given a free access to Pluralsight or a theoretical TDD book, with an example of test-driving a fibonacci sequence, which is different from a messy production code you deal with every day. So, everyone happily keeps moving post-it notes, eating pizzas, while the code is becoming less and less responsive to change, until things are totally messed up in the kitchen you hear conversation about a big rewrite.
 
 ---
 
 The fundamental pillar of agile software development is eXtreme Programming (XP) – a deep mix of technical (and not so technical) values, principles, and practices. Unfortunately, you can't master XP by reading a book or attending a tech conference; you can only master XP by working next to an experienced engineering mentor, who KNOWS and SHOWS how to get things done "right". Without a mentor, you can't master XP; without XP, there is no agility.
 
-Most Scrum projects are a total mess because a vital ingredient is missing: Engineering Mentor. It’s not necessary a separate person, but a role that must be played by someone who can teach you architecture, design patterns, BDD, TDD, pair programming, code reviews, and how to live by XP values. Without an Engineering Mentor, your Scrum is fucked up.
+Most Scrum projects are a total mess because a vital ingredient is missing: Engineering Mentor. It’s not necessary a separate person, but a role that must be played by someone who can teach you architecture, design patterns, BDD, TDD, pair programming, code reviews, and how to live by XP values. Without an Engineering Mentor, your Scrum is messed up.
