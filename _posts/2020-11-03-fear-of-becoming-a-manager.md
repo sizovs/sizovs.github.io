@@ -79,7 +79,7 @@ Moreover, having less time for coding forced me to [reconsider my learning strat
 
 ### Wrap up
 
-The Dilbert Principle is real: good programmers are managed by bad programmers and software development processes are organized by MBA wolves. Our industry, companies, and teams need competent leaders and managers with a programming background. If we – programmers – don't want (or don't know) how to lead and manage the development process, someone else will do this for us. 
+The Dilbert Principle is real: good programmers are managed by bad programmers and software development processes are organized by clueless MBA wolves. Our industry, companies, and teams need competent leaders and managers with a programming background. If we – programmers – don't want (or don't know) how to lead and manage the development process, someone else will do this for us. 
 
 There is no good software without good management.
 
