@@ -56,7 +56,7 @@ Six months was the “probation period” I gave myself before making the final 
 
 ### Management is compatible with coding
 
-Finally, you **can** combine management with coding. Stopping coding is a personal choice, not a necessity. I think it’s a capital mistake to polish your coding skills for years and then just throw them into a bin. If you mastered a hard skill such as coding, protect it at all costs. Management skills should complement your hard skills, not replace them. Remember: trust is the management currency, and gaining full developers' trust is only possible if you’re a competent software developer. 
+Finally, you **can** combine management with coding. Stopping coding is a personal choice, not a necessity. I think it’s a capital mistake to polish your coding skills for years and then just throw them into a bin. If you mastered a hard skill such as coding – protect it at all costs. Management skills should complement your hard skills, not replace them. Remember: trust is the management currency, and gaining full developers' trust is only possible if you’re a competent software developer. 
 
 But how do you find time for coding?
 
