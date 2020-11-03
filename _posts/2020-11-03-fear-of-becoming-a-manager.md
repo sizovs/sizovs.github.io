@@ -75,7 +75,7 @@ Secondly, **maintaining** existing coding skills is easier than **gaining** codi
 
 For me, coding ~8 hours a week was more than enough to stay in good shape. I believe that with proper time planning and delegation, every developer can find those critical eight hours. There were periods in my life when I was overwhelmed at work, so I was writing code for my pet projects on weekends. Later I developed a simple rule: at work, I devote 80% of the time to management and leadership, 20% to programming. It’s possible, and it works.
 
-Moreover, having less time for programming forced me to [reconsider my learning strategy](/2018/12/17/stop-learning-frameworks/).
+Moreover, having less time for coding forced me to [reconsider my learning strategy](/2018/12/17/stop-learning-frameworks/).
 
 ### Wrap up
 
