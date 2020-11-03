@@ -32,7 +32,7 @@ With that extra perspective, finding common ground, and reaching an agreement wi
 
 ### Management experience opens new doors
 
-Having any leadership and management experience makes you prepared for more senior roles, such as Engineering Manager, VPoE, or CTO. Finding the right candidate to fill those roles is mission impossible. By having the necessary skills and experience, you’re entering the golden market area with **high demand** and **low competition**. In simple terms, you are now dictating your own rules of the game. And, as the number of programmers increases with incredible speed every year, someone has to manage and lead this non-trivial engineering show.
+Having any leadership and management experience makes you prepared for more senior roles, such as Engineering Manager, VPoE, or CTO. Finding the right candidate to fill those roles is mission impossible. By having the necessary skills and experience, you’re entering the gold market area with **high demand** and **low competition**. In simple terms, you are now dictating your own rules of the game. And, as the number of programmers increases with incredible speed every year, someone has to manage and lead this non-trivial engineering show.
 
 ### Management is power
 
