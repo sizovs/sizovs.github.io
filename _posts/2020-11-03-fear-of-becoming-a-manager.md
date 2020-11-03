@@ -52,7 +52,7 @@ Before I tried management, I hated the idea of becoming a manager. While my coll
 
 Then I told myself: “it’s better me than Bill.”
 
-Six months was the “probation period,” I gave myself before making the final commitment. Treating the role switch as a temporary experiment, not a permanent career change, made me feel safer. In only six months, I have formed my opinion about management, gained some practical, CV-boosting super skills, and invaluable life experience. So, what seemed like a bad idea in theory, turned out an existing and life-changing journey in practice. I fell in love with management and even started [teaching](/about/#courses) the basics of good management to developers.
+Six months was the “probation period” I gave myself before making the final commitment. Treating the role switch as a temporary experiment, not a permanent career change, made me feel safer. In only six months, I have formed my opinion about management, gained some practical, CV-boosting super skills, and invaluable life experience. So, what seemed like a bad idea in theory, turned out an existing and life-changing journey in practice. I fell in love with management and even started [teaching](/about/#courses) the basics of good management to developers.
 
 ### Management is compatible with coding
 
