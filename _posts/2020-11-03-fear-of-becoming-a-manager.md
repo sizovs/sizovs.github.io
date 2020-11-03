@@ -15,7 +15,7 @@ Fear of having no time for coding prevents many good programmers from filling ma
 </figcaption>
 </figure>
 
-With knowledge gaps in those areas, we, developers, can't be in charge. Moreover, we can't even help people in charge make better, informed decisions. No wonder why developers are rarely invited to non-technical, yet strategically important meetings.
+With knowledge gaps in those areas, we, developers, can't be in charge of development process. Moreover, we can't even help people in charge make better, informed decisions. No wonder why developers are rarely invited to non-technical, yet strategically important meetings.
 
 So, by “staying technical” and giving up power to non-technical managers or the least competent developers, good developers are digging themselves a hole. Sitting in that hole, they complain about how bad the leaders, managers, and their created processes are.
 
