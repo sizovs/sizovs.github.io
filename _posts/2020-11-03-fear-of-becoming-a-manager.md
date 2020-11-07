@@ -6,7 +6,7 @@ location: Riga, Latvia
 
 As a developer, when I was offered a management job for the first time, my biggest fear was that it would make me a bad programmer because my programming skills and my market competitiveness as a programmer will decline. While talking to young team leaders and tech managers, I discovered that I am not alone. 
 
-Fear of having no time for coding prevents many good programmers from filling management roles and positively influencing strategic areas of the organization: people, process, enterprise architecture, etc. When developers don’t see themselves as future organization leaders and managers, they stop learning and caring about topics paramount to good management: Lean, Kanban, Change Management, Psychology, Motivation, Systems Thinking.
+Fear of having no time for coding stops many good programmers from filling management roles and positively influencing strategic areas of the organization: people, process, enterprise architecture, etc. When developers don’t see themselves as future organization leaders and managers, they stop learning and caring about topics paramount to good management: Lean, Kanban, Change Management, Psychology, Motivation, Systems Thinking.
 
 <figure>
 <img src="/images/donella.jpg">
