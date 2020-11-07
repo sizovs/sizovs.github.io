@@ -22,7 +22,7 @@ My name is Eduards Sizovs  /ɛdwərd sɪzov/. I am a software developer, trainer
 <figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I’ve been involved in enterprise software development for over 15 years as a developer, architect, CTO, IT director, and independent consultant. Today, through training and mentoring I help establish good coding culture, accelerate development process, and improve hiring process. 
+I’ve been involved in enterprise software development for over 15 years as a developer, architect, CTO, IT director, and independent consultant. Today, through training and mentoring I help teams establish good coding culture, accelerate development process, and improve hiring process. 
 
 I lead **[DevTernity](https://devternity.com)** conference, where we turn developers into architects and engineering leaders. It has been recognized as one of **[the best developer conferences in Europe](https://itconference.top)**.
 
