@@ -41,14 +41,9 @@ I personally spoke at 103 events Worldwide, including conferences with 1000+ att
 <span id="courses"></span>
 
 I organize certification training and masterclasses for software engineers:
-- **[Clean Code in Java 15](https://devchampions.com/training/java-clean-code/)**
-- **[Clean Architecture in Java 15](https://devchampions.com/training/java-clean-architecture/)**
-- 🚀 **[Effective Agile Software Development](https://devchampions.com/training/agile-software-development/) (most popular)**
-- 🚀 **[Effective Coding Principles and Patterns in Java 15](https://devchampions.com/training/java) (most popular)** 
-- **[Effective Soft Skills and Leadership for Developers](https://devchampions.com/training/softskills)**
-- **[Effective TDD in Java 15](https://devchampions.com/training/java-tdd/)**
-- 🚀 **[How to Hire and Grow Developers](https://devchampions.com/training/how-to-hire-and-grow-developers/) (most popular)**
-- 🚀 **[The Principal Developer](https://principal.dev) (most popular)** 
+- **[Effective Coding Principles and Patterns in Java 15](https://devchampions.com/training/java)**
+- **[The Principal Developer](https://principal.dev)** 
+- **[eXtreme Agility](https://devchampions.com/training/agile-software-development/)**
 
 Attendees say that my training is always practical, inspiring, and high-energy. You can hire me to run a training for your team.
 
