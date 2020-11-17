@@ -71,7 +71,7 @@ Firstly, you can free up time for coding by **delegating** some management dutie
 
 But don’t fall into the trap of becoming an individual contributor again. Remember that as a manager, your output is the output of your team. You should be coding strategically. For example, to better understand the system’s quality, you can do a short pair programming session. Or organize a mob programming session to inspire or teach a group of people. Or just quickly hack a prototype to demonstrate a new business idea to customers. Your mileage might vary, but if you’re coding more than managing, it’s a warning signal. 
 
-Secondly, **maintaining** existing coding skills is easier than **improving** coding skills. As a manager, unlikely you'll coding skills will improve, but you can easily stay at the same level.
+Secondly, **maintaining** existing coding skills is easier than **improving** coding skills. As a manager, unlikely your coding skills will improve, but you can easily stay at the same level.
 
 For me, coding ~8 hours a week was more than enough to stay in good shape. I believe that with proper time planning and delegation, every developer can find those critical eight hours. There were periods in my life when I was overwhelmed at work, so I was writing code for my pet projects on weekends. Later I developed a simple rule: at work, I devote 80% of the time to management and leadership, 20% to programming. It’s possible, and it works.
 
