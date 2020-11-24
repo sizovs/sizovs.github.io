@@ -94,7 +94,7 @@
   about: A library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container
 - name: ThreeTen Extra
   link: //www.threeten.org/threeten-extra
-  about: Additional date-time classes that complement those in Java 8. (`MutableClock`, `LocalDateRange` etc.)
+  about: Additional date-time classes that complement those in Java 8. (MutableClock, LocalDateRange etc.)
 - name: Verbal Expressions
   link: //github.com/VerbalExpressions/JavaVerbalExpressions
   about: A library that helps to construct difficult regular expressions
