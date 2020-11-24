@@ -1,0 +1,106 @@
+---
+- name: ArchUnit
+  link: //github.com/TNG/ArchUnit
+  about: A simple and extensible library for checking the architecture of your Java code via tests
+- name: AssertJ
+  link: //github.com/assertj/assertj-core
+  about: A library for writing fluent and rich assertions in Java tests
+- name: Awaitility
+  link: //github.com/awaitility/awaitility
+  about: A DSL that allows you to express expectations of an asynchronous system in a concise and easy to read manner
+- name: ByteBuddy
+  link: //bytebuddy.net
+  about: A library for creating and modifying Java classes during the runtime
+- name: Caffeine
+  link: //github.com/ben-manes/caffeine
+  about: A high performance, near optimal caching library based on Java 8 and a faster replacement of Guava Cache
+- name: Dagger
+  link: //dagger.dev
+  about: A compile-time dependency injection library with low or zero runtime overload. Works well with Google's Auto Factory
+- name: EA Async
+  link: //github.com/electronicarts/ea-async
+  about: EA Async adds async awaits to in the JVM and allows programmers to write asynchronous code in a sequential fashion
+- name: Failsafe
+  link: //github.com/jhalterman/failsafe
+  about: A lightweight, zero-dependency library for handling failures in Java 8+, with a concise API for handling everyday use cases and the flexibility to handle everything else
+- name: Faker
+  link: //github.com/DiUS/java-faker
+  about: A library for generating fake data, useful when you're developing a new project and need some pretty data for showcase.
+- name: Flyway
+  link: //github.com/flyway/flyway
+  about: Evolve your database schema easily and reliably across all your instances
+- name: Google Auto Service
+  link: //github.com/google/auto/tree/master/service
+  about: A library for automatic generation of java.utils.ServiceLocator META-INF metadata for any class annotated with @AutoService, avoiding typos, providing resistance to errors from refactoring
+- name: Guava
+  link: //guava.dev
+  about: A set of common libraries for Java, developed and maintained by Google
+- name: Guava Testlib
+  link: //github.com/google/guava/tree/master/guava-testlib
+  about: A set of testing utilities for collections, equals(), hashCode(), toString() etc
+- name: Hashids
+  link: //hashids.org
+  about: Hashids is a small open-source library that generates short, unique, non-sequential ids from numbers. Useful if you want to obfuscate and expose (non-critical) numbers via API.
+- name: Immutables
+  link: //immutables.github.io/
+  about: Immutables generates simple, safe, and consistent value objects (data classes).	It's more flexible than Google's AutoValue and Lombok
+- name: Javalin
+  link: //javalin.io
+  about: A simple web framework for Java and Kotlin. My favorite alternative to Spring MVC
+- name: Jimfs
+  link: //github.com/google/jimfs
+  about: An in-memory file system for Java, super useful for unit testing, because you don't want to mock the file system.
+- name: jOOQ
+  link: //jooq.org
+  about: A fluent API for typesafe SQL query construction and execution. My favorite alternative to Hibernate
+- name: jOOR
+  link: //github.com/jOOQ/jOOR
+  about: A simple, intuitive, and fluent wrapper over Java Reflection API
+- name: Logbook
+  link: //github.com/zalando/logbook
+  about: An extensible Java library to enable complete request and response logging for different client- and server-side technologies
+- name: Mug
+  link: //github.com/google/mug
+  about: A small Java 8 utilities library that complements Guava. Has useful classes such as `Maybe`
+- name: NoException
+  link: //noexception.machinezoo.com
+  about: A library for dealing with checked exceptions in lambdas. Supports sneaky throws
+- name: NullAway
+  link: //github.com/uber/NullAway
+  about: A tool to help eliminate NullPointerExceptions (NPEs) in your Java code with low build-time overhead
+- name: Problem
+  link: //github.com/zalando/problem
+  about: A library that implements and proposes a common approach for expressing errors in REST API
+- name: RestAssured
+  link: //github.com/rest-assured/rest-assured 
+  about: A DSL for writing powerful, maintainable tests for RESTful APIs
+- name: Retrofit
+  link: //square.github.io/retrofit
+  about: A type-safe HTTP client for Android and Java
+- name: Selenide
+  link: //selenide.org
+  about: Concise UI tests in Java
+- name: Spock
+  link: //spockframework.org
+  about: Spock is a testing and specification framework written in Groovy. Probably the best way to write tests in Java
+- name: Stateless4j
+  link: //github.com/stateless4j/stateless4j
+  about: A library for creating state machines and lightweight state machine-based workflows directly in Java code
+- name: StreamEx
+  link: //github.com/amaembo/streamex
+  about: StreamEx simplifies and enhances Java Stream API
+- name: TestContainers
+  link: //testcontainers.org
+  about: A library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container
+- name: ThreeTen Extra
+  link: //www.threeten.org/threeten-extra
+  about: Additional date-time classes that complement those in Java 8. (`MutableClock`, `LocalDateRange` etc.)
+- name: Verbal Expressions
+  link: //github.com/VerbalExpressions/JavaVerbalExpressions
+  about: A library that helps to construct difficult regular expressions
+- name: WireMock
+  link: //github.com/tomakehurst/wiremock
+  about: A flexible API mocking tool for fast, robust and comprehensive testing
+- name: Yavi
+  link: //github.com/making/yavi
+  about: A lambda based type-safe validation library
