@@ -25,7 +25,7 @@
   about: A lightweight, zero-dependency library for handling failures in Java 8+, with a concise API for handling everyday use cases and the flexibility to handle everything else
 - name: Faker
   link: //github.com/DiUS/java-faker
-  about: A library for generating fake data, useful when you're developing a new project and need some pretty data for showcase.
+  about: A library for generating fake data, useful when you're developing a new project and need some pretty data for showcase
 - name: Flyway
   link: //github.com/flyway/flyway
   about: Evolve your database schema easily and reliably across all your instances
@@ -40,7 +40,7 @@
   about: A set of testing utilities for collections, equals(), hashCode(), toString() etc
 - name: Hashids
   link: //hashids.org
-  about: Hashids is a small open-source library that generates short, unique, non-sequential ids from numbers. Useful if you want to obfuscate and expose (non-critical) numbers via API.
+  about: Hashids is a small open-source library that generates short, unique, non-sequential ids from numbers. Useful if you want to obfuscate and expose (non-critical) numbers via API
 - name: Immutables
   link: //immutables.github.io/
   about: Immutables generates simple, safe, and consistent value objects (data classes).	It's more flexible than Google's AutoValue and Lombok
@@ -49,7 +49,7 @@
   about: A simple web framework for Java and Kotlin. My favorite alternative to Spring MVC
 - name: Jimfs
   link: //github.com/google/jimfs
-  about: An in-memory file system for Java, super useful for unit testing, because you don't want to mock the file system.
+  about: An in-memory file system for Java, super useful for unit testing, because you don't want to mock the file system
 - name: jOOQ
   link: //jooq.org
   about: A fluent API for typesafe SQL query construction and execution. My favorite alternative to Hibernate
@@ -61,7 +61,7 @@
   about: An extensible Java library to enable complete request and response logging for different client- and server-side technologies
 - name: Mug
   link: //github.com/google/mug
-  about: A small Java 8 utilities library that complements Guava. Has useful classes such as `Maybe`
+  about: A small Java 8 utilities library that complements Guava. Has useful classes such as Maybe
 - name: NoException
   link: //noexception.machinezoo.com
   about: A library for dealing with checked exceptions in lambdas. Supports sneaky throws
