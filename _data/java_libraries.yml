@@ -71,6 +71,9 @@
 - name: Problem
   link: //github.com/zalando/problem
   about: A library that implements and proposes a common approach for expressing errors in REST API
+- name: Protonpack
+  link: //github.com/poetix/protonpack
+  about: A small collection of Stream utilities, such as Streamable interface (useful when you want to stream repeatedly).
 - name: RestAssured
   link: //github.com/rest-assured/rest-assured 
   about: A DSL for writing powerful, maintainable tests for RESTful APIs
