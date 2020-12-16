@@ -29,7 +29,7 @@
       startDate: "2020-10-23"
       endDate: "2020-10-24"
       url: //jokerconf.com
-      img: //twitter-avatar.now.sh/jugru
+      img: //unavatar.now.sh/twitter/jugru
       tags: 
         - general
         - java
@@ -43,7 +43,7 @@
       startDate: "2021-01-18"
       endDate: "2021-01-19"
       url: //laracon.eu
-      img: //twitter-avatar.now.sh/laraconEU
+      img: //unavatar.now.sh/twitter/laraconEU
       tags: 
         - php
       about:
@@ -56,7 +56,7 @@
       startDate: "2020-06-15"
       endDate: "2020-06-18"
       url: //docker.events.cube365.net/docker/dockercon/
-      img: //twitter-avatar.now.sh/DockerCon
+      img: //unavatar.now.sh/twitter/DockerCon
       tags: 
         - devops
       about:
@@ -69,7 +69,7 @@
       startDate: "2020-11-02"
       endDate: "2020-11-05"
       url: //websummit.com
-      img: //twitter-avatar.now.sh/WebSummit
+      img: //unavatar.now.sh/twitter/WebSummit
       tags: 
         - javascript
       about:
@@ -82,7 +82,7 @@
       startDate: "2020-12-01"
       endDate: "2020-12-04"
       url: //reinvent.awsevents.com
-      img: //twitter-avatar.now.sh/awsReInvent
+      img: //unavatar.now.sh/twitter/awsReInvent
       tags: 
         - devops
       about:
@@ -96,7 +96,7 @@
       startDate: "2020-09-21"
       endDate: "2020-09-25"
       url: //microsoft.com/en-us/ignite
-      img: //twitter-avatar.now.sh/ms_ignite
+      img: //unavatar.now.sh/twitter/ms_ignite
       tags: 
         - dotnet
       about: Microsoft Ignite is an annual conference for developers and IT professionals hosted by Microsoft. I would not limit attendees to developers, though, because Microsoft usually announces a few things that consumers care about each year. It's one of the biggest Mirosoft events in the World and is pretty expensive.
@@ -109,7 +109,7 @@
       startDate: "2020-10-13"
       endDate: "2020-10-16"
       url: //craft-conf.com
-      img: //twitter-avatar.now.sh/craftconf
+      img: //unavatar.now.sh/twitter/craftconf
       tags: 
         - general
         - devops
@@ -128,7 +128,7 @@
       startDate: "2020-10-26"
       endDate: "2020-10-30"
       url: //gotober.com
-      img: //twitter-avatar.now.sh/gotober
+      img: //unavatar.now.sh/twitter/gotober
       tags: 
         - general
         - devops
@@ -147,7 +147,7 @@
       startDate: "2020-11-09"
       endDate: "2020-11-13"
       url: //devoxx.be
-      img: //twitter-avatar.now.sh/devoxx
+      img: //unavatar.now.sh/twitter/devoxx
       tags: 
         - general
         - devops
@@ -163,7 +163,7 @@
       startDate: "2021-02-01"
       endDate: "2021-02-02"
       url: //theleaddeveloper.com
-      img: //twitter-avatar.now.sh/theleaddev
+      img: //unavatar.now.sh/twitter/theleaddev
       tags: 
         - general
         - devops
@@ -180,7 +180,7 @@
       startDate: "2020-09-09"
       endDate: "2020-09-11"
       url: //kotlinconf.com
-      img: //twitter-avatar.now.sh/kotlinconf
+      img: //unavatar.now.sh/twitter/kotlinconf
       tags:
         - java
       about: Kotlin has become de-facto programming language for development on Android platform. If you want to stay up-to-date with Kotlin development, then there is no best conference than Kotlin Conf by JetBrains. The conference is brought by JetBrains, the creators of Kotlin and features the best Kotlin experts, including the key contributors to the language.
@@ -192,7 +192,7 @@
       startDate: "2021-09-26"
       endDate: "2021-09-27"
       url: //geekout.ee
-      img: //twitter-avatar.now.sh/geekoutee
+      img: //unavatar.now.sh/twitter/geekoutee
       tags: 
         - java
       about:
@@ -205,7 +205,7 @@
       startDate: "2020-10-20"
       endDate: "2020-10-21"
       url: //net.developerdays.pl/
-      img: //twitter-avatar.now.sh/developerdayspl
+      img: //unavatar.now.sh/twitter/developerdayspl
       tags: 
         - dotnet
       about:
@@ -218,7 +218,7 @@
       startDate: "2020-04-27"
       endDate: "2020-05-01"
       url: //gotochgo.com      
-      img: //twitter-avatar.now.sh/gotochgo
+      img: //unavatar.now.sh/twitter/gotochgo
       tags:
         - general
         - devops
@@ -234,7 +234,7 @@
       startDate: "2021-10-03"
       endDate: "2021-10-04"
       url: //sc-london.com
-      img: //twitter-avatar.now.sh/sclconf
+      img: //unavatar.now.sh/twitter/sclconf
       tags: 
         - general
         - devops
@@ -251,7 +251,7 @@
       startDate: "2020-09-09"
       endDate: "2020-09-10"
       url: //javazone.no
-      img: //twitter-avatar.now.sh/javazone
+      img: //unavatar.now.sh/twitter/javazone
       tags:
         - java
       about:
@@ -264,7 +264,7 @@
       startDate: "2020-02-03"
       endDate: "2020-02-05"
       url: //jfokus.se
-      img: //twitter-avatar.now.sh/jfokus
+      img: //unavatar.now.sh/twitter/jfokus
       tags:
         - general
         - java
@@ -278,7 +278,7 @@
       startDate: "2020-11-11"
       endDate: "2020-11-15"
       url: //buildstuff.lt
-      img: //twitter-avatar.now.sh/BuildStuffConf
+      img: //unavatar.now.sh/twitter/BuildStuffConf
       tags: 
         - general
         - devops
@@ -296,7 +296,7 @@
       startDate: "2020-09-02"
       endDate: "2020-09-04"
       url: //geecon.org
-      img: //twitter-avatar.now.sh/geecon
+      img: //unavatar.now.sh/twitter/geecon
       tags:
         - java
       about:
@@ -309,7 +309,7 @@
       startDate: "2020-08-27"
       endDate: "2020-08-30"
       url: //socrates-conference.de
-      img: //twitter-avatar.now.sh/socrates_conf
+      img: //unavatar.now.sh/twitter/socrates_conf
       tags: 
         - general
         - devops
@@ -326,7 +326,7 @@
       startDate: "2020-11-03"
       endDate: "2020-11-06"
       url: //oredev.org
-      img: //twitter-avatar.now.sh/oredev
+      img: //unavatar.now.sh/twitter/oredev
       tags: 
         - general
         - devops
@@ -343,7 +343,7 @@
       startDate: "2020-11-20"
       endDate: "2020-11-20"
       url: //halfstackconf.com/
-      img: //twitter-avatar.now.sh/HalfStackConf
+      img: //unavatar.now.sh/twitter/HalfStackConf
       tags: 
         - javascript
       about:
@@ -356,7 +356,7 @@
       startDate: "2021-01-25"
       endDate: "2021-01-29"
       url: //ndc-london.com
-      img: //twitter-avatar.now.sh/ndc_conferences
+      img: //unavatar.now.sh/twitter/ndc_conferences
       tags: 
         - general
         - dotnet
