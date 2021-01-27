@@ -26,7 +26,7 @@ In addition to [books](/2019/03/17/the-best-books-all-software-developers-must-r
 
 ---
 {% for account in site.data.twitter.accounts -%}
-{% capture avatar -%}![Avatar](https://unavatar.now.sh/twitter/{{account.handle}}){:rel="nofollow" }{% endcapture -%}
+{% capture avatar -%}![Avatar](https://dossier.glitch.me/avatar/{{account.handle}}){:rel="nofollow" }{% endcapture -%}
 ## {{avatar}}  [{{account.name}}](https://twitter.com/{{account.handle}}){:rel="nofollow" }
 
 {{account.about}}
