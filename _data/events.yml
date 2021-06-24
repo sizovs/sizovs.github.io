@@ -1,14 +1,14 @@
 ---
   list:
-    - name: DevTernity 2021
+    - name: DevTernity 2022
       awsm: true
       city: Riga
       country: Latvia
       region: Europe
       place: National Library of Latvia
       price: 598
-      startDate: "2021-12-10"
-      endDate: "2021-12-11"
+      startDate: "2022-12-09"
+      endDate: "2022-12-10"
       url: //devternity.com
       img: /images/are_you_in.png
       tags: 
