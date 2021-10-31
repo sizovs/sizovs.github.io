@@ -52,5 +52,5 @@ When I have time, I contribute to open-source. I built a number of OSS projects 
 
 ---
 
-I’m a certified Enterprise Architect (OCMEA), certified Scrum Master, certified Product Owner, certified Project Management Professional (PMP), and ICF certified coach. I have two degrees in Computer Science (programming and software architecture) and international MBA degree (IT process organization, leadership, management, recruiting, remote work).
+I'm a certified Enterprise Architect (OCMEA), Certified Scrum Master, Certified Product Owner, Certified Project Management Professional (PMP), and an ICF certified coach. I also hold a degree in Computer Science (programming and software architecture). But it doesn't really matter anyway.
 
