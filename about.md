@@ -42,9 +42,6 @@ I personally spoke at 103 events Worldwide, including conferences with 1000+ att
 
 I organize certification training and masterclasses for software engineers:
 - **[The Principal Developer](https://principal.dev)** 
-- **[Effective Coding Principles and Patterns in Java {{site.latestJava}}](https://devchampions.com/training/java)**
-- **[Effective Leadership and Soft Skills for Developers](https://devchampions.com/training/softskills/)**
-- **[Effective Agile Software Development](https://devchampions.com/training/agile-software-development/)**
 
 Attendees say that my training is always practical, inspiring, and high-energy. You can hire me to run a training for your team.
 
