@@ -16,7 +16,7 @@ permalink: /about/
 {% assign age = year | minus: 1988 | minus: 0 %}
 {% endif %}
 
-My name is Eduards Sizovs  /ɛdwərd sɪzov/. I am a software developer, trainer, speaker, and conference organizer from <span class="flag-icon flag-icon-squared flag-icon-lv"></span> Riga, Latvia. I am {{age}} years old. 
+My name is Eduards Sizovs  /ɛdwərd sɪzov/. I am a professional software developer, trainer, speaker, and conference organizer. I am {{age}} years old. 
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2019.</figcaption>
