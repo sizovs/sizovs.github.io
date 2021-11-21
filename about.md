@@ -40,9 +40,8 @@ I personally spoke at 103 events Worldwide, including conferences with 1000+ att
 
 <span id="courses"></span>
 
-I organize certification training and masterclasses for software engineers called **[The Principal Developer](https://principal.dev)**.
 
-Attendees say that my training is always practical, inspiring, and high-energy. You can hire me to run a training for your team.
+🎓 I organize a masterclass for software engineers called **[The Principal Developer](https://principal.dev)**. You can hire me to run a training for your team.
 
 
 ---
