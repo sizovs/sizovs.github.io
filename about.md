@@ -40,15 +40,14 @@ I personally spoke at 103 events Worldwide, including conferences with 1000+ att
 
 <span id="courses"></span>
 
-I organize certification training and masterclasses for software engineers:
-- **[The Principal Developer](https://principal.dev)** 
+I organize certification training and masterclasses for software engineers called **[The Principal Developer](https://principal.dev)**.
 
 Attendees say that my training is always practical, inspiring, and high-energy. You can hire me to run a training for your team.
 
 
 ---
 
-When I have time, I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [mustread.tech](https://mustread.tech), and [PipelinR](https://github.com/sizovs/pipelinr). Among the most successful creations is [dev.tube](https://dev.tube) – a crowd-sourced hub for developer videos. I didn't expect it to become so popular. 
+When I have time, I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [PipelinR](https://github.com/sizovs/pipelinr), and [dev.tube](https://dev.tube). Some of them have become quite popular.
 
 ---
 
