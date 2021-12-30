@@ -27,7 +27,3 @@ Everyone knows Spring and Hibernate, but there are other libraries and framework
     </tr>
     {% endfor %}
 </table>
-
----
-
-> 💡 If you want to see and learn those tools in action, join my **[Effective Coding Principles and Patterns in Java {{site.latestJava}}](https://devchampions.com/training/java/)** course.
