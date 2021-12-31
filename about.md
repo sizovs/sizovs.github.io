@@ -46,7 +46,7 @@ I personally spoke at 103 events Worldwide, including conferences with 1000+ att
 
 ---
 
-When I have time, I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [PipelinR](https://github.com/sizovs/pipelinr), [mustread.tech](mustread.tech), and [dev.tube](https://dev.tube). Some of them have become quite popular.
+When I have time, I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [PipelinR](https://github.com/sizovs/pipelinr), [mustread.tech](https://mustread.tech), and [dev.tube](https://dev.tube). Some of them have become quite popular.
 
 ---
 
