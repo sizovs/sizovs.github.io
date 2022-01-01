@@ -22,9 +22,10 @@ My name is Eduards Sizovs  /ɛdwərd sɪzov/. I am a professional software devel
 <figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I’ve been involved in enterprise software development for over 15 years as a developer, architect, CTO, IT director, and independent consultant. Today, through training and mentoring I help teams establish good coding culture, accelerate development process, and improve hiring process. 
+I’ve been involved in software development for over 15 years as a developer, architect, engineering manager, CTO, advisor, and development coach. Today, **[through The Principal Dev masterclass](https://principal.dev)** I help developers become architects and engineering leaders and teach them how to deliver value sooner, improve teamwork, dev process, and hiring results. 
 
-I lead **[DevTernity](https://devternity.com)** conference, where we turn developers into architects and engineering leaders. It has been recognized as one of **[the best developer conferences in Europe](https://itconference.top)**.
+
+Before, I built from scratch and led for 7 years the most-waited software development conference in Europe, that featured the legends of software development such as **Robert Martin, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley.**
 
 I personally spoke at 103 events Worldwide, including conferences with 1000+ attendees. You can see me in action:
 
@@ -36,19 +37,11 @@ I personally spoke at 103 events Worldwide, including conferences with 1000+ att
 </div>
 
 
---- 
+---
 
-<span id="courses"></span>
-
-
-🎓 I organize a masterclass for software engineers called **[The Principal Developer](https://principal.dev)**. You can hire me to run a training for your team.
-
+From time to time I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [PipelinR](https://github.com/sizovs/pipelinr), [mustread.tech](https://mustread.tech), and [dev.tube](https://dev.tube). Some of them have become quite popular, others are discontinued.
 
 ---
 
-When I have time, I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [PipelinR](https://github.com/sizovs/pipelinr), [mustread.tech](https://mustread.tech), and [dev.tube](https://dev.tube). Some of them have become quite popular.
-
----
-
-I'm a certified Enterprise Architect (OCEA), CSM, CSPO, PMP, and an ICF coach. I also hold a CS degree in software engineering. But it doesn't really matter anyway.
+I'm also a certified Enterprise Architect (OCEA), CSM, CSPO, PMP, and an ICF coach. I also hold a CS degree in programming and engineering management. But it doesn't really matter anyway.
 
