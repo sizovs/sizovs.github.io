@@ -55,7 +55,7 @@ A simple act of watching your unresolved conflicts without thinking[^shakespeare
 1. The more time you spend contemplating the conflict, the less special it begins to appear to us. This way, even the most pressing conflicts lose weight and you become less occupied by it.
 2. Watching a “raw” problem as it is without all the baggage attached by judgement and rationalization, you see the problem clearly, all the way down to the essence and to the root cause.
 3. Because you’re spending time inside your mind and seeking the answers within, you’re slowly but surely discovering your true self and solutions that work best for you, not for Elon Musk, a friend you admire, your mom, or the whole world. You have to search inside yourself.
-4. Unresolved conflicts – small and big – tend to stick together and create one hell of a conflict with no clear boundaries. As you continuously process the conflict backlog, some conflicts lose meaning and disappear, some lose weight, some detach from the large cloud and obtain a distinct shape and boundary. With every meditation, the conflict backlog gets smaller. And every conflict becomes clearer.
+4. Unresolved conflicts – small and big – tend to stick together and create one hell of a conflict with no clear boundaries. As you continuously process the conflict backlog, some conflicts lose meaning and disappear, some lose weight, some detach from the large cloud and obtain a distinct shape and boundary. With every meditation, the conflict backlog gets smaller. And every conflict becomes small and clear enough so you can reason about them and solve them well.
 
 Continuous meditation practice is like hygiene for your mind. Or a hard-disk defragmentation. Or refactoring. It brings the perspective and clarity of thinking humans need to navigate life:
 
@@ -67,12 +67,12 @@ Continuous meditation practice is like hygiene for your mind. Or a hard-disk def
 ⚠️ Remark: some activities like walking in nature can help you enter a meditative state. As much as I love hiking, I don’t think it can replace mindfulness meditation – a deliberate training for your mind. So, hiking can be a complementary, not a substitute activity.
 
 
-#### To summarize: 
+#### To summarize, here is the formula:
 1. We want peace.
 2. Peace is the lack of anxiety. 
 3. Anxiety comes from unresolved conflicts.
-4. Meditation reveals deep unresolved conflicts and their true nature. 
-5. We should work on resolving conflicts by understanding[^understanding] them better, letting them go[^let-things-go], or by taking action[^inaction]. 
+4. Meditation reveals deep unresolved conflicts and their true nature.
+5. Then we work on resolving conflicts by understanding[^understanding] them better, letting them go[^let-things-go], or by taking action[^inaction]. 
 6. Observe and measure[^measure] your level of anxiety to see if your actions really bring you closer to #1 – peace. 
 7. Repeat.
 
