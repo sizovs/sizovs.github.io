@@ -61,7 +61,7 @@ I don't want to say it's simple. Quite opposite. Removing all the "noise" and di
 
 <figure>
 <img src="/images/mess-order.png">
-<figcaption>Over time, our minds become a total mess. Continuous meditation practice is like hygiene for your mind. It brings the perspective and clarity of thinking.</figcaption>
+<figcaption>Over time, our minds become a total mess. Continuous meditation practice is like hygiene for your mind. It brings order and clarity of thinking.</figcaption>
 </figure>
 
 ⚠️ Remark: some activities like walking in nature can help you enter a meditative state. As much as I love hiking, I don’t think it can replace mindfulness meditation – a deliberate training for your mind. So, hiking can be a complementary, not a substitute activity.
