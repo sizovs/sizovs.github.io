@@ -55,13 +55,11 @@ A simple act of watching your unresolved conflicts without thinking[^shakespeare
 1. The more time you spend contemplating the conflict, the less special it begins to appear to us. This way, even the most pressing conflicts lose weight and you become less occupied by it.
 2. Watching a “raw” problem as it is without all the baggage attached by judgement and rationalization, you see the problem clearly, all the way down to the essence and to the root cause.
 3. Because you’re spending time inside your mind and seeking the answers within, you’re slowly but surely discovering your true self and solutions that work best for you, not for Elon Musk, a friend you admire, your mom, or the whole world. You have to search inside yourself.
-4. Unresolved conflicts – small and big – tend to stick together and create one hell of a conflict with no clear boundaries. As you continuously process the conflict backlog, some conflicts lose meaning and disappear, some lose weight, some detach from the large cloud and obtain a distinct shape and boundary. With every meditation, the conflict backlog gets smaller. And each individual conflict becomes small and obvious enough for you to deal with.
-
-Continuous meditation practice is like hygiene for your mind. Or a hard-disk defragmentation. Or refactoring. It brings the perspective and clarity of thinking:
+4. Unresolved conflicts – small and big – tend to stick together and create one hell of a conflict with no clear boundaries. As you continuously process the conflict backlog, some conflicts lose meaning and disappear, some lose weight, some detach from the large cloud and obtain a distinct shape and boundary. With every meditation, the conflict backlog gets smaller. And each individual conflict becomes small and obvious enough for you to deal with. I don't want to say it's simple. Quite opposite. Removing all the "noise" and distractions, you've got nothing left to do but face your real demons.
 
 <figure>
 <img src="/images/mess-order.png">
-<figcaption>Over time, our minds become a total mess. We have to perform regular cleanup to maintain order and clarity of thinking.</figcaption>
+<figcaption>Over time, our minds become a total mess. Continuous meditation practice is like hygiene for your mind. Or a hard-disk defragmentation. Or refactoring. It brings the perspective and clarity of thinking.</figcaption>
 </figure>
 
 ⚠️ Remark: some activities like walking in nature can help you enter a meditative state. As much as I love hiking, I don’t think it can replace mindfulness meditation – a deliberate training for your mind. So, hiking can be a complementary, not a substitute activity.
