@@ -76,7 +76,7 @@ I don't want to say it's simple. Quite opposite. Removing all the "noise" and di
 6. Observe and measure[^measure] your level of anxiety to see if your actions really bring you closer to #1 – peace. 
 7. Repeat.
 
-This simple high-level framework for understanding and navigating life has helped me discover my true self, make tough and sometimes unpopular decisions, and stay on track in the noizy age of experts, opinions, and social media. 
+This simple high-level framework for understanding and navigating life has helped me discover my true self, make tough and sometimes unpopular decisions, and stay on track in the age of noise, opinions, and social media. 
 
 My journey towards inner peace is still in progress. I hope your tomorrow will be peaceful, too. Good luck!
 
