@@ -68,11 +68,11 @@ Continuous meditation practice is like hygiene for your mind. Or a hard-disk def
 
 
 #### To summarize, here is the process:
-1. We want peace.
+1. You want peace.
 2. Peace is the lack of anxiety. 
 3. Anxiety comes from unresolved conflicts.
 4. Meditation reveals deep unresolved conflicts and their true nature.
-5. Then we work on resolving conflicts by trying to understand[^understanding] them better, letting them go[^let-things-go], or by taking action[^inaction]. 
+5. Then you work on resolving conflicts by trying to understand[^understanding] them better, letting them go[^let-things-go], or by taking action[^inaction]. 
 6. Observe and measure[^measure] your level of anxiety to see if your actions really bring you closer to #1 – peace. 
 7. Repeat.
 
