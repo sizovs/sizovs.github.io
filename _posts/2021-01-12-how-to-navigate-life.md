@@ -57,7 +57,7 @@ A simple act of watching your unresolved conflicts without thinking[^shakespeare
 3. Because you’re spending time inside your mind and seeking the answers within, you’re slowly but surely discovering your true self and solutions that work best for you, not for Elon Musk, a friend you admire, your mom, or the whole world. You have to search inside yourself.
 4. Unresolved conflicts – small and big – tend to stick together and create one hell of a conflict with no clear boundaries. As you continuously process the conflict backlog, some conflicts lose meaning and disappear, some lose weight, some detach from the large cloud and obtain a distinct shape and boundary. With every meditation, the conflict backlog gets smaller. And every conflict becomes small and clear enough so you can reason about them and solve them well.
 
-Continuous meditation practice is like hygiene for your mind. Or a hard-disk defragmentation. Or refactoring. It brings the perspective and clarity of thinking humans need to navigate life:
+Continuous meditation practice is like hygiene for your mind. Or a hard-disk defragmentation. Or refactoring. It brings the perspective and clarity of thinking:
 
 <figure>
 <img src="/images/mess-order.png">
@@ -67,7 +67,7 @@ Continuous meditation practice is like hygiene for your mind. Or a hard-disk def
 ⚠️ Remark: some activities like walking in nature can help you enter a meditative state. As much as I love hiking, I don’t think it can replace mindfulness meditation – a deliberate training for your mind. So, hiking can be a complementary, not a substitute activity.
 
 
-#### To summarize, here is the formula:
+#### To summarize, here is the process:
 1. We want peace.
 2. Peace is the lack of anxiety. 
 3. Anxiety comes from unresolved conflicts.
