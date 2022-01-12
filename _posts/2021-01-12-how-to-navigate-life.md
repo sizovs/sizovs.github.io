@@ -72,7 +72,7 @@ Continuous meditation practice is like hygiene for your mind. Or a hard-disk def
 2. Peace is the lack of anxiety. 
 3. Anxiety comes from unresolved conflicts.
 4. Meditation reveals deep unresolved conflicts and their true nature. 
-5. Work on resolving conflicts by understanding[^understanding] them better, letting them go[^let-things-go], or by taking action[^inaction]. 
+5. We should work on resolving conflicts by understanding[^understanding] them better, letting them go[^let-things-go], or by taking action[^inaction]. 
 6. Observe and measure[^measure] your level of anxiety to see if your actions really bring you closer to #1 – peace. 
 7. Repeat.
 
