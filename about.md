@@ -16,7 +16,7 @@ permalink: /about/
 {% assign age = year | minus: 1988 | minus: 0 %}
 {% endif %}
 
-My name is Eduards Sizovs /ɛdwərd sɪzov/. I am a professional software developer, trainer, speaker, and conference organizer. I grew in Latvia, then sold my property, and have been living a (digital) nomadic lifestyle since 2018, working remotely and changing countries every ~3 months. Currently, I am in Singapore.
+My name is Eduards Sizovs /ɛdwərd sɪzov/. I am a professional software developer, trainer, speaker, and conference organizer. I grew in Latvia, then sold my property, and have been living a (digital) nomadic lifestyle since 2018, working remotely and switching countries every ~3 months. Currently, I am in Singapore.
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2019.</figcaption>
