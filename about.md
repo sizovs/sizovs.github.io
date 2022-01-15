@@ -16,19 +16,17 @@ permalink: /about/
 {% assign age = year | minus: 1988 | minus: 0 %}
 {% endif %}
 
-My name is Eduards Sizovs  /ɛdwərd sɪzov/. I am a professional software developer, trainer, speaker, and conference organizer. I am {{age}} years old. 
+My name is Eduards Sizovs /ɛdwərd sɪzov/. I am a professional software developer, trainer, speaker, and conference organizer. I grew in Latvia, then sold my property, and have been living a (digital) nomadic lifestyle since 2018, working remotely and changing countries every ~3 months. Currently, I am in Singapore.
 <figure>
 <img src="/images/about.jpg">
 <figcaption>It's me in 2019.</figcaption>
 </figure>
 
-I’ve been involved in software development for over 15 years as a developer, architect, engineering manager, CTO, advisor, and development coach. Today, **[through The Principal Dev masterclass](https://principal.dev)** I help developers become architects and engineering leaders and teach them how to deliver value sooner, improve teamwork, dev process, and hiring results. 
+I’ve been involved in software development for over 15 years as a developer, architect, engineering manager, CTO, advisor, and development coach. Today, through **[The Principal Dev masterclass](https://principal.dev)**, I help developers become architects and engineering leaders and teach them how to deliver value sooner, improve teamwork, dev process, and hiring.
 
+Before, I built from scratch and led for 7 years one of the best software development conferences in Europe, that featured the legends of software development such as **Robert Martin, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley.**
 
-Before, I built from scratch and led for 7 years the most-waited software development conference in Europe, that featured the legends of software development such as **Robert Martin, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley.**
-
-I personally spoke at 103 events Worldwide, including conferences with 1000+ attendees. You can see me in action:
-
+I personally spoke at 80+ events Worldwide, including conferences with 1000+ attendees. You can see me in action:
 
 <div class="videoWrapper">
 <iframe id="ytplayer" type="text/html" width="640" height="360"
@@ -39,9 +37,9 @@ I personally spoke at 103 events Worldwide, including conferences with 1000+ att
 
 ---
 
-From time to time I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [PipelinR](https://github.com/sizovs/pipelinr), [mustread.tech](https://mustread.tech), and [dev.tube](https://dev.tube). Some of them have become quite popular, others are discontinued.
+From time to time I contribute to open-source. I built a number of OSS projects such as [dev.events](https://dev.events), [PipelinR](https://github.com/sizovs/pipelinr), [mustread.tech](https://mustread.tech), and [dev.tube](https://dev.tube). Some of them have become super popular, others have been discontinued.
 
 ---
 
-I'm also a certified Enterprise Architect (OCEA), CSM, CSPO, PMP, and an ICF coach. I also hold a CS degree in programming and engineering management. But it doesn't really matter anyway.
+I am a certified Enterprise Architect (OCEA), CSM, CSPO, PMP, and an ICF coach. I also hold a CS degree in programming and engineering management. But it doesn’t really matter anyway.
 
