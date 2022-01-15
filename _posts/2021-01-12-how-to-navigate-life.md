@@ -81,6 +81,21 @@ This simple high-level framework for understanding and navigating life has helpe
 My journey towards inner peace is still in progress. I hope your tomorrow will be peaceful, too. Good luck!
 
 
+
+## F.A.Q.
+
+**1. I don't agree that we should minimize anxiety and maximize peace. Anxiety is sometimes good too. It means you care for something.**
+
+1. When you have peace (tranquility), you can still care about something (e.g. work) or someone (beloved ones). With peace in heart, the end result is usually better.
+
+2. Anxiety is an internal conflict. Living with an internal conflict is not healthy, and rarely produces good results. But anxiety is good in the sense that it indicates an unresolved conflict.
+
+3. Driven by anxiety, you identify its source, and resolve it either by 1) understanding it better 2) letting it go 3) doing something about it.
+
+4. Finally, when the internal conflict is gone, you reach a state of peace and tranquility, arriving to point 1.
+
+
+
 [^sourcesOfUnhappiness]: There are two sources of unhappiness: the first is when you don't have something you want; the second is when you have something you don’t want.
 [^shakespeare]: “There is nothing either good or bad but thinking makes it so.” — Shakespeare
 [^understanding]: Conflict is often caused by our ignorance or misunderstanding of the problem. That's why gaining knowledge, perspective, and understanding of the conflict area can be liberating. Education is freedom.
