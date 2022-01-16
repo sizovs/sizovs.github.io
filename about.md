@@ -20,7 +20,7 @@ My name is Eduards. I am a professional software developer with 15 years of expe
 
 I’ve been involved in tech in different roles including a senior developer, chief architect, team lead, engineering manager, CTO, advisor, and development coach. 
 
-I help developers become architects and engineering leaders. If you want to transition your team, company, and your career to the next level, join my upcoming masterclass:
+I help developers become architects and engineering leaders. If you want to take your team, company, and your career to the next level, join my upcoming masterclass:
 
 
 📅 **[5-6 May 2022 · Online · The Principal Developer](https://principal.dev)**
