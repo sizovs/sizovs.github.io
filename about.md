@@ -33,6 +33,6 @@ I spoke at 80+ events Worldwide, including conferences with 1000+ attendees. You
 
 ---
 
-I built a number of open source projects, including [dev.tube](https://dev.tube), [dev.events](https://dev.events), and [PipelinR](https://github.com/pipelinr).
+I built a number of open source projects, including [dev.tube](https://dev.tube), [dev.events](https://dev.events), and [PipelinR](https://github.com/sizovs/pipelinr).
 
 I hold a degree in programming and engineering management, apart from being a certified Enterprise Architect (OCEA), CSM, CSPO, PMP, and an ICF coach.
