@@ -21,7 +21,7 @@ If you want to take your team, company, and career to the next level, join my up
 
 I lead DevTernity – one of the best developer conferences, featuring the legends of software development including **Robert Martin, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley.**
 
-📅 7-8 Dec 2022 · Online · [devternity.com](https://devternity.com)
+📅 8-9 Dec 2022 · Online · [devternity.com](https://devternity.com)
 
 I spoke at 80+ events Worldwide, including conferences with 1000+ attendees. You can see me in action:
 
