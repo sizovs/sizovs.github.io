@@ -19,7 +19,7 @@ If you want to take your team, company, and career to the next level, join my up
 
 📅 19-20 May 2022 · Online · The Principal Developer · [principal.dev](https://principal.dev)
 
-I lead DevTernity – one of the best developer conferences, featuring the legends of software development including **Robert Martin, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley.**
+I lead DevTernity – one of the best developer conferences, featuring the legends of software development including **Robert Martin, Kent Beck, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley.**
 
 📅 8-9 Dec 2022 · Online · [devternity.com](https://devternity.com)
 
