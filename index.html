@@ -5,10 +5,12 @@ layout: default
 <div>
   <hr>
   {% for post in site.posts %}
+    {% unless post.hidden_from_frontpage %}
     <article>
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.date | date: "%e %B %Y" }} · {% include read_time.html content=post.content %} · <a class="commentCount" href="{{ site.url }}{{ post.url }}#disqus_thread">comments</a>
     </article>
+    {% endunless %}
   {% endfor %}
   <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
 </div>
