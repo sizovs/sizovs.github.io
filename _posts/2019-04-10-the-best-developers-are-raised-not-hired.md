@@ -20,8 +20,8 @@ But there is a problem:
 The best developers I hired were far from ideal candidates. They lacked technical skills, didn't know how to test software and work in an agile team. They didn't believe in themselves and their ability. They didn't think they can be good leaders. They didn't sound convincing during the job interview. **Some of them were suffering from impostor syndrome, doubting their actual ability:**
 
 <figure>
-<img src="/images/impostor.png" alt="Impostor Syndrome">
-<figcaption>Image from <a href="https://www.youtube.com/watch?v=1i8ylq4j_EY" rel="nofollow">It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech</a></figcaption>
+<img src="/images/impostor.png" alt="Impostor Syndrome vs. Dunning-Kruger Effect">
+<figcaption>Impostor Syndrome vs. Dunning-Kruger Effect</figcaption>
 </figure>
 
 Today, companies create ridiculously complicated multi-step interview processes that [filter out](https://rejected.us){:rel="nofollow"} candidates that are "not good enough." We rarely give an opportunity to candidates spoiled by shitty companies and bad influence. We forget that some candidates weren't lucky enough to meet an inspiring mentor or work in a supportive team. Broken toys are not welcome:
