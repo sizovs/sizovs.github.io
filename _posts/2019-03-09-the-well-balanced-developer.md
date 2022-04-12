@@ -112,4 +112,4 @@ Use the balance wheel to identify your strenghts, weaknesses and competencies th
 
 **Are your skills in balance or you are The Imperial Star Destroyer?**
 
-[^leanBooks]: [Implementing Lean Software Development](https://mustread.tech/books/isbn/9780321437389) and [Lean From Trenches](https://mustread.tech/books/isbn/9781934356852).
+[^leanBooks]: [Implementing Lean Software Development](https://www.goodreads.com/en/book/show/349417) and [Lean From Trenches](https://www.goodreads.com/book/show/12693642-lean-from-the-trenches).
