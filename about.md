@@ -8,7 +8,7 @@ permalink: /about/
 
 My name is Eduards. I am a professional software developer with 15 years of experience. 
 
-I’ve been involved in tech in different roles including a team leader, chief architect, engineering manager, CTO, advisor, and development coach.
+I’ve been involved in tech in different roles, including a tech lead, chief architect, engineering manager, CTO, software development coach, and independent consultant.
 
 <figure>
 <img src="/images/about.jpg">
@@ -17,13 +17,17 @@ I’ve been involved in tech in different roles including a team leader, chief a
 
 If you want to take your team, company, and career to the next level, join my upcoming masterclass:
 
-📅 19-20 May 2022 · Online · The Principal Developer · [principal.dev](https://principal.dev)
+📅 25-26 Aug 2022 · Online · The Principal Developer · [principal.dev](https://principal.dev)
 
-I lead DevTernity – one of the best developer conferences, featuring the legends of software development including **Robert Martin, Kent Beck, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley.**
+---
+
+I lead DevTernity – the top international software developer conference featuring the legends of software development including **Robert Martin, Kent Beck, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley.**
 
 📅 8-9 Dec 2022 · Online · [devternity.com](https://devternity.com)
 
-I spoke at 80+ events Worldwide, including conferences with 1000+ attendees. You can see me in action:
+---
+
+I personally spoke at 80+ events Worldwide, including conferences with 1000+ attendees. You can see me in action:
 
 <div class="videoWrapper">
 <iframe id="ytplayer" type="text/html" width="640" height="360"
@@ -33,6 +37,8 @@ I spoke at 80+ events Worldwide, including conferences with 1000+ attendees. You
 
 ---
 
-I built a number of open source projects, including [dev.tube](https://dev.tube), [dev.events](https://dev.events), and [PipelinR](https://github.com/sizovs/pipelinr).
+I built a number of open source projects, including [dev.tube](https://dev.tube), [dev.events](https://dev.events), and [PipelinR](https://github.com/sizovs/pipelinr). Some of them have become quite popular.
 
-I hold a degree in programming and engineering management, apart from being a certified Enterprise Architect (OCEA), CSM, CSPO, PMP, and an ICF coach.
+---
+
+I hold a degree in programming and engineering management, in addition to being a certified Enterprise Architect (OCEA), CSM, CSPO, PMP, and an ICF coach.
