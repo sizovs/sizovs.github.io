@@ -26,8 +26,8 @@
       region: RU
       place: Expoforum
       price: 480
-      startDate: "2020-10-23"
-      endDate: "2020-10-24"
+      startDate: "2022-10-23"
+      endDate: "2022-10-24"
       url: //jokerconf.com
       img: //dossier.glitch.me/avatar/jugru
       tags: 
@@ -53,8 +53,8 @@
       country: United States
       region: Texas
       place: Austin Convention Center
-      startDate: "2020-06-15"
-      endDate: "2020-06-18"
+      startDate: "2022-06-15"
+      endDate: "2022-06-18"
       url: //docker.events.cube365.net/docker/dockercon/
       img: //dossier.glitch.me/avatar/DockerCon
       tags: 
@@ -66,8 +66,8 @@
       country: Portugal
       region: Europe
       place: Altice Arena
-      startDate: "2020-11-02"
-      endDate: "2020-11-05"
+      startDate: "2022-11-02"
+      endDate: "2022-11-05"
       url: //websummit.com
       img: //dossier.glitch.me/avatar/WebSummit
       tags: 
@@ -79,8 +79,8 @@
       country: United States
       region: Nevada
       place: Austin Convention Center
-      startDate: "2020-12-01"
-      endDate: "2020-12-04"
+      startDate: "2022-12-01"
+      endDate: "2022-12-04"
       url: //reinvent.awsevents.com
       img: //dossier.glitch.me/avatar/awsReInvent
       tags: 
@@ -93,8 +93,8 @@
       region: Louisiana
       place: Ernest N. Morial Convention Center
       price: 2100
-      startDate: "2020-09-21"
-      endDate: "2020-09-25"
+      startDate: "2022-09-21"
+      endDate: "2022-09-25"
       url: //microsoft.com/en-us/ignite
       img: //dossier.glitch.me/avatar/ms_ignite
       tags: 
@@ -106,8 +106,8 @@
       region: Europe
       place: Hungarian Railway History Park
       price: 1000
-      startDate: "2020-10-13"
-      endDate: "2020-10-16"
+      startDate: "2022-10-13"
+      endDate: "2022-10-16"
       url: //craft-conf.com
       img: //dossier.glitch.me/avatar/craftconf
       tags: 
@@ -125,8 +125,8 @@
       region: Europe
       place: Berlin Congress Center
       price: 1200
-      startDate: "2020-10-26"
-      endDate: "2020-10-30"
+      startDate: "2022-10-26"
+      endDate: "2022-10-30"
       url: //gotober.com
       img: //dossier.glitch.me/avatar/gotober
       tags: 
@@ -144,8 +144,8 @@
       region: Europe
       place: Kinepolis
       price: 845
-      startDate: "2020-11-09"
-      endDate: "2020-11-13"
+      startDate: "2022-11-09"
+      endDate: "2022-11-13"
       url: //devoxx.be
       img: //dossier.glitch.me/avatar/devoxx
       tags: 
@@ -177,8 +177,8 @@
       country: Canada
       region: US
       place: Palais des Congrès
-      startDate: "2020-09-09"
-      endDate: "2020-09-11"
+      startDate: "2022-09-09"
+      endDate: "2022-09-11"
       url: //kotlinconf.com
       img: //dossier.glitch.me/avatar/kotlinconf
       tags:
@@ -202,8 +202,8 @@
       country: Poland
       region: Europe
       place: EXPO XXI Warsaw
-      startDate: "2020-10-20"
-      endDate: "2020-10-21"
+      startDate: "2022-10-20"
+      endDate: "2022-10-21"
       url: //net.developerdays.pl/
       img: //dossier.glitch.me/avatar/developerdayspl
       tags: 
@@ -215,8 +215,8 @@
       country: United States
       region: Illinois
       place: Navy Pier
-      startDate: "2020-04-27"
-      endDate: "2020-05-01"
+      startDate: "2022-04-27"
+      endDate: "2022-05-01"
       url: //gotochgo.com      
       img: //dossier.glitch.me/avatar/gotochgo
       tags:
@@ -248,8 +248,8 @@
       country: Norway
       region: Europe
       place: Oslo Spektrum
-      startDate: "2020-09-09"
-      endDate: "2020-09-10"
+      startDate: "2022-09-09"
+      endDate: "2022-09-10"
       url: //javazone.no
       img: //dossier.glitch.me/avatar/javazone
       tags:
@@ -261,8 +261,8 @@
       country: Sweden
       region: Europe
       place: Radisson Blu Waterfront Hotel
-      startDate: "2020-02-03"
-      endDate: "2020-02-05"
+      startDate: "2022-02-03"
+      endDate: "2022-02-05"
       url: //jfokus.se
       img: //dossier.glitch.me/avatar/jfokus
       tags:
@@ -275,8 +275,8 @@
       country: Lithuania
       region: Europe
       place: Radisson Blu
-      startDate: "2020-11-11"
-      endDate: "2020-11-15"
+      startDate: "2022-11-11"
+      endDate: "2022-11-15"
       url: //buildstuff.lt
       img: //dossier.glitch.me/avatar/BuildStuffConf
       tags: 
@@ -293,8 +293,8 @@
       country: Poland
       region: Europe
       place: Multikino Kraków
-      startDate: "2020-09-02"
-      endDate: "2020-09-04"
+      startDate: "2022-09-02"
+      endDate: "2022-09-04"
       url: //geecon.org
       img: //dossier.glitch.me/avatar/geecon
       tags:
@@ -306,8 +306,8 @@
       country: Germany
       region: Europe
       place: Hotel Park Soltau
-      startDate: "2020-08-27"
-      endDate: "2020-08-30"
+      startDate: "2022-08-27"
+      endDate: "2022-08-30"
       url: //socrates-conference.de
       img: //dossier.glitch.me/avatar/socrates_conf
       tags: 
@@ -323,8 +323,8 @@
       country: Sweden
       region: Europe
       place: Malmö Mässan, Exhibition and Conference Center
-      startDate: "2020-11-03"
-      endDate: "2020-11-06"
+      startDate: "2022-11-03"
+      endDate: "2022-11-06"
       url: //oredev.org
       img: //dossier.glitch.me/avatar/oredev
       tags: 
@@ -340,8 +340,8 @@
       city: London
       country: United Kingdom
       place: Truman Brewery
-      startDate: "2020-11-20"
-      endDate: "2020-11-20"
+      startDate: "2022-11-20"
+      endDate: "2022-11-20"
       url: //halfstackconf.com/
       img: //dossier.glitch.me/avatar/HalfStackConf
       tags: 
