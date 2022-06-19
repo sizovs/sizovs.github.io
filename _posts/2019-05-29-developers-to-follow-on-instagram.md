@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developers to follow on Instagram
+title: Best coding accounts on Instagram
 location: Riga, Latvia
 hidden_from_frontpage: true
 noActions: true
