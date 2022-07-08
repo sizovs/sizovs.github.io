@@ -54,7 +54,7 @@ Only after you get few miles away from the "predator territory", do you begin to
 
 ### Conclusion
 
-If you want to assess someone's coding skills, you should let that person code in a safe environment. The required degree of safety varies depending on our individual differences. For the vast majority of engineers, coding in their comfy home office, when Big Brother is not watching, is the best way to show off their skills. Therefore a well-crafted [homework](https://github.com/sizovs/awesome-homework-for-java-developers) – not too hard yet not overly simplistic – is probably the most effective of all testing approaches.
+If you want to assess someone's coding skills, you should let that person code in a safe environment. The required degree of safety varies depending on our individual differences. For the vast majority of engineers, coding in their comfy home office, when Big Brother is not watching, is the best way to show off their skills. Therefore a well-crafted [homework](https://github.com/sizovs/awesome-homework-for-java-developers) – not too hard yet not overly simplistic – is probably the most effective and inclusive of all testing approaches.
 
 💡 Few remarks about a homework:
 
@@ -73,7 +73,7 @@ If you want to assess someone's coding skills, you should let that person code i
 
 You may also consider personalizing the process and ask people what they prefer: a homework assignment, pair programming, or something else. Such personalization gives people with different needs and life circumstances equal opportunity to show their best. 
 
-But, most importantly, you should constantly ask candidates what they like and dislike about your process, and integrate that feedback back into your process, during your regular hiring retrospectives. It's not that hard to win the "war for the best talent" if you listen to what the talent says.
+But, most importantly, you should constantly ask candidates what they like and dislike about your process, and integrate that feedback back into your process. Winning the "war for the best talent" is not that difficult. Just listen carefully to what the talents say.
 
 Thank you.
 
