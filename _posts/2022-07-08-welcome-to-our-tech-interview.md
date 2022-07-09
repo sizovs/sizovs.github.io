@@ -36,7 +36,7 @@ If you're party animal, you'll be fine. But most engineers are not like that.
 
 **That causes stress**.
 
-📈 The level of stress hormones in your blood increases. Excessive adrenaline and cortisol turn on fight-or-flight mode, which, in turn, awakens and intensifies your reactive thinking (System I) and shuts down your analytical thinking (System II). In other words, you become dumb.
+📈 The level of stress hormones in your blood increases. Excessive adrenaline and cortisol turn on fight-or-flight mode, which, in turn, awakens and intensifies your reactive thinking (System I) and shuts down your analytical thinking (System II). In other words, you become dumb. Much dumber than you normally are at work. Without even acknowledging it.
 
 > And start making stupid mistakes everywhere. Even in areas you're exceptionally good at.
 
@@ -73,7 +73,7 @@ If you want to assess someone's coding skills, you should let that person code i
 
 You may also consider personalizing the process and ask people what they prefer: a homework assignment, pair programming, or something else. Such personalization gives people with different needs and life circumstances equal opportunity to show their best. 
 
-But, most importantly, you should constantly ask candidates what they like and dislike about your process, and integrate that feedback back into your process. Winning the "war for the best talent" is not that difficult. Just listen carefully to what the talents say.
+But, most importantly, you should constantly ask candidates what they like and dislike about your process, and integrate that feedback back into your process. Winning the battle for the best talent is not that difficult. Just listen carefully to what the talent says.
 
 Thank you.
 
