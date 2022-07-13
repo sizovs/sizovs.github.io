@@ -40,7 +40,7 @@ I don't think engineers really appreciate what they have.
 
 - Because engineers don't have skin in the game, holy wars, never-ending tech debates, and engineering for the sake of engineering are so common. When you have skin in the game (or at least *try* to think like CEO), life forces you to be pragmatic. 
 
-- The further engineers are the business/product/customers, the worse their ability to make business-friendly decisions is. The situation gets only worse over time. It's the reinforcing loop.
+- The further engineers are the business/product/customers, the worse their ability to make business-friendly decisions is. The situation gets only worse over time. It's a reinforcing loop.
 
 - Many developers want to go solo not because they want to work solo, but because they don't know how to "sell" their ideas to others, find consensus, and handle confrontation, which is part of working in a team. Bad news: working solo involves even more communication, sales, and marketing. Good news: you can [develop these skills](https://pricipal.dev) and turn them into your competitive advantage.
 
