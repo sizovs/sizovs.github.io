@@ -2,6 +2,7 @@
 layout: post
 title: Developers don't need ping-pong tables
 location: Koh Samui, Thailand
+class: top
 ---
 
 Today, a software development company's office reminds an amusement park, rather than a workplace. There is no need to visit Disneyland anymore, because ping-pong tables, golf fields, game consoles, and color chairs are spread across the office rooms, connected by roller coaster rails and water slides.

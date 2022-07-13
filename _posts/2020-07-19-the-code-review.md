@@ -2,6 +2,8 @@
 layout: post
 title: Code review best practices
 location: Koh Samui, Thailand
+class: top
+
 ---
 
 In a team I sat next to, a junior developer asked a senior to conduct code review for a newly completed feature. According to the process, that Senior had to approve all changes going to production. Here is how it went:

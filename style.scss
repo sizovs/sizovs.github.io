@@ -18,6 +18,11 @@ html {
   font-size: 100%;
 }
 
+.top::before {
+  content: "❤️ ";
+}
+
+
 body {
 	background: $white;
   font: 18px/1.4 $primaryFont;

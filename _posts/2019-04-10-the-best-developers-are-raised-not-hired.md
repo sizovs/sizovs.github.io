@@ -2,6 +2,7 @@
 layout: post
 title: Great developers are raised, not hired
 location: Riga, Latvia
+class: top
 
 ---
 

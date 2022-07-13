@@ -2,6 +2,7 @@
 layout: post
 title: Stop learning frameworks
 location: Riga, Latvia
+class: top
 ---
 
 
