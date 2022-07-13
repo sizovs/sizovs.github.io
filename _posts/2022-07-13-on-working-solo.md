@@ -40,7 +40,7 @@ Today everybody is bashing their employers and teaching them how to live. **I do
 
 - The further engineers are from the business/product/customers, the worse is their ability to make business-friendly decisions. The situation gets only worse over time. It's a reinforcing loop.
 
-- Many developers want to go solo not because they want to work solo, but because they don't know how to "sell" their ideas to others, find consensus, and handle confrontation, which is part of working in a team. Bad news: working solo involves even more communication, sales, and marketing. Good news: you can [develop these skills](https://pricipal.dev) and turn them into your competitive advantage.
+- Many developers want to go solo not because they want to work solo, but because they don't know how to "sell" their ideas to others, find consensus, and handle confrontation, which is part of working in a team. Bad news: working solo involves even more communication, sales, and marketing. Good news: you can [develop these skills](https://principal.dev) and turn them into your competitive advantage.
 
 - In startups, engineers will inevitably feel the downside of slow/bad tech decisions, so incentives are more aligned in startups than in large corpos. Joining a startup, even temporarily, will make you a better engineer. And you will learn to appreciate what your imperfect employer offers.
 
