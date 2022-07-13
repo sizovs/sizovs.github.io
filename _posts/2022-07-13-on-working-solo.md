@@ -34,7 +34,7 @@ Nothing is as refreshing as watching your bank account balance dip. When you're 
 
 Today everybody is bashing their employers and teaching them how to live. **I don't think engineers really appreciate what they have.**
 
-- When working in a company, you can learn new tech and have fun **at no risk** while also enjoying a **high stable salary**. Companies are absorbing all risks and inefficiencies of our decisions. Not to mention marketing, sales, accounting, training...
+- When working in a company, you can learn new tech and have fun **at no risk** while also enjoying a **high stable salary**. Companies are absorbing all risks and inefficiencies of our decisions. Not to mention marketing, sales, accounting, training budgets...
 
 - Because engineers don't have skin in the game, holy wars, never-ending tech debates, and engineering for the sake of engineering are so common. When you have skin in the game (or at least *try* to think like CEO), life forces you to be pragmatic. And punishes you when you're not.
 
