@@ -32,9 +32,7 @@ Dreams quickly dissipate when you realize that, unlike employment, the number of
 
 Nothing is as refreshing as watching your bank account balance dip. When you're solo, you don't need a burndown chart. Your bank account is the best reflection of how much *value* you have delivered. 
 
-
-
-I don't think engineers really appreciate what they have.
+Today everybody is bashing their employers and teaching them how to live. **I don't think engineers really appreciate what they have.**
 
 - When working in a company, you can learn new tech and have fun **at no risk** while also enjoying a **high stable salary**. Companies are absorbing all risks and inefficiencies of our decisions. Not to mention marketing, sales, accounting, training...
 
