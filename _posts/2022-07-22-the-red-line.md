@@ -79,7 +79,7 @@ Instead, you’d use the power of your network to find a professional with ethic
 
 A CTO who says – if you cross that line, you'll have to find a new CTO.
 
-Such set of behaviours is contrary to how some engineers try to achieve "job security" – by being convenient, by silently cutting corners because they're afraid of confrontation, inventing new work, or making employers too reliant on them. That’s very shortsighted because it makes them more reliant on the employer, limiting their options (remember – people are watching), and locking them to a company they’re killing with their own hands. You don't want such "job security." That's not the way of a hero. That's not how you earn respect and trust.
+Such set of behaviours is contrary to how some engineers try to achieve "job security" – by being convenient, by silently cutting corners because they're afraid of confrontation, inventing new work, or making employers too reliant on them. That’s very shortsighted because it makes them more reliant on the employer, limiting their options (remember – people are watching), and locking them to a company they’re killing with their own hands. You don't want such "job security." That's not the way of a hero. That's not how you earn trust and respect.
 
 ---
 
