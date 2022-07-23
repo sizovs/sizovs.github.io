@@ -16,7 +16,7 @@ One of the best ways to pass the test is to follow a simple career guideline –
 
 ![the-red-line](/images/red-line.png)
 
-People who follow that rule get a lot of respect of admiration from others. The corporate world is in dire need of heroes. Remember that how you behave and do work people are watching. Mediocrity is not what you want people to remember when thinking of you. Inaction is a form of mediocrity. When you see fraud, and don't fight fraud, you're fraud. Same with mediocrity.
+People who follow that rule get a lot of respect of admiration from others. The corporate world is in dire need of heroes. Mind how you behave and do work, because people are watching. Mediocrity is not what you want people to remember when thinking of you. Inaction is a form of mediocrity. When you see fraud, and don't fight fraud, you're fraud. Same with mediocrity.
 
 
 ---
@@ -51,7 +51,7 @@ Here is what I've seen:
 
 ✅ Engineers who tolerate crap “because someone said them so”, hang around for years without making any big career progress. It's not possible to achieve remarkable results by doing mediocre work. Remember – people are watching.
 
-✅ Engineers who are not afraid of speaking out loud and protecting the good a lot of respect from everyone (or at least those whose opinion matters). The world is in desparate need for engineers with character, ethics, dignity. These qualities have been of value at all times. It's in our DNA.
+✅ Engineers who are not afraid of speaking out loud and protecting the good get a lot of respect from everyone (or at least those whose opinion matters). The world is in desparate need for engineers with character, ethics, dignity. These qualities have been of value at all times. It's in our DNA.
 
 The “firing” story is wildly exaggerated. It's the story our minds tell us to justify our inaction and protect our psyche. "I am coward afraid of confrontation", "My arguments aren't convincing", or "I am a lazy ass" kind of stories makes us feel bad. A more pleasant story that doesn't endanger our self-image is playing a victim of a monsta manager. So convenient. 
 
