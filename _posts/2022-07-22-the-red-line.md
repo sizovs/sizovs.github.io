@@ -49,7 +49,7 @@ I've worked with thousands of engineers and I've *never* seen:
 
 Here is what I've seen: 
 
-✅ Engineers who tolerate crap “because someone said them so”, stand still for years without making any big career progress. It's not possible to achieve remarkable results by doing mediocre work. Remember – people are watching.
+✅ Engineers who tolerate crap “because someone said them so” stand still for years without making any big career progress. It's not possible to achieve remarkable results by doing mediocre work. Remember – people are watching.
 
 ✅ Engineers who are not afraid of speaking out loud and protecting the good get a lot of respect from everyone (or at least those whose opinion matters). The world is in desparate need for engineers with character, ethics, dignity. These qualities have been of value at all times. It's in our DNA.
 
