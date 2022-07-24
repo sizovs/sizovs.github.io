@@ -16,7 +16,7 @@ One of the best ways to pass the test is to follow a simple career guideline –
 
 ![the-red-line](/images/red-line.png)
 
-People who follow that rule get a lot of respect of admiration from others. The corporate world is in dire need of heroes. Mind how you behave and do work, because people are watching. Mediocrity is not what you want people to remember when thinking of you. Inaction is a form of mediocrity. When you see fraud, and don't fight fraud, you're fraud. Same with mediocrity.
+People who follow this rule get a lot of respect of admiration from others. The corporate world is in dire need of heroes. Mind how you behave and do work, because people are watching. Mediocrity is not what you want people to remember when thinking of you. Inaction is a form of mediocrity. When you see fraud, and don't fight fraud, you're fraud. Same with mediocrity.
 
 
 ---
@@ -65,7 +65,7 @@ And if your values are not aligned, then it's time to say goodbye. And never let
 
 ---
 
-Imagine for a second you’re a CEO of your business, and you need a CTO. Would you be looking for someone who says "yes" to all your requests? A CTO that tries to please you at all costs, because you are paying well? A "convenient" CTO afraid of confrontation?
+Imagine for a second you’re a CEO of your business, and you need a CTO. Would you be looking for someone who says "yes" to all your whims? A CTO who tries to please you at all costs, because you are paying well? A "convenient" CTO afraid of confrontation?
 
 I don’t think so. 
 
@@ -83,11 +83,11 @@ Such set of behaviours is contrary to how some engineers try to achieve "job sec
 
 ---
 
-You probably know that the best job openings get closed before they even appear on LinkedIn. Ever wondered why you don’t see many CTO openings, even though thousands of companies are looking for a good CTO? The hottest roles are closed internally, through the network of trust. 
+You probably know that the best job openings get closed before they even appear on LinkedIn. Ever wondered why you don’t see many CTO openings, despite thousands of companies looking for a good CTO? The hottest roles are closed internally, through the network of trust. 
 
 At this level, nobody cares about your CV; you don’t have to pass through 10 circles of interviewing hell; roles are high quality and paid very well. Decisions are made quickly based on **reputation, word of mouth, and social proof**. And the red line.
 
-Let's summarize: 
+Now, let's summarize: 
 - The best deals get closed on the “dark pool" through the network of trust.
 - For senior/strategic roles, reputation eats CV for breakfast.
 - Word of mouth can either accelerate or ruin your career.
