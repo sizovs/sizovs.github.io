@@ -35,7 +35,7 @@ Software development is a continuous process of experimentation, discovery, and 
 
 Even engineers, who consider themselves the most intelligent species on earth, constantly make irrational, emotional, and biased decisions. And even with perfect problem understanding, you will very likely introduce accidental complexity, unless you don’t fight the following temptations: doing what large companies do (cargo culting), preferring fancy tech to boring tech (marchitecture), writing extra code and creating unnecessary abstractions for the future (speculative thinking), attaching emotionally to the code you wrote (the sunk-cost fallacy), etc. 
 
-To understand the extent of your flawed thinking and what to do about it, check out “[Thinking, Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow)” and “[Influence](https://www.goodreads.com/book/show/56419468-influence-new-and-expanded)” books. Also, make sure you always have a solid business case for your tech decisions:
+To understand the extent of your flawed thinking and what to do about it, check out “[Thinking, Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow)” and “[Influence](https://www.goodreads.com/book/show/56419468-influence-new-and-expanded)” books. Also, make sure you always have a solid business case for your tech decisions. For example, it's good to back your refactoring decisions with data:
 
 
 <div align="center">
