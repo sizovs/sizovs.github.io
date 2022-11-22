@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tech retrospective
+title: A technical retrospective
 location: Samui
 ---
 
