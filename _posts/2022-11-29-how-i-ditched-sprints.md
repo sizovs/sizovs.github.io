@@ -23,7 +23,7 @@ Even today, it's still one of my favorite books. I was very excited about the co
 
 > “It’s done when it’s done.”
 
-I became a victim of Confirmation Bias: even though the book didn’t say a word about ditching sprints, because sprinting wasn’t easy and I didn’t see much value in it, that's the main message I took away from the book. 
+I became a victim of Confirmation Bias: even though the book didn’t say a word about ditching sprints, because sprinting wasn’t easy and I didn’t see much value in it, that's was the main message I took away from the book. 
 
 Working in iterations stopped making any sense to me. When talking to my colleagues engineers, sprinting didn't make much sense to them either (Confirmation Bias?). I also strongly believed that switching from iterative to continuous delivery would make the business happy because they'll get solutions in their hands sooner. I was telling myself and everybody a story that sprinting is old school, sprinting is a limiting factor in our company, and it’s something we need to fix asap, because “every business needs it”. 
 
