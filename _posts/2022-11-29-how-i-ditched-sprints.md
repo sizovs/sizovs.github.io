@@ -90,4 +90,4 @@ Even though the switch from iterative to continuous delivery sounded like a good
 - Cognitive biases play a key role in how our work is perceived. Know it. Use it.
 - Your assumptions what business wants can be flawed. Don’t assume. Verify.
 
-Hope you learned something. Good luck!
+Hope you learned something.
