@@ -49,7 +49,7 @@ This is a lose-lose strategy because:
 
 **Outcome**: The “worst” case is 100$. More business in the future. Word of the month works for you. Lower cost of acquisition. Unlimited upside.
 
-💡 Less obvious: luck is when preparation meets opportunity. By doing a great job, you’re preparing yourself for opportunities that are impossible to imagine. For example, a friend of a friend of your customer is running or building a company and looking for an ethical, reliable, skilled professional and now wants to talk to you. Are you lucky? No. You prepared yourself for luck. Conversely, doing a disservice to your customers closes many doors you don't even know exist.
+💡 Less obvious: luck is when preparation meets opportunity. By doing a great job, you’re preparing yourself for opportunities that are hard to imagine. For example, a friend of a friend of your customer is running or building a company and looking for an ethical, reliable, skilled professional and now wants to talk to you. Are you lucky? No. You prepared yourself for luck. Conversely, doing a disservice to your customers closes many doors you don't even know exist.
 
 
 **Remember**: if you’re playing a long-term game, you should think and act long-term. Always keep in mind that in the long term, what’s good for your customer is also good for you. What’s bad for your customer is not good for you. I am talking about the long-term.
