@@ -32,7 +32,7 @@ So you go:
 This is a lose-lose strategy because:
 
 - You won't get 200$ (or the customer doesn't understand the power of the agreement, which I doubt, because he is wealthy)
-- You're risking being said "bye" and not getting the original 100$ because paying you means supporting unethical practices and not paying someone else who's more ethical and hence deserves it more.
+- You're risking being said "bye" and not getting even the original 100$ because paying you means supporting unethical practices and not paying someone else who's more ethical and hence deserves it more.
 - You'll never get another call. Stories spread, and that's how reputation is built – good or not.
 
 
