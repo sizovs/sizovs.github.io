@@ -45,7 +45,7 @@ This is a lose-lose strategy because:
 - The customer will invite you again for service A. You’ve turned a one-off deal into a recurring business. 100$ becomes 100$ x N.
 - The customer will invite you to do services B, C, or D. For these services, you can charge more.
 - The customer will recommend your services A, B, C, and D to others. Every new happy customer will bring more. 
-- As demand increases, you can consider charging more $.
+- Next time, and also as demand increases, you can consider charging more $.
 
 **Outcome**: The “worst” case is 100$. More business in the future. Word of the month works for you. Lower cost of acquisition. Unlimited upside.
 
