@@ -27,7 +27,7 @@ So you go:
 
 - You're counting and trying to appropriate the money that is not yours.
 - You're using elements of chantage (pay me more, otherwise...)
-- You're breaking the agreement by trying to change the rule of the game in the middle of the game.
+- You're attempting to break the agreement changing the rule of the game in the middle of the game.
 
 This is a lose-lose strategy because:
 
