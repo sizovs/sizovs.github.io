@@ -2,7 +2,7 @@
 layout: post
 title: The Principal Developer
 location: Cancún, Mexico
-permalink: /principal/
+permalink: /principal-developer/
 redirect_from:
   - /2019/02/15/the-principal-developer/
 ---
