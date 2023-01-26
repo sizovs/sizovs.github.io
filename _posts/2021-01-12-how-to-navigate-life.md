@@ -2,6 +2,9 @@
 layout: post
 title: How to navigate life
 location: Singapore
+permalink: /life/
+redirect_from:
+  - /2021/01/12/how-to-navigate-life/
 ---
 
 For the last couple of days, I've been wrapping my head around how to wisely use the time and energy we’ve been all given. 

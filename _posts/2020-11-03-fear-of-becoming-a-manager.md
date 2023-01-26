@@ -2,6 +2,9 @@
 layout: post
 title: Fear of becoming a manager
 location: Riga, Latvia
+permalink: /manager/
+redirect_from:
+  - /2020/11/03/fear-of-becoming-a-manager/
 ---
 
 As a developer, when I was offered a management job for the first time, my biggest fear was that it would make me a bad programmer because my programming skills and my market competitiveness as a programmer will decline. While talking to young team leaders and tech managers, I discovered that I am not alone. 

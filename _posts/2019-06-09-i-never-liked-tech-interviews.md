@@ -2,6 +2,9 @@
 layout: post
 title: I never liked technical interviews
 location: Naples, Italy
+permalink: /rejected/
+redirect_from:
+  - /2019/06/09/i-never-liked-tech-interviews/
 ---
 
 I never liked technical interviews. When I was a young developer, certain interviews made me feel so bad that I developed **interviewingophobia** – unconditional fear of all interviews. Instead of enjoying technical interviews and learning from senior colleagues, I tried to survive. Survive like prey, surrounded by all-knowing hyenas.

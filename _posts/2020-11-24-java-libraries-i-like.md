@@ -2,6 +2,9 @@
 layout: post
 title: Java libraries I like
 location: Tallinn, Estonia
+permalink: /java-libs/
+redirect_from:
+  - /2020/11/24/java-libraries-i-like/
 ---
 
 **The list was updated in {{'now' | date: "%Y"}}.**

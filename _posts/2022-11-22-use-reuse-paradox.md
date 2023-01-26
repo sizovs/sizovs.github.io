@@ -2,6 +2,9 @@
 layout: post
 title: The Use/Reuse paradox
 location: Samui
+permalink: /reuse/
+redirect_from:
+  - /2022/11/22/use-reuse-paradox/
 ---
 
 What is easy to use is hard to reuse. What is easy to reuse is hard to use. This phenomenon is called the use/reuse paradox: 

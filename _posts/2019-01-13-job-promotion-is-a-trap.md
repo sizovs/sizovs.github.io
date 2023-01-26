@@ -2,6 +2,9 @@
 layout: post
 title: Job promotion is a trap
 location: Vilnius, Lithuania
+permalink: /trap/
+redirect_from:
+  - /2019/01/13/job-promotion-is-a-trap/
 ---
 
 We love job promotion. The promotion gives us a sense of career progress:

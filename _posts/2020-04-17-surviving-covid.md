@@ -2,6 +2,9 @@
 layout: post
 title: Surviving the crisis
 location: Koh Samui, Thailand
+permalink: /covid/
+redirect_from:
+  - /2020/04/17/surviving-covid/
 ---
 
 In this post, I will summarize my thoughts on what helps me survive the COVID crisis and stay sane. I hope this post will help you survive the current and future turbulent times. Expect some good books here.

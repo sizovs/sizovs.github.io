@@ -2,6 +2,9 @@
 layout: post
 title: When you want to quit
 location: Riga, Latvia
+permalink: /quit/
+redirect_from:
+  - /2019/06/01/when-you-want-to-quit/
 ---
 
 I regularly meet young programmers who, after failing to complete a coding course, lose faith in themselves, and think that programming is not for them. They want to quit.

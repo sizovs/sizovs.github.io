@@ -3,6 +3,9 @@ layout: post
 title: Stop learning frameworks
 location: Riga, Latvia
 class: top
+permalink: /frameworks/
+redirect_from:
+  - /2018/12/17/stop-learning-frameworks/
 ---
 
 

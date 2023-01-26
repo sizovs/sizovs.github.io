@@ -2,6 +2,9 @@
 layout: post
 title: You are not a software developer
 location: Riga, Latvia
+permalink: /problem-solver/
+redirect_from:
+  - /2018/12/08/you-are-not-a-software-developer/
 ---
 
 When I became a developer, I thought that my job is to write software. When my customer had a problem, I was ready to write software that solves that problem. I was taught to write software. 

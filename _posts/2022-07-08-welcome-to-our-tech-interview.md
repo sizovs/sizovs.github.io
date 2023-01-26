@@ -2,6 +2,9 @@
 layout: post
 title: Welcome to our tech interview
 location: Koh Samui
+permalink: /welcome/
+redirect_from:
+  - /2022/07/08/welcome-to-our-tech-interview/
 ---
 
 I constantly meet interviewers wondering why so many programmers, including experienced ones, fail even the simplest coding tests. But it’s not programmers that fail the tests. It’s tests fail programmers. This is how it usually happens:

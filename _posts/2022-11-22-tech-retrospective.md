@@ -2,6 +2,9 @@
 layout: post
 title: A technical retrospective
 location: Samui
+permalink: /tech-retro/
+redirect_from:
+  - /2022/11/22/tech-retrospective/
 ---
 
 Over the years of working with many teams, I've done tech retros (biweekly) and found them helpful. It's like a sprint retrospective but focused primarily on technical debt and code issues. Here's how it works:

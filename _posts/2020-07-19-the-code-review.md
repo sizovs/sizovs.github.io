@@ -2,7 +2,9 @@
 layout: post
 title: Code review best practices
 location: Koh Samui, Thailand
-class: top
+permalink: /code-review/
+redirect_from:
+  - /2020/07/19/the-code-review/
 
 ---
 

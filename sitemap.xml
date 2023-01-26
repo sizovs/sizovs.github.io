@@ -9,12 +9,7 @@ sitemap:
     {% unless post.published == false %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
-      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% if post.sitemap.changefreq %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% else %}
-        <changefreq>daily</changefreq>
-      {% endif %}
+      <changefreq>weekly</changefreq>
       {% if post.sitemap.priority %}
         <priority>{{ post.sitemap.priority }}</priority>
       {% else %}

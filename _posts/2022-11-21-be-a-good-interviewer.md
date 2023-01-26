@@ -2,6 +2,9 @@
 layout: post
 title: Be a good interviewer
 location: Samui
+permalink: /interviewer/
+redirect_from:
+  - /2022/11/21/be-a-good-interviewer/
 ---
 
 Many engineers see interviewing others as a waste of time, especially when an interview doesn't result in a hire. **My advice:**

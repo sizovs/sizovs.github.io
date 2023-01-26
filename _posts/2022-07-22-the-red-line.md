@@ -2,6 +2,9 @@
 layout: post
 title: The red line
 location: Koh Samui
+permalink: /redline/
+redirect_from:
+  - /2022/07/22/the-red-line/
 ---
 
 The more impactful your role is, the more social proof your customer(s) will need before they agree to work with you. At some point in your career, your ability to get a great job/offer/contract will depend more on what your ex-customers and colleagues say about your work, performance, ethics. Not what you say.

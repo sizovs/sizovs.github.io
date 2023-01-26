@@ -2,6 +2,9 @@
 layout: post
 title: Why quality is important
 location: Riga, Latvia
+permalink: /quality/
+redirect_from:
+  - /2019/05/29/quality-is-not-negotiable/
 ---
 
 Everybody knows that software quality is essential, but when I ask why, many developers struggle to explain. In this article, I will describe three primary reasons why we should care about quality and strive for technical excellence.

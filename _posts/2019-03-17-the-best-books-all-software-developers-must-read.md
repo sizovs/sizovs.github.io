@@ -3,6 +3,9 @@ layout: post
 title: The best books for software developers
 location: Riga, Latvia
 includeYear: true
+permalink: /books/
+redirect_from:
+  - /2019/03/17/the-best-books-all-software-developers-must-read/
 
 ---
 
@@ -73,6 +76,17 @@ Clean Code teaches you how to write code that works well, reads well and express
 The Clean Coder is a sequel to Uncle Bob’s famous Clean Code book. This book contains practical advice about everything from estimating and coding to refactoring and testing. You will learn how to communicate, estimate and deal with difficult situations at work. Strongly recommended for all programmers that would like to call themselves "professional."
 <br>
 {% include buy_book.html asin='0137081073' %}
+
+## Test-Driven Development by Example
+
+**Author**: Kent Back · **Topic**: software design and TDD · **Level**: intermid
+
+![Book](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1372039943i/387190.jpg)
+
+One of the best books on test-driven development from Kent Beck – the creator of TDD. Not only this book will help you level up your TDD skills, but you'll also enjoy following Kent's thought processes and how he reasons about software design. Fantastic book. 
+<br>
+{% include buy_book.html asin='0321146530' %}
+
 
 ## Growing Object-Oriented Software Guided by Tests
 

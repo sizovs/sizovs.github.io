@@ -2,6 +2,9 @@
 layout: post
 title: The wolves of IT
 location: Bangkok, Thailand
+permalink: /wolves/
+redirect_from:
+  - /2020/07/22/the-wolves-of-it/
 ---
 
 Recruiters don’t understand IT and software development. They have never worked closely with programmers, have never been part of a development team, and never developed software products. For them, a programmer is just a combination of keywords and Java is the same as JavaScript.

@@ -2,6 +2,9 @@
 layout: post
 title: On working solo
 location: Koh Samui
+permalink: /solo/
+redirect_from:
+  - /2022/07/13/on-working-solo/
 ---
 
 The beauty of solopreneurship is that you can play with different technologies. There are so many things you've always wanted to try! It's just a dream to play with tech while having no one to report to. No need to convince rugged seniors and top management that your ideas are worth it. Just do what your heart wants.

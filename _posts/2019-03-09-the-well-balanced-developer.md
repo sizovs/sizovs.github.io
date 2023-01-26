@@ -2,6 +2,9 @@
 layout: post
 title: The well-balanced developer
 location: Riga, Latvia
+permalink: /balanced/
+redirect_from:
+  - /2019/03/09/the-well-balanced-developer/
 ---
 
 Some developers are worth more than others. The bigger impact you can make on the organization, the higher is your worth. To make a significant impact on the organization, the developer must keep 5 essential skills in balance:

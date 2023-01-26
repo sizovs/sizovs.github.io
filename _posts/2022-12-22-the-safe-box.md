@@ -2,6 +2,9 @@
 layout: post
 title: The safe box
 location: KLCC, Malaysia
+permalink: /safe/
+redirect_from:
+  - /2022/12/22/the-safe-box/
 ---
 
 Imagine you are a technician. Someone hired you to repair a locked safe box for a fixed price of 100$. You agreed.

@@ -2,6 +2,9 @@
 layout: post
 title: The Principal Developer
 location: Cancún, Mexico
+permalink: /principal/
+redirect_from:
+  - /2019/02/15/the-principal-developer/
 ---
 
 Today I had a phone conversation with my ex-colleague Alex. Alex works as a software developer in a fast-growing international organization.

@@ -3,6 +3,9 @@ layout: post
 title: Great developers are raised, not hired
 location: Riga, Latvia
 class: top
+permalink: /mentoring/
+redirect_from:
+  - /2019/04/10/the-best-developers-are-raised-not-hired/
 
 ---
 

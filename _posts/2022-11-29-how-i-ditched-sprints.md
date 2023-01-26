@@ -2,6 +2,9 @@
 layout: post
 title: How I ditched sprints (and regretted it)
 location: Singapore
+permalink: /sprints/
+redirect_from:
+  - /2022/11/29/how-i-ditched-sprints/
 ---
 
 A story from experience:

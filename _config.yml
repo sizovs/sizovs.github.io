@@ -31,7 +31,7 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: :year/:month/:day/:title/
+permalink: :permalink/
 
 excerpt_separator: ---
 
@@ -54,7 +54,8 @@ sass:
 
 # Use the following plug-ins
 plugins:
-  - jekyll-feed 
+  - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude these files from your production _site
 exclude:

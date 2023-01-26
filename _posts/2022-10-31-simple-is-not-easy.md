@@ -2,6 +2,9 @@
 layout: post
 title: Simple is not easy
 location: Tallinn
+permalink: /simple-not-easy/
+redirect_from:
+  - /2022/10/31/simple-is-not-easy/
 ---
 
 "Keep it simple, stupid" is a good advice. It's also an obvious one because, when solving problems, nobody is thinking: "How do I make things more complex than necessary?". Engineers generally try to keep things simple. Yet, over-engineering is found on every corner, and we keep reminding our colleagues to KISS. 
