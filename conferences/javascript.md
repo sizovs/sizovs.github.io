@@ -14,6 +14,7 @@ JavaScript conferences are a great place to network with like-minded JS engineer
 
 <br>
 
+* [Tech conferences](/conferences/tech)
 * [.NET conferences](/conferences/dotnet)
 * [DevOps conferences](/conferences/devops)
 * [Java conferences](/conferences/java)

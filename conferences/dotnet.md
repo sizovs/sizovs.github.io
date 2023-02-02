@@ -14,6 +14,7 @@ noActions: true
 
 <br>
 
+* [Tech conferences](/conferences/tech)
 * [.NET conferences](/conferences/dotnet)
 * [DevOps conferences](/conferences/devops)
 * [Java conferences](/conferences/java)
