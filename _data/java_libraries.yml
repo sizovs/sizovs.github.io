@@ -50,6 +50,9 @@
 - name: Jimfs
   link: //github.com/google/jimfs
   about: An in-memory file system for Java, super useful for unit testing, because you don't want to mock the file system
+- name: JobRunr
+  link: //github.com/jobrunr/jobrunr
+  about: An extremely easy way to perform background processing in Java. Backed by persistent storage.
 - name: jOOQ
   link: //jooq.org
   about: A fluent API for typesafe SQL query construction and execution. My favorite alternative to Hibernate
@@ -75,7 +78,7 @@
   link: //github.com/poetix/protonpack
   about: A small collection of Stream utilities, such as Streamable interface (useful when you want to stream repeatedly)
 - name: RestAssured
-  link: //github.com/rest-assured/rest-assured 
+  link: //github.com/rest-assured/rest-assured
   about: A DSL for writing powerful, maintainable tests for RESTful APIs
 - name: Retrofit
   link: //square.github.io/retrofit
