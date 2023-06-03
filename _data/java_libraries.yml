@@ -71,6 +71,9 @@
 - name: NullAway
   link: //github.com/uber/NullAway
   about: A tool to help eliminate NullPointerExceptions (NPEs) in your Java code with low build-time overhead
+- name: PipelinR
+  link: //github.com/sizovs/PipelinR
+  about: a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app. (I am an author)
 - name: Problem
   link: //github.com/zalando/problem
   about: A library that implements and proposes a common approach for expressing errors in REST API
