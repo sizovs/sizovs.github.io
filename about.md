@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hi. 👋
 
-My name is Eduards. I am a professional software developer with 15+ years of experience. 
+My name is Eduards. I am a professional software developer with 15+ years of experience.
 
 I’ve been involved in tech in different roles, including a tech lead, chief architect, engineering manager, CTO, software development coach, and independent consultant.
 
@@ -37,7 +37,7 @@ I personally spoke at 80+ events Worldwide, including conferences with 1000+ att
 
 ---
 
-I built a number of open source projects, including [dev.tube](https://dev.tube), [dev.events](https://dev.events), and [PipelinR](https://github.com/sizovs/pipelinr). Some of them have become quite popular.
+I built a number of open source projects, including [dev.tube](https://dev.tube), [dev.events](https://dev.events), [dev.courses](https://dev.courses), and [PipelinR](https://github.com/sizovs/pipelinr). Some of them have become quite popular.
 
 ---
 
