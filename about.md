@@ -37,7 +37,7 @@ I personally spoke at 80+ events Worldwide, including conferences with 1000+ att
 
 ---
 
-I built a number of open source projects, including [dev.tube](https://dev.tube), [dev.events](https://dev.events), [dev.courses](https://dev.courses), and [PipelinR](https://github.com/sizovs/pipelinr). Some of them have become quite popular.
+I built a number of open source projects, including [dev.tube](https://dev.tube) and [PipelinR](https://github.com/sizovs/pipelinr). Some of them have become quite popular.
 
 ---
 
