@@ -62,6 +62,9 @@
 - name: Logbook
   link: //github.com/zalando/logbook
   about: An extensible Java library to enable complete request and response logging for different client- and server-side technologies
+- name: LogCaptor
+  link: //github.com/Hakky54/log-captor
+  about: LogCaptor captures log entries for unit and integration testing purposes.
 - name: Mug
   link: //github.com/google/mug
   about: A small Java 8 utilities library that complements Guava. Has useful classes such as Maybe
@@ -116,6 +119,9 @@
 - name: WireMock
   link: //github.com/tomakehurst/wiremock
   about: A flexible API mocking tool for fast, robust and comprehensive testing
+- name: Xembly
+  link: //github.com/yegor256/xembly
+  about: An imperative language for modifying XML documents
 - name: Yavi
   link: //github.com/making/yavi
   about: A lambda based type-safe validation library
