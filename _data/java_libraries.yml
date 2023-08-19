@@ -71,6 +71,9 @@
 - name: NullAway
   link: //github.com/uber/NullAway
   about: A tool to help eliminate NullPointerExceptions (NPEs) in your Java code with low build-time overhead
+- name: Parallel Collectors
+  link: //github.com/pivovarit/parallel-collectors
+  about: A toolkit simplifying parallel collection processing in Java using Stream API.
 - name: PipelinR
   link: //github.com/sizovs/PipelinR
   about: a lightweight command processing pipeline ❍ ⇢ ❍ ⇢ ❍ for your Java awesome app. (I am an author)
@@ -104,6 +107,9 @@
 - name: ThreeTen Extra
   link: //www.threeten.org/threeten-extra
   about: Additional date-time classes that complement those in Java 8. (MutableClock, LocalDateRange etc.)
+- name: Throwing Function
+  link: //github.com/pivovarit/throwing-function
+  about: Checked Exceptions-enabled Java 8+ functional interfaces + adapters
 - name: Verbal Expressions
   link: //github.com/VerbalExpressions/JavaVerbalExpressions
   about: A library that helps to construct difficult regular expressions
