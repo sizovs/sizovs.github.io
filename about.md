@@ -21,9 +21,7 @@ Companies from around the globe, spanning startups, scale-ups, Fortune 500, and 
 
 ---
 
-I lead DevTernity – the world's leading tech conference, which has been featuring tech legends including **Robert Martin, Kent Beck, Scott Hanselman, David Heinemeier Hansson, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Kelsey Hightower, Dan North, Venkat Subramaniam, Dave Farley**, and others.
-
-📅 7-8 Dec 2023 · Online · [devternity.com](https://devternity.com)
+For about a decade, I led DevTernity – the world's leading tech conference featuring many legends of software development, including Robert C. Martin, Kent Beck, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley, and others.
 
 ---
 
