@@ -47,4 +47,4 @@ I achieved financial independence in 2020 and have embraced nomadic lifestyle ev
 
 ---
 
-I quit social media in 2024, but you still can get in touch with me over [email](mailto:eduards@sizovs.net). Quitting social media was tough, but turned to be the most liberating experiences in my life.
+I quit social media in 2024. Quitting social media was tough, but turned to be the most liberating experiences in my life. You can still get in touch with me over [email](mailto:eduards@sizovs.net). Hugs. ❤️
