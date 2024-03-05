@@ -21,11 +21,11 @@ Companies from around the globe, spanning startups, scale-ups, Fortune 500, and 
 
 ---
 
-For about a decade, I led DevTernity – the world's leading tech conference featuring many legends of software development, including Robert C. Martin, Kent Beck, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley, and others.
+I've spent almost ten years organizing DevTernity, turning a local meetup into the world's leading tech conference, featuring legends of software development like Robert C. Martin, Kent Beck, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley, and more. It's been an incredible journey.
 
 ---
 
-I've spoken at 80+ events Worldwide, including conferences with 1000+ attendees. You can see me in action:
+I've presented and keynoted at 80+ events Worldwide, including conferences with 1000+ attendees. You can see me in action:
 
 <div class="videoWrapper">
 <iframe id="ytplayer" type="text/html" width="640" height="360"
@@ -35,8 +35,16 @@ I've spoken at 80+ events Worldwide, including conferences with 1000+ attendees.
 
 ---
 
-I built a number of open source projects, including [dev.tube](https://dev.tube) and [PipelinR](https://github.com/sizovs/pipelinr). Some of them have become quite popular.
+I built a number of popular open source projects, including [dev.tube](https://dev.tube) and [PipelinR](https://github.com/sizovs/pipelinr). [Some](/frameworks) of my posts hit the front page of Hackernews, attracting millions of eyeballs. I also ran a popular Instagram account [coding unicorn](https://www.instagram.com/coding_unicorn/)  dedicated to helping beginner programmers, with a following of 115K+.
 
 ---
 
-I hold a degree in programming and engineering management, in addition to being a certified Enterprise Architect (OCEA), CSM, CSPO, PMP, and an ICF coach.
+I have a degree in programming and engineering management, plus I'm certified as an Enterprise Architect (OCEA), Scrum Master (CSM), Scrum Product Owner (CSPO), Project Management Professional (PMP), and an ICF coach. It took me some time to realize that, in the end, it doesn't really matter.
+
+---
+
+I achieved financial independence in 2020 and have embraced nomadic lifestyle ever since, traveling the world and helping fellow developers succeed.
+
+---
+
+I quit social media in 2024, but you still can get in touch with me over [email](mailto:eduards@sizovs.net). Quitting social media was tough, but turned to be the most liberating experiences in my life.
