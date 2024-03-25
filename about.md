@@ -21,7 +21,7 @@ Companies from around the globe, spanning startups, scale-ups, Fortune 500, and 
 
 ---
 
-I've spent almost ten years organizing DevTernity, turning a local meetup into the world's leading tech conference, featuring legends of software development like Robert C. Martin, Kent Beck, Scott Hanselman, Kevlin Henney, Sandro Mancuso, J.B. Rainsberger, Allen Holub, Venkat Subramaniam, Dave Farley, and more. It's been an incredible journey.
+I've spent almost ten years organizing DevTernity, turning a local meetup into the world's leading tech conference. It was an incredible journey.
 
 ---
 
@@ -35,11 +35,11 @@ I've presented and keynoted at 80+ events Worldwide, including conferences with 
 
 ---
 
-I built a number of popular open source projects, including [dev.tube](https://dev.tube), [dev.events](https://dev.events), and [PipelinR](https://github.com/sizovs/pipelinr). [Some](/frameworks) of my posts hit the front page of Hackernews, attracting millions of eyeballs. I also ran a popular Instagram account [coding unicorn](https://www.instagram.com/coding_unicorn/)  dedicated to helping beginner programmers, with a following of 115K+.
+I built a number of popular open source projects, including [dev.tube](https://dev.tube) and [PipelinR](https://github.com/sizovs/pipelinr). [Some](/frameworks) of my posts hit the front page of Hackernews, attracting millions of eyeballs. I also ran a popular Instagram account [coding unicorn](https://www.instagram.com/coding_unicorn/)  dedicated to helping beginner programmers, with a following of 115K+.
 
 ---
 
-I have a degree in programming and engineering management, plus I'm certified as an Enterprise Architect (OCEA), Scrum Master (CSM), Scrum Product Owner (CSPO), Project Management Professional (PMP), and an ICF coach. It took me some time to realize that, in the end, it doesn't really matter.
+I have a degree in programming and engineering management, plus I'm certified as an Enterprise Architect (OCEA), Scrum Master (CSM), Scrum Product Owner (CSPO), Project Management Professional (PMP), and an ICF coach.
 
 ---
 
