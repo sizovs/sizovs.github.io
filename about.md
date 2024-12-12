@@ -16,6 +16,7 @@ My name is Eduards. I am a professional software engineer with 15+ years of expe
 If you want to take your team, company, and career to the next level, join my upcoming masterclass:
 
 📅 Online · The Principal Developer · [principal.dev](https://principal.dev)
+
 📅 Online · Clean Code: The Next Level · [cleancode.training](https://cleancode.training)
 
 Companies from around the globe, spanning startups, scale-ups, Fortune 500, and FAANG, regularly take part in this masterclass.
