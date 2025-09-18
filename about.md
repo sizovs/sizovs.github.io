@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hi. 👋
 
-My name is Eduards. I am a professional software engineer with 15+ years of experience. I've been involved in tech in different roles, including a team leader, chief architect, engineering manager, CTO, advisor, and independent consultant.
+My name is Eduard. I am a professional software engineer with 15+ years of experience. I've been involved in tech in different roles, including a team leader, chief architect, engineering manager, CTO, advisor, and independent consultant.
 
 <figure>
 <img src="/images/about.jpg">
@@ -20,10 +20,6 @@ If you want to take your team, company, and career to the next level, join my up
 📅 Online · Clean Code: The Next Level · [cleancode.training](https://cleancode.training)
 
 Companies from around the globe, spanning startups, scale-ups, Fortune 500, and FAANG, regularly take part in this masterclass.
-
----
-
-I've spent almost ten years organizing DevTernity, turning a local meetup into the world's leading tech conference. It was an incredible journey.
 
 ---
 

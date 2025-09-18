@@ -50,7 +50,7 @@ Before I tried management, I hated the idea of becoming a manager. While my coll
 
 <figure>
 <img src="/images/bill.jpg">
-<figcaption>So, Eduards, what's happening?</figcaption>
+<figcaption>So, Eduard, what's happening?</figcaption>
 </figure>
 
 Then I told myself: “it’s better me than Bill.”
