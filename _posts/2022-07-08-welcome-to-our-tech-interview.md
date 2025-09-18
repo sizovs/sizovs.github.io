@@ -61,15 +61,15 @@ If you want to assess someone's coding skills, you should let that person code i
 
 💡 Few remarks about a homework:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you ask a candidate to invest time in a coding assignment, responding with &quot;sorry, you didn&#39;t make it to the next round&quot; is not enough. You owe the candidate a detailed code review.</p>&mdash; Eduards Sizovs (@eduardsi) <a href="https://twitter.com/eduardsi/status/1468248183151251459?ref_src=twsrc%5Etfw">December 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you ask a candidate to invest time in a coding assignment, responding with &quot;sorry, you didn&#39;t make it to the next round&quot; is not enough. You owe the candidate a detailed code review.</p>&mdash; Eduard Sizov (@eduardsi) <a href="https://twitter.com/eduardsi/status/1468248183151251459?ref_src=twsrc%5Etfw">December 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ----
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If a code review is part of your hiring process, I suggest you invite all teammates and review candidates&#39; code publicly, together, in front of a large screen. Here is why:</p>&mdash; Eduards Sizovs (@eduardsi) <a href="https://twitter.com/eduardsi/status/1477286111856582659?ref_src=twsrc%5Etfw">January 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If a code review is part of your hiring process, I suggest you invite all teammates and review candidates&#39; code publicly, together, in front of a large screen. Here is why:</p>&mdash; Eduard Sizov (@eduardsi) <a href="https://twitter.com/eduardsi/status/1477286111856582659?ref_src=twsrc%5Etfw">January 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ----
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you send a homework assignment to candidates as the first step of your hiring process, you have the following problems:</p>&mdash; Eduards Sizovs (@eduardsi) <a href="https://twitter.com/eduardsi/status/1477516744939827202?ref_src=twsrc%5Etfw">January 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you send a homework assignment to candidates as the first step of your hiring process, you have the following problems:</p>&mdash; Eduard Sizov (@eduardsi) <a href="https://twitter.com/eduardsi/status/1477516744939827202?ref_src=twsrc%5Etfw">January 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ----
