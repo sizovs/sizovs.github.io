@@ -33,7 +33,7 @@ I've presented and keynoted at 80+ events Worldwide, including conferences with 
 
 ---
 
-I built a number of popular open source projects, including [libs.tech](https://libs.tech), [dev.tube](https://dev.tube) and [PipelinR](https://github.com/sizovs/pipelinr). [Some](/frameworks) of my posts hit the front page of Hackernews, attracting millions of eyeballs. I also ran a popular Instagram account [coding unicorn](https://www.instagram.com/coding_unicorn/)  dedicated to helping beginner programmers, with a following of 115K+.
+I built a number of popular open source projects, including [libs.tech](https://libs.tech), [dev.tube](https://dev.tube) and [PipelinR](https://github.com/sizovs/pipelinr). [Some](/frameworks) of my posts hit the front page of Hackernews, attracting millions of eyeballs.
 
 ---
 
