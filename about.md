@@ -41,6 +41,11 @@ I have a degree in programming and engineering management, plus I'm certified as
 
 I achieved financial independence in 2020 and have embraced nomadic lifestyle ever since, traveling the world with my family and helping fellow developers succeed. 
 
+<figure>
+<img src="/images/samui.jpg">
+<figcaption>Koh Samui, 2021.</figcaption>
+</figure>
+
 ---
 
 When away from computer, I invest in good people and good companies, and teach Krav Maga/self-defense classes (for free).
