@@ -31,7 +31,7 @@ I've presented and keynoted at 80+ events Worldwide, including conferences with 
 
 ---
 
-I built and maintain multiple popular open source projects, including [PipelinR](https://github.com/sizovs/pipelinr), dev.tube (sold), and dev.club (sold). [Some](/frameworks) of my posts hit the front page of Hackernews, attracting millions of eyeballs.
+I maintain a number of multiple popular open source projects, including [PipelinR](https://github.com/sizovs/pipelinr). [Some](/frameworks) of my posts hit the front page of Hackernews, attracting millions of eyeballs.
 
 ---
 
@@ -39,7 +39,7 @@ I have a degree in programming and engineering management, plus I'm certified as
 
 ---
 
-I achieved financial independence in 2020 and have embraced nomadic lifestyle ever since, traveling the world with my family and helping fellow developers succeed. When away from computer, I invest in good people and good companies, and teach free Krav Maga/close combat classes in Kuala Lumpur.
+I achieved financial independence in 2020 and have embraced nomadic lifestyle ever since, traveling the world with my family and helping fellow developers succeed. When away from computer, I invest in good people and good companies, and teach free Krav Maga/close combat classes.
 
 ---
 
